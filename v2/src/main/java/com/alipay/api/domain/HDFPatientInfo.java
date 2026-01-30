@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 好大夫的患者信息
  *
  * @author auto create
- * @since 1.0, 2025-11-06 10:37:41
+ * @since 1.0, 2026-01-29 14:50:15
  */
 public class HDFPatientInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6827134459211841829L;
+	private static final long serialVersionUID = 4618653622469395685L;
 
 	/**
 	 * 生日

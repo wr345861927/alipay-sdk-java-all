@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DynamicAwardConfigDataDto extends AlipayObject {
 
-	private static final long serialVersionUID = 3866272313787623513L;
+	private static final long serialVersionUID = 8432468877585247391L;
 
 	/**
 	 * 计数限制

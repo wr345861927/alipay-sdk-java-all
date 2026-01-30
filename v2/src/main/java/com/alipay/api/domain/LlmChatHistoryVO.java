@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 历史会话出参模型
+ * null
  *
  * @author auto create
- * @since 1.0, 2026-01-15 14:18:57
+ * @since 1.0, 2026-01-15 14:22:42
  */
 public class LlmChatHistoryVO extends AlipayObject {
 
-	private static final long serialVersionUID = 1744183844138224722L;
+	private static final long serialVersionUID = 4753361339458191865L;
 
 	/**
 	 * 智能体id

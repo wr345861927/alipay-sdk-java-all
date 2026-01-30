@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TenantListNftDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3692563113511474211L;
+	private static final long serialVersionUID = 6822364897816132739L;
 
 	/**
 	 * 藏品上架金额(单位：分)

@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceDataQrCodeApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8399577584838821244L;
+	private static final long serialVersionUID = 5562573919262897967L;
 
 	/** 
 	 * 对应入参的biz_type

@@ -7,6 +7,7 @@ import com.alipay.api.internal.mapping.ApiListField;
 import com.alipay.api.domain.BkAgentRespInfo;
 import com.alipay.api.domain.ChargeInfo;
 import com.alipay.api.domain.EnterprisePayInfo;
+import com.alipay.api.domain.ExternalPayerInfo;
 import com.alipay.api.domain.FulfillmentDetail;
 import com.alipay.api.domain.TradeFundBill;
 import com.alipay.api.domain.HbFqPayInfo;
@@ -23,11 +24,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-15 16:00:15
+ * @since 1.0, 2026-01-29 21:37:42
  */
 public class AlipayTradeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3697154768248645464L;
+	private static final long serialVersionUID = 7449819385449332498L;
 
 	/** 
 	 * 交易附加状态：
@@ -194,6 +195,12 @@ json格式。
 	 */
 	@ApiField("ext_infos")
 	private String extInfos;
+
+	/** 
+	 * 外部付款人信息，用于返回给商户用户付款使用的外部账户信息要素
+	 */
+	@ApiField("external_payer_info")
+	private ExternalPayerInfo externalPayerInfo;
 
 	/** 
 	 * 履约详情列表。 只有入参的query_options中指定fulfillment_detail_list并且所查询的交易存在履约明细时才返回该字段信息。
@@ -447,6 +454,12 @@ json格式。
 	private String transPayRate;
 
 	/** 
+	 * 有限条件下返回当前订单未支付原因
+	 */
+	@ApiField("unpaid_reason")
+	private String unpaidReason;
+
+	/** 
 	 * 本交易支付时使用的所有优惠券信息。
 只有在query_options中指定时才返回该字段信息。
 	 */
@@ -620,6 +633,13 @@ json格式。
 	}
 	public String getExtInfos( ) {
 		return this.extInfos;
+	}
+
+	public void setExternalPayerInfo(ExternalPayerInfo externalPayerInfo) {
+		this.externalPayerInfo = externalPayerInfo;
+	}
+	public ExternalPayerInfo getExternalPayerInfo( ) {
+		return this.externalPayerInfo;
 	}
 
 	public void setFulfillmentDetailList(List<FulfillmentDetail> fulfillmentDetailList) {
@@ -900,6 +920,13 @@ json格式。
 	}
 	public String getTransPayRate( ) {
 		return this.transPayRate;
+	}
+
+	public void setUnpaidReason(String unpaidReason) {
+		this.unpaidReason = unpaidReason;
+	}
+	public String getUnpaidReason( ) {
+		return this.unpaidReason;
 	}
 
 	public void setVoucherDetailList(List<VoucherDetail> voucherDetailList) {

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceHdfQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7591483257348282749L;
+	private static final long serialVersionUID = 6578845393963254611L;
 
 	/** 
 	 * 好大夫的用户id

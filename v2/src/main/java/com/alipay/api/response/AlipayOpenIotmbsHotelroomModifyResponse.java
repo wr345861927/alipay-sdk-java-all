@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenIotmbsHotelroomModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5483522475569851786L;
+	private static final long serialVersionUID = 1395824592481473158L;
 
 	
 

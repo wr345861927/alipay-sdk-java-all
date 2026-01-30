@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.item.byid.delete request
  * 
  * @author auto create
- * @since 1.0, 2025-05-20 18:22:27
+ * @since 1.0, 2026-01-30 10:43:24
  */
 public class AlipayCommerceMedicalItemByidDeleteRequest implements AlipayRequest<AlipayCommerceMedicalItemByidDeleteResponse> {
 

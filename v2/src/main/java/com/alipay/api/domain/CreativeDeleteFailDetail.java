@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CreativeDeleteFailDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 5299956333473356179L;
+	private static final long serialVersionUID = 6547479898443794184L;
 
 	/**
 	 * 外部平台导入广告库，广告投放创意对应的外部资源ID

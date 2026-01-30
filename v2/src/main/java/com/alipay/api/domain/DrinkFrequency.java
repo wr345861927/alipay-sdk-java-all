@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DrinkFrequency extends AlipayObject {
 
-	private static final long serialVersionUID = 2154229569287978788L;
+	private static final long serialVersionUID = 5615647567435936357L;
 
 	/**
 	 * 次

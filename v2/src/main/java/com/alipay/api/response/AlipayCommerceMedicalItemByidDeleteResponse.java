@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.item.byid.delete response.
  * 
  * @author auto create
- * @since 1.0, 2025-05-20 18:22:27
+ * @since 1.0, 2026-01-30 10:43:24
  */
 public class AlipayCommerceMedicalItemByidDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3623759939752138692L;
+	private static final long serialVersionUID = 4738481193257911342L;
 
 	/** 
 	 * 批量删除商品, 执行失败信息-ById

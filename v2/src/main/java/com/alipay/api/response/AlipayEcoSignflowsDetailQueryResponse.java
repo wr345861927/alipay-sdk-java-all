@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEcoSignflowsDetailQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3247414493831868582L;
+	private static final long serialVersionUID = 6624753485459527264L;
 
 	/** 
 	 * 创建流程时平台上传的附件及签署时用户上传的附件或身份证

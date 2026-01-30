@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class DialogueAuditResult extends AlipayObject {
 
-	private static final long serialVersionUID = 2275421487526271145L;
+	private static final long serialVersionUID = 1458786535212748829L;
 
 	/**
 	 * 解语花内部对审核工单的唯一标识

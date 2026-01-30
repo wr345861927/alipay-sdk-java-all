@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SportsRunRecord extends AlipayObject {
 
-	private static final long serialVersionUID = 4672821753934469858L;
+	private static final long serialVersionUID = 3485556738638117378L;
 
 	/**
 	 * 部门名称

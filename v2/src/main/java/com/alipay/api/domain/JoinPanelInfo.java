@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class JoinPanelInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7675176579619339919L;
+	private static final long serialVersionUID = 6333964253972395816L;
 
 	/**
 	 * 按钮文本

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OcrAttachmentRes extends AlipayObject {
 
-	private static final long serialVersionUID = 7217318527555738584L;
+	private static final long serialVersionUID = 4368931145826365654L;
 
 	/**
 	 * aq附件id

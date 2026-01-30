@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFundCardCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4111325339441164833L;
+	private static final long serialVersionUID = 8245571157289527247L;
 
 	/** 
 	 * 作废流程的流程单据Id

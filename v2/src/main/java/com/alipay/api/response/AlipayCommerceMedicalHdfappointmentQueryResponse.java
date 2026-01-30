@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.hdfappointment.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-10-17 15:27:39
+ * @since 1.0, 2026-01-29 11:07:42
  */
 public class AlipayCommerceMedicalHdfappointmentQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1795161813467791373L;
+	private static final long serialVersionUID = 7176984531735518994L;
 
 	/** 
 	 * 响应内容

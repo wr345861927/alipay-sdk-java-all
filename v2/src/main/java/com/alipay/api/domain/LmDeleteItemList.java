@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class LmDeleteItemList extends AlipayObject {
 
-	private static final long serialVersionUID = 4419912125238459717L;
+	private static final long serialVersionUID = 7498335682469287855L;
 
 	/**
 	 * 修改时间

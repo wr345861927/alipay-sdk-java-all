@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 处方
  *
  * @author auto create
- * @since 1.0, 2025-11-06 10:37:41
+ * @since 1.0, 2026-01-29 14:50:15
  */
 public class HDFPrescription extends AlipayObject {
 
-	private static final long serialVersionUID = 6188336561742939526L;
+	private static final long serialVersionUID = 1763546778941214541L;
 
 	/**
 	 * 审核时间

@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EcoRenthouseRoomInfoList extends AlipayObject {
 
-	private static final long serialVersionUID = 2333514589798438444L;
+	private static final long serialVersionUID = 7813995332755364876L;
 
 	/**
 	 * 房间参与免押金的到期日期YYYY-MM-dd

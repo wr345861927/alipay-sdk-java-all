@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MerchantSettleRelationProcessorRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 2517543856151148676L;
+	private static final long serialVersionUID = 2514448846755694892L;
 
 	/**
 	 * 分账比例，范围在0-30之间，可包含小数点后两位

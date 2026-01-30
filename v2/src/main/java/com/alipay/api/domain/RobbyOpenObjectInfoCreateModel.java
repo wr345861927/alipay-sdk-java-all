@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RobbyOpenObjectInfoCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4471165551421175131L;
+	private static final long serialVersionUID = 2498394778877686232L;
 
 	/**
 	 * null

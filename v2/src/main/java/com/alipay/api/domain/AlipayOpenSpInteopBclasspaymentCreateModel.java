@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 服务商代开通B类支付连锁通解决方案
  *
  * @author auto create
- * @since 1.0, 2026-01-23 09:52:43
+ * @since 1.0, 2026-01-29 15:47:42
  */
 public class AlipayOpenSpInteopBclasspaymentCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4129746766545216888L;
+	private static final long serialVersionUID = 2573671265658865496L;
 
 	/**
 	 * 银行卡信息

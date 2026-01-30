@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 券相对核销时间
  *
  * @author auto create
- * @since 1.0, 2026-01-13 16:12:31
+ * @since 1.0, 2026-01-30 11:35:06
  */
 public class VoucherRelativePeriodInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3775868242538225586L;
+	private static final long serialVersionUID = 4213643139868413841L;
 
 	/**
 	 * 核销时间限制
@@ -26,7 +26,14 @@ public class VoucherRelativePeriodInfo extends AlipayObject {
 	private Long validDaysAfterReceive;
 
 	/**
-	 * 优惠券有效期取整类型，向前取整则是领券后第N天晚上23点59分59秒时效。配合valid_days_after_receive字段使用，比如：valid_days_relative_type=ROUND_FORWARD，valid_days_after_receive =1，领券时间是1号12点0分0秒，那么1号23点59分59秒优惠券过期不可用；valid_days_relative_type=ROUND_FORWARD，valid_days_after_receive =2，领券时是1号12点0分0秒，那么2号23点59分59秒优惠券过期不可用；
+	 * 优惠券有效期的取整方式，需与 valid_days_after_receive 字段配合使用，用于确定用户领取优惠券后的具体失效时间。 
+取值逻辑说明：ROUND_FORWARD（向前取整），优惠券在领取当日开始计算，于第 N 天（即 valid_days_after_receive 的值）的 当天 23:59:59 失效。 
+示例： 
+-若 valid_days_relative_type=ROUND_FORWARD，valid_days_after_receive=1，用户于 1 号 09:12:40 领券，则优惠券在 1 号 23:59:59 失效。 
+-若 valid_days_after_receive=2，则在 2 号 23:59:59 失效。ROUND_BACKWARD（向后取整），优惠券从领取次日开始计算，于第 N 天（即 valid_days_after_receive 的值）的 当天 23:59:59 失效。 
+示例： 
+-若valid_days_relative_type=ROUND_BACKWARDS，valid_days_after_receive=1，领券时间是1号9点12分40秒，那么 2 号 23:59:59 失效。 
+-若 valid_days_after_receive=2，则在 3 号 23:59:59 失效。
 	 */
 	@ApiField("valid_days_relative_type")
 	private String validDaysRelativeType;

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DiscountQuotaInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8523729241331596119L;
+	private static final long serialVersionUID = 1469833971411257161L;
 
 	/**
 	 * 剩余额度信息，单位为元

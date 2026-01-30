@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.lifeservice.service.delete request
  * 
  * @author auto create
- * @since 1.0, 2026-01-28 16:52:42
+ * @since 1.0, 2026-01-29 14:12:42
  */
 public class AlipayCommerceLifeserviceServiceDeleteRequest implements AlipayRequest<AlipayCommerceLifeserviceServiceDeleteResponse> {
 

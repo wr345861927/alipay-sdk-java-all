@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TourPackageInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 4587785967987742888L;
+	private static final long serialVersionUID = 3618361634892997372L;
 
 	/**
 	 * 出发时间

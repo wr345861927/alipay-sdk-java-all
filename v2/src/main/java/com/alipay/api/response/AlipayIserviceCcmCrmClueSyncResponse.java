@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.iservice.ccm.crm.clue.sync response.
  * 
  * @author auto create
- * @since 1.0, 2025-10-22 20:57:40
+ * @since 1.0, 2026-01-29 14:36:33
  */
 public class AlipayIserviceCcmCrmClueSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7365612375445698984L;
+	private static final long serialVersionUID = 3786614462844182736L;
 
 	/** 
 	 * 同步线索业务数据后的返回数据ID

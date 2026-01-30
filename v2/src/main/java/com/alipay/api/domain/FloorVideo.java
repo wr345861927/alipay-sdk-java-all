@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class FloorVideo extends AlipayObject {
 
-	private static final long serialVersionUID = 6127887771599297637L;
+	private static final long serialVersionUID = 5812459617164927961L;
 
 	/**
 	 * 货柜层号

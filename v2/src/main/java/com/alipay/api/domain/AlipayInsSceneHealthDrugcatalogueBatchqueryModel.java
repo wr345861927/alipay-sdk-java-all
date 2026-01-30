@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayInsSceneHealthDrugcatalogueBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5511953838779449879L;
+	private static final long serialVersionUID = 7365316767398562195L;
 
 	/**
 	 * 蚂蚁合约单号

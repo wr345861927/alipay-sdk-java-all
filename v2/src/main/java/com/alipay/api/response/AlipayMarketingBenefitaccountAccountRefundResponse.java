@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMarketingBenefitaccountAccountRefundResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6766476428333297731L;
+	private static final long serialVersionUID = 7179394515323999278L;
 
 	/** 
 	 * 总退款金额，单位：元

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayTradeOverdraftReturnmoneyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4896115333587949385L;
+	private static final long serialVersionUID = 2694236784663584417L;
 
 	/**
 	 * 追款请求号

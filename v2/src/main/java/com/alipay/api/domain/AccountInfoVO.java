@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AccountInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 1814567777283498631L;
+	private static final long serialVersionUID = 4556659711218337782L;
 
 	/**
 	 * 账户别名，当前主要用于支付宝，为用户注册邮箱或手机号

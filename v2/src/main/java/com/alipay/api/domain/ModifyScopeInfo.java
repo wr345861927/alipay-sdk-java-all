@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ModifyScopeInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2313713221672148186L;
+	private static final long serialVersionUID = 4312281757686727623L;
 
 	/**
 	 * 制度的适用范围类型

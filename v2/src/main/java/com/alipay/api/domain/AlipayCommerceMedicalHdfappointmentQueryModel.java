@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 排班计划查询提供
  *
  * @author auto create
- * @since 1.0, 2025-10-17 15:23:19
+ * @since 1.0, 2026-01-29 11:04:36
  */
 public class AlipayCommerceMedicalHdfappointmentQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7822911627258244784L;
+	private static final long serialVersionUID = 8515741879268538626L;
 
 	/**
 	 * 消息体

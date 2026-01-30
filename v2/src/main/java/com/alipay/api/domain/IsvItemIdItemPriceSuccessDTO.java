@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class IsvItemIdItemPriceSuccessDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8521255947479121835L;
+	private static final long serialVersionUID = 8689676814253384336L;
 
 	/**
 	 * 外部疫苗商品ID

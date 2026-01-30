@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class OfflineTextQc extends AlipayObject {
 
-	private static final long serialVersionUID = 4178225142199315718L;
+	private static final long serialVersionUID = 7329718873749549963L;
 
 	/**
 	 * 热线可以选择传递的号码

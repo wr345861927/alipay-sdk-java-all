@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 官网查询维保时间
  *
  * @author auto create
- * @since 1.0, 2025-10-28 15:32:35
+ * @since 1.0, 2026-01-29 20:05:07
  */
 public class AnttechOceanbaseObglobalLeadproducttypeQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5674858337918218339L;
+	private static final long serialVersionUID = 6415643981118919558L;
 
 	/**
 	 * 合作实体bid
