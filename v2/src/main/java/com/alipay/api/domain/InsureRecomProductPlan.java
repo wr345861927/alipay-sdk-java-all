@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class InsureRecomProductPlan extends AlipayObject {
 
-	private static final long serialVersionUID = 5596526563152532415L;
+	private static final long serialVersionUID = 1361771859297382594L;
 
 	/**
 	 * 续期缴费频率。 01 一次性缴费, 02 按月缴费, 03 按年缴费, 04 不定期缴费 05 按日趸交（费用：保费*天数）

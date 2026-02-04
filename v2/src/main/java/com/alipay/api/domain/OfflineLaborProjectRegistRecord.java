@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OfflineLaborProjectRegistRecord extends AlipayObject {
 
-	private static final long serialVersionUID = 7348499494383197374L;
+	private static final long serialVersionUID = 3738676438161686799L;
 
 	/**
 	 * 用户支付宝账号

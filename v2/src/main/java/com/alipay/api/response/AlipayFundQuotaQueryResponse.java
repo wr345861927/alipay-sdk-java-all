@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.fund.quota.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-02 04:02:41
+ * @since 1.0, 2026-02-03 11:54:46
  */
 public class AlipayFundQuotaQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3245531726867733937L;
+	private static final long serialVersionUID = 7684312218639633199L;
 
 	/** 
 	 * 商转新额度单日剩余额度，单位为元，精确到小数点后两位；当product_code为SINGLE_TRANSFER_NO_PWD,biz_scene为MER_TRANS_TO_ACC 或 biz_scene为MER_TRANS_TO_CARD，该值返回

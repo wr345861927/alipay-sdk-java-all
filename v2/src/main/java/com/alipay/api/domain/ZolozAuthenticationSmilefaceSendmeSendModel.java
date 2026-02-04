@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ZolozAuthenticationSmilefaceSendmeSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5384957957318859475L;
+	private static final long serialVersionUID = 4278316662393487442L;
 
 	/**
 	 * 业务类型

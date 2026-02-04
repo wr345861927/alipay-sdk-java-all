@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 运企付_收银台退款查询
  *
  * @author auto create
- * @since 1.0, 2025-12-22 10:24:22
+ * @since 1.0, 2026-02-03 14:32:43
  */
 public class AlipayCommerceLogisticsFreightflowCloudfundrefundQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5653124699938627897L;
+	private static final long serialVersionUID = 3144543989599264442L;
 
 	/**
 	 * 与运企付约定的物流公司编码

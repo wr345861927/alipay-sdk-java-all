@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.coil.workreporturl.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-26 17:18:49
+ * @since 1.0, 2026-01-30 16:31:21
  */
 public class AlipayOfflineProviderCoilWorkreporturlQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3316339354684329241L;
+	private static final long serialVersionUID = 2514576443281972917L;
 
 	/** 
 	 * 报表文件对应的日期，值同请求传参中的report_date字段

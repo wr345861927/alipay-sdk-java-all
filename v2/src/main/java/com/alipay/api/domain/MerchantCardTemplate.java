@@ -7,14 +7,26 @@ import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
 
 /**
- * 卡
+ * 商品
  *
  * @author auto create
- * @since 1.0, 2025-12-18 17:26:24
+ * @since 1.0, 2026-02-03 14:19:47
  */
 public class MerchantCardTemplate extends AlipayObject {
 
-	private static final long serialVersionUID = 3643461445875864965L;
+	private static final long serialVersionUID = 5634936669395186626L;
+
+	/**
+	 * 不传时默认卡商品类型
+	 */
+	@ApiField("ax_item_type")
+	private String axItemType;
+
+	/**
+	 * 预约模式
+	 */
+	@ApiField("booking_mode")
+	private String bookingMode;
 
 	/**
 	 * 违约金信息
@@ -36,19 +48,19 @@ public class MerchantCardTemplate extends AlipayObject {
 	private String cardTemplateAppId;
 
 	/**
-	 * 支付宝侧卡ID，创建接口不需要传
+	 * 支付宝侧商品ID，创建接口不需要传
 	 */
 	@ApiField("card_template_id")
 	private String cardTemplateId;
 
 	/**
-	 * 卡名称（当card_type=AXF_MONEY_CARD时，查询会返回）
+	 * 商品名称（当card_type=AXF_MONEY_CARD时，查询会返回）
 	 */
 	@ApiField("card_template_name")
 	private String cardTemplateName;
 
 	/**
-	 * 卡状态，创建接口不需要传
+	 * 商品状态，创建接口不需要传
 	 */
 	@ApiField("card_template_status")
 	private String cardTemplateStatus;
@@ -109,6 +121,19 @@ public class MerchantCardTemplate extends AlipayObject {
 	@ApiListField("image_url_list")
 	@ApiField("string")
 	private List<String> imageUrlList;
+
+	/**
+	 * 商品属性。具体所需属性建类目模版查询接口
+	 */
+	@ApiListField("item_attrs")
+	@ApiField("axf_item_attr")
+	private List<AxfItemAttr> itemAttrs;
+
+	/**
+	 * 商品类目，具体可使用类目见类目查询接口。
+	 */
+	@ApiField("item_category_code")
+	private String itemCategoryCode;
 
 	/**
 	 * 金额卡的必要参数。其他卡类型无需传入
@@ -183,6 +208,20 @@ public class MerchantCardTemplate extends AlipayObject {
 	 */
 	@ApiField("use_info")
 	private CardTemplateUse useInfo;
+
+	public String getAxItemType() {
+		return this.axItemType;
+	}
+	public void setAxItemType(String axItemType) {
+		this.axItemType = axItemType;
+	}
+
+	public String getBookingMode() {
+		return this.bookingMode;
+	}
+	public void setBookingMode(String bookingMode) {
+		this.bookingMode = bookingMode;
+	}
 
 	public BreakCostsInfo getBreakCostsInfo() {
 		return this.breakCostsInfo;
@@ -280,6 +319,20 @@ public class MerchantCardTemplate extends AlipayObject {
 	}
 	public void setImageUrlList(List<String> imageUrlList) {
 		this.imageUrlList = imageUrlList;
+	}
+
+	public List<AxfItemAttr> getItemAttrs() {
+		return this.itemAttrs;
+	}
+	public void setItemAttrs(List<AxfItemAttr> itemAttrs) {
+		this.itemAttrs = itemAttrs;
+	}
+
+	public String getItemCategoryCode() {
+		return this.itemCategoryCode;
+	}
+	public void setItemCategoryCode(String itemCategoryCode) {
+		this.itemCategoryCode = itemCategoryCode;
 	}
 
 	public MoneyCardInfo getMoneyCardInfo() {

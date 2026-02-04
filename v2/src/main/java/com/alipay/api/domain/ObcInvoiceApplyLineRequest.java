@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 多云发票明细行
  *
  * @author auto create
- * @since 1.0, 2025-10-14 21:06:26
+ * @since 1.0, 2026-02-03 14:13:02
  */
 public class ObcInvoiceApplyLineRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 4822565128192439283L;
+	private static final long serialVersionUID = 6592819985338611287L;
 
 	/**
 	 * 货币单位，必填
@@ -54,7 +54,7 @@ public class ObcInvoiceApplyLineRequest extends AlipayObject {
 	private String productName;
 
 	/**
-	 * 数量，小数点后最多保留4位，单价*数量=金额；单位由单位字段unit决定
+	 * 文本描述的总量，单位由unit指定，否则默认为元/套
 	 */
 	@ApiField("quantity")
 	private String quantity;

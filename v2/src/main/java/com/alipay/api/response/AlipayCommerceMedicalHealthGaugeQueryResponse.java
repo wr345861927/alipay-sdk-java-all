@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMedicalHealthGaugeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8667735589811615765L;
+	private static final long serialVersionUID = 1254463194251316535L;
 
 	/** 
 	 * 自测量表列表

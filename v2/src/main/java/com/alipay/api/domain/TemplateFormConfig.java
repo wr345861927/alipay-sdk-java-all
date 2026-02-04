@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TemplateFormConfig extends AlipayObject {
 
-	private static final long serialVersionUID = 8518922769739963969L;
+	private static final long serialVersionUID = 8196129386528894385L;
 
 	/**
 	 * 表单可选字段，required里面的选项与optional里面的选项不能存在重复

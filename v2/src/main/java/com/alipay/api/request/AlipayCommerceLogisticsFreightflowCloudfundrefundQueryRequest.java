@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.logistics.freightflow.cloudfundrefund.query request
  * 
  * @author auto create
- * @since 1.0, 2025-12-22 10:24:22
+ * @since 1.0, 2026-02-03 14:32:43
  */
 public class AlipayCommerceLogisticsFreightflowCloudfundrefundQueryRequest implements AlipayRequest<AlipayCommerceLogisticsFreightflowCloudfundrefundQueryResponse> {
 

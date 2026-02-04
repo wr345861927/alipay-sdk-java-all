@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenCloudEnvDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5634163662587587687L;
+	private static final long serialVersionUID = 3394398631289433372L;
 
 	/**
 	 * 云id

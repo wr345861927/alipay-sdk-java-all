@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PunishBreakInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7595776976852516995L;
+	private static final long serialVersionUID = 3139449395853682271L;
 
 	/**
 	 * 法定代表人或负责人姓名

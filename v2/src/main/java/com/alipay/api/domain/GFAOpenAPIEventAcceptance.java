@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 业财事件受理模型
  *
  * @author auto create
- * @since 1.0, 2026-01-21 20:07:58
+ * @since 1.0, 2026-02-01 16:46:26
  */
 public class GFAOpenAPIEventAcceptance extends AlipayObject {
 
-	private static final long serialVersionUID = 1668321524272344535L;
+	private static final long serialVersionUID = 5823794684364556547L;
 
 	/**
 	 * 代收付参与者信息

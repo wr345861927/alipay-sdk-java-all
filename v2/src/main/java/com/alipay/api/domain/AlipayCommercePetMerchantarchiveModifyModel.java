@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommercePetMerchantarchiveModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8832355924655476839L;
+	private static final long serialVersionUID = 8411136723226773677L;
 
 	/**
 	 * 支付宝宠物档案Id

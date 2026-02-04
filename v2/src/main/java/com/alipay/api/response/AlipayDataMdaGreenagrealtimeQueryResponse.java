@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayDataMdaGreenagrealtimeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5317523698937183871L;
+	private static final long serialVersionUID = 2524664984487765168L;
 
 	/** 
 	 * 今日完成公益任务人数

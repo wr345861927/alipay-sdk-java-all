@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TransferSceneReportInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8238481694594679755L;
+	private static final long serialVersionUID = 4462241112297346945L;
 
 	/**
 	 * 转账场景信息描述，即商户所属转账场景下的信息内容。商户可按实际业务场景自定义传参，需严格按照<a href="https://opendocs.alipay.com/open/0iaxid">转账场景信息字段说明</a>传参。<br>

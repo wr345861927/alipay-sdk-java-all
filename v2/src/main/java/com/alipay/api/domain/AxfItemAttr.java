@@ -1,0 +1,42 @@
+package com.alipay.api.domain;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+
+/**
+ * 安心生活商品属性
+ *
+ * @author auto create
+ * @since 1.0, 2026-02-03 14:19:46
+ */
+public class AxfItemAttr extends AlipayObject {
+
+	private static final long serialVersionUID = 6167157291865537287L;
+
+	/**
+	 * 商品属性key
+	 */
+	@ApiField("attr_key")
+	private String attrKey;
+
+	/**
+	 * 商品属性value
+	 */
+	@ApiField("attr_value")
+	private String attrValue;
+
+	public String getAttrKey() {
+		return this.attrKey;
+	}
+	public void setAttrKey(String attrKey) {
+		this.attrKey = attrKey;
+	}
+
+	public String getAttrValue() {
+		return this.attrValue;
+	}
+	public void setAttrValue(String attrValue) {
+		this.attrValue = attrValue;
+	}
+
+}

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.smid.coilpaydescription.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-26 17:19:01
+ * @since 1.0, 2026-01-30 16:29:03
  */
 public class AlipayOfflineProviderSmidCoilpaydescriptionQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8694334321942416478L;
+	private static final long serialVersionUID = 6141984829162384743L;
 
 	/** 
 	 * 商家间连小蓝环交易情况的概括性描述，用于作业人员判断当前作业商户是否已经产生小蓝环交易。

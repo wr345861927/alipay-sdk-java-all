@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RoboWelcomeLightInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7876176279255944135L;
+	private static final long serialVersionUID = 5181495795172724312L;
 
 	/**
 	 * 是否有迎宾灯能力，0无，1有

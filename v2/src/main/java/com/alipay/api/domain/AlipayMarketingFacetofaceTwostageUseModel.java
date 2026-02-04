@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayMarketingFacetofaceTwostageUseModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5338566328914883667L;
+	private static final long serialVersionUID = 8735162314168437373L;
 
 	/**
 	 * 业务场景码，外部商户在接入时需要进行分配

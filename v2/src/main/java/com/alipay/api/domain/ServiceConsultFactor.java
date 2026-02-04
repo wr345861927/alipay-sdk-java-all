@@ -12,7 +12,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ServiceConsultFactor extends AlipayObject {
 
-	private static final long serialVersionUID = 4188554694633696836L;
+	private static final long serialVersionUID = 7798611698553979483L;
 
 	/**
 	 * 咨询因子key，作为入参，用来查询机构。

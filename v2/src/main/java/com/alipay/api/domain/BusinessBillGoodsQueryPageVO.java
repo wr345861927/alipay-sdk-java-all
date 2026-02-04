@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BusinessBillGoodsQueryPageVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8865385362286833844L;
+	private static final long serialVersionUID = 5238567265777673197L;
 
 	/**
 	 * 一级分类

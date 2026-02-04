@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.security.risk.complaint.info.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-21 14:41:08
+ * @since 1.0, 2026-02-02 10:07:43
  */
 public class AlipaySecurityRiskComplaintInfoQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1625593819122549488L;
+	private static final long serialVersionUID = 1539257925467336829L;
 
 	/** 
 	 * 投诉凭证图片信息，afts可访问url形式
@@ -79,6 +79,18 @@ public class AlipaySecurityRiskComplaintInfoQueryResponse extends AlipayResponse
 	 */
 	@ApiField("gmt_risk_finish_time")
 	private Date gmtRiskFinishTime;
+
+	/** 
+	 * 升级投诉时间
+	 */
+	@ApiField("gmt_upgrade")
+	private Date gmtUpgrade;
+
+	/** 
+	 * 升级投诉推送时间
+	 */
+	@ApiField("gmt_upgrade_risk_finish_time")
+	private Date gmtUpgradeRiskFinishTime;
 
 	/** 
 	 * 投诉主表的主键id，查询详情时使用本id进行查询
@@ -146,6 +158,12 @@ public class AlipaySecurityRiskComplaintInfoQueryResponse extends AlipayResponse
 	 */
 	@ApiField("trade_no")
 	private String tradeNo;
+
+	/** 
+	 * 用户升级投诉内容
+	 */
+	@ApiField("upgrade_content")
+	private String upgradeContent;
 
 	public void setCertifyInfo(List<String> certifyInfo) {
 		this.certifyInfo = certifyInfo;
@@ -215,6 +233,20 @@ public class AlipaySecurityRiskComplaintInfoQueryResponse extends AlipayResponse
 	}
 	public Date getGmtRiskFinishTime( ) {
 		return this.gmtRiskFinishTime;
+	}
+
+	public void setGmtUpgrade(Date gmtUpgrade) {
+		this.gmtUpgrade = gmtUpgrade;
+	}
+	public Date getGmtUpgrade( ) {
+		return this.gmtUpgrade;
+	}
+
+	public void setGmtUpgradeRiskFinishTime(Date gmtUpgradeRiskFinishTime) {
+		this.gmtUpgradeRiskFinishTime = gmtUpgradeRiskFinishTime;
+	}
+	public Date getGmtUpgradeRiskFinishTime( ) {
+		return this.gmtUpgradeRiskFinishTime;
 	}
 
 	public void setId(Long id) {
@@ -292,6 +324,13 @@ public class AlipaySecurityRiskComplaintInfoQueryResponse extends AlipayResponse
 	}
 	public String getTradeNo( ) {
 		return this.tradeNo;
+	}
+
+	public void setUpgradeContent(String upgradeContent) {
+		this.upgradeContent = upgradeContent;
+	}
+	public String getUpgradeContent( ) {
+		return this.upgradeContent;
 	}
 
 }

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ProductPriceInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4319821949359491989L;
+	private static final long serialVersionUID = 1687823522216458925L;
 
 	/**
 	 * 产品开通明细项费率，单位：只可以小数不能填百分号，最多小数点后两位，范围为0.38～1.0。

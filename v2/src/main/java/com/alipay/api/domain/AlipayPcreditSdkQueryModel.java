@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayPcreditSdkQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2182886765365411915L;
+	private static final long serialVersionUID = 2184269872788884166L;
 
 	/**
 	 * 年龄

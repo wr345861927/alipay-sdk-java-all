@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenAppServiceMiniappnearbypoiQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2691374886311893286L;
+	private static final long serialVersionUID = 3844485462745898526L;
 
 	/**
 	 * poiCode列表

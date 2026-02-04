@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 间连商户小蓝环碰交易情况查询
  *
  * @author auto create
- * @since 1.0, 2025-08-26 17:19:01
+ * @since 1.0, 2026-01-30 16:29:03
  */
 public class AlipayOfflineProviderSmidCoilpaydescriptionQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6556227635317627674L;
+	private static final long serialVersionUID = 6876966755353891939L;
 
 	/**
 	 * 支付宝间连商家smid

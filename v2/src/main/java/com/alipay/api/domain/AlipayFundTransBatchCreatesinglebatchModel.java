@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayFundTransBatchCreatesinglebatchModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8783316738145223497L;
+	private static final long serialVersionUID = 2618927399483622236L;
 
 	/**
 	 * 批次的创建说明，如收款理由等。注：字符长度不能超过24；字符串中不能含有特殊字符（比如emoji等）

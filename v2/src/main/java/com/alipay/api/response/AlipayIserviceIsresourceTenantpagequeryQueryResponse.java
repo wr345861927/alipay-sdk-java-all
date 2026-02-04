@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayIserviceIsresourceTenantpagequeryQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8394335916959633128L;
+	private static final long serialVersionUID = 6221712537921958151L;
 
 	/** 
 	 * 相关租户信息

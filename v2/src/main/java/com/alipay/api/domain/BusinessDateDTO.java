@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class BusinessDateDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7798731239527137599L;
+	private static final long serialVersionUID = 4187512192836219784L;
 
 	/**
 	 * 周营业日，举例：每周一、三、五营业，则此值传["1", "3", "5"]

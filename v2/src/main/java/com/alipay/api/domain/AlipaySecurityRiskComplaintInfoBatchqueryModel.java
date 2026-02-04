@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 查询消费者投诉列表
  *
  * @author auto create
- * @since 1.0, 2024-07-12 14:25:51
+ * @since 1.0, 2026-01-30 17:31:12
  */
 public class AlipaySecurityRiskComplaintInfoBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1184896952836431556L;
+	private static final long serialVersionUID = 1171971538251765245L;
 
 	/**
 	 * 分页查询页码，不传则默认为1
@@ -78,6 +78,12 @@ public class AlipaySecurityRiskComplaintInfoBatchqueryModel extends AlipayObject
 	 */
 	@ApiField("trade_no")
 	private String tradeNo;
+
+	/**
+	 * 查询条件：筛选升级投诉任务
+	 */
+	@ApiField("upgrade")
+	private Boolean upgrade;
 
 	public Long getCurrentPageNum() {
 		return this.currentPageNum;
@@ -147,6 +153,13 @@ public class AlipaySecurityRiskComplaintInfoBatchqueryModel extends AlipayObject
 	}
 	public void setTradeNo(String tradeNo) {
 		this.tradeNo = tradeNo;
+	}
+
+	public Boolean getUpgrade() {
+		return this.upgrade;
+	}
+	public void setUpgrade(Boolean upgrade) {
+		this.upgrade = upgrade;
 	}
 
 }

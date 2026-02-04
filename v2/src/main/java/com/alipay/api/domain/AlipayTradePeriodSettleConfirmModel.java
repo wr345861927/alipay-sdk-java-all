@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayTradePeriodSettleConfirmModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7464379455636435121L;
+	private static final long serialVersionUID = 8795935393649989615L;
 
 	/**
 	 * 扩展字段信息

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 开票申请
  *
  * @author auto create
- * @since 1.0, 2025-10-14 21:06:26
+ * @since 1.0, 2026-02-03 14:13:02
  */
 public class AnttechOceanbaseInvoiceApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5831162332351318633L;
+	private static final long serialVersionUID = 1389388144862152825L;
 
 	/**
 	 * 业务唯一键，可做幂等

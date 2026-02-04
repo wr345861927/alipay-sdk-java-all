@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOfflineSmddShopWechatApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7511377557751712277L;
+	private static final long serialVersionUID = 6446659357258651587L;
 
 	/**
 	 * 商户id
