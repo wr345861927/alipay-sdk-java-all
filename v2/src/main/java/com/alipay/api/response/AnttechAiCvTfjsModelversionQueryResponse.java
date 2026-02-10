@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AnttechAiCvTfjsModelversionQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4579712531855241521L;
+	private static final long serialVersionUID = 4745535981144127679L;
 
 	/** 
 	 * 对应模型最新版本号

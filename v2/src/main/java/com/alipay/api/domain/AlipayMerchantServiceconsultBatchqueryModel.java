@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 查询问题反馈列表
  *
  * @author auto create
- * @since 1.0, 2023-01-12 10:59:21
+ * @since 1.0, 2026-02-04 11:04:18
  */
 public class AlipayMerchantServiceconsultBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8177525913834993237L;
+	private static final long serialVersionUID = 3193673762155469274L;
 
 	/**
 	 * 查询开始时间 时间格式：yyyy-MM-dd HH:mm:ss 若不填写，则默认当前时间30天前。 注意：begin_time和end_time时间跨度最大一年

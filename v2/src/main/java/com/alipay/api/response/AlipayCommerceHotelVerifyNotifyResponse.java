@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.hotel.verify.notify response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-21 15:46:37
+ * @since 1.0, 2026-02-09 16:35:00
  */
 public class AlipayCommerceHotelVerifyNotifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2637757348967673853L;
+	private static final long serialVersionUID = 2244328468291618558L;
 
 	
 

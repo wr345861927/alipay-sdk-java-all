@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 机器人状态查询
  *
  * @author auto create
- * @since 1.0, 2026-01-29 19:44:51
+ * @since 1.0, 2026-02-10 14:22:43
  */
 public class RobbyOpenDeviceStatusQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4324183949991688219L;
+	private static final long serialVersionUID = 4342529178545832221L;
 
 	/**
 	 * null

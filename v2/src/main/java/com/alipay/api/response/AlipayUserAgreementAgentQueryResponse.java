@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.agreement.agent.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-06 14:17:37
+ * @since 1.0, 2026-02-10 16:22:43
  */
 public class AlipayUserAgreementAgentQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7785232915562266522L;
+	private static final long serialVersionUID = 4628534934683828622L;
 
 	/** 
 	 * 【描述】支付宝系统中用以唯一标识用户签约记录的编号（用户签约成功后的协议号 ） ，如果传了该参数，其他参数会被忽略
@@ -28,7 +28,7 @@ public class AlipayUserAgreementAgentQueryResponse extends AlipayResponse {
 	private String alipayLogonId;
 
 	/** 
-	 * 代扣协议中标示用户的唯一签约号(确保在商户系统中 唯一)。 格式规则:支持大写小写字母和数字，最长 32 位。
+	 * AI付协议中标示用户的唯一签约号(确保在商户系统中 唯一)。 格式规则:支持大写小写字母和数字，最长 32 位。
 	 */
 	@ApiField("external_agreement_no")
 	private String externalAgreementNo;
@@ -50,6 +50,12 @@ public class AlipayUserAgreementAgentQueryResponse extends AlipayResponse {
 	 */
 	@ApiField("invalid_time")
 	private Date invalidTime;
+
+	/** 
+	 * 授权主体信息
+	 */
+	@ApiField("principal_id")
+	private String principalId;
 
 	/** 
 	 * 协议当前状态 1. TEMP：暂存，协议未生效过； 2. NORMAL：正常； 3. STOP：暂停
@@ -103,6 +109,13 @@ public class AlipayUserAgreementAgentQueryResponse extends AlipayResponse {
 	}
 	public Date getInvalidTime( ) {
 		return this.invalidTime;
+	}
+
+	public void setPrincipalId(String principalId) {
+		this.principalId = principalId;
+	}
+	public String getPrincipalId( ) {
+		return this.principalId;
 	}
 
 	public void setStatus(String status) {

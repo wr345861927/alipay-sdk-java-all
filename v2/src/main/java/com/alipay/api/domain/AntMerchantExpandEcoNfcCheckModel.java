@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AntMerchantExpandEcoNfcCheckModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6796555855761533597L;
+	private static final long serialVersionUID = 2832826493342681474L;
 
 	/**
 	 * nfc线圈的码值token

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.insurance.tpaevent.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-04 18:12:43
+ * @since 1.0, 2026-02-09 11:28:59
  */
 public class AlipayCommerceMedicalInsuranceTpaeventSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7665368174197428679L;
+	private static final long serialVersionUID = 6828392168396736147L;
 
 	/** 
 	 * 用户证件号

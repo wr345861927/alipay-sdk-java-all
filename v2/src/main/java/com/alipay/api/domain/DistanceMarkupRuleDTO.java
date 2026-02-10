@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DistanceMarkupRuleDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 6756976347994624992L;
+	private static final long serialVersionUID = 7293936511112669651L;
 
 	/**
 	 * 超限距离，单位：km

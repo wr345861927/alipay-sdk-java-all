@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMarketingDataDashboardCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5533796964528789125L;
+	private static final long serialVersionUID = 3797579995989753115L;
 
 	/** 
 	 * 取消授权失败仪表盘列表

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HmPayInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6276586411292857935L;
+	private static final long serialVersionUID = 6582799665652345896L;
 
 	/**
 	 * 支付金额，单位：分

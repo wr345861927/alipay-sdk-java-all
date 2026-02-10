@@ -9,11 +9,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 气象参数
  *
  * @author auto create
- * @since 1.0, 2025-11-13 16:05:17
+ * @since 1.0, 2026-02-05 09:52:39
  */
 public class WeatherVariables extends AlipayObject {
 
-	private static final long serialVersionUID = 3529934645527863993L;
+	private static final long serialVersionUID = 3776723896851425335L;
+
+	/**
+	 * 体感温度	°C
+	 */
+	@ApiField("apparent_temperature")
+	private String apparentTemperature;
 
 	/**
 	 * 总云量，单位%
@@ -59,16 +65,40 @@ public class WeatherVariables extends AlipayObject {
 	private String diffuseRadiation;
 
 	/**
+	 * 散射辐照瞬时值	W/m^2
+	 */
+	@ApiField("diffuse_radiation_instant")
+	private String diffuseRadiationInstant;
+
+	/**
 	 * 直接法向量辐照,单位 W/m^2
 	 */
 	@ApiField("direct_normal_irradiance")
 	private String directNormalIrradiance;
 
 	/**
+	 * 直接法向量辐照瞬时值	W/m^2
+	 */
+	@ApiField("direct_normal_irradiance_instant")
+	private String directNormalIrradianceInstant;
+
+	/**
 	 * 直接辐照, W/m^2
 	 */
 	@ApiField("direct_radiation")
 	private String directRadiation;
+
+	/**
+	 * 直接辐照瞬时值	W/m^2
+	 */
+	@ApiField("direct_radiation_instant")
+	private String directRadiationInstant;
+
+	/**
+	 * 降水量（包含所有形式）	mm
+	 */
+	@ApiField("precipitation")
+	private String precipitation;
 
 	/**
 	 * 降雨概率（未来一小时）（降雨量大于0.1mm）单位 %
@@ -81,6 +111,12 @@ public class WeatherVariables extends AlipayObject {
 	 */
 	@ApiField("pressure_msl")
 	private String pressureMsl;
+
+	/**
+	 * 降雨量	mm
+	 */
+	@ApiField("rain")
+	private String rain;
 
 	/**
 	 * 地面两米处的相对空气湿度，单位 %
@@ -100,6 +136,18 @@ public class WeatherVariables extends AlipayObject {
 	 */
 	@ApiField("shortwave_radiation")
 	private String shortwaveRadiation;
+
+	/**
+	 * 短波辐照瞬时值	W/m^2
+	 */
+	@ApiField("shortwave_radiation_instant")
+	private String shortwaveRadiationInstant;
+
+	/**
+	 * 降雪量	cm
+	 */
+	@ApiField("snowfall")
+	private String snowfall;
 
 	/**
 	 * 地表大气压，单位hPa
@@ -127,6 +175,12 @@ public class WeatherVariables extends AlipayObject {
 	private Date variableDate;
 
 	/**
+	 * 天气代码
+	 */
+	@ApiField("weather_code")
+	private String weatherCode;
+
+	/**
 	 * 地面10米处风向，单位 °
 	 */
 	@ApiField("wind_direction_10_m")
@@ -151,6 +205,12 @@ public class WeatherVariables extends AlipayObject {
 	@ApiField("wind_direction_120m")
 	@Deprecated
 	private String windDirection120m;
+
+	/**
+	 * 地面 180 米处风向	°
+	 */
+	@ApiField("wind_direction_180_m")
+	private String windDirection180M;
 
 	/**
 	 * 地面80米处风向，单位°
@@ -192,6 +252,12 @@ public class WeatherVariables extends AlipayObject {
 	private String windSpeed120m;
 
 	/**
+	 * 地面 180 米处风速	m/s
+	 */
+	@ApiField("wind_speed_180_m")
+	private String windSpeed180M;
+
+	/**
 	 * 地面80米处风速，单位 m/s
 	 */
 	@ApiField("wind_speed_80_m")
@@ -203,6 +269,13 @@ public class WeatherVariables extends AlipayObject {
 	@ApiField("wind_speed_80m")
 	@Deprecated
 	private String windSpeed80m;
+
+	public String getApparentTemperature() {
+		return this.apparentTemperature;
+	}
+	public void setApparentTemperature(String apparentTemperature) {
+		this.apparentTemperature = apparentTemperature;
+	}
 
 	public String getCloudCover() {
 		return this.cloudCover;
@@ -253,6 +326,13 @@ public class WeatherVariables extends AlipayObject {
 		this.diffuseRadiation = diffuseRadiation;
 	}
 
+	public String getDiffuseRadiationInstant() {
+		return this.diffuseRadiationInstant;
+	}
+	public void setDiffuseRadiationInstant(String diffuseRadiationInstant) {
+		this.diffuseRadiationInstant = diffuseRadiationInstant;
+	}
+
 	public String getDirectNormalIrradiance() {
 		return this.directNormalIrradiance;
 	}
@@ -260,11 +340,32 @@ public class WeatherVariables extends AlipayObject {
 		this.directNormalIrradiance = directNormalIrradiance;
 	}
 
+	public String getDirectNormalIrradianceInstant() {
+		return this.directNormalIrradianceInstant;
+	}
+	public void setDirectNormalIrradianceInstant(String directNormalIrradianceInstant) {
+		this.directNormalIrradianceInstant = directNormalIrradianceInstant;
+	}
+
 	public String getDirectRadiation() {
 		return this.directRadiation;
 	}
 	public void setDirectRadiation(String directRadiation) {
 		this.directRadiation = directRadiation;
+	}
+
+	public String getDirectRadiationInstant() {
+		return this.directRadiationInstant;
+	}
+	public void setDirectRadiationInstant(String directRadiationInstant) {
+		this.directRadiationInstant = directRadiationInstant;
+	}
+
+	public String getPrecipitation() {
+		return this.precipitation;
+	}
+	public void setPrecipitation(String precipitation) {
+		this.precipitation = precipitation;
 	}
 
 	public String getPrecipitationProbability() {
@@ -279,6 +380,13 @@ public class WeatherVariables extends AlipayObject {
 	}
 	public void setPressureMsl(String pressureMsl) {
 		this.pressureMsl = pressureMsl;
+	}
+
+	public String getRain() {
+		return this.rain;
+	}
+	public void setRain(String rain) {
+		this.rain = rain;
 	}
 
 	public String getRelativeHumidity2M() {
@@ -300,6 +408,20 @@ public class WeatherVariables extends AlipayObject {
 	}
 	public void setShortwaveRadiation(String shortwaveRadiation) {
 		this.shortwaveRadiation = shortwaveRadiation;
+	}
+
+	public String getShortwaveRadiationInstant() {
+		return this.shortwaveRadiationInstant;
+	}
+	public void setShortwaveRadiationInstant(String shortwaveRadiationInstant) {
+		this.shortwaveRadiationInstant = shortwaveRadiationInstant;
+	}
+
+	public String getSnowfall() {
+		return this.snowfall;
+	}
+	public void setSnowfall(String snowfall) {
+		this.snowfall = snowfall;
 	}
 
 	public String getSurfacePressure() {
@@ -330,6 +452,13 @@ public class WeatherVariables extends AlipayObject {
 		this.variableDate = variableDate;
 	}
 
+	public String getWeatherCode() {
+		return this.weatherCode;
+	}
+	public void setWeatherCode(String weatherCode) {
+		this.weatherCode = weatherCode;
+	}
+
 	public String getWindDirection10M() {
 		return this.windDirection10M;
 	}
@@ -356,6 +485,13 @@ public class WeatherVariables extends AlipayObject {
 	}
 	public void setWindDirection120m(String windDirection120m) {
 		this.windDirection120m = windDirection120m;
+	}
+
+	public String getWindDirection180M() {
+		return this.windDirection180M;
+	}
+	public void setWindDirection180M(String windDirection180M) {
+		this.windDirection180M = windDirection180M;
 	}
 
 	public String getWindDirection80M() {
@@ -398,6 +534,13 @@ public class WeatherVariables extends AlipayObject {
 	}
 	public void setWindSpeed120m(String windSpeed120m) {
 		this.windSpeed120m = windSpeed120m;
+	}
+
+	public String getWindSpeed180M() {
+		return this.windSpeed180M;
+	}
+	public void setWindSpeed180M(String windSpeed180M) {
+		this.windSpeed180M = windSpeed180M;
 	}
 
 	public String getWindSpeed80M() {

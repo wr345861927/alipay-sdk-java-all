@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-01-05 17:46:54
+ * @since 1.0, 2026-02-10 14:22:44
  */
 public class ObjectTaskStatus extends AlipayObject {
 
-	private static final long serialVersionUID = 6143919635321927997L;
+	private static final long serialVersionUID = 4216415956242554592L;
+
+	/**
+	 * 对象放入的篮子编号
+	 */
+	@ApiField("basket_no")
+	private String basketNo;
 
 	/**
 	 * 业务对象编号，如 69?
@@ -30,6 +36,13 @@ public class ObjectTaskStatus extends AlipayObject {
 	 */
 	@ApiField("status")
 	private String status;
+
+	public String getBasketNo() {
+		return this.basketNo;
+	}
+	public void setBasketNo(String basketNo) {
+		this.basketNo = basketNo;
+	}
 
 	public String getBizObjectNo() {
 		return this.bizObjectNo;

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.hotel.verify.notify request
  * 
  * @author auto create
- * @since 1.0, 2026-01-21 15:46:37
+ * @since 1.0, 2026-02-09 16:35:00
  */
 public class AlipayCommerceHotelVerifyNotifyRequest implements AlipayRequest<AlipayCommerceHotelVerifyNotifyResponse> {
 

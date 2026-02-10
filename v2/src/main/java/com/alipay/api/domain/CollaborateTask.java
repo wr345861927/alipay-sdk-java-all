@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 协同任务信息
  *
  * @author auto create
- * @since 1.0, 2025-04-29 16:26:56
+ * @since 1.0, 2026-02-04 21:22:52
  */
 public class CollaborateTask extends AlipayObject {
 
-	private static final long serialVersionUID = 4567562713454484469L;
+	private static final long serialVersionUID = 1291687434276429788L;
 
 	/**
 	 * 活动描述，用户参与活动时返回。
@@ -24,7 +24,7 @@ public class CollaborateTask extends AlipayObject {
 	private String activityDesc;
 
 	/**
-	 * 活动id，用户参与活动时返回。
+	 * 活动id，用户参与活动时返回，不为空一定是强leads
 	 */
 	@ApiField("activity_id")
 	private String activityId;
@@ -121,7 +121,7 @@ public class CollaborateTask extends AlipayObject {
 	private String provinceName;
 
 	/**
-	 * 线上强leads签约了必有
+	 * 线上强leads签约了必有，对接了强弱融合模式的服务商，需要通过接口alipay.offline.provider.nsales.activity.effect 来激活任务
 	 */
 	@ApiField("sales_order_id")
 	private String salesOrderId;
@@ -133,14 +133,14 @@ public class CollaborateTask extends AlipayObject {
 	private String shopName;
 
 	/**
-	 * 任务拉取时该字段无返回内容，确认领取且当前商户是你方商户时返回该字段。
+	 * 任务拉取时该字段无返回内容，确认领取且当前商户是你方存量商户时返回该字段，通过此字段判断是否是你方的存量商户，为空则是非存量leads，非存量leads判断下联系方式是否已下发，未下发的需要走外呼获取
 	 */
 	@ApiListField("smid_list")
 	@ApiField("string")
 	private List<String> smidList;
 
 	/**
-	 * 线上有参与活动的必有
+	 * 商户在线上有签约意愿时必有，结合task_tag字段判断是否签约，未签约或者当前字段为空或者activity_id字段为空则是弱leads
 	 */
 	@ApiField("solution_id")
 	private String solutionId;
@@ -153,9 +153,14 @@ public class CollaborateTask extends AlipayObject {
 
 	/**
 	 * WILLNGNESS-强意愿用户（多次提报）
-NOT_SIGNING-未签约
-HAS_SIGNED-已签约
-STOCK-存量摸排
+NOT_SIGNING-线上未签约，如果solutionId不为空则说明有签约意愿但是并没有实际签约动作，作业时可以做商户行为参考
+HAS_SIGNED-线上已签约，作业时如果需要切换任务，需要先退出卖进方案
+STOCK-线下存量摸排出的，有明确安装意愿的商户
+ELEME-饿了么的商户
+GD_EVALUATION-高德评价通的商户
+GD_ONLINE-高德线上投放的商户
+ELEME_RETAIL-饿了么零售的商户
+ELEME_BRAND-饿了么品牌的商户
 	 */
 	@ApiListField("task_tags")
 	@ApiField("string")

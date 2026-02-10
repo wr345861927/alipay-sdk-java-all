@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 证书域名模型
  *
  * @author auto create
- * @since 1.0, 2024-06-06 16:20:24
+ * @since 1.0, 2026-02-05 14:05:44
  */
 public class HttpsDomainCert extends AlipayObject {
 
-	private static final long serialVersionUID = 2866178932194286869L;
+	private static final long serialVersionUID = 1635715521355469344L;
 
 	/**
 	 * 证书到期时间
@@ -43,6 +43,7 @@ public class HttpsDomainCert extends AlipayObject {
  - cloudflare
  - dnspod
  - godaddy
+ - west
 	 */
 	@ApiField("domain_provider")
 	private String domainProvider;
@@ -52,6 +53,8 @@ public class HttpsDomainCert extends AlipayObject {
  - DOMAIN_UNVALID
  - CERT_INIT
  - CERT_SUCCESS
+ - CERT_FAIL
+ - CERT_FAIL
 	 */
 	@ApiField("domain_status")
 	private String domainStatus;

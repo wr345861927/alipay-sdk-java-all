@@ -1,0 +1,109 @@
+package com.alipay.api.domain;
+
+import java.util.Date;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+
+/**
+ * 手艺人库存同步
+ *
+ * @author auto create
+ * @since 1.0, 2026-02-05 16:47:44
+ */
+public class AlipayCommerceLifeserviceTechnicianstockSyncModel extends AlipayObject {
+
+	private static final long serialVersionUID = 5642292119778495444L;
+
+	/**
+	 * 三方手艺人id【需保证唯一性】
+	 */
+	@ApiField("out_technician_id")
+	private String outTechnicianId;
+
+	/**
+	 * 蚂蚁门店id
+	 */
+	@ApiField("shop_id")
+	private String shopId;
+
+	/**
+	 * 库存状态
+	 */
+	@ApiField("status")
+	private String status;
+
+	/**
+	 * 库存日期【必填】 格式 yyyy-MM-dd
+	 */
+	@ApiField("stock_date")
+	private String stockDate;
+
+	/**
+	 * 库存结束时间【必填】
+	 */
+	@ApiField("stock_end_time")
+	private Date stockEndTime;
+
+	/**
+	 * 库存开始时间【必填】
+	 */
+	@ApiField("stock_start_time")
+	private Date stockStartTime;
+
+	/**
+	 * 手艺人id【和out_technician_id二选一】
+	 */
+	@ApiField("technician_id")
+	private String technicianId;
+
+	public String getOutTechnicianId() {
+		return this.outTechnicianId;
+	}
+	public void setOutTechnicianId(String outTechnicianId) {
+		this.outTechnicianId = outTechnicianId;
+	}
+
+	public String getShopId() {
+		return this.shopId;
+	}
+	public void setShopId(String shopId) {
+		this.shopId = shopId;
+	}
+
+	public String getStatus() {
+		return this.status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getStockDate() {
+		return this.stockDate;
+	}
+	public void setStockDate(String stockDate) {
+		this.stockDate = stockDate;
+	}
+
+	public Date getStockEndTime() {
+		return this.stockEndTime;
+	}
+	public void setStockEndTime(Date stockEndTime) {
+		this.stockEndTime = stockEndTime;
+	}
+
+	public Date getStockStartTime() {
+		return this.stockStartTime;
+	}
+	public void setStockStartTime(Date stockStartTime) {
+		this.stockStartTime = stockStartTime;
+	}
+
+	public String getTechnicianId() {
+		return this.technicianId;
+	}
+	public void setTechnicianId(String technicianId) {
+		this.technicianId = technicianId;
+	}
+
+}

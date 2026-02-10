@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 文旅订单同步接口
  *
  * @author auto create
- * @since 1.0, 2026-01-28 19:38:35
+ * @since 1.0, 2026-02-10 14:47:43
  */
 public class AlipayCommerceTransportTourOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8546964426671921232L;
+	private static final long serialVersionUID = 1775337435293128624L;
 
 	/**
 	 * null

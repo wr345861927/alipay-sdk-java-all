@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-01-29 19:44:51
+ * @since 1.0, 2026-02-10 14:22:43
  */
 public class DeviceStatusInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4587633149857341786L;
+	private static final long serialVersionUID = 7677299619178352643L;
+
+	/**
+	 * 电池电量百分比（0~100）
+	 */
+	@ApiField("battery_percent")
+	private Long batteryPercent;
 
 	/**
 	 * 机器人编号
@@ -24,6 +30,13 @@ public class DeviceStatusInfo extends AlipayObject {
 	 */
 	@ApiField("status")
 	private String status;
+
+	public Long getBatteryPercent() {
+		return this.batteryPercent;
+	}
+	public void setBatteryPercent(Long batteryPercent) {
+		this.batteryPercent = batteryPercent;
+	}
 
 	public String getSn() {
 		return this.sn;

@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: anttech.morse.marketing.rta.send response.
  * 
  * @author auto create
- * @since 1.0, 2025-11-28 08:37:41
+ * @since 1.0, 2026-02-04 16:47:43
  */
 public class AnttechMorseMarketingRtaSendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8728846744914414971L;
+	private static final long serialVersionUID = 1119596299566675389L;
 
 	/** 
 	 * 业务唯一标识，标识本次查询的唯一识别号，用于问题定位
@@ -29,6 +29,12 @@ public class AnttechMorseMarketingRtaSendResponse extends AlipayResponse {
 	 */
 	@ApiField("campaign_id")
 	private String campaignId;
+
+	/** 
+	 * 请求是否幂等
+	 */
+	@ApiField("idempotent")
+	private Boolean idempotent;
 
 	/** 
 	 * 外部交易号
@@ -79,6 +85,13 @@ public class AnttechMorseMarketingRtaSendResponse extends AlipayResponse {
 	}
 	public String getCampaignId( ) {
 		return this.campaignId;
+	}
+
+	public void setIdempotent(Boolean idempotent) {
+		this.idempotent = idempotent;
+	}
+	public Boolean getIdempotent( ) {
+		return this.idempotent;
 	}
 
 	public void setOutBizNo(String outBizNo) {

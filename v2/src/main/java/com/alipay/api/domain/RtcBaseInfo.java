@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RtcBaseInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1524616741995895937L;
+	private static final long serialVersionUID = 3419827842986137217L;
 
 	/**
 	 * 频道ID

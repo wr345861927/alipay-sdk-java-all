@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: robby.open.device.status.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-29 19:44:51
+ * @since 1.0, 2026-02-10 14:22:43
  */
 public class RobbyOpenDeviceStatusQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7456172555277957811L;
+	private static final long serialVersionUID = 1549694485148952291L;
 
 	/** 
 	 * null

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.dtbankcust.channelvoucher.send response.
  * 
  * @author auto create
- * @since 1.0, 2025-01-21 14:07:24
+ * @since 1.0, 2026-02-04 14:24:07
  */
 public class AlipayUserDtbankcustChannelvoucherSendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4789647947268387136L;
+	private static final long serialVersionUID = 6179871575773151264L;
 
 	/** 
 	 * 接收渠道红包的，脱敏后的支付宝登录号

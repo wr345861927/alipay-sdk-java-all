@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.recycle.merchantasset.save request
  * 
  * @author auto create
- * @since 1.0, 2025-07-23 13:42:32
+ * @since 1.0, 2026-02-10 10:14:49
  */
 public class AlipayCommerceRecycleMerchantassetSaveRequest implements AlipayRequest<AlipayCommerceRecycleMerchantassetSaveResponse> {
 

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayDigitalmgmtTreasuryPaymentCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8811287874486143461L;
+	private static final long serialVersionUID = 3813464155979245778L;
 
 	/**
 	 * 操作人员，取消主动付款需要传

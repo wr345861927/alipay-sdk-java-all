@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEcoActivityRecycleQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7636889677815241343L;
+	private static final long serialVersionUID = 4712965429431689667L;
 
 	/** 
 	 * 能量返回结果列表

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 机器人任务创建
  *
  * @author auto create
- * @since 1.0, 2026-01-30 13:02:39
+ * @since 1.0, 2026-02-10 14:22:43
  */
 public class RobbyOpenTaskCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7836476419166634292L;
+	private static final long serialVersionUID = 8768499444335461687L;
 
 	/**
 	 * null
@@ -52,6 +52,12 @@ public class RobbyOpenTaskCreateModel extends AlipayObject {
 	 */
 	@ApiField("sub_biz_no")
 	private String subBizNo;
+
+	/**
+	 * 目标点
+	 */
+	@ApiField("target_point")
+	private TargetPoint targetPoint;
 
 	/**
 	 * 任务类型，根据自己的业务类型填值，如 PICK_UP
@@ -105,6 +111,13 @@ public class RobbyOpenTaskCreateModel extends AlipayObject {
 	}
 	public void setSubBizNo(String subBizNo) {
 		this.subBizNo = subBizNo;
+	}
+
+	public TargetPoint getTargetPoint() {
+		return this.targetPoint;
+	}
+	public void setTargetPoint(TargetPoint targetPoint) {
+		this.targetPoint = targetPoint;
 	}
 
 	public String getTaskType() {

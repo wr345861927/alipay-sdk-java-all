@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付宝个人AI协议签约接口
  *
  * @author auto create
- * @since 1.0, 2025-07-29 14:13:02
+ * @since 1.0, 2026-02-10 16:19:45
  */
 public class AlipayUserAgreementAgentSignModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7752226615198277447L;
+	private static final long serialVersionUID = 2743472536742436619L;
 
 	/**
 	 * 【描述】请按当前接入的方式进行填充，且输入值必须为文档中的参数取值范围。
@@ -20,7 +20,7 @@ public class AlipayUserAgreementAgentSignModel extends AlipayObject {
 	private AccessParams accessParams;
 
 	/**
-	 * 商户签约号，代扣协议中标示用户的唯一签约号（确保在商户系统中唯一）。 格式规则：支持大写小写字母和数字，最长32位。 商户系统按需自定义传入，用于区分用户在同一产品码、同一签约场景下，签订的多份代扣协议。
+	 * 商户签约号，AI付协议中标示用户的唯一签约号（确保在商户系统中唯一）。 格式规则：支持大写小写字母和数字，最长32位。 商户系统按需自定义传入，用于区分用户在同一产品码、同一签约场景下，签订的多份AI付协议。
 	 */
 	@ApiField("external_agreement_no")
 	private String externalAgreementNo;

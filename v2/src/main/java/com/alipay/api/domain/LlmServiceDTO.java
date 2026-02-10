@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class LlmServiceDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 4676573461888614954L;
+	private static final long serialVersionUID = 6842168397417351925L;
 
 	/**
 	 * 对话内容列表，流式输出中大模型的每次输出语句块

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class GuessQuestion extends AlipayObject {
 
-	private static final long serialVersionUID = 4112289163937495858L;
+	private static final long serialVersionUID = 7558729297495525338L;
 
 	/**
 	 * 问题内容

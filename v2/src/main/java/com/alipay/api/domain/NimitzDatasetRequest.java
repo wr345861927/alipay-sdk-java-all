@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class NimitzDatasetRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 2282822198738111698L;
+	private static final long serialVersionUID = 8137298334792859475L;
 
 	/**
 	 * 返回字段

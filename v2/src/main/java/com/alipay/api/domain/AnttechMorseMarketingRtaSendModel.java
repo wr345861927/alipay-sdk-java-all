@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 摩卡营销活动发奖接口
  *
  * @author auto create
- * @since 1.0, 2025-11-28 08:36:05
+ * @since 1.0, 2026-02-04 16:46:52
  */
 public class AnttechMorseMarketingRtaSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1782669248546415524L;
+	private static final long serialVersionUID = 2264974883958339861L;
 
 	/**
 	 * 活动id描述具体给用户发奖的活动，预发奖时可以为空
@@ -36,6 +36,12 @@ public class AnttechMorseMarketingRtaSendModel extends AlipayObject {
 	 */
 	@ApiField("extend_params")
 	private String extendParams;
+
+	/**
+	 * 用户登陆id
+	 */
+	@ApiField("login_id")
+	private String loginId;
 
 	/**
 	 * 支付宝登录账号，唯一确定发奖的支付宝账号信息，采用登录名用encryption_type加密方式加密获取的值，login_id_encryption、cert_encryption、mobile_encryption不能同时为空，优先级依次递减
@@ -73,6 +79,12 @@ public class AnttechMorseMarketingRtaSendModel extends AlipayObject {
 	@ApiField("user_pass_time")
 	private String userPassTime;
 
+	/**
+	 * 券金额，单位分
+	 */
+	@ApiField("voucher_amount")
+	private Long voucherAmount;
+
 	public String getCampaignId() {
 		return this.campaignId;
 	}
@@ -99,6 +111,13 @@ public class AnttechMorseMarketingRtaSendModel extends AlipayObject {
 	}
 	public void setExtendParams(String extendParams) {
 		this.extendParams = extendParams;
+	}
+
+	public String getLoginId() {
+		return this.loginId;
+	}
+	public void setLoginId(String loginId) {
+		this.loginId = loginId;
 	}
 
 	public String getLoginIdEncryption() {
@@ -141,6 +160,13 @@ public class AnttechMorseMarketingRtaSendModel extends AlipayObject {
 	}
 	public void setUserPassTime(String userPassTime) {
 		this.userPassTime = userPassTime;
+	}
+
+	public Long getVoucherAmount() {
+		return this.voucherAmount;
+	}
+	public void setVoucherAmount(Long voucherAmount) {
+		this.voucherAmount = voucherAmount;
 	}
 
 }

@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 气象参数查询标记
  *
  * @author auto create
- * @since 1.0, 2025-05-20 19:21:36
+ * @since 1.0, 2026-02-05 09:52:39
  */
 public class WeatherVariablesMark extends AlipayObject {
 
-	private static final long serialVersionUID = 5758272461573848145L;
+	private static final long serialVersionUID = 3235541954381389513L;
+
+	/**
+	 * 体感温度
+	 */
+	@ApiField("apparent_temperature")
+	private Boolean apparentTemperature;
 
 	/**
 	 * 总云量的标记，true表示查询，默认false
@@ -50,16 +56,40 @@ public class WeatherVariablesMark extends AlipayObject {
 	private Boolean diffuseRadiation;
 
 	/**
+	 * 散射辐照瞬时值
+	 */
+	@ApiField("diffuse_radiation_instant")
+	private Boolean diffuseRadiationInstant;
+
+	/**
 	 * 直接法向量辐照的标记，true表示查询，默认false
 	 */
 	@ApiField("direct_normal_irradiance")
 	private Boolean directNormalIrradiance;
 
 	/**
+	 * 直接法向量辐照瞬时值
+	 */
+	@ApiField("direct_normal_irradiance_instant")
+	private Boolean directNormalIrradianceInstant;
+
+	/**
 	 * 直接辐照的标记，true表示查询，默认false
 	 */
 	@ApiField("direct_radiation")
 	private Boolean directRadiation;
+
+	/**
+	 * 直接辐照瞬时值
+	 */
+	@ApiField("direct_radiation_instant")
+	private Boolean directRadiationInstant;
+
+	/**
+	 * 降水量（包含所有形式）
+	 */
+	@ApiField("precipitation")
+	private Boolean precipitation;
 
 	/**
 	 * 降雨概率的标记，true表示查询，默认false
@@ -74,6 +104,12 @@ public class WeatherVariablesMark extends AlipayObject {
 	private Boolean pressureMsl;
 
 	/**
+	 * 降雨量
+	 */
+	@ApiField("rain")
+	private Boolean rain;
+
+	/**
 	 * 地面两米处的相对空气湿度标记，true表示查询，默认false
 	 */
 	@ApiField("relative_humidity_2m")
@@ -84,6 +120,18 @@ public class WeatherVariablesMark extends AlipayObject {
 	 */
 	@ApiField("shortwave_radiation")
 	private Boolean shortwaveRadiation;
+
+	/**
+	 * 短波辐照瞬时值
+	 */
+	@ApiField("shortwave_radiation_instant")
+	private Boolean shortwaveRadiationInstant;
+
+	/**
+	 * 降雪量
+	 */
+	@ApiField("snowfall")
+	private Boolean snowfall;
 
 	/**
 	 * 地表大气压的标记，true表示查询，默认false
@@ -98,6 +146,12 @@ public class WeatherVariablesMark extends AlipayObject {
 	private Boolean temperature2m;
 
 	/**
+	 * 天气代码
+	 */
+	@ApiField("weather_code")
+	private Boolean weatherCode;
+
+	/**
 	 * 地面10米处风向标记，true表示查询，默认false
 	 */
 	@ApiField("wind_direction_10m")
@@ -108,6 +162,12 @@ public class WeatherVariablesMark extends AlipayObject {
 	 */
 	@ApiField("wind_direction_120m")
 	private Boolean windDirection120m;
+
+	/**
+	 * 地面 180 米处风向
+	 */
+	@ApiField("wind_direction_180m")
+	private Boolean windDirection180m;
 
 	/**
 	 * 地面80米处风向的标记，true表示查询，默认false
@@ -128,10 +188,23 @@ public class WeatherVariablesMark extends AlipayObject {
 	private Boolean windSpeed120m;
 
 	/**
+	 * 地面 180 米处风速
+	 */
+	@ApiField("wind_speed_180m")
+	private Boolean windSpeed180m;
+
+	/**
 	 * 地面80米处风速的标记，true表示查询，默认false
 	 */
 	@ApiField("wind_speed_80m")
 	private Boolean windSpeed80m;
+
+	public Boolean getApparentTemperature() {
+		return this.apparentTemperature;
+	}
+	public void setApparentTemperature(Boolean apparentTemperature) {
+		this.apparentTemperature = apparentTemperature;
+	}
 
 	public Boolean getCloudCover() {
 		return this.cloudCover;
@@ -175,6 +248,13 @@ public class WeatherVariablesMark extends AlipayObject {
 		this.diffuseRadiation = diffuseRadiation;
 	}
 
+	public Boolean getDiffuseRadiationInstant() {
+		return this.diffuseRadiationInstant;
+	}
+	public void setDiffuseRadiationInstant(Boolean diffuseRadiationInstant) {
+		this.diffuseRadiationInstant = diffuseRadiationInstant;
+	}
+
 	public Boolean getDirectNormalIrradiance() {
 		return this.directNormalIrradiance;
 	}
@@ -182,11 +262,32 @@ public class WeatherVariablesMark extends AlipayObject {
 		this.directNormalIrradiance = directNormalIrradiance;
 	}
 
+	public Boolean getDirectNormalIrradianceInstant() {
+		return this.directNormalIrradianceInstant;
+	}
+	public void setDirectNormalIrradianceInstant(Boolean directNormalIrradianceInstant) {
+		this.directNormalIrradianceInstant = directNormalIrradianceInstant;
+	}
+
 	public Boolean getDirectRadiation() {
 		return this.directRadiation;
 	}
 	public void setDirectRadiation(Boolean directRadiation) {
 		this.directRadiation = directRadiation;
+	}
+
+	public Boolean getDirectRadiationInstant() {
+		return this.directRadiationInstant;
+	}
+	public void setDirectRadiationInstant(Boolean directRadiationInstant) {
+		this.directRadiationInstant = directRadiationInstant;
+	}
+
+	public Boolean getPrecipitation() {
+		return this.precipitation;
+	}
+	public void setPrecipitation(Boolean precipitation) {
+		this.precipitation = precipitation;
 	}
 
 	public Boolean getPrecipitationProbability() {
@@ -203,6 +304,13 @@ public class WeatherVariablesMark extends AlipayObject {
 		this.pressureMsl = pressureMsl;
 	}
 
+	public Boolean getRain() {
+		return this.rain;
+	}
+	public void setRain(Boolean rain) {
+		this.rain = rain;
+	}
+
 	public Boolean getRelativeHumidity2m() {
 		return this.relativeHumidity2m;
 	}
@@ -215,6 +323,20 @@ public class WeatherVariablesMark extends AlipayObject {
 	}
 	public void setShortwaveRadiation(Boolean shortwaveRadiation) {
 		this.shortwaveRadiation = shortwaveRadiation;
+	}
+
+	public Boolean getShortwaveRadiationInstant() {
+		return this.shortwaveRadiationInstant;
+	}
+	public void setShortwaveRadiationInstant(Boolean shortwaveRadiationInstant) {
+		this.shortwaveRadiationInstant = shortwaveRadiationInstant;
+	}
+
+	public Boolean getSnowfall() {
+		return this.snowfall;
+	}
+	public void setSnowfall(Boolean snowfall) {
+		this.snowfall = snowfall;
 	}
 
 	public Boolean getSurfacePressure() {
@@ -231,6 +353,13 @@ public class WeatherVariablesMark extends AlipayObject {
 		this.temperature2m = temperature2m;
 	}
 
+	public Boolean getWeatherCode() {
+		return this.weatherCode;
+	}
+	public void setWeatherCode(Boolean weatherCode) {
+		this.weatherCode = weatherCode;
+	}
+
 	public Boolean getWindDirection10m() {
 		return this.windDirection10m;
 	}
@@ -243,6 +372,13 @@ public class WeatherVariablesMark extends AlipayObject {
 	}
 	public void setWindDirection120m(Boolean windDirection120m) {
 		this.windDirection120m = windDirection120m;
+	}
+
+	public Boolean getWindDirection180m() {
+		return this.windDirection180m;
+	}
+	public void setWindDirection180m(Boolean windDirection180m) {
+		this.windDirection180m = windDirection180m;
 	}
 
 	public Boolean getWindDirection80m() {
@@ -264,6 +400,13 @@ public class WeatherVariablesMark extends AlipayObject {
 	}
 	public void setWindSpeed120m(Boolean windSpeed120m) {
 		this.windSpeed120m = windSpeed120m;
+	}
+
+	public Boolean getWindSpeed180m() {
+		return this.windSpeed180m;
+	}
+	public void setWindSpeed180m(Boolean windSpeed180m) {
+		this.windSpeed180m = windSpeed180m;
 	}
 
 	public Boolean getWindSpeed80m() {

@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.collaborate.task.confirm response.
  * 
  * @author auto create
- * @since 1.0, 2025-03-10 13:52:24
+ * @since 1.0, 2026-02-08 10:28:01
  */
 public class AlipayOfflineProviderCollaborateTaskConfirmResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1215244547698717821L;
+	private static final long serialVersionUID = 2715656688355556754L;
 
 	/** 
 	 * 详细的任务信息

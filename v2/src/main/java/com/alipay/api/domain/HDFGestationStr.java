@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HDFGestationStr extends AlipayObject {
 
-	private static final long serialVersionUID = 6139943744754295157L;
+	private static final long serialVersionUID = 4433292353937844672L;
 
 	/**
 	 * 添加时间

@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFincoreComplianceRcsmartLivecontentQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3433774847966348572L;
+	private static final long serialVersionUID = 1816235658398522762L;
 
 	/** 
 	 * 直播信息列表

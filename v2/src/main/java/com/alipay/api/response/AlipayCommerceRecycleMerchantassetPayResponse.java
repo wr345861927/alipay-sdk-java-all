@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.recycle.merchantasset.pay response.
  * 
  * @author auto create
- * @since 1.0, 2025-07-03 16:22:32
+ * @since 1.0, 2026-02-10 10:14:41
  */
 public class AlipayCommerceRecycleMerchantassetPayResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5689234514155943493L;
+	private static final long serialVersionUID = 1874982459996516578L;
 
 	/** 
 	 * 充值链接，在pc打开该链接，并使用商户账号完成充值

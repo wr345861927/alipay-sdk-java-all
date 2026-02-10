@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 文旅凭证信息
  *
  * @author auto create
- * @since 1.0, 2025-12-05 11:01:35
+ * @since 1.0, 2026-02-10 14:43:58
  */
 public class TourVoucherDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 7711565345934873572L;
+	private static final long serialVersionUID = 4312868266266358971L;
 
 	/**
 	 * 游客证件号码。一码通场景，凭证状态未使用时，证件号与手机号二选一必填。
@@ -23,7 +23,14 @@ public class TourVoucherDetail extends AlipayObject {
 	private String certNo;
 
 	/**
-	 * 证件类型，身份证：IDENTITY_CARD。传入时需要传入证件号，不传默认填充身份证。
+	 * 证件类型，传入证件号的同时需要传入证件类型，不传默认填充身份证。
+身份证：IDENTITY_CARD
+护照：PASSPORT
+港澳居民通行证：HOME_VISIT_PERMIT_HK_MC
+台湾居民通行证：HOME_VISIT_PERMIT_TAIWAN
+港澳居民居住证：RESIDENCE_PERMIT_HK_MC
+台湾居民居住证：RESIDENCE_PERMIT_TAIWAN
+外国人永久居留证：PERMANENT_RESIDENCE_FOREIGNER
 	 */
 	@ApiField("cert_type")
 	private String certType;
@@ -92,6 +99,12 @@ REFUNDED-已退款
 	 */
 	@ApiField("tele_no")
 	private String teleNo;
+
+	/**
+	 * 【门票核销方式】当凭证状态为「部分核销」或「已核销」时填写。
+	 */
+	@ApiField("verify_method")
+	private String verifyMethod;
 
 	/**
 	 * 凭证核销用户的openId，当凭证为核销状态时必传
@@ -196,6 +209,13 @@ voucherName：凭证名称/票名称，必填
 	}
 	public void setTeleNo(String teleNo) {
 		this.teleNo = teleNo;
+	}
+
+	public String getVerifyMethod() {
+		return this.verifyMethod;
+	}
+	public void setVerifyMethod(String verifyMethod) {
+		this.verifyMethod = verifyMethod;
 	}
 
 	public String getVerifyOpenId() {

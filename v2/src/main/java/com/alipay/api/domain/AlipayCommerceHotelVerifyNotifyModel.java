@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 用户核身通知
  *
  * @author auto create
- * @since 1.0, 2026-01-21 15:46:37
+ * @since 1.0, 2026-02-09 16:35:00
  */
 public class AlipayCommerceHotelVerifyNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5598651753368722394L;
+	private static final long serialVersionUID = 6473372256716372238L;
 
 	/**
 	 * 设备唯一id

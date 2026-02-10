@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMedicalHzreferralformDetailGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1279638172218828654L;
+	private static final long serialVersionUID = 4774932333622651234L;
 
 	/** 
 	 * 患者的年龄，单位“岁”

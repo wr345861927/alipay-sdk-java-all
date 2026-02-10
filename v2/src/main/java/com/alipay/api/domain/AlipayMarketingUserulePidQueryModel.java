@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayMarketingUserulePidQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3144827389113746867L;
+	private static final long serialVersionUID = 8768635958375439263L;
 
 	/**
 	 * 合作伙伴ID，传入ID必须与当前APPID所属合作伙伴ID一致，否则会报权限不足

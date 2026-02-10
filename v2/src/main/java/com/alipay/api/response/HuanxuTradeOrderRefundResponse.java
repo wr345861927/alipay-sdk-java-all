@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class HuanxuTradeOrderRefundResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5749334119855942416L;
+	private static final long serialVersionUID = 4187653354247187245L;
 
 	/** 
 	 * 聚合支付的支付渠道，焕旭分配。

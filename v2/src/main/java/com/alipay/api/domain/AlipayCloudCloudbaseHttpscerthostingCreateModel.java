@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 新增Https证书
  *
  * @author auto create
- * @since 1.0, 2025-08-12 16:17:01
+ * @since 1.0, 2026-02-05 14:05:30
  */
 public class AlipayCloudCloudbaseHttpscerthostingCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3222599318426449435L;
+	private static final long serialVersionUID = 5187385775236457896L;
 
 	/**
 	 * acme需要的key列表
@@ -53,6 +53,7 @@ public class AlipayCloudCloudbaseHttpscerthostingCreateModel extends AlipayObjec
  - cloudflare
  - dnspod
  - godaddy
+ - west
 	 */
 	@ApiField("domain_provider")
 	private String domainProvider;

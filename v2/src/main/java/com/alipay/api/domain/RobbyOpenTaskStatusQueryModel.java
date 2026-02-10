@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 机器人任务状态查询
  *
  * @author auto create
- * @since 1.0, 2026-01-05 17:46:54
+ * @since 1.0, 2026-02-10 14:22:44
  */
 public class RobbyOpenTaskStatusQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3219448557969944211L;
+	private static final long serialVersionUID = 8143296895381616283L;
 
 	/**
 	 * 子业务编号，全局唯一

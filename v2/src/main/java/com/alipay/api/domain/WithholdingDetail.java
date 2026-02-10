@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 代扣详情信息
  *
  * @author auto create
- * @since 1.0, 2026-01-26 17:52:42
+ * @since 1.0, 2026-02-09 13:37:43
  */
 public class WithholdingDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 8128414652472659958L;
+	private static final long serialVersionUID = 6179793445933279226L;
 
 	/**
 	 * 应扣时间

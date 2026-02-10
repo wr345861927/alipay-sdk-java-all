@@ -1,6 +1,12 @@
 package com.alipay.api.response;
 
+import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
+import com.alipay.api.domain.InvoiceAirplaneItinerary;
+import com.alipay.api.domain.InvoiceItemDTO;
+import com.alipay.api.domain.InvoicePassenger;
+import com.alipay.api.domain.InvoiceTrainItinerary;
 
 import com.alipay.api.AlipayResponse;
 
@@ -8,17 +14,35 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ebpp.industry.invoice.verify response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-02 11:13:00
+ * @since 1.0, 2026-02-04 14:57:42
  */
 public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8462876932215723328L;
+	private static final long serialVersionUID = 2899431748339649781L;
+
+	/** 
+	 * 飞机行程单信息
+	 */
+	@ApiField("airplane_itinerary")
+	private InvoiceAirplaneItinerary airplaneItinerary;
 
 	/** 
 	 * 购买方地址
 	 */
 	@ApiField("buyer_address")
 	private String buyerAddress;
+
+	/** 
+	 * 购买方银行账号
+	 */
+	@ApiField("buyer_bank_account")
+	private String buyerBankAccount;
+
+	/** 
+	 * 购买方开户行名称
+	 */
+	@ApiField("buyer_bank_name")
+	private String buyerBankName;
 
 	/** 
 	 * 购买方名称
@@ -31,6 +55,12 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 	 */
 	@ApiField("buyer_tax_no")
 	private String buyerTaxNo;
+
+	/** 
+	 * 购买方电话
+	 */
+	@ApiField("buyer_telephone")
+	private String buyerTelephone;
 
 	/** 
 	 * 发票金额，单位元
@@ -57,10 +87,36 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 	private String invoiceTaxAmount;
 
 	/** 
+	 * null
+	 */
+	@ApiListField("item_list")
+	@ApiField("invoice_item_d_t_o")
+	private List<InvoiceItemDTO> itemList;
+
+	/** 
+	 * null
+	 */
+	@ApiListField("passenger_list")
+	@ApiField("invoice_passenger")
+	private List<InvoicePassenger> passengerList;
+
+	/** 
 	 * 销售方地址
 	 */
 	@ApiField("seller_address")
 	private String sellerAddress;
+
+	/** 
+	 * 销售方银行账号
+	 */
+	@ApiField("seller_bank_account")
+	private String sellerBankAccount;
+
+	/** 
+	 * 销售方开户行名称
+	 */
+	@ApiField("seller_bank_name")
+	private String sellerBankName;
 
 	/** 
 	 * 销售方名称
@@ -75,6 +131,18 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 	private String sellerTaxNo;
 
 	/** 
+	 * 销售方电话
+	 */
+	@ApiField("seller_telephone")
+	private String sellerTelephone;
+
+	/** 
+	 * 火车行程单信息
+	 */
+	@ApiField("train_itinerary")
+	private InvoiceTrainItinerary trainItinerary;
+
+	/** 
 	 * 发票验证结果码
 	 */
 	@ApiField("verify_result_code")
@@ -86,11 +154,32 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 	@ApiField("verify_result_desc")
 	private String verifyResultDesc;
 
+	public void setAirplaneItinerary(InvoiceAirplaneItinerary airplaneItinerary) {
+		this.airplaneItinerary = airplaneItinerary;
+	}
+	public InvoiceAirplaneItinerary getAirplaneItinerary( ) {
+		return this.airplaneItinerary;
+	}
+
 	public void setBuyerAddress(String buyerAddress) {
 		this.buyerAddress = buyerAddress;
 	}
 	public String getBuyerAddress( ) {
 		return this.buyerAddress;
+	}
+
+	public void setBuyerBankAccount(String buyerBankAccount) {
+		this.buyerBankAccount = buyerBankAccount;
+	}
+	public String getBuyerBankAccount( ) {
+		return this.buyerBankAccount;
+	}
+
+	public void setBuyerBankName(String buyerBankName) {
+		this.buyerBankName = buyerBankName;
+	}
+	public String getBuyerBankName( ) {
+		return this.buyerBankName;
 	}
 
 	public void setBuyerName(String buyerName) {
@@ -105,6 +194,13 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 	}
 	public String getBuyerTaxNo( ) {
 		return this.buyerTaxNo;
+	}
+
+	public void setBuyerTelephone(String buyerTelephone) {
+		this.buyerTelephone = buyerTelephone;
+	}
+	public String getBuyerTelephone( ) {
+		return this.buyerTelephone;
 	}
 
 	public void setInvoiceAmount(String invoiceAmount) {
@@ -135,11 +231,39 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 		return this.invoiceTaxAmount;
 	}
 
+	public void setItemList(List<InvoiceItemDTO> itemList) {
+		this.itemList = itemList;
+	}
+	public List<InvoiceItemDTO> getItemList( ) {
+		return this.itemList;
+	}
+
+	public void setPassengerList(List<InvoicePassenger> passengerList) {
+		this.passengerList = passengerList;
+	}
+	public List<InvoicePassenger> getPassengerList( ) {
+		return this.passengerList;
+	}
+
 	public void setSellerAddress(String sellerAddress) {
 		this.sellerAddress = sellerAddress;
 	}
 	public String getSellerAddress( ) {
 		return this.sellerAddress;
+	}
+
+	public void setSellerBankAccount(String sellerBankAccount) {
+		this.sellerBankAccount = sellerBankAccount;
+	}
+	public String getSellerBankAccount( ) {
+		return this.sellerBankAccount;
+	}
+
+	public void setSellerBankName(String sellerBankName) {
+		this.sellerBankName = sellerBankName;
+	}
+	public String getSellerBankName( ) {
+		return this.sellerBankName;
 	}
 
 	public void setSellerName(String sellerName) {
@@ -154,6 +278,20 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 	}
 	public String getSellerTaxNo( ) {
 		return this.sellerTaxNo;
+	}
+
+	public void setSellerTelephone(String sellerTelephone) {
+		this.sellerTelephone = sellerTelephone;
+	}
+	public String getSellerTelephone( ) {
+		return this.sellerTelephone;
+	}
+
+	public void setTrainItinerary(InvoiceTrainItinerary trainItinerary) {
+		this.trainItinerary = trainItinerary;
+	}
+	public InvoiceTrainItinerary getTrainItinerary( ) {
+		return this.trainItinerary;
 	}
 
 	public void setVerifyResultCode(String verifyResultCode) {

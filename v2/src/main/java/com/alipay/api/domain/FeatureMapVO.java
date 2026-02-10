@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FeatureMapVO extends AlipayObject {
 
-	private static final long serialVersionUID = 3236343173935595236L;
+	private static final long serialVersionUID = 5415756836676418934L;
 
 	/**
 	 * 1：属性为营养成分属性 其他：非营养成分属性

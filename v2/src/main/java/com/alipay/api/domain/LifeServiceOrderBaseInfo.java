@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商品基本信息
  *
  * @author auto create
- * @since 1.0, 2026-01-26 14:58:17
+ * @since 1.0, 2026-02-04 15:02:14
  */
 public class LifeServiceOrderBaseInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8164419135714442382L;
+	private static final long serialVersionUID = 6445421983282692517L;
 
 	/**
 	 * 商家订单id

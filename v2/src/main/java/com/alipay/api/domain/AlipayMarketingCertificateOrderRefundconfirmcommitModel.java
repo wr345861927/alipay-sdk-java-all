@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 订单退款前商户回复确认退款结果
  *
  * @author auto create
- * @since 1.0, 2024-06-14 10:58:51
+ * @since 1.0, 2026-02-05 14:27:45
  */
 public class AlipayMarketingCertificateOrderRefundconfirmcommitModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2314667845548478545L;
+	private static final long serialVersionUID = 7112298129458946352L;
 
 	/**
 	 * 凭证标识ID。通过退款前向商户确认是否可以退款spi入参获取
@@ -26,9 +26,10 @@ public class AlipayMarketingCertificateOrderRefundconfirmcommitModel extends Ali
 	private String code;
 
 	/**
-	 * 订单号。通过退款前向商户确认是否可以退款spi入参获取
+	 * 订单号。通过退款前向商户确认是否可以退款spi入参获取 当前字段已废弃(请使用新参数refund_order_id退款订单号)
 	 */
 	@ApiField("order_id")
+	@Deprecated
 	private String orderId;
 
 	/**
@@ -36,6 +37,12 @@ public class AlipayMarketingCertificateOrderRefundconfirmcommitModel extends Ali
 	 */
 	@ApiField("reason")
 	private String reason;
+
+	/**
+	 * 凭证退款订单号
+	 */
+	@ApiField("refund_order_id")
+	private String refundOrderId;
 
 	/**
 	 * 退款前向商户确认退款结果
@@ -81,6 +88,13 @@ public class AlipayMarketingCertificateOrderRefundconfirmcommitModel extends Ali
 	}
 	public void setReason(String reason) {
 		this.reason = reason;
+	}
+
+	public String getRefundOrderId() {
+		return this.refundOrderId;
+	}
+	public void setRefundOrderId(String refundOrderId) {
+		this.refundOrderId = refundOrderId;
 	}
 
 	public String getResult() {

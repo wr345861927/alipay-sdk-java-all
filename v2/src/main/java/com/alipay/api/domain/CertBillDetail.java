@@ -9,23 +9,65 @@ import com.alipay.api.internal.mapping.ApiField;
  * 凭证账单详情
  *
  * @author auto create
- * @since 1.0, 2025-10-28 11:55:02
+ * @since 1.0, 2026-02-04 20:57:08
  */
 public class CertBillDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 3142981947351375362L;
+	private static final long serialVersionUID = 6138323618541792539L;
 
 	/**
-	 * 当前账单对应的凭证id
+	 * 平台接收商家核销请求后的核销处理时间
+	 */
+	@ApiField("alipay_verify_time")
+	private Date alipayVerifyTime;
+
+	/**
+	 * 支付宝平台的凭证ID。开发者可以通过凭证核销准备接口获取。
 	 */
 	@ApiField("certificate_id")
 	private String certificateId;
 
 	/**
-	 * 商家优惠，单位：元
+	 * 仅当商家自行发放的三方码情况下，非空
+	 */
+	@ApiField("code")
+	private String code;
+
+	/**
+	 * 商品ID
+	 */
+	@ApiField("item_id")
+	private String itemId;
+
+	/**
+	 * 商品类型
+	 */
+	@ApiField("item_type")
+	private String itemType;
+
+	/**
+	 * 仅当商家通过请求门店创建接口同步门店信息时，非空
+	 */
+	@ApiField("m_shop_id")
+	private String mShopId;
+
+	/**
+	 * 商家请求同步凭证核销状态接口时传入，即同步凭证核销状态接口的请求参数out_biz_no
+	 */
+	@ApiField("m_use_order_id")
+	private String mUseOrderId;
+
+	/**
+	 * 表示商家出资补贴的优惠金额。单位：元
 	 */
 	@ApiField("merchant_discount")
 	private String merchantDiscount;
+
+	/**
+	 * 平台订单号，表示券售卖订单ID
+	 */
+	@ApiField("order_id")
+	private String orderId;
 
 	/**
 	 * 券的原售价，单位：元
@@ -34,13 +76,13 @@ public class CertBillDetail extends AlipayObject {
 	private String originPrice;
 
 	/**
-	 * 平台优惠，单位：元
+	 * 表示平台出资补贴的优惠金额。单位：元
 	 */
 	@ApiField("platform_discount")
 	private String platformDiscount;
 
 	/**
-	 * 用户实付，单位：元
+	 * 不包含商家、平台出资补贴优惠。单位：元
 	 */
 	@ApiField("real_pay")
 	private String realPay;
@@ -52,48 +94,81 @@ public class CertBillDetail extends AlipayObject {
 	private String salePrice;
 
 	/**
-	 * 实际结算金额，单位：元
+	 * 券售卖场景
+	 */
+	@ApiField("scene_name")
+	private String sceneName;
+
+	/**
+	 * 当商家结算方式=结算到户，格式：支付宝账户|abc@alipay.com
+当商家结算方式=结算到银行卡，格式：工商银行|****卡号末4位
+	 */
+	@ApiField("settle_account")
+	private String settleAccount;
+
+	/**
+	 * 表示凭证核销后订单结算金额，未扣除平台技术服务费、三方交易佣金。单位：元
 	 */
 	@ApiField("settle_amount")
 	private String settleAmount;
 
 	/**
 	 * settle_type 为“USE”：代表“结算时间”
-settle_type为“REFUND”：代表“退结算时间”
+settle_type 为“REFUND”：代表“退结算时间”
 	 */
 	@ApiField("settle_time")
 	private Date settleTime;
 
 	/**
-	 * 当前账单的结算类型
+	 * 账单流水类型
 	 */
 	@ApiField("settle_type")
 	private String settleType;
 
 	/**
-	 * 总三方分账金额（saas服务商佣金、待运营服务商佣金 等），单位：元
+	 * 第三方交易佣金，如服务商代运营佣金。单位：元
 	 */
 	@ApiField("total_alloc_amount")
 	private String totalAllocAmount;
 
 	/**
-	 * 总抽佣金额（支付宝平台抽佣金额），单位：元
+	 * 平台技术服务费。单位：元
 	 */
 	@ApiField("total_commission_amount")
 	private String totalCommissionAmount;
 
 	/**
 	 * settle_type 为“USE”：代表“核销时间”
-settle_type为“REFUND”：代表“退款时间”
+settle_type为“REFUND”：代表“退款时间” 当前字段已废弃(字段废弃，不建议使用)
 	 */
 	@ApiField("trade_time")
+	@Deprecated
 	private Date tradeTime;
 
 	/**
-	 * 核销的门店id
+	 * 券核销的蚂蚁门店ID
 	 */
 	@ApiField("use_shop_id")
 	private String useShopId;
+
+	/**
+	 * 券核销的蚂蚁门店名称
+	 */
+	@ApiField("use_shop_name")
+	private String useShopName;
+
+	/**
+	 * 商家请求凭证核销接口时传入的时间，即同步凭证核销状态接口中的请求参数biz_dt
+	 */
+	@ApiField("verify_time")
+	private Date verifyTime;
+
+	public Date getAlipayVerifyTime() {
+		return this.alipayVerifyTime;
+	}
+	public void setAlipayVerifyTime(Date alipayVerifyTime) {
+		this.alipayVerifyTime = alipayVerifyTime;
+	}
 
 	public String getCertificateId() {
 		return this.certificateId;
@@ -102,11 +177,53 @@ settle_type为“REFUND”：代表“退款时间”
 		this.certificateId = certificateId;
 	}
 
+	public String getCode() {
+		return this.code;
+	}
+	public void setCode(String code) {
+		this.code = code;
+	}
+
+	public String getItemId() {
+		return this.itemId;
+	}
+	public void setItemId(String itemId) {
+		this.itemId = itemId;
+	}
+
+	public String getItemType() {
+		return this.itemType;
+	}
+	public void setItemType(String itemType) {
+		this.itemType = itemType;
+	}
+
+	public String getmShopId() {
+		return this.mShopId;
+	}
+	public void setmShopId(String mShopId) {
+		this.mShopId = mShopId;
+	}
+
+	public String getmUseOrderId() {
+		return this.mUseOrderId;
+	}
+	public void setmUseOrderId(String mUseOrderId) {
+		this.mUseOrderId = mUseOrderId;
+	}
+
 	public String getMerchantDiscount() {
 		return this.merchantDiscount;
 	}
 	public void setMerchantDiscount(String merchantDiscount) {
 		this.merchantDiscount = merchantDiscount;
+	}
+
+	public String getOrderId() {
+		return this.orderId;
+	}
+	public void setOrderId(String orderId) {
+		this.orderId = orderId;
 	}
 
 	public String getOriginPrice() {
@@ -135,6 +252,20 @@ settle_type为“REFUND”：代表“退款时间”
 	}
 	public void setSalePrice(String salePrice) {
 		this.salePrice = salePrice;
+	}
+
+	public String getSceneName() {
+		return this.sceneName;
+	}
+	public void setSceneName(String sceneName) {
+		this.sceneName = sceneName;
+	}
+
+	public String getSettleAccount() {
+		return this.settleAccount;
+	}
+	public void setSettleAccount(String settleAccount) {
+		this.settleAccount = settleAccount;
 	}
 
 	public String getSettleAmount() {
@@ -184,6 +315,20 @@ settle_type为“REFUND”：代表“退款时间”
 	}
 	public void setUseShopId(String useShopId) {
 		this.useShopId = useShopId;
+	}
+
+	public String getUseShopName() {
+		return this.useShopName;
+	}
+	public void setUseShopName(String useShopName) {
+		this.useShopName = useShopName;
+	}
+
+	public Date getVerifyTime() {
+		return this.verifyTime;
+	}
+	public void setVerifyTime(Date verifyTime) {
+		this.verifyTime = verifyTime;
 	}
 
 }

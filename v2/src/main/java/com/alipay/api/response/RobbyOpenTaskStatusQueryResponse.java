@@ -3,6 +3,7 @@ package com.alipay.api.response;
 import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
+import com.alipay.api.domain.ExceptionInfo;
 import com.alipay.api.domain.ObjectTaskStatus;
 
 import com.alipay.api.AlipayResponse;
@@ -11,17 +12,24 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: robby.open.task.status.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-05 17:46:54
+ * @since 1.0, 2026-02-10 14:22:44
  */
 public class RobbyOpenTaskStatusQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8632157566632737722L;
+	private static final long serialVersionUID = 7741236216597746379L;
 
 	/** 
 	 * 业务编号
 	 */
 	@ApiField("biz_no")
 	private String bizNo;
+
+	/** 
+	 * null
+	 */
+	@ApiListField("exception_info_list")
+	@ApiField("exception_info")
+	private List<ExceptionInfo> exceptionInfoList;
 
 	/** 
 	 * null
@@ -53,6 +61,13 @@ public class RobbyOpenTaskStatusQueryResponse extends AlipayResponse {
 	}
 	public String getBizNo( ) {
 		return this.bizNo;
+	}
+
+	public void setExceptionInfoList(List<ExceptionInfo> exceptionInfoList) {
+		this.exceptionInfoList = exceptionInfoList;
+	}
+	public List<ExceptionInfo> getExceptionInfoList( ) {
+		return this.exceptionInfoList;
 	}
 
 	public void setObjectTaskStatusList(List<ObjectTaskStatus> objectTaskStatusList) {

@@ -1,17 +1,20 @@
 package com.alipay.api.domain;
 
+import java.util.List;
+
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
 
 /**
  * 活动奖品对象，包含活动渠道、优惠金额、优惠门槛、活动文案等等信息
  *
  * @author auto create
- * @since 1.0, 2024-07-10 14:37:01
+ * @since 1.0, 2026-02-04 18:33:11
  */
 public class CampaignPrize extends AlipayObject {
 
-	private static final long serialVersionUID = 3137123497652112896L;
+	private static final long serialVersionUID = 2711753992411579726L;
 
 	/**
 	 * 用于标识活动可以享受的实际优惠的金额，单位元
@@ -36,6 +39,12 @@ public class CampaignPrize extends AlipayObject {
 	 */
 	@ApiField("campaign_id")
 	private String campaignId;
+
+	/**
+	 * 拓展信息，instId（银行简称）; cardType（卡类型,多个以","分隔）:CC:信用卡，DC:借记卡 ; cardBin（ 活动卡bin信息，多个以","分隔）;campaignType（活动类型）:INEXACT:饿了么非精准活动
+	 */
+	@ApiField("consult_extend_info")
+	private ConsultExtendInfo consultExtendInfo;
 
 	/**
 	 * 创意文案信息标识命中活动露出的创意文案信息，可以通过管理平台配置并露出给调用方，自定义信息，一般是json格式，配置自定义创意时必选
@@ -66,6 +75,13 @@ public class CampaignPrize extends AlipayObject {
 	 */
 	@ApiField("min_amount")
 	private String minAmount;
+
+	/**
+	 * 用于返回多渠道信息，当consult_extend_info.campaignType=INEXACT时不为空
+	 */
+	@ApiListField("multiple_campaign_channel")
+	@ApiField("multiple_campaign_channel")
+	private List<MultipleCampaignChannel> multipleCampaignChannel;
 
 	/**
 	 * 优惠门槛金额类型，标识订单金额需要满此金额才能享受优惠，配置权益时必选
@@ -101,6 +117,13 @@ public class CampaignPrize extends AlipayObject {
 		this.campaignId = campaignId;
 	}
 
+	public ConsultExtendInfo getConsultExtendInfo() {
+		return this.consultExtendInfo;
+	}
+	public void setConsultExtendInfo(ConsultExtendInfo consultExtendInfo) {
+		this.consultExtendInfo = consultExtendInfo;
+	}
+
 	public String getIdeaContent() {
 		return this.ideaContent;
 	}
@@ -134,6 +157,13 @@ public class CampaignPrize extends AlipayObject {
 	}
 	public void setMinAmount(String minAmount) {
 		this.minAmount = minAmount;
+	}
+
+	public List<MultipleCampaignChannel> getMultipleCampaignChannel() {
+		return this.multipleCampaignChannel;
+	}
+	public void setMultipleCampaignChannel(List<MultipleCampaignChannel> multipleCampaignChannel) {
+		this.multipleCampaignChannel = multipleCampaignChannel;
 	}
 
 	public String getThreshold() {

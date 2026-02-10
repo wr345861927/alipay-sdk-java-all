@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 拒绝协同任务
  *
  * @author auto create
- * @since 1.0, 2024-10-08 15:43:20
+ * @since 1.0, 2026-02-05 11:35:26
  */
 public class AlipayOfflineProviderCollaborateTaskRefuseModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3613266568914399626L;
+	private static final long serialVersionUID = 3648852888977313678L;
 
 	/**
 	 * 当前操作在业务系统实际发生的时间。

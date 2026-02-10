@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HmEquityInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8887954924462839638L;
+	private static final long serialVersionUID = 7777674219266489714L;
 
 	/**
 	 * 是否激活

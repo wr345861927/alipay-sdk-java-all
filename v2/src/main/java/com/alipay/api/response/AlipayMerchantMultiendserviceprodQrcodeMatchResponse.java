@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMerchantMultiendserviceprodQrcodeMatchResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3637695522812252437L;
+	private static final long serialVersionUID = 1176947726824639593L;
 
 	/** 
 	 * 是否支持支付宝缴费
