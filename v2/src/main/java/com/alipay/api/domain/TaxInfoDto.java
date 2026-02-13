@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TaxInfoDto extends AlipayObject {
 
-	private static final long serialVersionUID = 1478274577337329584L;
+	private static final long serialVersionUID = 3844487343954775886L;
 
 	/**
 	 * 地址

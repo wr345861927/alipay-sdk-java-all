@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InsHealthGiftBatchValidGiftResult extends AlipayObject {
 
-	private static final long serialVersionUID = 1573124136782864119L;
+	private static final long serialVersionUID = 1261839871298681525L;
 
 	/**
 	 * 赠险业务标志

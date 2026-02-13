@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RentSkuInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3837425565475484149L;
+	private static final long serialVersionUID = 7343666217388953754L;
 
 	/**
 	 * sku属性信息

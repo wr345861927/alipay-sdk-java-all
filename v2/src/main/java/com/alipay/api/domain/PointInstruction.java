@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PointInstruction extends AlipayObject {
 
-	private static final long serialVersionUID = 1234214954278586856L;
+	private static final long serialVersionUID = 4374995646895792744L;
 
 	/**
 	 * 流水动作

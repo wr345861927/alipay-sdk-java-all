@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.collaborate.task.pull response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-08 10:27:24
+ * @since 1.0, 2026-02-12 16:27:43
  */
 public class AlipayOfflineProviderCollaborateTaskPullResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5698442638225897158L;
+	private static final long serialVersionUID = 1253157217595229269L;
 
 	/** 
 	 * 拉取到的任务数量

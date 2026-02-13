@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InteligentForbiddenTime extends AlipayObject {
 
-	private static final long serialVersionUID = 3772388881596538566L;
+	private static final long serialVersionUID = 3224828623331614673L;
 
 	/**
 	 * 不可用日期区间，仅支持到天

@@ -19,11 +19,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.app.localitem.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-09 21:44:58
+ * @since 1.0, 2026-02-12 15:57:43
  */
 public class AlipayOpenAppLocalitemQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2177939792854212111L;
+	private static final long serialVersionUID = 2445193294484799835L;
 
 	/** 
 	 * 商品属性
@@ -118,6 +118,12 @@ public class AlipayOpenAppLocalitemQueryResponse extends AlipayResponse {
 	 */
 	@ApiField("path")
 	private String path;
+
+	/** 
+	 * 响应方式为url，包含具体的可用门店id列表，示例："门店1id,门店2id"，多值使用逗号分隔
+	 */
+	@ApiField("poi_ids")
+	private String poiIds;
 
 	/** 
 	 * 商品有冻结、驳回时，展示对应的具体问题
@@ -279,6 +285,13 @@ public class AlipayOpenAppLocalitemQueryResponse extends AlipayResponse {
 	}
 	public String getPath( ) {
 		return this.path;
+	}
+
+	public void setPoiIds(String poiIds) {
+		this.poiIds = poiIds;
+	}
+	public String getPoiIds( ) {
+		return this.poiIds;
 	}
 
 	public void setRiskInfo(List<ItemRiskInfo> riskInfo) {

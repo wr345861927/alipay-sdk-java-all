@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 拉取协同任务
  *
  * @author auto create
- * @since 1.0, 2026-02-04 21:22:52
+ * @since 1.0, 2026-02-12 16:23:04
  */
 public class AlipayOfflineProviderCollaborateTaskPullModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8772138547248522416L;
+	private static final long serialVersionUID = 1468797946375486439L;
 
 	/**
 	 * 单次拉取查询的任务数量，默认 100。

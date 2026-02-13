@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ChceckReport extends AlipayObject {
 
-	private static final long serialVersionUID = 6479616128591595411L;
+	private static final long serialVersionUID = 4458337836569319657L;
 
 	/**
 	 * 出报告的时间

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ShortPlayFrameFile extends AlipayObject {
 
-	private static final long serialVersionUID = 7556793616138698287L;
+	private static final long serialVersionUID = 5561136554183241999L;
 
 	/**
 	 * 第几季的第几集，例如第一季第15集记作1S_15

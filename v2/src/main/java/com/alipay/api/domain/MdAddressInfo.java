@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MdAddressInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7775192398471334367L;
+	private static final long serialVersionUID = 7882852781423222989L;
 
 	/**
 	 * 城市名称

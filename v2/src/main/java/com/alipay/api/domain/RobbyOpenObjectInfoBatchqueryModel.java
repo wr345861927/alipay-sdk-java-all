@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 业务对象批量查询
  *
  * @author auto create
- * @since 1.0, 2026-01-05 17:47:43
+ * @since 1.0, 2026-02-12 13:00:18
  */
 public class RobbyOpenObjectInfoBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8339953116748737659L;
+	private static final long serialVersionUID = 2236289285228641264L;
 
 	/**
 	 * 业务编号，如订单号

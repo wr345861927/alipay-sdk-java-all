@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 协同任务信息
  *
  * @author auto create
- * @since 1.0, 2026-02-04 21:22:52
+ * @since 1.0, 2026-02-12 16:23:04
  */
 public class CollaborateTask extends AlipayObject {
 
-	private static final long serialVersionUID = 1291687434276429788L;
+	private static final long serialVersionUID = 2634288493332319462L;
 
 	/**
 	 * 活动描述，用户参与活动时返回。
@@ -40,6 +40,24 @@ public class CollaborateTask extends AlipayObject {
 	 */
 	@ApiField("address")
 	private String address;
+
+	/**
+	 * 餐饮:CATERING
+生鲜:FRESH
+五金家装:HARDWARE_HOME
+超市便利:SUPERMARKET
+服装饰品箱包:CLOTHING_ACCESSORIES
+美容美发美甲:BEAUTY_SERVICE
+数码电器:ELECTRONICS
+文体娱乐:ENTERTAINMENT
+教育:EDUCATION
+彩妆护肤:COSMETICS
+生活服务:LIFE_SERVICE
+出租车:TAXI
+其他:OTHER
+	 */
+	@ApiField("biz_industry")
+	private String bizIndustry;
 
 	/**
 	 * 市级编码，入：330100 表示杭州市。
@@ -152,8 +170,9 @@ public class CollaborateTask extends AlipayObject {
 	private String taskNo;
 
 	/**
-	 * WILLNGNESS-强意愿用户（多次提报）
-NOT_SIGNING-线上未签约，如果solutionId不为空则说明有签约意愿但是并没有实际签约动作，作业时可以做商户行为参考
+	 * 任务标签，解释说明:
+WILLNGNESS -强意愿用户（多次提报）
+NOT_SIGNING -线上未签约，如果solutionId不为空则说明有签约意愿但是并没有实际签约动作，作业时可以做商户行为参考
 HAS_SIGNED-线上已签约，作业时如果需要切换任务，需要先退出卖进方案
 STOCK-线下存量摸排出的，有明确安装意愿的商户
 ELEME-饿了么的商户
@@ -171,6 +190,13 @@ ELEME_BRAND-饿了么品牌的商户
 	 */
 	@ApiField("tel")
 	private String tel;
+
+	/**
+	 * 在用经营工具，如：收银系统，点单产品
+	 */
+	@ApiListField("using_biz_tools")
+	@ApiField("string")
+	private List<String> usingBizTools;
 
 	public String getActivityDesc() {
 		return this.activityDesc;
@@ -198,6 +224,13 @@ ELEME_BRAND-饿了么品牌的商户
 	}
 	public void setAddress(String address) {
 		this.address = address;
+	}
+
+	public String getBizIndustry() {
+		return this.bizIndustry;
+	}
+	public void setBizIndustry(String bizIndustry) {
+		this.bizIndustry = bizIndustry;
 	}
 
 	public String getCityCode() {
@@ -338,6 +371,13 @@ ELEME_BRAND-饿了么品牌的商户
 	}
 	public void setTel(String tel) {
 		this.tel = tel;
+	}
+
+	public List<String> getUsingBizTools() {
+		return this.usingBizTools;
+	}
+	public void setUsingBizTools(List<String> usingBizTools) {
+		this.usingBizTools = usingBizTools;
 	}
 
 }

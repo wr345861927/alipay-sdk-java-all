@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayFincoreComplianceRcservcenterRcsmartQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8265519831266812699L;
+	private static final long serialVersionUID = 7266949941851941734L;
 
 	/**
 	 * 解语花鉴权对象

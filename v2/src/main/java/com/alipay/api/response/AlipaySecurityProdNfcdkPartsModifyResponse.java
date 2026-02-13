@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipaySecurityProdNfcdkPartsModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2387651132319828379L;
+	private static final long serialVersionUID = 4455193649381612694L;
 
 	
 

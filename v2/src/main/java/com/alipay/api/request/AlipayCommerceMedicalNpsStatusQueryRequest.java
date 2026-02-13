@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.nps.status.query request
  * 
  * @author auto create
- * @since 1.0, 2025-11-26 17:52:41
+ * @since 1.0, 2026-02-11 15:54:07
  */
 public class AlipayCommerceMedicalNpsStatusQueryRequest implements AlipayRequest<AlipayCommerceMedicalNpsStatusQueryResponse> {
 

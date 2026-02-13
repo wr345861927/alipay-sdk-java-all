@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WeatherVariables extends AlipayObject {
 
-	private static final long serialVersionUID = 3776723896851425335L;
+	private static final long serialVersionUID = 2123913837741662735L;
 
 	/**
 	 * 体感温度	°C

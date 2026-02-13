@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class WesternMedicine extends AlipayObject {
 
-	private static final long serialVersionUID = 1589293284145231658L;
+	private static final long serialVersionUID = 6737237832522948697L;
 
 	/**
 	 * null

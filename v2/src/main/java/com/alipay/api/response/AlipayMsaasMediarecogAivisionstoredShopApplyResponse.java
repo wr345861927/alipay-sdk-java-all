@@ -1,0 +1,20 @@
+package com.alipay.api.response;
+
+
+import com.alipay.api.AlipayResponse;
+
+/**
+ * ALIPAY API: alipay.msaas.mediarecog.aivisionstored.shop.apply response.
+ * 
+ * @author auto create
+ * @since 1.0, 2026-02-10 17:27:43
+ */
+public class AlipayMsaasMediarecogAivisionstoredShopApplyResponse extends AlipayResponse {
+
+	private static final long serialVersionUID = 5783943517797336837L;
+
+	
+
+	
+
+}

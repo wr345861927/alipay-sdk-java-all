@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayBossBaseProcessTaskAddsignResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5825459671464178893L;
+	private static final long serialVersionUID = 8318917232555696198L;
 
 	/** 
 	 * 业务上下文，JSON格式

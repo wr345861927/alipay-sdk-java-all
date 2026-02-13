@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AntfortuneStockPokerChipSendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1794193619196667817L;
+	private static final long serialVersionUID = 1314432337685494465L;
 
 	/** 
 	 * 筹码详情

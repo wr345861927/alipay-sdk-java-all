@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceLifeserviceTechnicianSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4138443922216271127L;
+	private static final long serialVersionUID = 4336451479291214183L;
 
 	/**
 	 * 手艺人头像文件id 来源于alipay.open.file.upload支付宝文件上传接口

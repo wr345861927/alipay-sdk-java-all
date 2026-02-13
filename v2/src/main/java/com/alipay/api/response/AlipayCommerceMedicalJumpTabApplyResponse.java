@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMedicalJumpTabApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5812824214315333441L;
+	private static final long serialVersionUID = 2188224263123729859L;
 
 	/** 
 	 * tab4建联的链接

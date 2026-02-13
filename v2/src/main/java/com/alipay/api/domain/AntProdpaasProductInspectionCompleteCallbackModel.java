@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AntProdpaasProductInspectionCompleteCallbackModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2137936973467676224L;
+	private static final long serialVersionUID = 7465489578115574116L;
 
 	/**
 	 * 生产单据编号，于自检指令创建接口获取。

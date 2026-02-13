@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LegalAIChatHistory extends AlipayObject {
 
-	private static final long serialVersionUID = 8469215361298667668L;
+	private static final long serialVersionUID = 8727356943939447132L;
 
 	/**
 	 * 模型回答

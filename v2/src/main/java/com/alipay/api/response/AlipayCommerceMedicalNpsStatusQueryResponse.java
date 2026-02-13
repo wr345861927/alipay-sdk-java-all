@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.nps.status.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-11-26 17:52:41
+ * @since 1.0, 2026-02-11 15:54:07
  */
 public class AlipayCommerceMedicalNpsStatusQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2323619563942416118L;
+	private static final long serialVersionUID = 3633475435287862618L;
 
 	/** 
 	 * true：需要弹nps卡片

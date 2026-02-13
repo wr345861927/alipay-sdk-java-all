@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayDigitalmgmtWelfareSupplierauthQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6243759463848587624L;
+	private static final long serialVersionUID = 6698997565746439949L;
 
 	/**
 	 * 该参数用来标识供应商请求的服务内容，是由蚂蚁提供给供应商，蚂蚁侧会根据此参数识别供应商

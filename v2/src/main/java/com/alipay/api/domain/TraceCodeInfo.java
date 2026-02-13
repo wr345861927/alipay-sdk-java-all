@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class TraceCodeInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3665895647169311988L;
+	private static final long serialVersionUID = 5879663195677228153L;
 
 	/**
 	 * APP方商品编码，对应商品接口的sku_code｜商品编码

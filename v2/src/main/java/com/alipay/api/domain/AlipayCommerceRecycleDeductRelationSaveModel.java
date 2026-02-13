@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceRecycleDeductRelationSaveModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5723768927845227292L;
+	private static final long serialVersionUID = 5325545731869541725L;
 
 	/**
 	 * 绑定的收款钱包信息Id 场景钱包:钱包id，余额：userId

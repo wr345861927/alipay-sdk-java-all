@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ChoiceTools extends AlipayObject {
 
-	private static final long serialVersionUID = 6768691994798847485L;
+	private static final long serialVersionUID = 7267753432713261412L;
 
 	/**
 	 * 为true代表此工具一定被执行。注意，只会执行第一个一定执行的工具

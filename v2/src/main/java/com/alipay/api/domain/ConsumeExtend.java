@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ConsumeExtend extends AlipayObject {
 
-	private static final long serialVersionUID = 2384769861423792415L;
+	private static final long serialVersionUID = 6213925796782629218L;
 
 	/**
 	 * 是否支持圈店宝

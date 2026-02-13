@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RobbyOpenTaskStatusQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8143296895381616283L;
+	private static final long serialVersionUID = 4192376347586419398L;
 
 	/**
 	 * 子业务编号，全局唯一

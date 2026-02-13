@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LegacyPreFilterValueDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 1598421712497353299L;
+	private static final long serialVersionUID = 2896931632989694123L;
 
 	/**
 	 * 距离（仅地理坐标字段生效）

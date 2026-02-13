@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-02-10 14:22:43
+ * @since 1.0, 2026-02-12 12:59:34
  */
 public class DeviceStatusInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7677299619178352643L;
+	private static final long serialVersionUID = 5156427132352435412L;
 
 	/**
 	 * 电池电量百分比（0~100）

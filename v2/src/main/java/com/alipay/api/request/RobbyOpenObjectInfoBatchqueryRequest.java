@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: robby.open.object.info.batchquery request
  * 
  * @author auto create
- * @since 1.0, 2026-01-05 17:47:43
+ * @since 1.0, 2026-02-12 13:00:18
  */
 public class RobbyOpenObjectInfoBatchqueryRequest implements AlipayRequest<RobbyOpenObjectInfoBatchqueryResponse> {
 

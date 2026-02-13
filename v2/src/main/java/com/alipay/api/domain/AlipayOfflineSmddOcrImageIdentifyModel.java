@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOfflineSmddOcrImageIdentifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2133852189748171297L;
+	private static final long serialVersionUID = 5688954156767678553L;
 
 	/**
 	 * 图片地址

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 酒店房间信息
  *
  * @author auto create
- * @since 1.0, 2026-01-21 15:41:25
+ * @since 1.0, 2026-02-10 17:36:19
  */
 public class HotelRoomVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8848237768571999939L;
+	private static final long serialVersionUID = 3371694132963541445L;
 
 	/**
 	 * 楼栋
@@ -34,6 +34,12 @@ public class HotelRoomVO extends AlipayObject {
 	 */
 	@ApiField("floor")
 	private String floor;
+
+	/**
+	 * 房间大小，单位 平米
+	 */
+	@ApiField("room_area")
+	private String roomArea;
 
 	/**
 	 * 房间号
@@ -60,6 +66,13 @@ public class HotelRoomVO extends AlipayObject {
 	}
 	public void setFloor(String floor) {
 		this.floor = floor;
+	}
+
+	public String getRoomArea() {
+		return this.roomArea;
+	}
+	public void setRoomArea(String roomArea) {
+		this.roomArea = roomArea;
 	}
 
 	public String getRoomNo() {
