@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.lifeservice.itembooking.unbind response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-12 10:47:46
+ * @since 1.0, 2026-02-25 13:42:43
  */
 public class AlipayCommerceLifeserviceItembookingUnbindResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5116762469146371631L;
+	private static final long serialVersionUID = 2797714279833738999L;
 
 	
 

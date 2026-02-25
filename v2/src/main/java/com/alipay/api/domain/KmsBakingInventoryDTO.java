@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class KmsBakingInventoryDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2713968248851842439L;
+	private static final long serialVersionUID = 2284623174751898838L;
 
 	/**
 	 * 累计库存；本字段不能为负数

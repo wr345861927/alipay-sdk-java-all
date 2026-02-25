@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TourVoucherInfoQueryopenapiResult extends AlipayObject {
 
-	private static final long serialVersionUID = 1297787964553542997L;
+	private static final long serialVersionUID = 3864444972236547615L;
 
 	/**
 	 * 有效期结束时间

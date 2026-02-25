@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MybankCreditSupplychainWfLockaccountsyncQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6654388291985673193L;
+	private static final long serialVersionUID = 7493442455474397977L;
 
 	/**
 	 * 锁户同步

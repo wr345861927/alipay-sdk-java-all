@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMsaasMediarecogApiQrdetectIdentifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8553255753821625299L;
+	private static final long serialVersionUID = 7883628663879974436L;
 
 	/** 
 	 * 是否有二维码

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 用于查询供应商信息
  *
  * @author auto create
- * @since 1.0, 2025-09-18 14:18:19
+ * @since 1.0, 2026-02-13 17:23:23
  */
 public class SupplierQueryOpenResult extends AlipayObject {
 
-	private static final long serialVersionUID = 5359278745246247213L;
+	private static final long serialVersionUID = 8131188978113651119L;
 
 	/**
 	 * 支付宝账号类型

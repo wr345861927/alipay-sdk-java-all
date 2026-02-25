@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WaybillItemVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8446156518716651312L;
+	private static final long serialVersionUID = 6448339978446766465L;
 
 	/**
 	 * APP方商品编码，对应商品接口的sku_code｜商品编码

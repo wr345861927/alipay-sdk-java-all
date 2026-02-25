@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenMiniAutocheckCaseQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3423528841988731382L;
+	private static final long serialVersionUID = 4657177728662444836L;
 
 	/**
 	 * 用例唯一主键ID

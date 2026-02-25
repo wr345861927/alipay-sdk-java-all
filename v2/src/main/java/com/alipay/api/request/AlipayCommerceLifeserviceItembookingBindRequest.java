@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.lifeservice.itembooking.bind request
  * 
  * @author auto create
- * @since 1.0, 2026-01-28 15:22:42
+ * @since 1.0, 2026-02-25 13:52:43
  */
 public class AlipayCommerceLifeserviceItembookingBindRequest implements AlipayRequest<AlipayCommerceLifeserviceItembookingBindResponse> {
 

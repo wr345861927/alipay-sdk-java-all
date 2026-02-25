@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMedicalHdfrtcConferenceeventlogSaveModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4285556148533912394L;
+	private static final long serialVersionUID = 8313753785584771249L;
 
 	/**
 	 * 事件内容

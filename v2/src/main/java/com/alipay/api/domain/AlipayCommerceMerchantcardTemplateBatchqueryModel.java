@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 卡模版分页查询
  *
  * @author auto create
- * @since 1.0, 2026-02-03 14:22:41
+ * @since 1.0, 2026-02-25 13:46:33
  */
 public class AlipayCommerceMerchantcardTemplateBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4549563936975457881L;
+	private static final long serialVersionUID = 2774795347378636223L;
 
 	/**
 	 * 卡的归属appid
@@ -24,6 +24,12 @@ public class AlipayCommerceMerchantcardTemplateBatchqueryModel extends AlipayObj
 	 */
 	@ApiField("card_template_name")
 	private String cardTemplateName;
+
+	/**
+	 * 商品状态，不传默认查已发布的
+	 */
+	@ApiField("card_template_status")
+	private String cardTemplateStatus;
 
 	/**
 	 * 卡类型。需要查询次卡周期付时不用传。查询金额卡必传AXF_MONEY_CARD
@@ -73,6 +79,13 @@ public class AlipayCommerceMerchantcardTemplateBatchqueryModel extends AlipayObj
 	}
 	public void setCardTemplateName(String cardTemplateName) {
 		this.cardTemplateName = cardTemplateName;
+	}
+
+	public String getCardTemplateStatus() {
+		return this.cardTemplateStatus;
+	}
+	public void setCardTemplateStatus(String cardTemplateStatus) {
+		this.cardTemplateStatus = cardTemplateStatus;
 	}
 
 	public String getCardType() {

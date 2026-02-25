@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 反向开票订单明细
  *
  * @author auto create
- * @since 1.0, 2025-04-22 15:37:37
+ * @since 1.0, 2026-02-13 17:23:26
  */
 public class RecyclinginvoiceOrderItem extends AlipayObject {
 
-	private static final long serialVersionUID = 5144155491993392328L;
+	private static final long serialVersionUID = 2421243581556277831L;
 
 	/**
 	 * 企业商品ID
@@ -44,7 +44,7 @@ public class RecyclinginvoiceOrderItem extends AlipayObject {
 	private String itemTotalAmount;
 
 	/**
-	 * 单价（元，整数最长七位，小数最长六位）
+	 * 单价（元，整数最长七位，小数最长八位）
 	 */
 	@ApiField("item_unit_amount")
 	private String itemUnitAmount;

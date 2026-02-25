@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商品和预约资源绑定关系查询
  *
  * @author auto create
- * @since 1.0, 2026-02-12 10:47:46
+ * @since 1.0, 2026-02-25 13:42:43
  */
 public class AlipayCommerceLifeserviceItembookingBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6471456514363276779L;
+	private static final long serialVersionUID = 4442284791131271396L;
 
 	/**
 	 * sku编码

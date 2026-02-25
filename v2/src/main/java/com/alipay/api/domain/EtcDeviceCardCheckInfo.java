@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EtcDeviceCardCheckInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5355539736289259488L;
+	private static final long serialVersionUID = 7122644163687429364L;
 
 	/**
 	 * 具体错误信息描述

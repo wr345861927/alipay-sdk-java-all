@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.mini.poi.create response.
  * 
  * @author auto create
- * @since 1.0, 2023-05-31 09:00:40
+ * @since 1.0, 2026-02-25 11:07:46
  */
 public class AlipayOpenMiniPoiCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1623996614663147995L;
+	private static final long serialVersionUID = 6311645278747799923L;
 
 	/** 
 	 * poi id，地理位置标记信息

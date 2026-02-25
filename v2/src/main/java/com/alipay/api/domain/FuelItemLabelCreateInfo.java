@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FuelItemLabelCreateInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4487562192158797291L;
+	private static final long serialVersionUID = 1196764736188288421L;
 
 	/**
 	 * 标签key

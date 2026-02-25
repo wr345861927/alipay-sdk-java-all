@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.open.mini.ampe.recommend.preconsult request
  * 
  * @author auto create
- * @since 1.0, 2025-05-29 14:22:27
+ * @since 1.0, 2026-02-25 11:06:26
  */
 public class AlipayOpenMiniAmpeRecommendPreconsultRequest implements AlipayRequest<AlipayOpenMiniAmpeRecommendPreconsultResponse> {
 

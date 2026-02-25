@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 标注返回的流式结构内容
  *
  * @author auto create
- * @since 1.0, 2025-04-17 15:32:28
+ * @since 1.0, 2026-02-25 11:06:05
  */
 public class AmpeChatContent extends AlipayObject {
 
-	private static final long serialVersionUID = 4853645876919951161L;
+	private static final long serialVersionUID = 2469415518577733458L;
 
 	/**
 	 * 返回生成对话

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.mini.ampe.recommend.preconsult response.
  * 
  * @author auto create
- * @since 1.0, 2025-05-29 14:22:27
+ * @since 1.0, 2026-02-25 11:06:26
  */
 public class AlipayOpenMiniAmpeRecommendPreconsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7427364718199258595L;
+	private static final long serialVersionUID = 2335268645932967885L;
 
 	/** 
 	 * 预估是否有推荐的内容，如果是true，则表示有推荐内容，需要展示卡片。

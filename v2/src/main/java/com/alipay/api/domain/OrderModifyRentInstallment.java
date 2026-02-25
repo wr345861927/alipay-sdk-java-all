@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OrderModifyRentInstallment extends AlipayObject {
 
-	private static final long serialVersionUID = 3452328275191265896L;
+	private static final long serialVersionUID = 3553799845875666275L;
 
 	/**
 	 * 租期。标识第几期，起始值为1，需保证编号递增

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * AMPE情景服务预咨询
  *
  * @author auto create
- * @since 1.0, 2025-05-29 14:22:27
+ * @since 1.0, 2026-02-25 11:06:26
  */
 public class AlipayOpenMiniAmpeRecommendPreconsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1723298396934239517L;
+	private static final long serialVersionUID = 6833759497796393516L;
 
 	/**
 	 * null

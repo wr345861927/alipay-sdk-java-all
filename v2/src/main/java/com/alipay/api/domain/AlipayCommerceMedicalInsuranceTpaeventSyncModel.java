@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * TPA渠道业务事件同步
  *
  * @author auto create
- * @since 1.0, 2026-02-09 11:28:59
+ * @since 1.0, 2026-02-12 21:07:44
  */
 public class AlipayCommerceMedicalInsuranceTpaeventSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7481312986925683662L;
+	private static final long serialVersionUID = 2573874669395661735L;
 
 	/**
 	 * 码值
@@ -38,10 +38,52 @@ public class AlipayCommerceMedicalInsuranceTpaeventSyncModel extends AlipayObjec
 	private String hospitalName;
 
 	/**
+	 * 个单号
+	 */
+	@ApiField("individual_policy_no")
+	private String individualPolicyNo;
+
+	/**
+	 * ?付宝?户的唯?ID
+	 */
+	@ApiField("open_id")
+	private String openId;
+
+	/**
+	 * 机构编号
+	 */
+	@ApiField("outlet_code")
+	private String outletCode;
+
+	/**
+	 * 机构名称
+	 */
+	@ApiField("outlet_name")
+	private String outletName;
+
+	/**
+	 * 网点类型
+	 */
+	@ApiField("outlet_type")
+	private String outletType;
+
+	/**
+	 * 保单号
+	 */
+	@ApiField("policy_no")
+	private String policyNo;
+
+	/**
 	 * TPA编号
 	 */
 	@ApiField("tpa_id")
 	private String tpaId;
+
+	/**
+	 * ?付宝?户的唯?ID
+	 */
+	@ApiField("user_id")
+	private String userId;
 
 	/**
 	 * 就诊日期 
@@ -77,11 +119,60 @@ public class AlipayCommerceMedicalInsuranceTpaeventSyncModel extends AlipayObjec
 		this.hospitalName = hospitalName;
 	}
 
+	public String getIndividualPolicyNo() {
+		return this.individualPolicyNo;
+	}
+	public void setIndividualPolicyNo(String individualPolicyNo) {
+		this.individualPolicyNo = individualPolicyNo;
+	}
+
+	public String getOpenId() {
+		return this.openId;
+	}
+	public void setOpenId(String openId) {
+		this.openId = openId;
+	}
+
+	public String getOutletCode() {
+		return this.outletCode;
+	}
+	public void setOutletCode(String outletCode) {
+		this.outletCode = outletCode;
+	}
+
+	public String getOutletName() {
+		return this.outletName;
+	}
+	public void setOutletName(String outletName) {
+		this.outletName = outletName;
+	}
+
+	public String getOutletType() {
+		return this.outletType;
+	}
+	public void setOutletType(String outletType) {
+		this.outletType = outletType;
+	}
+
+	public String getPolicyNo() {
+		return this.policyNo;
+	}
+	public void setPolicyNo(String policyNo) {
+		this.policyNo = policyNo;
+	}
+
 	public String getTpaId() {
 		return this.tpaId;
 	}
 	public void setTpaId(String tpaId) {
 		this.tpaId = tpaId;
+	}
+
+	public String getUserId() {
+		return this.userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
 	public String getVisitDate() {

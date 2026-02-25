@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class PatrolReportConfigVO extends AlipayObject {
 
-	private static final long serialVersionUID = 3286828514816816999L;
+	private static final long serialVersionUID = 6616917149686336582L;
 
 	/**
 	 * null

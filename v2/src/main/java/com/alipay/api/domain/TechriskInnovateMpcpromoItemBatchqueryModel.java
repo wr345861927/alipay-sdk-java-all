@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TechriskInnovateMpcpromoItemBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1831155153499396683L;
+	private static final long serialVersionUID = 8255682789567336169L;
 
 	/**
 	 * 被授权小程序的appId

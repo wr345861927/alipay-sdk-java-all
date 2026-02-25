@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayMarketingCertificateCertificatetionSendcallbackModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5193645127288166978L;
+	private static final long serialVersionUID = 2576549812247612145L;
 
 	/**
 	 * 用户OpenID

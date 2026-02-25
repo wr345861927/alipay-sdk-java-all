@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.mini.ampe.chat.send response.
  * 
  * @author auto create
- * @since 1.0, 2025-04-29 13:42:26
+ * @since 1.0, 2026-02-25 11:06:56
  */
 public class AlipayOpenMiniAmpeChatSendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3379374855814372716L;
+	private static final long serialVersionUID = 2433654987577778482L;
 
 	/** 
 	 * 对话服务的回答，经过编码的字符串，只需要将该响应字符串交由支付宝客户端处理即可。

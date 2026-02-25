@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 商品和预约资源绑定
  *
  * @author auto create
- * @since 1.0, 2026-01-28 15:22:42
+ * @since 1.0, 2026-02-25 13:52:43
  */
 public class AlipayCommerceLifeserviceItembookingBindModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8166131992713784421L;
+	private static final long serialVersionUID = 5166632359213182734L;
 
 	/**
 	 * 商品编码

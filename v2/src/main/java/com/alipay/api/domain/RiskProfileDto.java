@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RiskProfileDto extends AlipayObject {
 
-	private static final long serialVersionUID = 7394431387397976327L;
+	private static final long serialVersionUID = 7243444542356592784L;
 
 	/**
 	 * risk profile名称和入参对应

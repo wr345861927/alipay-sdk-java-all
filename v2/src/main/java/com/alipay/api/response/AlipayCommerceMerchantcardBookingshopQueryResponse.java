@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMerchantcardBookingshopQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7874438848985545972L;
+	private static final long serialVersionUID = 4389529325887745216L;
 
 	/** 
 	 * 预约时间间隔【stockFetchType=sync时必填】

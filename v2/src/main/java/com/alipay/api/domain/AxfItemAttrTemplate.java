@@ -10,17 +10,29 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-02-04 22:43:16
+ * @since 1.0, 2026-02-25 13:52:44
  */
 public class AxfItemAttrTemplate extends AlipayObject {
 
-	private static final long serialVersionUID = 2869257585148759512L;
+	private static final long serialVersionUID = 4897358419691896378L;
+
+	/**
+	 * 属性说明
+	 */
+	@ApiField("attr_desc")
+	private String attrDesc;
 
 	/**
 	 * 属性key
 	 */
 	@ApiField("attr_key")
 	private String attrKey;
+
+	/**
+	 * 属性名称
+	 */
+	@ApiField("attr_name")
+	private String attrName;
 
 	/**
 	 * 商品属性
@@ -65,11 +77,25 @@ public class AxfItemAttrTemplate extends AlipayObject {
 	@ApiField("required")
 	private Boolean required;
 
+	public String getAttrDesc() {
+		return this.attrDesc;
+	}
+	public void setAttrDesc(String attrDesc) {
+		this.attrDesc = attrDesc;
+	}
+
 	public String getAttrKey() {
 		return this.attrKey;
 	}
 	public void setAttrKey(String attrKey) {
 		this.attrKey = attrKey;
+	}
+
+	public String getAttrName() {
+		return this.attrName;
+	}
+	public void setAttrName(String attrName) {
+		this.attrName = attrName;
 	}
 
 	public String getAttrType() {

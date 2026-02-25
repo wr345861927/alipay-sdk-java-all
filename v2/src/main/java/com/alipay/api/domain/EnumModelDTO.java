@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EnumModelDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2184369375326617198L;
+	private static final long serialVersionUID = 1369189319566518478L;
 
 	/**
 	 * 一类枚举的值，非小范围枚举类型，无法用枚举全列举出来

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.lifeservice.itembooking.unbind request
  * 
  * @author auto create
- * @since 1.0, 2026-02-12 10:47:46
+ * @since 1.0, 2026-02-25 13:42:43
  */
 public class AlipayCommerceLifeserviceItembookingUnbindRequest implements AlipayRequest<AlipayCommerceLifeserviceItembookingUnbindResponse> {
 

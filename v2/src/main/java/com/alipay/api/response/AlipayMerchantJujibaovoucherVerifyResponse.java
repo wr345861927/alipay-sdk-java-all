@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMerchantJujibaovoucherVerifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6413299949548784874L;
+	private static final long serialVersionUID = 3813544586111747625L;
 
 	/** 
 	 * 移动核销结果出参

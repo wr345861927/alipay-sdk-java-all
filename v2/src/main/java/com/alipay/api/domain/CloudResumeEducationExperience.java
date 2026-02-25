@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CloudResumeEducationExperience extends AlipayObject {
 
-	private static final long serialVersionUID = 3117623756244395925L;
+	private static final long serialVersionUID = 7776554577776345836L;
 
 	/**
 	 * 学历

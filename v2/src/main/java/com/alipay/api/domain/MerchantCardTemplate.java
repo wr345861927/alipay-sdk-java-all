@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 商品
  *
  * @author auto create
- * @since 1.0, 2026-02-03 14:19:47
+ * @since 1.0, 2026-02-25 13:45:55
  */
 public class MerchantCardTemplate extends AlipayObject {
 
-	private static final long serialVersionUID = 6734689351545543748L;
+	private static final long serialVersionUID = 7366694569311587554L;
 
 	/**
 	 * 不传时默认卡商品类型
@@ -23,7 +23,13 @@ public class MerchantCardTemplate extends AlipayObject {
 	private String axItemType;
 
 	/**
-	 * 预约模式
+	 * 最晚改约时限。最晚提前x小时可改约。取值范围[1, 24]，整数
+	 */
+	@ApiField("booking_cancel_deadline")
+	private String bookingCancelDeadline;
+
+	/**
+	 * 预约模式。
 	 */
 	@ApiField("booking_mode")
 	private String bookingMode;
@@ -123,7 +129,7 @@ public class MerchantCardTemplate extends AlipayObject {
 	private List<String> imageUrlList;
 
 	/**
-	 * 商品属性。具体所需属性建类目模版查询接口
+	 * 商品属性。具体所需属性见类目模版查询接口
 	 */
 	@ApiListField("item_attrs")
 	@ApiField("axf_item_attr")
@@ -214,6 +220,13 @@ public class MerchantCardTemplate extends AlipayObject {
 	}
 	public void setAxItemType(String axItemType) {
 		this.axItemType = axItemType;
+	}
+
+	public String getBookingCancelDeadline() {
+		return this.bookingCancelDeadline;
+	}
+	public void setBookingCancelDeadline(String bookingCancelDeadline) {
+		this.bookingCancelDeadline = bookingCancelDeadline;
 	}
 
 	public String getBookingMode() {

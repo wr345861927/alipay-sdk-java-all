@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CanNoUseLimitDayInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2856711424452151578L;
+	private static final long serialVersionUID = 4468816339858334439L;
 
 	/**
 	 * 限制结束日期（yyyy-MM-dd）

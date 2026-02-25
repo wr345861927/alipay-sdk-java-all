@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.open.mini.brand.bundle.query request
  * 
  * @author auto create
- * @since 1.0, 2024-07-04 17:41:19
+ * @since 1.0, 2026-02-25 11:07:45
  */
 public class AlipayOpenMiniBrandBundleQueryRequest implements AlipayRequest<AlipayOpenMiniBrandBundleQueryResponse> {
 

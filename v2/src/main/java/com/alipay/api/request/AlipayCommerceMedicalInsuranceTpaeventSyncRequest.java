@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.insurance.tpaevent.sync request
  * 
  * @author auto create
- * @since 1.0, 2026-02-09 11:28:59
+ * @since 1.0, 2026-02-12 21:07:44
  */
 public class AlipayCommerceMedicalInsuranceTpaeventSyncRequest implements AlipayRequest<AlipayCommerceMedicalInsuranceTpaeventSyncResponse> {
 

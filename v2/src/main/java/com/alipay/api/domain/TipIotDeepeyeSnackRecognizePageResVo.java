@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TipIotDeepeyeSnackRecognizePageResVo extends AlipayObject {
 
-	private static final long serialVersionUID = 4296114286434595495L;
+	private static final long serialVersionUID = 8171722296665118896L;
 
 	/**
 	 * 人机一致率

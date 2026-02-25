@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMarketingPassShopBindResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2265862654423913633L;
+	private static final long serialVersionUID = 6887118572575241843L;
 
 	/** 
 	 * 本次调用绑定的门店数量

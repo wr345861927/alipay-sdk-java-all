@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCloudCloudbaseRedisInstanceGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5881833338991539648L;
+	private static final long serialVersionUID = 5835337227354185618L;
 
 	/** 
 	 * 架构类型。集群版：分片集群架构，支持扩缩容、规格调整; 标准版：标准的 master-slave 架构，支持规格调整

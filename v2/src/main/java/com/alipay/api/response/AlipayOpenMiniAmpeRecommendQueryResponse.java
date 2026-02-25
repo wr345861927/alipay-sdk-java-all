@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.mini.ampe.recommend.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-05-23 14:37:27
+ * @since 1.0, 2026-02-25 11:06:26
  */
 public class AlipayOpenMiniAmpeRecommendQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3446681934465387814L;
+	private static final long serialVersionUID = 3848367446511165597L;
 
 	/** 
 	 * 卡片内容的JS，可直接在浏览器打开。
