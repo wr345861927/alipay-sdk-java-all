@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class TextGroup extends AlipayObject {
 
-	private static final long serialVersionUID = 8163475811194568633L;
+	private static final long serialVersionUID = 6221538487539967326L;
 
 	/**
 	 * 价格优惠字段

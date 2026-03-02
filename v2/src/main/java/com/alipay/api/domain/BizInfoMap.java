@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-02-12 13:00:11
+ * @since 1.0, 2026-02-26 16:37:42
  */
 public class BizInfoMap extends AlipayObject {
 
-	private static final long serialVersionUID = 2426818128861736654L;
+	private static final long serialVersionUID = 7212677238386463639L;
 
 	/**
 	 * 业务对象的数量
@@ -25,6 +25,12 @@ public class BizInfoMap extends AlipayObject {
 	@ApiField("biz_object_no")
 	private String bizObjectNo;
 
+	/**
+	 * 该业务对象标识所属对象库，必填
+	 */
+	@ApiField("object_library_id")
+	private String objectLibraryId;
+
 	public Long getBizCount() {
 		return this.bizCount;
 	}
@@ -37,6 +43,13 @@ public class BizInfoMap extends AlipayObject {
 	}
 	public void setBizObjectNo(String bizObjectNo) {
 		this.bizObjectNo = bizObjectNo;
+	}
+
+	public String getObjectLibraryId() {
+		return this.objectLibraryId;
+	}
+	public void setObjectLibraryId(String objectLibraryId) {
+		this.objectLibraryId = objectLibraryId;
 	}
 
 }

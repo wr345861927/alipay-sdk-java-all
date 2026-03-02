@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 货运企业支付交易结果查询
  *
  * @author auto create
- * @since 1.0, 2025-07-02 19:14:34
+ * @since 1.0, 2026-02-26 14:16:37
  */
 public class AlipayCommerceLogisticsFreightflowTraderesultQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4172152439924645867L;
+	private static final long serialVersionUID = 6863918515554294361L;
 
 	/**
 	 * 如果biz_scene是转账场景，则传入转账申请时候的幂等号
@@ -20,7 +20,8 @@ public class AlipayCommerceLogisticsFreightflowTraderesultQueryModel extends Ali
 	private String bizNo;
 
 	/**
-	 * 本期支持转账 ："TRANSFER"
+	 * 转账 ："TRANSFER",
+调拨："ALLOCATE"
 	 */
 	@ApiField("biz_scene")
 	private String bizScene;
@@ -50,10 +51,37 @@ public class AlipayCommerceLogisticsFreightflowTraderesultQueryModel extends Ali
 	private String operateNo;
 
 	/**
-	 * 合作方机构号,如果mode为网商银行，则为网商银行分配
+	 * 合作方机构号。
+如果mode为网商银行，则为网商银行分配。
+如果mode为浦发银行，则为浦发APP对应的X-SPDB-Client-ID
 	 */
 	@ApiField("partner_id")
 	private String partnerId;
+
+	/**
+	 * 浦发银行母户户号
+	 */
+	@ApiField("spdb_parent_account_no")
+	private String spdbParentAccountNo;
+
+	/**
+	 * 浦发银行特定流水号
+	 */
+	@ApiField("spdb_seq_no")
+	private FreigtFlowSpdbBizSeqNo spdbSeqNo;
+
+	/**
+	 * 浦发银行特定场景参数,当mode=SPDB时必选
+	 */
+	@ApiField("spdb_spec_params")
+	private FreightFlowSpdbSpecParams spdbSpecParams;
+
+	/**
+	 * 02-客户出金
+06-会员调拨(子户互转)
+	 */
+	@ApiField("spdb_tran_tp_dsc")
+	private String spdbTranTpDsc;
 
 	public String getBizNo() {
 		return this.bizNo;
@@ -102,6 +130,34 @@ public class AlipayCommerceLogisticsFreightflowTraderesultQueryModel extends Ali
 	}
 	public void setPartnerId(String partnerId) {
 		this.partnerId = partnerId;
+	}
+
+	public String getSpdbParentAccountNo() {
+		return this.spdbParentAccountNo;
+	}
+	public void setSpdbParentAccountNo(String spdbParentAccountNo) {
+		this.spdbParentAccountNo = spdbParentAccountNo;
+	}
+
+	public FreigtFlowSpdbBizSeqNo getSpdbSeqNo() {
+		return this.spdbSeqNo;
+	}
+	public void setSpdbSeqNo(FreigtFlowSpdbBizSeqNo spdbSeqNo) {
+		this.spdbSeqNo = spdbSeqNo;
+	}
+
+	public FreightFlowSpdbSpecParams getSpdbSpecParams() {
+		return this.spdbSpecParams;
+	}
+	public void setSpdbSpecParams(FreightFlowSpdbSpecParams spdbSpecParams) {
+		this.spdbSpecParams = spdbSpecParams;
+	}
+
+	public String getSpdbTranTpDsc() {
+		return this.spdbTranTpDsc;
+	}
+	public void setSpdbTranTpDsc(String spdbTranTpDsc) {
+		this.spdbTranTpDsc = spdbTranTpDsc;
 	}
 
 }

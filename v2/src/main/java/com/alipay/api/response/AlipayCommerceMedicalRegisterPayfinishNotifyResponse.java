@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.register.payfinish.notify response.
  * 
  * @author auto create
- * @since 1.0, 2025-07-04 14:42:30
+ * @since 1.0, 2026-02-28 13:45:33
  */
 public class AlipayCommerceMedicalRegisterPayfinishNotifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5829651513655699121L;
+	private static final long serialVersionUID = 7237387519954348348L;
 
 	/** 
 	 * 退款中

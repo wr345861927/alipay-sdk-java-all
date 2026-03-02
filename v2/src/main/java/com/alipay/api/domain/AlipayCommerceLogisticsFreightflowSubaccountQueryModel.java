@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 货运企业支付子账户实时查余
  *
  * @author auto create
- * @since 1.0, 2025-07-02 19:13:41
+ * @since 1.0, 2026-02-26 14:16:40
  */
 public class AlipayCommerceLogisticsFreightflowSubaccountQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4692533674131424993L;
+	private static final long serialVersionUID = 3334685769819588388L;
 
 	/**
 	 * 物流公司编码，由支付宝分配
@@ -20,7 +20,9 @@ public class AlipayCommerceLogisticsFreightflowSubaccountQueryModel extends Alip
 	private String logisticsCode;
 
 	/**
-	 * 银行管理模式。 本期： ANT_MYBANK(网商银行模式)
+	 * 银行管理模式。 
+ANT_MYBANK(网商银行模式)
+SPDB(浦发银行模式)
 	 */
 	@ApiField("mode")
 	private String mode;
@@ -54,6 +56,12 @@ public class AlipayCommerceLogisticsFreightflowSubaccountQueryModel extends Alip
 	 */
 	@ApiField("partner_id")
 	private String partnerId;
+
+	/**
+	 * 浦发银行特定场景参数,当mode=SPDB时必选
+	 */
+	@ApiField("spdb_spec_params")
+	private FreightFlowSpdbSpecParams spdbSpecParams;
 
 	/**
 	 * 子户卡号
@@ -108,6 +116,13 @@ public class AlipayCommerceLogisticsFreightflowSubaccountQueryModel extends Alip
 	}
 	public void setPartnerId(String partnerId) {
 		this.partnerId = partnerId;
+	}
+
+	public FreightFlowSpdbSpecParams getSpdbSpecParams() {
+		return this.spdbSpecParams;
+	}
+	public void setSpdbSpecParams(FreightFlowSpdbSpecParams spdbSpecParams) {
+		this.spdbSpecParams = spdbSpecParams;
 	}
 
 	public String getSubBankCardNo() {

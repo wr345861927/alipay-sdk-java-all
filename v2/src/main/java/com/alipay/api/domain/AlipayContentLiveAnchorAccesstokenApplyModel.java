@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayContentLiveAnchorAccesstokenApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6541329595771721315L;
+	private static final long serialVersionUID = 1423589653369792741L;
 
 	/**
 	 * 当action=REFRESH时，必须传入原access_token

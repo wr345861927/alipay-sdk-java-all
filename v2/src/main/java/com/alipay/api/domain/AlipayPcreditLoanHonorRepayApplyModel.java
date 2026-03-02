@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 荣耀主动还款申请
  *
  * @author auto create
- * @since 1.0, 2025-09-12 16:15:29
+ * @since 1.0, 2026-02-26 16:29:40
  */
 public class AlipayPcreditLoanHonorRepayApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4564356214886799671L;
+	private static final long serialVersionUID = 4748517442954628334L;
 
 	/**
 	 * 支付宝用户ID
@@ -99,6 +99,12 @@ CUSTOMER-C端对应用户发起、SCHEDULER-调度发起、BACKDOOR-小二对应
 	 */
 	@ApiField("request_source")
 	private String requestSource;
+
+	/**
+	 * 预算时返回的违约金（还款试算不传金额时返回的罚息）
+	 */
+	@ApiField("total_violate_fee")
+	private String totalViolateFee;
 
 	public String getAlipayUserId() {
 		return this.alipayUserId;
@@ -196,6 +202,13 @@ CUSTOMER-C端对应用户发起、SCHEDULER-调度发起、BACKDOOR-小二对应
 	}
 	public void setRequestSource(String requestSource) {
 		this.requestSource = requestSource;
+	}
+
+	public String getTotalViolateFee() {
+		return this.totalViolateFee;
+	}
+	public void setTotalViolateFee(String totalViolateFee) {
+		this.totalViolateFee = totalViolateFee;
 	}
 
 }

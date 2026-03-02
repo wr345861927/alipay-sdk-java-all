@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-01-28 16:52:42
+ * @since 1.0, 2026-02-26 17:52:44
  */
 public class LifeServiceServiceInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2133979283366539135L;
+	private static final long serialVersionUID = 4144244287269638826L;
 
 	/**
 	 * 预约时是否需要指定手艺人

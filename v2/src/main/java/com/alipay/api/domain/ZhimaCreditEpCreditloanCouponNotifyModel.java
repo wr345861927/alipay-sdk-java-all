@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ZhimaCreditEpCreditloanCouponNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7849734362361566149L;
+	private static final long serialVersionUID = 1275783361855288271L;
 
 	/**
 	 * 金融产品code码，接口提供方分配

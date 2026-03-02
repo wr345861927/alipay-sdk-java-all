@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 车主ETC服务行程上送申请接口
  *
  * @author auto create
- * @since 1.0, 2024-06-24 21:33:14
+ * @since 1.0, 2026-02-26 10:51:56
  */
 public class AlipayCommerceTransportEtcSettlementApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1673782214178748151L;
+	private static final long serialVersionUID = 4172897268267128837L;
 
 	/**
 	 * ETC平台协议号
@@ -42,6 +42,7 @@ public class AlipayCommerceTransportEtcSettlementApplyModel extends AlipayObject
 	/**
 	 * 1、收费站出口名称
 2、格式为省份+收费站名，比如“黑龙江瓦盆窑西站”
+3、直辖市格式为市名+收费站名，比如“北京市瓦盆窑西站”
 	 */
 	@ApiField("end_station_name")
 	private String endStationName;
@@ -105,6 +106,7 @@ public class AlipayCommerceTransportEtcSettlementApplyModel extends AlipayObject
 	/**
 	 * 1、收费站入口名称
 2、格式为省份+收费站名，比如“黑龙江瓦盆窑西站”
+3、直辖市格式为市名+收费站名，比如“北京市瓦盆窑西站”
 	 */
 	@ApiField("start_station_name")
 	private String startStationName;

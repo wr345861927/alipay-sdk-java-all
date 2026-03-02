@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOfflineSmddOcrImageUploadResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2821923281672285315L;
+	private static final long serialVersionUID = 4786978879234948354L;
 
 	/** 
 	 * 该地址用于OCR识别

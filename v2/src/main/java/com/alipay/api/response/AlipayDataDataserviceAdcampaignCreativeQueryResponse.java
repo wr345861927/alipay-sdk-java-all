@@ -13,11 +13,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.data.dataservice.adcampaign.creative.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-06 15:36:02
+ * @since 1.0, 2026-02-28 13:52:43
  */
 public class AlipayDataDataserviceAdcampaignCreativeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2419452711286249454L;
+	private static final long serialVersionUID = 3465321184726332572L;
 
 	/** 
 	 * 交互动作属性集合
@@ -106,6 +106,18 @@ public class AlipayDataDataserviceAdcampaignCreativeQueryResponse extends Alipay
 	private List<CreativeMaterial> materialList;
 
 	/** 
+	 * 是否原生创意
+	 */
+	@ApiField("native_flag")
+	private Boolean nativeFlag;
+
+	/** 
+	 * 视频发布在主页是否隐藏。1不隐藏，2隐藏。为空则是不隐藏
+	 */
+	@ApiField("permission_level")
+	private Long permissionLevel;
+
+	/** 
 	 * 所属计划id
 	 */
 	@ApiField("plan_id")
@@ -122,6 +134,12 @@ public class AlipayDataDataserviceAdcampaignCreativeQueryResponse extends Alipay
 	 */
 	@ApiField("principal_id")
 	private Long principalId;
+
+	/** 
+	 * 生活号ID
+	 */
+	@ApiField("public_id")
+	private String publicId;
 
 	/** 
 	 * 处置理由
@@ -263,6 +281,20 @@ public class AlipayDataDataserviceAdcampaignCreativeQueryResponse extends Alipay
 		return this.materialList;
 	}
 
+	public void setNativeFlag(Boolean nativeFlag) {
+		this.nativeFlag = nativeFlag;
+	}
+	public Boolean getNativeFlag( ) {
+		return this.nativeFlag;
+	}
+
+	public void setPermissionLevel(Long permissionLevel) {
+		this.permissionLevel = permissionLevel;
+	}
+	public Long getPermissionLevel( ) {
+		return this.permissionLevel;
+	}
+
 	public void setPlanId(Long planId) {
 		this.planId = planId;
 	}
@@ -282,6 +314,13 @@ public class AlipayDataDataserviceAdcampaignCreativeQueryResponse extends Alipay
 	}
 	public Long getPrincipalId( ) {
 		return this.principalId;
+	}
+
+	public void setPublicId(String publicId) {
+		this.publicId = publicId;
+	}
+	public String getPublicId( ) {
+		return this.publicId;
 	}
 
 	public void setPunishReason(String punishReason) {

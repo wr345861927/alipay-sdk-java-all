@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayUserStepcounterSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2317167352828618447L;
+	private static final long serialVersionUID = 5156322967523648186L;
 
 	/**
 	 * 年龄数据。是外部商户系统中录入的用户年龄数据

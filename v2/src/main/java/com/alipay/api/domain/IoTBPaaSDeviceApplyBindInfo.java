@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class IoTBPaaSDeviceApplyBindInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7827849865468366483L;
+	private static final long serialVersionUID = 5262927797881423361L;
 
 	/**
 	 * 支付宝登录账号

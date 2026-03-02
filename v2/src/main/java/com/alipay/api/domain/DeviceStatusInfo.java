@@ -1,23 +1,33 @@
 package com.alipay.api.domain;
 
+import java.util.List;
+
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
 
 /**
  * null
  *
  * @author auto create
- * @since 1.0, 2026-02-12 12:59:34
+ * @since 1.0, 2026-02-26 16:37:42
  */
 public class DeviceStatusInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8571653424981666589L;
+	private static final long serialVersionUID = 5682548172176939681L;
 
 	/**
-	 * 电池电量百分比（0~100）
+	 * 电量百分比（0-100）
 	 */
 	@ApiField("battery_percent")
 	private Long batteryPercent;
+
+	/**
+	 * null
+	 */
+	@ApiListField("device_attrs")
+	@ApiField("device_attr")
+	private List<DeviceAttr> deviceAttrs;
 
 	/**
 	 * 机器人编号
@@ -36,6 +46,13 @@ public class DeviceStatusInfo extends AlipayObject {
 	}
 	public void setBatteryPercent(Long batteryPercent) {
 		this.batteryPercent = batteryPercent;
+	}
+
+	public List<DeviceAttr> getDeviceAttrs() {
+		return this.deviceAttrs;
+	}
+	public void setDeviceAttrs(List<DeviceAttr> deviceAttrs) {
+		this.deviceAttrs = deviceAttrs;
 	}
 
 	public String getSn() {

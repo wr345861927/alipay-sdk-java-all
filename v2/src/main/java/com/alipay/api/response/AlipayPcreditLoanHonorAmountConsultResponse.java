@@ -14,11 +14,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.pcredit.loan.honor.amount.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-09 17:18:19
+ * @since 1.0, 2026-02-26 17:22:44
  */
 public class AlipayPcreditLoanHonorAmountConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6895969111547176311L;
+	private static final long serialVersionUID = 1495658344252533614L;
 
 	/** 
 	 * 是否可提额, status=1时必传（默认false）

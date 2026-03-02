@@ -8,11 +8,17 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.pcredit.loan.honor.budget.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-09 17:18:41
+ * @since 1.0, 2026-02-26 16:37:42
  */
 public class AlipayPcreditLoanHonorBudgetQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3475454192252618835L;
+	private static final long serialVersionUID = 4258118172621148629L;
+
+	/** 
+	 * 按期还，提前还款手续费率：4【即4%】
+	 */
+	@ApiField("fee_rate")
+	private String feeRate;
 
 	/** 
 	 * 总还款金额，单位：分。result_code=0时必填
@@ -37,6 +43,19 @@ public class AlipayPcreditLoanHonorBudgetQueryResponse extends AlipayResponse {
 	 */
 	@ApiField("total_principal")
 	private String totalPrincipal;
+
+	/** 
+	 * 提前还款违约金，单位：分
+	 */
+	@ApiField("total_violate_fee")
+	private String totalViolateFee;
+
+	public void setFeeRate(String feeRate) {
+		this.feeRate = feeRate;
+	}
+	public String getFeeRate( ) {
+		return this.feeRate;
+	}
 
 	public void setTotalAmount(String totalAmount) {
 		this.totalAmount = totalAmount;
@@ -64,6 +83,13 @@ public class AlipayPcreditLoanHonorBudgetQueryResponse extends AlipayResponse {
 	}
 	public String getTotalPrincipal( ) {
 		return this.totalPrincipal;
+	}
+
+	public void setTotalViolateFee(String totalViolateFee) {
+		this.totalViolateFee = totalViolateFee;
+	}
+	public String getTotalViolateFee( ) {
+		return this.totalViolateFee;
 	}
 
 }

@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InsSceneTaskFlowDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 4611919514926149762L;
+	private static final long serialVersionUID = 3294597217436492573L;
 
 	/**
 	 * 过期时间

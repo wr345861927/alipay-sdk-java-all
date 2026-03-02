@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.logistics.freightflow.traderecon.apply response.
  * 
  * @author auto create
- * @since 1.0, 2025-07-02 19:17:32
+ * @since 1.0, 2026-02-26 14:17:43
  */
 public class AlipayCommerceLogisticsFreightflowTradereconApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7358852613793742732L;
+	private static final long serialVersionUID = 4131927366398976884L;
 
 	/** 
 	 * 对账文件下载链接(五分钟有效期)

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 荣耀还款期次
  *
  * @author auto create
- * @since 1.0, 2025-09-01 16:43:16
+ * @since 1.0, 2026-02-26 15:58:32
  */
 public class HonorRepayApplyTermDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 6153715834788572265L;
+	private static final long serialVersionUID = 8198799515986311116L;
 
 	/**
 	 * 本期还款总额，单位：分
@@ -42,6 +42,12 @@ public class HonorRepayApplyTermDTO extends AlipayObject {
 	 */
 	@ApiField("term_principal")
 	private String termPrincipal;
+
+	/**
+	 * 本期还款违约金，单位：分
+	 */
+	@ApiField("term_violate_fee")
+	private String termViolateFee;
 
 	public String getTermAmount() {
 		return this.termAmount;
@@ -76,6 +82,13 @@ public class HonorRepayApplyTermDTO extends AlipayObject {
 	}
 	public void setTermPrincipal(String termPrincipal) {
 		this.termPrincipal = termPrincipal;
+	}
+
+	public String getTermViolateFee() {
+		return this.termViolateFee;
+	}
+	public void setTermViolateFee(String termViolateFee) {
+		this.termViolateFee = termViolateFee;
 	}
 
 }

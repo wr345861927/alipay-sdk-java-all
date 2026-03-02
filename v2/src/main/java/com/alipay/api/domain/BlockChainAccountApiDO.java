@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BlockChainAccountApiDO extends AlipayObject {
 
-	private static final long serialVersionUID = 1484893738851682696L;
+	private static final long serialVersionUID = 8383834694471624241L;
 
 	/**
 	 * 账户hash

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 荣耀已授信信息查询
  *
  * @author auto create
- * @since 1.0, 2025-09-12 17:10:29
+ * @since 1.0, 2026-02-26 17:19:43
  */
 public class AlipayPcreditLoanHonorAmountConsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6235787547951213393L;
+	private static final long serialVersionUID = 1231214871543994353L;
 
 	/**
 	 * 支付宝2088用户id

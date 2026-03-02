@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCloudCloudrunStaticsiteErrorpageModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1832675242646455998L;
+	private static final long serialVersionUID = 2422935959994785237L;
 
 	/** 
 	 * 需要修改错误页面的域名列表

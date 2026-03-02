@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RelationNodeInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1134824933957687659L;
+	private static final long serialVersionUID = 4624374289564333162L;
 
 	/**
 	 * 股权穿透持股比：当关联关系类型为 ubo 时，该值代表最终受益人到被查公司各路径的股权穿透持股比

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 货运企业支付子户开户
  *
  * @author auto create
- * @since 1.0, 2025-10-16 15:21:26
+ * @since 1.0, 2026-02-26 15:09:33
  */
 public class AlipayCommerceLogisticsFreightflowSubaccountCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1135325881217478642L;
+	private static final long serialVersionUID = 4489265367672158569L;
 
 	/**
 	 * 物流公司编码
@@ -74,13 +74,20 @@ public class AlipayCommerceLogisticsFreightflowSubaccountCreateModel extends Ali
 	private FreigtFlowAccount parentInfo;
 
 	/**
-	 * 如果mode为网商银行，则为网商银行分配
+	 * 如果mode为网商银行，则为网商银行分配。
+如果mode为浦发银行，则为浦发APP对应的X-SPDB-Client-ID
 	 */
 	@ApiField("partner_id")
 	private String partnerId;
 
 	/**
-	 * 运企付开户时子户归属人信息,网货平台必填
+	 * 浦发银行特定场景参数,当mode=SPDB时必选
+	 */
+	@ApiField("spdb_spec_params")
+	private FreightFlowSpdbSpecParams spdbSpecParams;
+
+	/**
+	 * mode为网商银行时,且物流商为网货平台时,需要传入子户归属人
 	 */
 	@ApiField("sub_account_owner_info")
 	private FreightFlowSubAccountOwnerInfo subAccountOwnerInfo;
@@ -160,6 +167,13 @@ public class AlipayCommerceLogisticsFreightflowSubaccountCreateModel extends Ali
 	}
 	public void setPartnerId(String partnerId) {
 		this.partnerId = partnerId;
+	}
+
+	public FreightFlowSpdbSpecParams getSpdbSpecParams() {
+		return this.spdbSpecParams;
+	}
+	public void setSpdbSpecParams(FreightFlowSpdbSpecParams spdbSpecParams) {
+		this.spdbSpecParams = spdbSpecParams;
 	}
 
 	public FreightFlowSubAccountOwnerInfo getSubAccountOwnerInfo() {

@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCloudCloudpromoTrainstationStopvehicleSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4776759738521353924L;
+	private static final long serialVersionUID = 8517928968924351765L;
 
 	/**
 	 * 停车照片链接，车辆状态是已停入，需要传该参数

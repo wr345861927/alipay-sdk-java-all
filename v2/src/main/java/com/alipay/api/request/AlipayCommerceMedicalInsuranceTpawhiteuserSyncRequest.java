@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.insurance.tpawhiteuser.sync request
  * 
  * @author auto create
- * @since 1.0, 2025-12-26 19:52:42
+ * @since 1.0, 2026-02-27 10:22:44
  */
 public class AlipayCommerceMedicalInsuranceTpawhiteuserSyncRequest implements AlipayRequest<AlipayCommerceMedicalInsuranceTpawhiteuserSyncResponse> {
 

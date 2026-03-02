@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceHdfaccessCifQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8741658452239871585L;
+	private static final long serialVersionUID = 3587293851111191347L;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识

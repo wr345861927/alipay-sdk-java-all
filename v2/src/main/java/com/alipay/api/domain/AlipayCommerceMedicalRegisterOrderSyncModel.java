@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 挂号订单回流
  *
  * @author auto create
- * @since 1.0, 2026-01-14 14:31:07
+ * @since 1.0, 2026-02-27 18:24:35
  */
 public class AlipayCommerceMedicalRegisterOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5574769342713965727L;
+	private static final long serialVersionUID = 6429745416986122751L;
 
 	/**
 	 * 操作类型
@@ -32,6 +32,12 @@ public class AlipayCommerceMedicalRegisterOrderSyncModel extends AlipayObject {
 	 */
 	@ApiField("appoint_part")
 	private String appointPart;
+
+	/**
+	 * 加班门诊
+	 */
+	@ApiField("buss_type")
+	private String bussType;
 
 	/**
 	 * 取消原因
@@ -76,6 +82,18 @@ SINGLE_HOS_NFYKDZJ 珠江医院（扁鹊单院版）：
 	private String clinicTime;
 
 	/**
+	 * 疾病描述
+	 */
+	@ApiField("disease_description")
+	private String diseaseDescription;
+
+	/**
+	 * 所患疾病
+	 */
+	@ApiField("disease_name")
+	private String diseaseName;
+
+	/**
 	 * 医生ID
 	 */
 	@ApiField("doctor_id")
@@ -92,6 +110,12 @@ SINGLE_HOS_NFYKDZJ 珠江医院（扁鹊单院版）：
 	 */
 	@ApiField("fee")
 	private String fee;
+
+	/**
+	 * 提示语
+	 */
+	@ApiField("hint_message")
+	private String hintMessage;
 
 	/**
 	 * 医院号源编码
@@ -232,6 +256,12 @@ SINGLE_HOS_NFYKDZJ 珠江医院（扁鹊单院版）：
 	private Date pickupEndTime;
 
 	/**
+	 * 取号截止时间描述
+	 */
+	@ApiField("pickup_end_time_desc")
+	private String pickupEndTimeDesc;
+
+	/**
 	 * 平台编码
 	 */
 	@ApiField("platform_code")
@@ -244,10 +274,22 @@ SINGLE_HOS_NFYKDZJ 珠江医院（扁鹊单院版）：
 	private String registerDate;
 
 	/**
+	 * 不需要评价
+	 */
+	@ApiField("register_evaluate")
+	private String registerEvaluate;
+
+	/**
 	 * 排班ID
 	 */
 	@ApiField("register_id")
 	private String registerId;
+
+	/**
+	 * 取号凭证
+	 */
+	@ApiField("register_ticket")
+	private String registerTicket;
 
 	/**
 	 * 场景编码，枚举值
@@ -270,6 +312,12 @@ SINGLE_HOS_NFYKDZJ_SCENE  珠江医院（扁鹊单院版小程序）
 	 */
 	@ApiField("shift_type")
 	private String shiftType;
+
+	/**
+	 * 订单状态描述/原因
+	 */
+	@ApiField("status_reason")
+	private String statusReason;
 
 	/**
 	 * 子场景编码
@@ -296,6 +344,13 @@ SINGLE_HOS_NFYKDZJ_SCENE  珠江医院（扁鹊单院版小程序）
 	}
 	public void setAppointPart(String appointPart) {
 		this.appointPart = appointPart;
+	}
+
+	public String getBussType() {
+		return this.bussType;
+	}
+	public void setBussType(String bussType) {
+		this.bussType = bussType;
 	}
 
 	public String getCancelReason() {
@@ -340,6 +395,20 @@ SINGLE_HOS_NFYKDZJ_SCENE  珠江医院（扁鹊单院版小程序）
 		this.clinicTime = clinicTime;
 	}
 
+	public String getDiseaseDescription() {
+		return this.diseaseDescription;
+	}
+	public void setDiseaseDescription(String diseaseDescription) {
+		this.diseaseDescription = diseaseDescription;
+	}
+
+	public String getDiseaseName() {
+		return this.diseaseName;
+	}
+	public void setDiseaseName(String diseaseName) {
+		this.diseaseName = diseaseName;
+	}
+
 	public String getDoctorId() {
 		return this.doctorId;
 	}
@@ -359,6 +428,13 @@ SINGLE_HOS_NFYKDZJ_SCENE  珠江医院（扁鹊单院版小程序）
 	}
 	public void setFee(String fee) {
 		this.fee = fee;
+	}
+
+	public String getHintMessage() {
+		return this.hintMessage;
+	}
+	public void setHintMessage(String hintMessage) {
+		this.hintMessage = hintMessage;
 	}
 
 	public String getHospitalNumberNo() {
@@ -522,6 +598,13 @@ SINGLE_HOS_NFYKDZJ_SCENE  珠江医院（扁鹊单院版小程序）
 		this.pickupEndTime = pickupEndTime;
 	}
 
+	public String getPickupEndTimeDesc() {
+		return this.pickupEndTimeDesc;
+	}
+	public void setPickupEndTimeDesc(String pickupEndTimeDesc) {
+		this.pickupEndTimeDesc = pickupEndTimeDesc;
+	}
+
 	public String getPlatformCode() {
 		return this.platformCode;
 	}
@@ -536,11 +619,25 @@ SINGLE_HOS_NFYKDZJ_SCENE  珠江医院（扁鹊单院版小程序）
 		this.registerDate = registerDate;
 	}
 
+	public String getRegisterEvaluate() {
+		return this.registerEvaluate;
+	}
+	public void setRegisterEvaluate(String registerEvaluate) {
+		this.registerEvaluate = registerEvaluate;
+	}
+
 	public String getRegisterId() {
 		return this.registerId;
 	}
 	public void setRegisterId(String registerId) {
 		this.registerId = registerId;
+	}
+
+	public String getRegisterTicket() {
+		return this.registerTicket;
+	}
+	public void setRegisterTicket(String registerTicket) {
+		this.registerTicket = registerTicket;
 	}
 
 	public String getSceneCode() {
@@ -555,6 +652,13 @@ SINGLE_HOS_NFYKDZJ_SCENE  珠江医院（扁鹊单院版小程序）
 	}
 	public void setShiftType(String shiftType) {
 		this.shiftType = shiftType;
+	}
+
+	public String getStatusReason() {
+		return this.statusReason;
+	}
+	public void setStatusReason(String statusReason) {
+		this.statusReason = statusReason;
 	}
 
 	public String getSubSceneCode() {

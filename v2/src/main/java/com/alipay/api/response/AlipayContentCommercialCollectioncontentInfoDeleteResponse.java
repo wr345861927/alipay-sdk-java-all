@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayContentCommercialCollectioncontentInfoDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3775297276774147844L;
+	private static final long serialVersionUID = 2366221119249743852L;
 
 	
 

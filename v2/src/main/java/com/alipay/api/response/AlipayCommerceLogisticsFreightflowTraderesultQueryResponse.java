@@ -1,6 +1,7 @@
 package com.alipay.api.response;
 
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.domain.FreightFlowSpdbTradeQueryResultDetail;
 
 import com.alipay.api.AlipayResponse;
 
@@ -8,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.logistics.freightflow.traderesult.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-07-02 19:17:32
+ * @since 1.0, 2026-02-26 14:17:43
  */
 public class AlipayCommerceLogisticsFreightflowTraderesultQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6496853563661221134L;
+	private static final long serialVersionUID = 2661343895912287577L;
 
 	/** 
 	 * 银行操作单号(查询时需要使用)
@@ -49,6 +50,12 @@ public class AlipayCommerceLogisticsFreightflowTraderesultQueryResponse extends 
 	 */
 	@ApiField("request_time")
 	private String requestTime;
+
+	/** 
+	 * 浦发银行交易结果明细复杂对象
+	 */
+	@ApiField("spdb_trade_query_result_detail")
+	private FreightFlowSpdbTradeQueryResultDetail spdbTradeQueryResultDetail;
 
 	/** 
 	 * 状态(成功, 失败, 处理中)
@@ -96,6 +103,13 @@ public class AlipayCommerceLogisticsFreightflowTraderesultQueryResponse extends 
 	}
 	public String getRequestTime( ) {
 		return this.requestTime;
+	}
+
+	public void setSpdbTradeQueryResultDetail(FreightFlowSpdbTradeQueryResultDetail spdbTradeQueryResultDetail) {
+		this.spdbTradeQueryResultDetail = spdbTradeQueryResultDetail;
+	}
+	public FreightFlowSpdbTradeQueryResultDetail getSpdbTradeQueryResultDetail( ) {
+		return this.spdbTradeQueryResultDetail;
 	}
 
 	public void setStatus(String status) {

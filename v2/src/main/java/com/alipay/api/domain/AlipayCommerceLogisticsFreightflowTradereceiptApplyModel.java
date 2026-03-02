@@ -7,22 +7,27 @@ import com.alipay.api.internal.mapping.ApiField;
  * 货运企业支付单笔交易凭证下载申请
  *
  * @author auto create
- * @since 1.0, 2025-07-02 19:15:33
+ * @since 1.0, 2026-02-26 14:16:32
  */
 public class AlipayCommerceLogisticsFreightflowTradereceiptApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1861769971859854545L;
+	private static final long serialVersionUID = 7119686626174183193L;
 
 	/**
 	 * 账户编号
+当mode为MY_BANK时按照账户类型填写;
+当mode为SPDB时填写监管账户.
 	 */
 	@ApiField("account_no")
 	private String accountNo;
 
 	/**
-	 * 结算户:SETTLE_ACCOUNT
+	 * 当mode为MY_BANK时必填：
+结算户:SETTLE_ACCOUNT
 子户:SUB_ACCOUNT
 收款外标:PAYEE_CARD_NO
+
+当mode为SPDB时不填
 	 */
 	@ApiField("account_type")
 	private String accountType;
@@ -60,12 +65,20 @@ ANT_MYBANK(网商银行模式)
 	private String partnerId;
 
 	/**
-	 * 申请交易凭证类型
+	 * 当mode为MY_BANK时必填
+申请交易凭证类型
 单笔交易凭证：
 STANDARD_TRADE_RECEIPT
+当mode为SPDB时不需要填
 	 */
 	@ApiField("receipt_type")
 	private String receiptType;
+
+	/**
+	 * 浦发银行特定场景参数
+	 */
+	@ApiField("spdb_spec_params")
+	private FreightFlowSpdbSpecParams spdbSpecParams;
 
 	/**
 	 * 交易单号
@@ -74,11 +87,17 @@ STANDARD_TRADE_RECEIPT
 	private String tradeNo;
 
 	/**
-	 * 授权代付:ENTRUST_AUTH_PAY
+	 * 当mode为MY_BANK时：
+授权代付:ENTRUST_AUTH_PAY
 授权划转:ENTRUST_ALLOCATE
 转账:TRANSFER
 充值收款/退款/退汇:SETTLE_ACCOUNT_RECEIPT
 收银支付:CASHIER_PAY
+
+当mode为SPDB时：
+05-入金单笔回单
+06-出金单笔回单
+07-子账户互转单笔回单
 	 */
 	@ApiField("trade_type")
 	private String tradeType;
@@ -137,6 +156,13 @@ STANDARD_TRADE_RECEIPT
 	}
 	public void setReceiptType(String receiptType) {
 		this.receiptType = receiptType;
+	}
+
+	public FreightFlowSpdbSpecParams getSpdbSpecParams() {
+		return this.spdbSpecParams;
+	}
+	public void setSpdbSpecParams(FreightFlowSpdbSpecParams spdbSpecParams) {
+		this.spdbSpecParams = spdbSpecParams;
 	}
 
 	public String getTradeNo() {

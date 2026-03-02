@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 创意素材信息
  *
  * @author auto create
- * @since 1.0, 2026-01-16 15:24:29
+ * @since 1.0, 2026-02-28 13:50:26
  */
 public class CreativeMaterial extends AlipayObject {
 
-	private static final long serialVersionUID = 1657366733947644191L;
+	private static final long serialVersionUID = 1462631317298983925L;
 
 	/**
 	 * 素材业务类型
@@ -19,6 +19,12 @@ public class CreativeMaterial extends AlipayObject {
 	 */
 	@ApiField("key")
 	private String key;
+
+	/**
+	 * 是否原生
+	 */
+	@ApiField("native_flag")
+	private Boolean nativeFlag;
 
 	/**
 	 * 素材文件类型
@@ -49,6 +55,13 @@ DESC:描述
 	}
 	public void setKey(String key) {
 		this.key = key;
+	}
+
+	public Boolean getNativeFlag() {
+		return this.nativeFlag;
+	}
+	public void setNativeFlag(Boolean nativeFlag) {
+		this.nativeFlag = nativeFlag;
 	}
 
 	public String getType() {

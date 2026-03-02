@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 用于转账申请中承载付款方主体信息和收款方主体信息
  *
  * @author auto create
- * @since 1.0, 2025-05-07 10:08:50
+ * @since 1.0, 2026-02-26 15:09:32
  */
 public class FreightFlowParticipantInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5445248184374674262L;
+	private static final long serialVersionUID = 4751427973468884466L;
+
+	/**
+	 * 银行名
+	 */
+	@ApiField("participant_bank_name")
+	private String participantBankName;
 
 	/**
 	 * 参与者类型(外部银行卡场景必选) 
@@ -43,14 +49,24 @@ public class FreightFlowParticipantInfo extends AlipayObject {
 	private String participantName;
 
 	/**
-	 * 参与者类型 
+	 * 网商参与者类型： 
 网商活期：CURRENT 
 子户：SUB_ACCOUNT 
 外部银行卡：EXTEND_BANK_CARD 
 支付宝账户：ALIPAY_ACCOUNT
+浦发参与者类型：
+虚拟子户:VIRTUAL_SUB_ACCOUNT
+银行卡:BANK_CARD_NO
 	 */
 	@ApiField("participant_type")
 	private String participantType;
+
+	public String getParticipantBankName() {
+		return this.participantBankName;
+	}
+	public void setParticipantBankName(String participantBankName) {
+		this.participantBankName = participantBankName;
+	}
 
 	public String getParticipantCustomerType() {
 		return this.participantCustomerType;

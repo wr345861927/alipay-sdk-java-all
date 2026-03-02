@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 门店预约配置查询
  *
  * @author auto create
- * @since 1.0, 2026-01-26 15:47:43
+ * @since 1.0, 2026-02-26 17:52:43
  */
 public class AlipayCommerceLifeserviceShopQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5377581765522178491L;
+	private static final long serialVersionUID = 6144646344183328368L;
 
 	/**
 	 * 蚂蚁门店id

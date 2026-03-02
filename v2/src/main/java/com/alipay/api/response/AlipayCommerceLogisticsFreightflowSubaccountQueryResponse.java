@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.logistics.freightflow.subaccount.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-07-02 19:17:32
+ * @since 1.0, 2026-02-26 14:17:43
  */
 public class AlipayCommerceLogisticsFreightflowSubaccountQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5823313971951631938L;
+	private static final long serialVersionUID = 6374147753529679134L;
 
 	/** 
 	 * 账户余额，单位分
@@ -20,11 +20,37 @@ public class AlipayCommerceLogisticsFreightflowSubaccountQueryResponse extends A
 	@ApiField("account_balance")
 	private String accountBalance;
 
+	/** 
+	 * 可用余额,单位为分.
+	 */
+	@ApiField("actual_balance")
+	private String actualBalance;
+
+	/** 
+	 * 冻结金额,单位为分
+	 */
+	@ApiField("freeze_amt")
+	private String freezeAmt;
+
 	public void setAccountBalance(String accountBalance) {
 		this.accountBalance = accountBalance;
 	}
 	public String getAccountBalance( ) {
 		return this.accountBalance;
+	}
+
+	public void setActualBalance(String actualBalance) {
+		this.actualBalance = actualBalance;
+	}
+	public String getActualBalance( ) {
+		return this.actualBalance;
+	}
+
+	public void setFreezeAmt(String freezeAmt) {
+		this.freezeAmt = freezeAmt;
+	}
+	public String getFreezeAmt( ) {
+		return this.freezeAmt;
 	}
 
 }

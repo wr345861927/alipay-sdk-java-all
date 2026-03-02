@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 创意新增或者编辑
  *
  * @author auto create
- * @since 1.0, 2026-01-16 15:24:29
+ * @since 1.0, 2026-02-28 13:50:26
  */
 public class AlipayDataDataserviceAdcampaignCreativeCreateormodifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6141851345843965661L;
+	private static final long serialVersionUID = 4581195257486893491L;
 
 	/**
 	 * 创意交互动作属性集合，根据接入文档落地页参数配置来补充相关字段
@@ -68,10 +68,28 @@ alipay.data.dataservice.adcampaign.actionandtemplate.query
 	private List<CreativeMaterial> materialList;
 
 	/**
+	 * 是否原生创意
+	 */
+	@ApiField("native_flag")
+	private Boolean nativeFlag;
+
+	/**
+	 * 视频发布在主页是否隐藏。1不隐藏，2隐藏。为空则是不隐藏
+	 */
+	@ApiField("permission_level")
+	private Long permissionLevel;
+
+	/**
 	 * 委托人标识
 	 */
 	@ApiField("principal_tag")
 	private String principalTag;
+
+	/**
+	 * 生活号ID，查询接口： alipay.data.dataservice.adpublic.creativetool.query
+	 */
+	@ApiField("public_id")
+	private String publicId;
 
 	/**
 	 * true打开/false关闭
@@ -142,11 +160,32 @@ alipay.data.dataservice.adcampaign.actionandtemplate.query
 		this.materialList = materialList;
 	}
 
+	public Boolean getNativeFlag() {
+		return this.nativeFlag;
+	}
+	public void setNativeFlag(Boolean nativeFlag) {
+		this.nativeFlag = nativeFlag;
+	}
+
+	public Long getPermissionLevel() {
+		return this.permissionLevel;
+	}
+	public void setPermissionLevel(Long permissionLevel) {
+		this.permissionLevel = permissionLevel;
+	}
+
 	public String getPrincipalTag() {
 		return this.principalTag;
 	}
 	public void setPrincipalTag(String principalTag) {
 		this.principalTag = principalTag;
+	}
+
+	public String getPublicId() {
+		return this.publicId;
+	}
+	public void setPublicId(String publicId) {
+		this.publicId = publicId;
 	}
 
 	public Boolean getSmartSwitch() {

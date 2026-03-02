@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 荣耀授信产品信息
  *
  * @author auto create
- * @since 1.0, 2025-09-01 17:26:23
+ * @since 1.0, 2026-02-26 17:19:43
  */
 public class HonorProductInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1128788347372538982L;
+	private static final long serialVersionUID = 7783339118745899767L;
 
 	/**
 	 * 年利率, 示例: 23.4 【即23.4%】
@@ -33,6 +33,12 @@ public class HonorProductInfoDTO extends AlipayObject {
 	 */
 	@ApiField("early_repay")
 	private Boolean earlyRepay;
+
+	/**
+	 * 按期还，提前还款手续费率：4【即4%】
+	 */
+	@ApiField("fee_rate")
+	private String feeRate;
 
 	/**
 	 * 还款方式，枚举值：1-等额本息(灵活还)，2-等额本金(灵活还)，3-先息后本(灵活还)，4-等额本息(按期还)
@@ -84,6 +90,13 @@ public class HonorProductInfoDTO extends AlipayObject {
 	}
 	public void setEarlyRepay(Boolean earlyRepay) {
 		this.earlyRepay = earlyRepay;
+	}
+
+	public String getFeeRate() {
+		return this.feeRate;
+	}
+	public void setFeeRate(String feeRate) {
+		this.feeRate = feeRate;
 	}
 
 	public Long getRepayMethod() {

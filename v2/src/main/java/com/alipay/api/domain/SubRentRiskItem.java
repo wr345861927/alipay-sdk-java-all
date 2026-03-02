@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SubRentRiskItem extends AlipayObject {
 
-	private static final long serialVersionUID = 7861522612718211826L;
+	private static final long serialVersionUID = 5374857311459582636L;
 
 	/**
 	 * 风险描述

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceEcInvoiceTaxcategoryBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5369744911996777877L;
+	private static final long serialVersionUID = 4513263662768328346L;
 
 	/**
 	 * 企业税号

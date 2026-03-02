@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySecurityRiskGuardrailsAnswerDetectModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3356641334662833777L;
+	private static final long serialVersionUID = 8251156114325681886L;
 
 	/**
 	 * 当前回答内容，最大长度10000个字符。回答时必传

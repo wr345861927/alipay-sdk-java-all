@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-01-28 16:47:42
+ * @since 1.0, 2026-02-28 11:07:43
  */
 public class LifeServiceBookingInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1135634191747634459L;
+	private static final long serialVersionUID = 5397888988182181955L;
 
 	/**
 	 * null
@@ -58,6 +58,12 @@ public class LifeServiceBookingInfo extends AlipayObject {
 	 */
 	@ApiField("nick")
 	private String nick;
+
+	/**
+	 * 用于标记支付宝用户在应用下的唯一标识
+	 */
+	@ApiField("open_id")
+	private String openId;
 
 	/**
 	 * 安心生活订单id
@@ -149,6 +155,12 @@ public class LifeServiceBookingInfo extends AlipayObject {
 	@ApiField("technician_id")
 	private String technicianId;
 
+	/**
+	 * 支付宝用户的userId。
+	 */
+	@ApiField("user_id")
+	private String userId;
+
 	public List<LifeServiceAttr> getBookingAttrs() {
 		return this.bookingAttrs;
 	}
@@ -196,6 +208,13 @@ public class LifeServiceBookingInfo extends AlipayObject {
 	}
 	public void setNick(String nick) {
 		this.nick = nick;
+	}
+
+	public String getOpenId() {
+		return this.openId;
+	}
+	public void setOpenId(String openId) {
+		this.openId = openId;
 	}
 
 	public String getOrderId() {
@@ -301,6 +320,13 @@ public class LifeServiceBookingInfo extends AlipayObject {
 	}
 	public void setTechnicianId(String technicianId) {
 		this.technicianId = technicianId;
+	}
+
+	public String getUserId() {
+		return this.userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
 }

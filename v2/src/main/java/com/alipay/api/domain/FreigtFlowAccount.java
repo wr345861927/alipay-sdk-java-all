@@ -7,15 +7,14 @@ import com.alipay.api.internal.mapping.ApiField;
  * 货运账户信息模型
  *
  * @author auto create
- * @since 1.0, 2025-06-23 15:19:18
+ * @since 1.0, 2026-02-26 15:09:33
  */
 public class FreigtFlowAccount extends AlipayObject {
 
-	private static final long serialVersionUID = 6744235865467723213L;
+	private static final long serialVersionUID = 4835681373935834567L;
 
 	/**
-	 * 银行类型，如果为网商银行则传
-ANT_MYBANK(网商银行)
+	 * 银行类型
 	 */
 	@ApiField("bank_id")
 	private String bankId;
@@ -27,7 +26,8 @@ ANT_MYBANK(网商银行)
 	private String bankName;
 
 	/**
-	 * 网商结算户账号
+	 * mode为网商银行时网商结算户账号,
+mode为浦发银行为对应的监管账户
 	 */
 	@ApiField("parent_id")
 	private String parentId;

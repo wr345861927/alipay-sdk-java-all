@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ZftDefaultSettleRule extends AlipayObject {
 
-	private static final long serialVersionUID = 2587358347671373315L;
+	private static final long serialVersionUID = 3498819393528565686L;
 
 	/**
 	 * 默认结算目标。当默认结算类型为alipayAccount时填写支付宝账号登录号，其值需在进件填写的结算支付宝账号范围内。

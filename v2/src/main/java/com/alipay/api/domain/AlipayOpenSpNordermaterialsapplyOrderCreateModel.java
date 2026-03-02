@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenSpNordermaterialsapplyOrderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5662395225665156183L;
+	private static final long serialVersionUID = 1353344859752755727L;
 
 	/**
 	 * 用于区分不同渠道openapi申请单，不传时默认 CATERING_SAAS 餐饮saas，具体使用渠道请接入时和产品确认

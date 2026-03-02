@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ExtContext extends AlipayObject {
 
-	private static final long serialVersionUID = 4874765476823625212L;
+	private static final long serialVersionUID = 2423359897141898542L;
 
 	/**
 	 * ebank_form，银行返回格式类型

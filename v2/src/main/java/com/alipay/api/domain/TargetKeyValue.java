@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-02-12 13:00:11
+ * @since 1.0, 2026-02-26 16:37:42
  */
 public class TargetKeyValue extends AlipayObject {
 
-	private static final long serialVersionUID = 6689585144742981561L;
+	private static final long serialVersionUID = 5581476996466393444L;
 
 	/**
 	 * 目标点属性key，如图层类型编号属性key

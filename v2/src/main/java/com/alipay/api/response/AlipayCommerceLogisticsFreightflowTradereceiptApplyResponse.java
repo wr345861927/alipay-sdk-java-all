@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.logistics.freightflow.tradereceipt.apply response.
  * 
  * @author auto create
- * @since 1.0, 2025-07-02 19:17:31
+ * @since 1.0, 2026-02-26 14:17:43
  */
 public class AlipayCommerceLogisticsFreightflowTradereceiptApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8184429681834291944L;
+	private static final long serialVersionUID = 4815514734221995447L;
 
 	/** 
 	 * Base64加密
@@ -21,11 +21,24 @@ public class AlipayCommerceLogisticsFreightflowTradereceiptApplyResponse extends
 	@ApiField("pdf_download_url")
 	private String pdfDownloadUrl;
 
+	/** 
+	 * 电子回单下载的文件是否已生成
+	 */
+	@ApiField("status")
+	private String status;
+
 	public void setPdfDownloadUrl(String pdfDownloadUrl) {
 		this.pdfDownloadUrl = pdfDownloadUrl;
 	}
 	public String getPdfDownloadUrl( ) {
 		return this.pdfDownloadUrl;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public String getStatus( ) {
+		return this.status;
 	}
 
 }

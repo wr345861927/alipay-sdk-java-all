@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LlmChatHistoryVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8591137188179663559L;
+	private static final long serialVersionUID = 4222626914451851939L;
 
 	/**
 	 * 智能体id

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 货运企业支付转账申请
  *
  * @author auto create
- * @since 1.0, 2025-07-02 19:14:23
+ * @since 1.0, 2026-02-26 15:09:32
  */
 public class AlipayCommerceLogisticsFreightflowTransferApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8729837872842977415L;
+	private static final long serialVersionUID = 2539365727386728246L;
 
 	/**
 	 * 转账金额，单位分
@@ -44,8 +44,7 @@ public class AlipayCommerceLogisticsFreightflowTransferApplyModel extends Alipay
 	private String memo;
 
 	/**
-	 * 银行管理模式 
-ANT_MYBANK(网商银行模式)
+	 * 银行管理模式
 	 */
 	@ApiField("mode")
 	private String mode;
@@ -87,13 +86,19 @@ ANT_MYBANK(网商银行模式)
 	private String requestTime;
 
 	/**
-	 * 交易用途
+	 * 浦发银行特定场景参数,当mode=SPDB时必选
+	 */
+	@ApiField("spdb_spec_params")
+	private FreightFlowSpdbSpecParams spdbSpecParams;
+
+	/**
+	 * 当与运企付约定了需要传递安全字段时,交易用途字段必传
 	 */
 	@ApiField("trans_purpose")
 	private String transPurpose;
 
 	/**
-	 * 运单信息
+	 * 当约定了需要传递安全字段时,运单信息字段必传
 	 */
 	@ApiField("waybill_info")
 	private FreightFlowWaybillInfo waybillInfo;
@@ -180,6 +185,13 @@ ANT_MYBANK(网商银行模式)
 	}
 	public void setRequestTime(String requestTime) {
 		this.requestTime = requestTime;
+	}
+
+	public FreightFlowSpdbSpecParams getSpdbSpecParams() {
+		return this.spdbSpecParams;
+	}
+	public void setSpdbSpecParams(FreightFlowSpdbSpecParams spdbSpecParams) {
+		this.spdbSpecParams = spdbSpecParams;
 	}
 
 	public String getTransPurpose() {

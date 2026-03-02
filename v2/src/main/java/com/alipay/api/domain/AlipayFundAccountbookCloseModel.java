@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayFundAccountbookCloseModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7891299372619669714L;
+	private static final long serialVersionUID = 7118781846395682868L;
 
 	/**
 	 * 资金记账本ID，指定需要注销的资金记账本

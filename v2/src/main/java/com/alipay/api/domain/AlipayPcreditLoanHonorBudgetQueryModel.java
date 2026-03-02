@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 荣耀还款试算
  *
  * @author auto create
- * @since 1.0, 2025-09-12 16:15:50
+ * @since 1.0, 2026-02-26 16:37:35
  */
 public class AlipayPcreditLoanHonorBudgetQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1628149976562255963L;
+	private static final long serialVersionUID = 7875694927347245815L;
 
 	/**
 	 * 支付宝用户ID

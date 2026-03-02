@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 业务对象批量查询
  *
  * @author auto create
- * @since 1.0, 2026-02-12 13:00:18
+ * @since 1.0, 2026-02-26 16:47:43
  */
 public class RobbyOpenObjectInfoBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3761454575723879565L;
+	private static final long serialVersionUID = 4232395881121871447L;
 
 	/**
 	 * 业务编号，如订单号
@@ -29,6 +29,12 @@ public class RobbyOpenObjectInfoBatchqueryModel extends AlipayObject {
 	@ApiField("string")
 	private List<String> bizObjectNoList;
 
+	/**
+	 * 查询的业务对象标识所属对象库ID
+	 */
+	@ApiField("object_library_id")
+	private String objectLibraryId;
+
 	public String getBizNo() {
 		return this.bizNo;
 	}
@@ -41,6 +47,13 @@ public class RobbyOpenObjectInfoBatchqueryModel extends AlipayObject {
 	}
 	public void setBizObjectNoList(List<String> bizObjectNoList) {
 		this.bizObjectNoList = bizObjectNoList;
+	}
+
+	public String getObjectLibraryId() {
+		return this.objectLibraryId;
+	}
+	public void setObjectLibraryId(String objectLibraryId) {
+		this.objectLibraryId = objectLibraryId;
 	}
 
 }

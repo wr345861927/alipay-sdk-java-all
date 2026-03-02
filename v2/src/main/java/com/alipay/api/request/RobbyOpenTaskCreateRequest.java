@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: robby.open.task.create request
  * 
  * @author auto create
- * @since 1.0, 2026-02-12 13:00:11
+ * @since 1.0, 2026-02-26 16:37:42
  */
 public class RobbyOpenTaskCreateRequest implements AlipayRequest<RobbyOpenTaskCreateResponse> {
 

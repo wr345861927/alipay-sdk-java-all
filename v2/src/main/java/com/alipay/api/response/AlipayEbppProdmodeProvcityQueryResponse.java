@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppProdmodeProvcityQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2169826139869148474L;
+	private static final long serialVersionUID = 1357124422155496939L;
 
 	/** 
 	 * 返回省市下拉列表数据

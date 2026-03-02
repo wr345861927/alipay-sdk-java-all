@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayDataDataserviceAdcrowdInterestkeywordBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6516546661699232635L;
+	private static final long serialVersionUID = 5184675391286152871L;
 
 	/** 
 	 * 该参数表示行为兴趣人群，包含人群包id，名称，覆盖人群

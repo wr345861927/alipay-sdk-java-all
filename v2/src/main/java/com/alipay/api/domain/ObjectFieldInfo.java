@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ObjectFieldInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7287829729796497849L;
+	private static final long serialVersionUID = 6667938769436122583L;
 
 	/**
 	 * 属性key，如是否医保等，必须在对象库字段表里存在

@@ -1,0 +1,198 @@
+package com.alipay.api.domain;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+
+/**
+ * null
+ *
+ * @author auto create
+ * @since 1.0, 2026-02-28 15:27:43
+ */
+public class InvoiceMerchantItem extends AlipayObject {
+
+	private static final long serialVersionUID = 1531191848398312529L;
+
+	/**
+	 * 发票行性质
+	 */
+	@ApiField("invoice_line_property")
+	private String invoiceLineProperty;
+
+	/**
+	 * 开票金额：总位数10位，最多8位整数，最多2位小数，单位：元 开票金额与不含税金额必须二选一传入，不传入则系统自行计算，传入则只做校验
+	 */
+	@ApiField("item_amount")
+	private String itemAmount;
+
+	/**
+	 * 不含税金额：总位数10位，最多8位整数，最多2位小数，单位：元 不含税金额与开票金额必须二选一传入 不传入则系统自行计算，传入则只做校验
+	 */
+	@ApiField("item_amount_without_tax")
+	private String itemAmountWithoutTax;
+
+	/**
+	 * 商品名称
+	 */
+	@ApiField("item_name")
+	private String itemName;
+
+	/**
+	 * 商品数量：总27位数，最多17位整数，最多13位小数 不传入则系统自行计算，传入则只做校验
+	 */
+	@ApiField("item_num")
+	private String itemNum;
+
+	/**
+	 * 商品规格型号
+	 */
+	@ApiField("item_spec")
+	private String itemSpec;
+
+	/**
+	 * 商品税额：总位数20位，最多16位整数，最多2位小数，单位：元 不传入则系统自行计算，传入则只做校验
+	 */
+	@ApiField("item_tax_amount")
+	private String itemTaxAmount;
+
+	/**
+	 * 商品税率，小数介于(0, 1)，小数部分最多保留四位
+	 */
+	@ApiField("item_tax_rate")
+	private String itemTaxRate;
+
+	/**
+	 * 商品单位，不动产经营租赁传值仅支持：平方米 成品油传值仅支持：升、吨 其他开票场景可自定义单位
+	 */
+	@ApiField("item_unit")
+	private String itemUnit;
+
+	/**
+	 * 含税单价：总27位数，最多17位整数，最多2位小数 单位：元 不传入则系统自行计算，传入则只做校验
+	 */
+	@ApiField("item_unit_amount")
+	private String itemUnitAmount;
+
+	/**
+	 * 不含税单价：总27位数，最多17位整数，最多2位小数 单位：元 不传入则系统自行计算，传入则只做校验
+	 */
+	@ApiField("item_unit_amount_without_tax")
+	private String itemUnitAmountWithoutTax;
+
+	/**
+	 * 关联蓝票明细行序号，红冲时使用原始发票对应的明细行序号
+	 */
+	@ApiField("related_blue_serial_no")
+	private Long relatedBlueSerialNo;
+
+	/**
+	 * 明细行序号
+	 */
+	@ApiField("serial_no")
+	private Long serialNo;
+
+	/**
+	 * 税收分类编码，请参考标准商品税编列表填写
+	 */
+	@ApiField("tax_code")
+	private String taxCode;
+
+	public String getInvoiceLineProperty() {
+		return this.invoiceLineProperty;
+	}
+	public void setInvoiceLineProperty(String invoiceLineProperty) {
+		this.invoiceLineProperty = invoiceLineProperty;
+	}
+
+	public String getItemAmount() {
+		return this.itemAmount;
+	}
+	public void setItemAmount(String itemAmount) {
+		this.itemAmount = itemAmount;
+	}
+
+	public String getItemAmountWithoutTax() {
+		return this.itemAmountWithoutTax;
+	}
+	public void setItemAmountWithoutTax(String itemAmountWithoutTax) {
+		this.itemAmountWithoutTax = itemAmountWithoutTax;
+	}
+
+	public String getItemName() {
+		return this.itemName;
+	}
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+
+	public String getItemNum() {
+		return this.itemNum;
+	}
+	public void setItemNum(String itemNum) {
+		this.itemNum = itemNum;
+	}
+
+	public String getItemSpec() {
+		return this.itemSpec;
+	}
+	public void setItemSpec(String itemSpec) {
+		this.itemSpec = itemSpec;
+	}
+
+	public String getItemTaxAmount() {
+		return this.itemTaxAmount;
+	}
+	public void setItemTaxAmount(String itemTaxAmount) {
+		this.itemTaxAmount = itemTaxAmount;
+	}
+
+	public String getItemTaxRate() {
+		return this.itemTaxRate;
+	}
+	public void setItemTaxRate(String itemTaxRate) {
+		this.itemTaxRate = itemTaxRate;
+	}
+
+	public String getItemUnit() {
+		return this.itemUnit;
+	}
+	public void setItemUnit(String itemUnit) {
+		this.itemUnit = itemUnit;
+	}
+
+	public String getItemUnitAmount() {
+		return this.itemUnitAmount;
+	}
+	public void setItemUnitAmount(String itemUnitAmount) {
+		this.itemUnitAmount = itemUnitAmount;
+	}
+
+	public String getItemUnitAmountWithoutTax() {
+		return this.itemUnitAmountWithoutTax;
+	}
+	public void setItemUnitAmountWithoutTax(String itemUnitAmountWithoutTax) {
+		this.itemUnitAmountWithoutTax = itemUnitAmountWithoutTax;
+	}
+
+	public Long getRelatedBlueSerialNo() {
+		return this.relatedBlueSerialNo;
+	}
+	public void setRelatedBlueSerialNo(Long relatedBlueSerialNo) {
+		this.relatedBlueSerialNo = relatedBlueSerialNo;
+	}
+
+	public Long getSerialNo() {
+		return this.serialNo;
+	}
+	public void setSerialNo(Long serialNo) {
+		this.serialNo = serialNo;
+	}
+
+	public String getTaxCode() {
+		return this.taxCode;
+	}
+	public void setTaxCode(String taxCode) {
+		this.taxCode = taxCode;
+	}
+
+}
