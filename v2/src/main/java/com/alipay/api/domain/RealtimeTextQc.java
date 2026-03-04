@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RealtimeTextQc extends AlipayObject {
 
-	private static final long serialVersionUID = 2432613982876269162L;
+	private static final long serialVersionUID = 3233539119283687298L;
 
 	/**
 	 * 当前时间

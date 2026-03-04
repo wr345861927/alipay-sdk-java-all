@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMedicalIndustrydataImAddResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5854319744333319634L;
+	private static final long serialVersionUID = 3148485337357825214L;
 
 	/** 
 	 * 支付宝im会话chatId

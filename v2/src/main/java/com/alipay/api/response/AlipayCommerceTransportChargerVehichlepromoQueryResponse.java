@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceTransportChargerVehichlepromoQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6214212788287916728L;
+	private static final long serialVersionUID = 7252382482548242266L;
 
 	/** 
 	 * 订单核销车企优惠金额，精度两位小数，单位元

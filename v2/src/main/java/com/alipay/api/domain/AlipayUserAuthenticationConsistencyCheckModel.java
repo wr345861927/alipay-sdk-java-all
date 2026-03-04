@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付宝实名信息一致性校验接口
  *
  * @author auto create
- * @since 1.0, 2026-01-16 11:09:07
+ * @since 1.0, 2026-03-02 17:03:06
  */
 public class AlipayUserAuthenticationConsistencyCheckModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8556274146633111245L;
+	private static final long serialVersionUID = 3243823417618677449L;
 
 	/**
 	 * 业务逻辑会针对biz_from来决定：账号属于未认证状态时是否透出错误码和错误文案

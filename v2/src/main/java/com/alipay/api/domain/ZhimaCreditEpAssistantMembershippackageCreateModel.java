@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 企信助手会员包创建
  *
  * @author auto create
- * @since 1.0, 2026-01-23 10:17:42
+ * @since 1.0, 2026-03-03 15:12:44
  */
 public class ZhimaCreditEpAssistantMembershippackageCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7621669122358895412L;
+	private static final long serialVersionUID = 7241682284253676924L;
 
 	/**
 	 * 唯一键，幂等控制，同一个id不允许多次购买

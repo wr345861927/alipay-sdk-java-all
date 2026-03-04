@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: datadigital.anttech.pv.forecast.submit request
  * 
  * @author auto create
- * @since 1.0, 2025-08-11 14:07:36
+ * @since 1.0, 2026-02-28 16:02:43
  */
 public class DatadigitalAnttechPvForecastSubmitRequest implements AlipayRequest<DatadigitalAnttechPvForecastSubmitResponse> {
 

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SellerSyncRentFinancingExtInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8352178229889868495L;
+	private static final long serialVersionUID = 2244855489645491485L;
 
 	/**
 	 * 收款银行卡账户

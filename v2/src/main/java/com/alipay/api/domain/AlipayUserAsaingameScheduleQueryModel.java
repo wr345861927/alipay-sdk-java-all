@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayUserAsaingameScheduleQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6147961249276535121L;
+	private static final long serialVersionUID = 3736474225525578855L;
 
 	/**
 	 * 查询场景

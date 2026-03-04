@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: datadigital.anttech.load.forecast.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-11 14:07:37
+ * @since 1.0, 2026-02-28 16:27:50
  */
 public class DatadigitalAnttechLoadForecastQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2351368271695515317L;
+	private static final long serialVersionUID = 5722158796163883265L;
 
 	/** 
 	 * 负荷预测数据信息

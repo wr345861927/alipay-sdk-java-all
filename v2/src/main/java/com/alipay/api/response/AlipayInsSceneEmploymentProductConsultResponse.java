@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayInsSceneEmploymentProductConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7311356859685769917L;
+	private static final long serialVersionUID = 3519451351957467166L;
 
 	/** 
 	 * 推荐的产品方案列表

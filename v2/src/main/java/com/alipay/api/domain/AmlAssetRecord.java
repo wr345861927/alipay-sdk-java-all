@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AmlAssetRecord extends AlipayObject {
 
-	private static final long serialVersionUID = 7331622551617315281L;
+	private static final long serialVersionUID = 2391738594895996737L;
 
 	/**
 	 * 数据生效时间

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceAcommunicationBroadbandVerifycodeSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1466277239489268494L;
+	private static final long serialVersionUID = 6335973845893986613L;
 
 	/**
 	 * 宽带办理联系电话

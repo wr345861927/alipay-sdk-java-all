@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: datadigital.anttech.weather.history.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-05 09:52:43
+ * @since 1.0, 2026-02-28 16:02:42
  */
 public class DatadigitalAnttechWeatherHistoryQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8595979692835351476L;
+	private static final long serialVersionUID = 7899778593382313584L;
 
 	/** 
 	 * 消耗token数量。

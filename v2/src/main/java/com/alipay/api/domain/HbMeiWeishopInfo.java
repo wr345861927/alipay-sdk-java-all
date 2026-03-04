@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HbMeiWeishopInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4331863282997941325L;
+	private static final long serialVersionUID = 4833533335843223176L;
 
 	/**
 	 * 所在城市code

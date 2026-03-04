@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.npassporter.verify.query request
  * 
  * @author auto create
- * @since 1.0, 2025-12-29 15:17:43
+ * @since 1.0, 2026-03-02 16:12:45
  */
 public class AlipayOfflineProviderNpassporterVerifyQueryRequest implements AlipayRequest<AlipayOfflineProviderNpassporterVerifyQueryResponse> {
 

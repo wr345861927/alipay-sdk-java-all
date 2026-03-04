@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 同步三方应用的授权码
  *
  * @author auto create
- * @since 1.0, 2025-11-05 18:07:41
+ * @since 1.0, 2026-03-02 17:53:31
  */
 public class AlipayCommerceMedicalThirdcodeSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5347796341935139286L;
+	private static final long serialVersionUID = 1897145495352434838L;
 
 	/**
 	 * 授权数据类型，默认全部

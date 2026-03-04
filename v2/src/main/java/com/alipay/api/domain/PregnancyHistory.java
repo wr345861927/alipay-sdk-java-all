@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PregnancyHistory extends AlipayObject {
 
-	private static final long serialVersionUID = 5778214955952169597L;
+	private static final long serialVersionUID = 7817484127237847481L;
 
 	/**
 	 * 末次月经时间

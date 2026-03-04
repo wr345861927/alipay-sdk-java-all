@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 数字分行通用红包发放接口
  *
  * @author auto create
- * @since 1.0, 2025-01-18 13:47:07
+ * @since 1.0, 2026-03-02 14:27:34
  */
 public class AlipayUserDtbankcustChannelvoucherSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4164899654347343845L;
+	private static final long serialVersionUID = 6436814816624629268L;
 
 	/**
 	 * 数字分行活动id

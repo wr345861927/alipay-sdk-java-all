@@ -1,6 +1,7 @@
 package com.alipay.api.response;
 
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.domain.CombinePrizeResult;
 
 import com.alipay.api.AlipayResponse;
 
@@ -8,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.dtbankcust.channelvoucher.send response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-04 14:24:07
+ * @since 1.0, 2026-03-02 14:27:43
  */
 public class AlipayUserDtbankcustChannelvoucherSendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4157179555527696598L;
+	private static final long serialVersionUID = 2733378347644427669L;
 
 	/** 
 	 * 接收渠道红包的，脱敏后的支付宝登录号
@@ -31,6 +32,12 @@ public class AlipayUserDtbankcustChannelvoucherSendResponse extends AlipayRespon
 	 */
 	@ApiField("activity_order_id")
 	private String activityOrderId;
+
+	/** 
+	 * 组合券包发奖结果，如果是组合券包发奖，所有需要的出参都在这个复杂对象中
+	 */
+	@ApiField("combine_prize_result")
+	private CombinePrizeResult combinePrizeResult;
 
 	/** 
 	 * 优惠门槛金额
@@ -94,6 +101,13 @@ B.满10元随机立减1元到3元,则值是具体的金额，如果随机1.5元�
 	}
 	public String getActivityOrderId( ) {
 		return this.activityOrderId;
+	}
+
+	public void setCombinePrizeResult(CombinePrizeResult combinePrizeResult) {
+		this.combinePrizeResult = combinePrizeResult;
+	}
+	public CombinePrizeResult getCombinePrizeResult( ) {
+		return this.combinePrizeResult;
 	}
 
 	public void setDiscountThresholdAmt(Long discountThresholdAmt) {

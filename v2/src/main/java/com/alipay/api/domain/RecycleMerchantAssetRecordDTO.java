@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecycleMerchantAssetRecordDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2359158367632295231L;
+	private static final long serialVersionUID = 8674256489385963442L;
 
 	/**
 	 * 流水金额，单位：分

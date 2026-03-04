@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询解除授权的用户
  *
  * @author auto create
- * @since 1.0, 2024-12-26 20:02:05
+ * @since 1.0, 2026-03-02 17:04:18
  */
 public class AlipayUserDeloauthDetailQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5168937274549683477L;
+	private static final long serialVersionUID = 4291764276674971936L;
 
 	/**
 	 * 商家查询日期为：date时，产生的解除授权记录

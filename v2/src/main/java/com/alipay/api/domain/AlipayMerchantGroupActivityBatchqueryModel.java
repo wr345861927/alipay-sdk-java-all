@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayMerchantGroupActivityBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1373154312494587921L;
+	private static final long serialVersionUID = 3167616994637754467L;
 
 	/**
 	 * 商家群活动类型列表，目前支持custom (自定义活动)、coupon(优惠群活动)

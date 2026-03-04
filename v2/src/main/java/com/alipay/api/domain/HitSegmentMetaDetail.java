@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HitSegmentMetaDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 5444648876515948598L;
+	private static final long serialVersionUID = 6165999224166318561L;
 
 	/**
 	 * 应用数据ID

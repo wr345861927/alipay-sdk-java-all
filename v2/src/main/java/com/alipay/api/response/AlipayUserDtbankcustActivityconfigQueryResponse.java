@@ -6,6 +6,7 @@ import com.alipay.api.domain.DtBankActivityTypeInfo;
 import com.alipay.api.domain.DtbankActivityAlertConfigInfo;
 import com.alipay.api.domain.DtBankInfo;
 import com.alipay.api.domain.DtBankBudgetInfo;
+import com.alipay.api.domain.CombinePrizeDiscountInfo;
 import com.alipay.api.domain.DtBankCrowdInfo;
 import com.alipay.api.domain.DtbankActivityDataEffectInfo;
 import com.alipay.api.domain.DtBankPreferenceTypeInfo;
@@ -16,11 +17,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.dtbankcust.activityconfig.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-11 10:39:01
+ * @since 1.0, 2026-03-02 14:27:44
  */
 public class AlipayUserDtbankcustActivityconfigQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5365539842836862164L;
+	private static final long serialVersionUID = 2225336627342921988L;
 
 	/** 
 	 * 当入参活动类型是DISCOUNT、VOUCHER、FIRST_BIND_CARD_GIFT时返回活动ID；
@@ -72,6 +73,12 @@ public class AlipayUserDtbankcustActivityconfigQueryResponse extends AlipayRespo
 	 */
 	@ApiField("budget_info")
 	private DtBankBudgetInfo budgetInfo;
+
+	/** 
+	 * 组合券包优惠信息
+	 */
+	@ApiField("combine_prize_discount_info")
+	private CombinePrizeDiscountInfo combinePrizeDiscountInfo;
 
 	/** 
 	 * 计次信息
@@ -169,6 +176,13 @@ public class AlipayUserDtbankcustActivityconfigQueryResponse extends AlipayRespo
 	}
 	public DtBankBudgetInfo getBudgetInfo( ) {
 		return this.budgetInfo;
+	}
+
+	public void setCombinePrizeDiscountInfo(CombinePrizeDiscountInfo combinePrizeDiscountInfo) {
+		this.combinePrizeDiscountInfo = combinePrizeDiscountInfo;
+	}
+	public CombinePrizeDiscountInfo getCombinePrizeDiscountInfo( ) {
+		return this.combinePrizeDiscountInfo;
 	}
 
 	public void setCountLimit(String countLimit) {

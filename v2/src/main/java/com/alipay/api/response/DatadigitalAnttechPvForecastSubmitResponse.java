@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: datadigital.anttech.pv.forecast.submit response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-11 14:07:36
+ * @since 1.0, 2026-02-28 16:02:43
  */
 public class DatadigitalAnttechPvForecastSubmitResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2514383481142877237L;
+	private static final long serialVersionUID = 3768639881596117493L;
 
 	
 

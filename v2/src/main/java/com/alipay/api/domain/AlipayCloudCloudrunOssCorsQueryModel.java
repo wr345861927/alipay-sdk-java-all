@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCloudCloudrunOssCorsQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5277115761299883684L;
+	private static final long serialVersionUID = 4182423488465775956L;
 
 	/**
 	 * 内部使用，uiam角色扮演token

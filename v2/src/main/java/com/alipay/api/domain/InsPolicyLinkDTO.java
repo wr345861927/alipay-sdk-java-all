@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InsPolicyLinkDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3142281732871781822L;
+	private static final long serialVersionUID = 3659412869286192863L;
 
 	/**
 	 * 授权token

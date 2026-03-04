@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class GroupMsgAutoreplyRecordVO extends AlipayObject {
 
-	private static final long serialVersionUID = 6538157774149771474L;
+	private static final long serialVersionUID = 3888458197732521161L;
 
 	/**
 	 * 自动回复id

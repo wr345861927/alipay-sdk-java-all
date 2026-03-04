@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.aq.token.cancel response.
  * 
  * @author auto create
- * @since 1.0, 2025-11-05 18:02:25
+ * @since 1.0, 2026-03-02 17:54:13
  */
 public class AlipayCommerceMedicalAqTokenCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1663182651481719332L;
+	private static final long serialVersionUID = 3187556298466212467L;
 
 	
 

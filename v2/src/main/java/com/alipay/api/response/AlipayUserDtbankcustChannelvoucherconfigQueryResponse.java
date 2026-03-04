@@ -4,6 +4,7 @@ import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
 import com.alipay.api.domain.BenefitSendTime;
+import com.alipay.api.domain.CombinePrizeDiscountInfo;
 import com.alipay.api.domain.CouponEffectTime;
 import com.alipay.api.domain.CouponTemplateConsumeInfo;
 import com.alipay.api.domain.DiscountInfoConfig;
@@ -14,11 +15,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.dtbankcust.channelvoucherconfig.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-11 10:38:27
+ * @since 1.0, 2026-03-02 16:07:45
  */
 public class AlipayUserDtbankcustChannelvoucherconfigQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7319323691518761555L;
+	private static final long serialVersionUID = 5186586383545195129L;
 
 	/** 
 	 * 数字分行活动唯一id
@@ -65,6 +66,12 @@ DEBIT_CREDIT:借记卡或信用卡
 	@ApiListField("card_bin_list")
 	@ApiField("string")
 	private List<String> cardBinList;
+
+	/** 
+	 * 组合券包优惠信息
+	 */
+	@ApiField("combine_prize_discount_info")
+	private CombinePrizeDiscountInfo combinePrizeDiscountInfo;
 
 	/** 
 	 * 红包发放之后的生效时间配置
@@ -145,6 +152,13 @@ DEBIT_CREDIT:借记卡或信用卡
 	}
 	public List<String> getCardBinList( ) {
 		return this.cardBinList;
+	}
+
+	public void setCombinePrizeDiscountInfo(CombinePrizeDiscountInfo combinePrizeDiscountInfo) {
+		this.combinePrizeDiscountInfo = combinePrizeDiscountInfo;
+	}
+	public CombinePrizeDiscountInfo getCombinePrizeDiscountInfo( ) {
+		return this.combinePrizeDiscountInfo;
 	}
 
 	public void setCouponEffectTime(CouponEffectTime couponEffectTime) {

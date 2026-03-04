@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ConsumerLoanLoanInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3814541743313353224L;
+	private static final long serialVersionUID = 5414782487155416425L;
 
 	/**
 	 * 剩余待还本金，单位为分，1000代表10.00元

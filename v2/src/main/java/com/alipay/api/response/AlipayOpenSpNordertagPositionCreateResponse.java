@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenSpNordertagPositionCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3362221751591115118L;
+	private static final long serialVersionUID = 2583531917849481892L;
 
 	/** 
 	 * 点位id,主要为新建点位时生成的点位唯一标识

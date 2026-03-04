@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEbppOrderItemCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4631155839869187886L;
+	private static final long serialVersionUID = 2549126919453693731L;
 
 	/**
 	 * 预创单失效时间，此时间点后不允许再支付。

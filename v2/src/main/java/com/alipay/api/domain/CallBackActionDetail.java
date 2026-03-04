@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CallBackActionDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 1524192511343333435L;
+	private static final long serialVersionUID = 8719654931967827113L;
 
 	/**
 	 * 发起语音外呼动作程序编码

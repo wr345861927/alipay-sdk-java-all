@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AliosOpenAutoInfoQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4694463525457891562L;
+	private static final long serialVersionUID = 3878271979664641116L;
 
 	/** 
 	 * 发动机号

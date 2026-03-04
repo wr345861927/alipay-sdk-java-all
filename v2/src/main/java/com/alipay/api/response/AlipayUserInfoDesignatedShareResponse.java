@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.info.designated.share response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-14 11:47:36
+ * @since 1.0, 2026-03-02 17:03:17
  */
 public class AlipayUserInfoDesignatedShareResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1881357558457994969L;
+	private static final long serialVersionUID = 8889376158271669719L;
 
 	/** 
 	 * 用户授权给三方的借记卡相关信息

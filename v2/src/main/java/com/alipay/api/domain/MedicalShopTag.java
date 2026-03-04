@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MedicalShopTag extends AlipayObject {
 
-	private static final long serialVersionUID = 6273471257434398383L;
+	private static final long serialVersionUID = 6572163566986618648L;
 
 	/**
 	 * 门店标签类型

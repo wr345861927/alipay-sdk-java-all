@@ -1,6 +1,7 @@
 package com.alipay.api.response;
 
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.domain.CombinePrizeResult;
 
 import com.alipay.api.AlipayResponse;
 
@@ -8,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.dtbankcust.activityorder.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-11 10:38:55
+ * @since 1.0, 2026-03-02 14:27:43
  */
 public class AlipayUserDtbankcustActivityorderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3813315346331788472L;
+	private static final long serialVersionUID = 3754578383338596459L;
 
 	/** 
 	 * 数字分行活动唯一id
@@ -25,6 +26,12 @@ public class AlipayUserDtbankcustActivityorderQueryResponse extends AlipayRespon
 	 */
 	@ApiField("activity_order_id")
 	private String activityOrderId;
+
+	/** 
+	 * 组合券包发奖结果，包含所有需要消费的字段
+	 */
+	@ApiField("combine_prize_result")
+	private CombinePrizeResult combinePrizeResult;
 
 	/** 
 	 * 外部唯一业务幂等号
@@ -56,6 +63,13 @@ public class AlipayUserDtbankcustActivityorderQueryResponse extends AlipayRespon
 	}
 	public String getActivityOrderId( ) {
 		return this.activityOrderId;
+	}
+
+	public void setCombinePrizeResult(CombinePrizeResult combinePrizeResult) {
+		this.combinePrizeResult = combinePrizeResult;
+	}
+	public CombinePrizeResult getCombinePrizeResult( ) {
+		return this.combinePrizeResult;
 	}
 
 	public void setOutBizNo(String outBizNo) {

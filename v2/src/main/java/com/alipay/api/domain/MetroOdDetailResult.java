@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MetroOdDetailResult extends AlipayObject {
 
-	private static final long serialVersionUID = 1785768149881718276L;
+	private static final long serialVersionUID = 4415865748178993467L;
 
 	/**
 	 * 返回码

@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.deloauth.detail.query response.
  * 
  * @author auto create
- * @since 1.0, 2024-12-26 20:02:05
+ * @since 1.0, 2026-03-02 17:04:18
  */
 public class AlipayUserDeloauthDetailQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1481478198746221586L;
+	private static final long serialVersionUID = 5355569584633955626L;
 
 	/** 
 	 * 解除授权明细列表

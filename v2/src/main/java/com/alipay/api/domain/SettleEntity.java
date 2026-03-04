@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SettleEntity extends AlipayObject {
 
-	private static final long serialVersionUID = 2554343987737178681L;
+	private static final long serialVersionUID = 6844712824971588378L;
 
 	/**
 	 * 结算主体资产业务类型，settled 表示已结算资产

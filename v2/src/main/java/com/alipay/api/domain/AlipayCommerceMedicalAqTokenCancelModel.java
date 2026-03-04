@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 取消AQ会话H5页面授权
  *
  * @author auto create
- * @since 1.0, 2025-11-05 18:02:25
+ * @since 1.0, 2026-03-02 17:54:13
  */
 public class AlipayCommerceMedicalAqTokenCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6146993196672564942L;
+	private static final long serialVersionUID = 2222343157947242745L;
 
 	/**
 	 * 支付宝openId

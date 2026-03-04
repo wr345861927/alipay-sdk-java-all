@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class UserConsumeLevelTagDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2457471332886591595L;
+	private static final long serialVersionUID = 8225243743529758142L;
 
 	/**
 	 * 用户消费能力占比

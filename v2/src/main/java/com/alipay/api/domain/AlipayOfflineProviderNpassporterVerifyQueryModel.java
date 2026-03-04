@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询核身结果
  *
  * @author auto create
- * @since 1.0, 2025-12-29 15:17:43
+ * @since 1.0, 2026-03-02 16:12:45
  */
 public class AlipayOfflineProviderNpassporterVerifyQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4834456917416327899L;
+	private static final long serialVersionUID = 7515337955986993195L;
 
 	/**
 	 * mac地址

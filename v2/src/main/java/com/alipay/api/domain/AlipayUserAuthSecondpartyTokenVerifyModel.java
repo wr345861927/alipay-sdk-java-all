@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 二方登录token校验
  *
  * @author auto create
- * @since 1.0, 2020-08-24 17:22:43
+ * @since 1.0, 2026-03-02 17:07:54
  */
 public class AlipayUserAuthSecondpartyTokenVerifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7375617348579559114L;
+	private static final long serialVersionUID = 6842776258297944357L;
 
 	/**
 	 * 二方登录token
