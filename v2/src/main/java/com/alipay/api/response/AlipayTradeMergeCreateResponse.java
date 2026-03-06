@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayTradeMergeCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5718476818125667622L;
+	private static final long serialVersionUID = 4233712468391918295L;
 
 	/** 
 	 * 合并交易号，用于后续唤起收银台使用，当所有子订单都下单成功后返回，2小时后失效。失效后需重新发起合并下单请求。

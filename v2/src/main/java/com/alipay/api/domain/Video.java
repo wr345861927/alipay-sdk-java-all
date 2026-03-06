@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class Video extends AlipayObject {
 
-	private static final long serialVersionUID = 6613771731698999856L;
+	private static final long serialVersionUID = 1786224923582577678L;
 
 	/**
 	 * 调用alipay.offline.material.image.upload接口将视频上传到素材中心后，生成的ID

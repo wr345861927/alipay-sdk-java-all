@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class GroupPurchaseImageInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1224442413716959344L;
+	private static final long serialVersionUID = 8523666472474885339L;
 
 	/**
 	 * 资质图片，使用openApi接口ant.merchant.expand.indirect.image.upload上传获取到的image_id。文件最小为 5KB，最大为5M，图片格式必须为：png、jpg、jpeg。

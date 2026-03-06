@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SnapshotDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7722633299884832443L;
+	private static final long serialVersionUID = 8782989384863869428L;
 
 	/**
 	 * 盘后竞价成交量

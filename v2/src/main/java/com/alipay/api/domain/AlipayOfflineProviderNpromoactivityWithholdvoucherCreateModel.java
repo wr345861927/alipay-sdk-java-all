@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOfflineProviderNpromoactivityWithholdvoucherCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5448775135363294641L;
+	private static final long serialVersionUID = 6454998761434234718L;
 
 	/**
 	 * 创建代扣单业务时间

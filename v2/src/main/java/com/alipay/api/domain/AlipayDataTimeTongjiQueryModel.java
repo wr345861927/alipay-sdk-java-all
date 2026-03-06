@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayDataTimeTongjiQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2275546579281494848L;
+	private static final long serialVersionUID = 3264381455396725425L;
 
 	/**
 	 * 姓名

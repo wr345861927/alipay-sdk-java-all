@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCloudTraasCloudriskRentriskQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6136688598541874513L;
+	private static final long serialVersionUID = 4437821323149112213L;
 
 	/**
 	 * 身份证号 当前字段已废弃(请使用 customer_type 和 customer_id 参数)

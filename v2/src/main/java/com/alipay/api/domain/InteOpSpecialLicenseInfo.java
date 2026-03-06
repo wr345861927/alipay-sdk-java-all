@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InteOpSpecialLicenseInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5211835973981133275L;
+	private static final long serialVersionUID = 4293437424672183679L;
 
 	/**
 	 * 企业特殊资质图片，可参考 商家经营类目 中的“需要的特殊资质证书”。文件最小为 5KB，最大为5M，图片格式必须为：png、bmp、gif、jpg、jpeg。

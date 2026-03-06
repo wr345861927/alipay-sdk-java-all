@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ScheduleWeekPlanInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8749419266578189151L;
+	private static final long serialVersionUID = 7572136741295343821L;
 
 	/**
 	 * 每天可排期的结束时间 格式24小时制 21:30

@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2025-11-24 20:27:41
+ * @since 1.0, 2026-03-05 17:22:43
  */
 public class HDFMedicalRecordInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8234966528363661982L;
+	private static final long serialVersionUID = 6633513372559276348L;
 
 	/**
 	 * 问诊小结

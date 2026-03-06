@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.outerorder.event.notify response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-29 17:08:27
+ * @since 1.0, 2026-03-05 12:07:43
  */
 public class AlipayCommerceMedicalOuterorderEventNotifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1214334622438784511L;
+	private static final long serialVersionUID = 2191345976354788216L;
 
 	
 

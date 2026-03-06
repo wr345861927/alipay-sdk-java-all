@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayPayDeviceNlinkNfccallbackSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7635129533865797575L;
+	private static final long serialVersionUID = 1674897295531135987L;
 
 	
 

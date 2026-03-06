@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HDFMedicalSummary extends AlipayObject {
 
-	private static final long serialVersionUID = 6383493597319341259L;
+	private static final long serialVersionUID = 4818814835183718697L;
 
 	/**
 	 * diacrisis初步诊断

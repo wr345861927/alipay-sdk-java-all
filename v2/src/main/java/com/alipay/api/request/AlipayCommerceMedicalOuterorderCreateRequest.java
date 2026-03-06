@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.outerorder.create request
  * 
  * @author auto create
- * @since 1.0, 2025-11-24 20:27:41
+ * @since 1.0, 2026-03-05 17:22:43
  */
 public class AlipayCommerceMedicalOuterorderCreateRequest implements AlipayRequest<AlipayCommerceMedicalOuterorderCreateResponse> {
 

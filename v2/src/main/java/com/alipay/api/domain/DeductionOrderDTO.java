@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class DeductionOrderDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1748244512414342498L;
+	private static final long serialVersionUID = 3584931429621436943L;
 
 	/**
 	 * 实支付时间

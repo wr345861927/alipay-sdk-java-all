@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 三方履约问诊订单信息回传API
  *
  * @author auto create
- * @since 1.0, 2026-01-29 20:40:18
+ * @since 1.0, 2026-03-05 12:07:43
  */
 public class AlipayCommerceMedicalOuterorderStatusNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8584727598887439823L;
+	private static final long serialVersionUID = 6899611772139236963L;
 
 	/**
 	 * 咨询场景
@@ -56,6 +56,12 @@ public class AlipayCommerceMedicalOuterorderStatusNotifyModel extends AlipayObje
 	 */
 	@ApiField("fulfillment_order_id")
 	private String fulfillmentOrderId;
+
+	/**
+	 * 体检报告详情链接
+	 */
+	@ApiField("medical_report_url")
+	private String medicalReportUrl;
 
 	/**
 	 * 主单的状态
@@ -128,6 +134,13 @@ public class AlipayCommerceMedicalOuterorderStatusNotifyModel extends AlipayObje
 	}
 	public void setFulfillmentOrderId(String fulfillmentOrderId) {
 		this.fulfillmentOrderId = fulfillmentOrderId;
+	}
+
+	public String getMedicalReportUrl() {
+		return this.medicalReportUrl;
+	}
+	public void setMedicalReportUrl(String medicalReportUrl) {
+		this.medicalReportUrl = medicalReportUrl;
 	}
 
 	public String getOrderStatus() {

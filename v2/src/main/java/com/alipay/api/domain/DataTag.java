@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DataTag extends AlipayObject {
 
-	private static final long serialVersionUID = 3746333915418534531L;
+	private static final long serialVersionUID = 4459911472736692282L;
 
 	/**
 	 * 聚合方式NONE,COUNT,COUNT_DISTINCT,DISTINCT,MIN,MAX,SUM

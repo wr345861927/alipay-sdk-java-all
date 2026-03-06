@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class HuanxuUserHhhhhDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2486688652818159566L;
+	private static final long serialVersionUID = 6282758869248413723L;
 
 	/** 
 	 * fsdfsdfsd

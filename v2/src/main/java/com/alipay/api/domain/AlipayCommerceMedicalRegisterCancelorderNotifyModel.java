@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 号源停诊通知
  *
  * @author auto create
- * @since 1.0, 2025-07-31 17:32:34
+ * @since 1.0, 2026-03-06 10:55:11
  */
 public class AlipayCommerceMedicalRegisterCancelorderNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2864737438956953295L;
+	private static final long serialVersionUID = 6438199539249674356L;
 
 	/**
 	 * 支付宝id(必填)
@@ -30,6 +30,12 @@ public class AlipayCommerceMedicalRegisterCancelorderNotifyModel extends AlipayO
 	 */
 	@ApiField("number_no")
 	private String numberNo;
+
+	/**
+	 * 用于标记支付宝用户在应用下的唯一标识
+	 */
+	@ApiField("open_id")
+	private String openId;
 
 	/**
 	 * 预约订单id
@@ -68,6 +74,13 @@ public class AlipayCommerceMedicalRegisterCancelorderNotifyModel extends AlipayO
 	}
 	public void setNumberNo(String numberNo) {
 		this.numberNo = numberNo;
+	}
+
+	public String getOpenId() {
+		return this.openId;
+	}
+	public void setOpenId(String openId) {
+		this.openId = openId;
 	}
 
 	public String getOrderId() {

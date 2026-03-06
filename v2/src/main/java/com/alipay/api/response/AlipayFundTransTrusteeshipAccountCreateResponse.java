@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFundTransTrusteeshipAccountCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6242781313236635654L;
+	private static final long serialVersionUID = 6883482134389531327L;
 
 	/** 
 	 * 开通的托管子户账号

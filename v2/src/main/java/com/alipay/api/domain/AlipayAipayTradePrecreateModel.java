@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * Agent收款单预下单
  *
  * @author auto create
- * @since 1.0, 2026-01-12 18:52:41
+ * @since 1.0, 2026-03-04 13:22:43
  */
 public class AlipayAipayTradePrecreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3683374234511311274L;
+	private static final long serialVersionUID = 7449248583543373658L;
 
 	/**
 	 * 研发平台分配的智能体ID。

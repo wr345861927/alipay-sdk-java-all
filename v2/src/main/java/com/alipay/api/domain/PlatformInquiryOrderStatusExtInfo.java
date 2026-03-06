@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 问诊订单状态同步-扩展信息
  *
  * @author auto create
- * @since 1.0, 2025-07-16 16:28:43
+ * @since 1.0, 2026-03-06 13:09:04
  */
 public class PlatformInquiryOrderStatusExtInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3429115681569745112L;
+	private static final long serialVersionUID = 5815173179688488994L;
 
 	/**
 	 * 支付宝交易号
@@ -146,13 +146,19 @@ TIMEOUT_END：超时结束
 	private Boolean notice;
 
 	/**
-	 * 实付金额
+	 * 问诊订单商品名称
+	 */
+	@ApiField("product_name")
+	private String productName;
+
+	/**
+	 * 实付金额，单位：元
 	 */
 	@ApiField("real_amount")
 	private String realAmount;
 
 	/**
-	 * 退款金额
+	 * 退款金额，单位：元
 	 */
 	@ApiField("refund_amount")
 	private String refundAmount;
@@ -332,6 +338,13 @@ TIMEOUT_END：超时结束
 	}
 	public void setNotice(Boolean notice) {
 		this.notice = notice;
+	}
+
+	public String getProductName() {
+		return this.productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
 	}
 
 	public String getRealAmount() {

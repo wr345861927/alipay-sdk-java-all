@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFinanceZcbEndowmentorderDetailQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7119675546887986447L;
+	private static final long serialVersionUID = 1593849242187315375L;
 
 	/** 
 	 * order_list：查询出来的养老险指定产品的订单列表，EndowmentOrder模型包含：orderId，applyAmount，payTime，taRrequestId 4个字段

@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 问诊事件详情
  *
  * @author auto create
- * @since 1.0, 2026-01-29 17:08:27
+ * @since 1.0, 2026-03-05 12:07:43
  */
 public class InquiryEventInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8645244443583869357L;
+	private static final long serialVersionUID = 5342153129862223159L;
 
 	/**
 	 * 问诊小结链接URL
@@ -32,6 +32,12 @@ public class InquiryEventInfo extends AlipayObject {
 	 */
 	@ApiField("doctor_name")
 	private String doctorName;
+
+	/**
+	 * 体检报告详情链接
+	 */
+	@ApiField("medical_report_url")
+	private String medicalReportUrl;
 
 	/**
 	 * 患者姓名
@@ -82,6 +88,13 @@ public class InquiryEventInfo extends AlipayObject {
 	}
 	public void setDoctorName(String doctorName) {
 		this.doctorName = doctorName;
+	}
+
+	public String getMedicalReportUrl() {
+		return this.medicalReportUrl;
+	}
+	public void setMedicalReportUrl(String medicalReportUrl) {
+		this.medicalReportUrl = medicalReportUrl;
 	}
 
 	public String getPatientName() {

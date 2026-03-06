@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySecurityRiskContentDetectModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2558487358194646257L;
+	private static final long serialVersionUID = 3264511835117258772L;
 
 	/**
 	 * 需要识别的文本。

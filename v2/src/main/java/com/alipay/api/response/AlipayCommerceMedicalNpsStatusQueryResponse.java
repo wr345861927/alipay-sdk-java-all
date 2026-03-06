@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMedicalNpsStatusQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8337246541249658949L;
+	private static final long serialVersionUID = 1587181982587392585L;
 
 	/** 
 	 * true：需要弹nps卡片

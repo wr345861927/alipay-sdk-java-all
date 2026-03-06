@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEcoMycarRentcarUserdropoffSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8117463577395351274L;
+	private static final long serialVersionUID = 3678656623884821231L;
 
 	
 

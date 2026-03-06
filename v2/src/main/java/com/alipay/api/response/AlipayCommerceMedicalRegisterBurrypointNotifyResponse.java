@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.register.burrypoint.notify response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-10 15:19:22
+ * @since 1.0, 2026-03-05 17:27:43
  */
 public class AlipayCommerceMedicalRegisterBurrypointNotifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2462322941238852964L;
+	private static final long serialVersionUID = 5769428161539633212L;
 
 	
 

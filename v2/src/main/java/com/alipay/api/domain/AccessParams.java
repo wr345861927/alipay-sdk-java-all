@@ -7,14 +7,14 @@ import com.alipay.api.internal.mapping.ApiField;
  * 签约接入信息
  *
  * @author auto create
- * @since 1.0, 2021-11-25 11:52:44
+ * @since 1.0, 2026-03-06 11:27:55
  */
 public class AccessParams extends AlipayObject {
 
-	private static final long serialVersionUID = 2752868455525961736L;
+	private static final long serialVersionUID = 4717441451369698267L;
 
 	/**
-	 * 目前支持以下值：
+	 * 传参示例：
 1. ALIPAYAPP  （钱包h5页面签约）
 2. QRCODE(扫码签约)
 3. QRCODEORSMS(扫码签约或者短信签约)

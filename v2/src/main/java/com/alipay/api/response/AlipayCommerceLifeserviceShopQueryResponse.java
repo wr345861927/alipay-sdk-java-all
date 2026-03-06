@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.lifeservice.shop.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-26 17:52:43
+ * @since 1.0, 2026-03-05 17:50:27
  */
 public class AlipayCommerceLifeserviceShopQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1386697234197368887L;
+	private static final long serialVersionUID = 7518939324823339571L;
 
 	/** 
 	 * 预约时间间隔【stockFetchType=sync时必填】 单位分钟，只能是15的倍数，最小15（15分钟），最大 15 * 24（6小时）

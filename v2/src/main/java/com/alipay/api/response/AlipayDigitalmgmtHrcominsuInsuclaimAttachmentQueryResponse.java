@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayDigitalmgmtHrcominsuInsuclaimAttachmentQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5448791696261224376L;
+	private static final long serialVersionUID = 2188368127544298324L;
 
 	/** 
 	 * attachment_stream+不唯一+供应商获取理赔附件+枚举值(无)+员工申请理赔+特殊说明(无)

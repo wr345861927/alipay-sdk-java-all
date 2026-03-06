@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayBossFncGfcenterBanklogtransferCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3865143215816979684L;
+	private static final long serialVersionUID = 1511754712274984657L;
 
 	/**
 	 * 银行流水转账form

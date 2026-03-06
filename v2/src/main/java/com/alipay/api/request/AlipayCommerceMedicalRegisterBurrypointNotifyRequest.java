@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.register.burrypoint.notify request
  * 
  * @author auto create
- * @since 1.0, 2026-02-10 15:19:22
+ * @since 1.0, 2026-03-05 17:27:43
  */
 public class AlipayCommerceMedicalRegisterBurrypointNotifyRequest implements AlipayRequest<AlipayCommerceMedicalRegisterBurrypointNotifyResponse> {
 

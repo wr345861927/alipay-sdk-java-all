@@ -11,12 +11,24 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.data.dataexchange.schematestapi.rainystest.query request
  * 
  * @author auto create
- * @since 1.0, 2026-01-28 16:02:42
+ * @since 1.0, 2026-03-06 15:29:51
  */
 public class AlipayDataDataexchangeSchematestapiRainystestQueryRequest implements AlipayRequest<AlipayDataDataexchangeSchematestapiRainystestQueryResponse> {
 
 	private AlipayHashMap udfParams; // add user-defined text parameters
 	private String apiVersion="1.0";
+
+	/** 
+	* Schema模型openApi的测试接口260128
+	 */
+	private String bizContent;
+
+	public void setBizContent(String bizContent) {
+		this.bizContent = bizContent;
+	}
+	public String getBizContent() {
+		return this.bizContent;
+	}
 	private String terminalType;
 	private String terminalInfo;	
 	private String prodCode;
@@ -79,6 +91,7 @@ public class AlipayDataDataexchangeSchematestapiRainystestQueryRequest implement
 
 	public Map<String, String> getTextParams() {		
 		AlipayHashMap txtParams = new AlipayHashMap();
+		txtParams.put("biz_content", this.bizContent);
 		if(udfParams != null) {
 			txtParams.putAll(this.udfParams);
 		}

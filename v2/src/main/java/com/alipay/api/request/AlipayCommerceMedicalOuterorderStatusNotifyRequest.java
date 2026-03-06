@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.outerorder.status.notify request
  * 
  * @author auto create
- * @since 1.0, 2026-01-29 20:40:18
+ * @since 1.0, 2026-03-05 12:07:43
  */
 public class AlipayCommerceMedicalOuterorderStatusNotifyRequest implements AlipayRequest<AlipayCommerceMedicalOuterorderStatusNotifyResponse> {
 

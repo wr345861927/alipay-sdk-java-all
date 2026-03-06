@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 手艺人同步
  *
  * @author auto create
- * @since 1.0, 2026-02-26 17:52:44
+ * @since 1.0, 2026-03-05 17:58:08
  */
 public class AlipayCommerceLifeserviceTechnicianSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1622484829174676961L;
+	private static final long serialVersionUID = 2146724247293279681L;
 
 	/**
 	 * 手艺人头像文件id 来源于alipay.open.file.upload支付宝文件上传接口

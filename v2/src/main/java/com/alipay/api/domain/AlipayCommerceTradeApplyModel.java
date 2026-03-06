@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 行业代理收单接口
  *
  * @author auto create
- * @since 1.0, 2023-01-06 19:58:51
+ * @since 1.0, 2026-03-05 12:30:06
  */
 public class AlipayCommerceTradeApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7135681122369772496L;
+	private static final long serialVersionUID = 3666532791497578524L;
 
 	/**
 	 * 订单费用详情，用于在订单确认页面展示

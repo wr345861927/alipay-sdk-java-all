@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceHousingHouseRentalBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5577663842775213349L;
+	private static final long serialVersionUID = 6298819323226711958L;
 
 	/**
 	 * 小区id

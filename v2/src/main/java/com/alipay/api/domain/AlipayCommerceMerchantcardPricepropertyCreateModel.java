@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceMerchantcardPricepropertyCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5627749459198791249L;
+	private static final long serialVersionUID = 4753612534565751883L;
 
 	/**
 	 * 设置一客一价的具体违约金规则

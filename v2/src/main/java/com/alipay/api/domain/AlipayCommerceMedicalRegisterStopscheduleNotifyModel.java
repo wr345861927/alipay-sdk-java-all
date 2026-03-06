@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 号源停诊通知
  *
  * @author auto create
- * @since 1.0, 2025-07-04 14:30:57
+ * @since 1.0, 2026-03-05 16:37:47
  */
 public class AlipayCommerceMedicalRegisterStopscheduleNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1875664278639496675L;
+	private static final long serialVersionUID = 1187343972748458389L;
 
 	/**
 	 * yyyyMMdd.停诊日期.格式如上

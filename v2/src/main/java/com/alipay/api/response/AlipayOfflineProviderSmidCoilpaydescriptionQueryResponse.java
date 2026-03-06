@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOfflineProviderSmidCoilpaydescriptionQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3686317918458637919L;
+	private static final long serialVersionUID = 3537985626537677485L;
 
 	/** 
 	 * 商家间连小蓝环交易情况的概括性描述，用于作业人员判断当前作业商户是否已经产生小蓝环交易。

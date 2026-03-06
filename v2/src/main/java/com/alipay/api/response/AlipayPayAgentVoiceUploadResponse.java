@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.pay.agent.voice.upload response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-09 10:27:43
+ * @since 1.0, 2026-03-05 16:33:45
  */
 public class AlipayPayAgentVoiceUploadResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6149776812323855246L;
+	private static final long serialVersionUID = 1474994778539859744L;
 
 	/** 
 	 * 唯一标识一次语音上传的会话，当商户与支付宝有多次语音上传交互时，首次会新生成，后续带上该字段可以关联本次语音上传的会话上下文

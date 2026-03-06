@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class McBenefitInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1183896246872774373L;
+	private static final long serialVersionUID = 6289365175619273756L;
 
 	/**
 	 * 权益code

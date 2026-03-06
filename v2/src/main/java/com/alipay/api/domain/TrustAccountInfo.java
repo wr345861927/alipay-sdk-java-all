@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 可信价值中心账号信息
  *
  * @author auto create
- * @since 1.0, 2025-02-08 10:41:46
+ * @since 1.0, 2026-03-05 11:13:43
  */
 public class TrustAccountInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8174529677679398975L;
+	private static final long serialVersionUID = 3822546149168419415L;
 
 	/**
 	 * 账户名称

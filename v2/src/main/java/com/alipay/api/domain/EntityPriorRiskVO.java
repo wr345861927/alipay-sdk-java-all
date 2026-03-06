@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EntityPriorRiskVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8683711229379358494L;
+	private static final long serialVersionUID = 3889219488278752997L;
 
 	/**
 	 * 风险处置源

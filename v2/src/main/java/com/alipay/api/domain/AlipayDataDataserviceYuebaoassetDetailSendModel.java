@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayDataDataserviceYuebaoassetDetailSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6457225189917286348L;
+	private static final long serialVersionUID = 7284336198291644185L;
 
 	/**
 	 * 资产负债报表数据列表

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 智能体代理支付语音上传
  *
  * @author auto create
- * @since 1.0, 2026-01-09 10:27:43
+ * @since 1.0, 2026-03-05 16:33:45
  */
 public class AlipayPayAgentVoiceUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8267282951459879239L;
+	private static final long serialVersionUID = 3476339978337659225L;
 
 	/**
 	 * 首次调用后返回，关联一次会话（存在多次语音上传交互时，后续带上该字段可以关联本次语音上传的会话上下文）

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class XingheLendassistAwtloanfrontPinganuservoucherNotifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1797424336181597472L;
+	private static final long serialVersionUID = 5525191789443597868L;
 
 	
 

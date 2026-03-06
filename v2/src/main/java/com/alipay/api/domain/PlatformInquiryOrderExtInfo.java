@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * source增加HK来源
  *
  * @author auto create
- * @since 1.0, 2026-01-23 15:32:19
+ * @since 1.0, 2026-03-06 10:57:56
  */
 public class PlatformInquiryOrderExtInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8167315362121822932L;
+	private static final long serialVersionUID = 3479537128298542171L;
 
 	/**
 	 * 支付宝渠道订单标识
@@ -125,6 +125,12 @@ public class PlatformInquiryOrderExtInfo extends AlipayObject {
 	private PlatformPlusRegisterInfo plusRegisterInfo;
 
 	/**
+	 * 订单的商品名称
+	 */
+	@ApiField("product_name")
+	private String productName;
+
+	/**
 	 * 订单退款入口
 	 */
 	@ApiField("refund_url")
@@ -147,6 +153,12 @@ AQ-小程序:AQ_MINI_APP
 	 */
 	@ApiField("source")
 	private String source;
+
+	/**
+	 * 用户类型，如阿福类型
+	 */
+	@ApiField("user_type")
+	private String userType;
 
 	public String getAlipayChannelOrderFlag() {
 		return this.alipayChannelOrderFlag;
@@ -274,6 +286,13 @@ AQ-小程序:AQ_MINI_APP
 		this.plusRegisterInfo = plusRegisterInfo;
 	}
 
+	public String getProductName() {
+		return this.productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
 	public String getRefundUrl() {
 		return this.refundUrl;
 	}
@@ -286,6 +305,13 @@ AQ-小程序:AQ_MINI_APP
 	}
 	public void setSource(String source) {
 		this.source = source;
+	}
+
+	public String getUserType() {
+		return this.userType;
+	}
+	public void setUserType(String userType) {
+		this.userType = userType;
 	}
 
 }

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.trade.test.error.modify request
  * 
  * @author auto create
- * @since 1.0, 2026-02-26 10:47:43
+ * @since 1.0, 2026-03-04 14:52:44
  */
 public class AlipayTradeTestErrorModifyRequest implements AlipayRequest<AlipayTradeTestErrorModifyResponse> {
 

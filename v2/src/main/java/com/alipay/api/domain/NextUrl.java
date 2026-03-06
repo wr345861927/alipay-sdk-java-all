@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class NextUrl extends AlipayObject {
 
-	private static final long serialVersionUID = 6114244889989478157L;
+	private static final long serialVersionUID = 6243923539616626536L;
 
 	/**
 	 * 小宝账户详情页跳转链接

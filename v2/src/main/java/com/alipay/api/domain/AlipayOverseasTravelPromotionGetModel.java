@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOverseasTravelPromotionGetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8876947828637633814L;
+	private static final long serialVersionUID = 5431531523487241883L;
 
 	/**
 	 * 蚂蚁LBS基础设施定义的商圈码列表

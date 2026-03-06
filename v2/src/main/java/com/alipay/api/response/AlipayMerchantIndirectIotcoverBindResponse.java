@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMerchantIndirectIotcoverBindResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1694933297447698923L;
+	private static final long serialVersionUID = 2666585541368237395L;
 
 	/** 
 	 * 非支付宝交易到账播报语料ID，仅入参中传入speech_content时会返回该值。

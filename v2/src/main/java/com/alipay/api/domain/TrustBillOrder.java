@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 可信账单订单信息
  *
  * @author auto create
- * @since 1.0, 2025-02-08 11:16:54
+ * @since 1.0, 2026-03-05 11:13:37
  */
 public class TrustBillOrder extends AlipayObject {
 
-	private static final long serialVersionUID = 6789151888767869512L;
+	private static final long serialVersionUID = 3412828128253894272L;
 
 	/**
 	 * 账单支付总金额	，单位元

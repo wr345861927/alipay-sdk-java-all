@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.ec.recyclinginvoice.order.audit response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-13 17:47:43
+ * @since 1.0, 2026-03-06 10:25:35
  */
 public class AlipayCommerceEcRecyclinginvoiceOrderAuditResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1676439132617855856L;
+	private static final long serialVersionUID = 6266876553281863164L;
 
 	
 

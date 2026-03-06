@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SubsidyCurrency extends AlipayObject {
 
-	private static final long serialVersionUID = 3675854713194682517L;
+	private static final long serialVersionUID = 7489439814381449182L;
 
 	/**
 	 * 该货币的ISO 4217货币代码。

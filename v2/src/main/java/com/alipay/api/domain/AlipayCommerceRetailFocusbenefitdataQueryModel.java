@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 触享查询权益活动接口
  *
  * @author auto create
- * @since 1.0, 2026-02-02 16:27:42
+ * @since 1.0, 2026-03-05 14:44:26
  */
 public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3274864441311357523L;
+	private static final long serialVersionUID = 6194389456884787657L;
 
 	/**
 	 * 天分区

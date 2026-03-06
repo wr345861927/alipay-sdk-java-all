@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付成功通知
  *
  * @author auto create
- * @since 1.0, 2025-07-04 14:37:48
+ * @since 1.0, 2026-03-06 10:54:59
  */
 public class AlipayCommerceMedicalRegisterPayfinishNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4361817518651799967L;
+	private static final long serialVersionUID = 4757366524417573383L;
 
 	/**
 	 * 支付宝 id
@@ -20,10 +20,16 @@ public class AlipayCommerceMedicalRegisterPayfinishNotifyModel extends AlipayObj
 	private String alipayUserId;
 
 	/**
-	 * isvCode
+	 * 支付宝平台给服务商分配的编码
 	 */
 	@ApiField("isv_code")
 	private String isvCode;
+
+	/**
+	 * 用于标记支付宝用户在应用下的唯一标识
+	 */
+	@ApiField("open_id")
+	private String openId;
 
 	/**
 	 * 服务商内部系统订单id
@@ -32,7 +38,7 @@ public class AlipayCommerceMedicalRegisterPayfinishNotifyModel extends AlipayObj
 	private String orderId;
 
 	/**
-	 * platformCode
+	 * 支付宝给服务商分配的平台编码
 	 */
 	@ApiField("platform_code")
 	private String platformCode;
@@ -49,6 +55,13 @@ public class AlipayCommerceMedicalRegisterPayfinishNotifyModel extends AlipayObj
 	}
 	public void setIsvCode(String isvCode) {
 		this.isvCode = isvCode;
+	}
+
+	public String getOpenId() {
+		return this.openId;
+	}
+	public void setOpenId(String openId) {
+		this.openId = openId;
 	}
 
 	public String getOrderId() {

@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 挂号订单回流
  *
  * @author auto create
- * @since 1.0, 2026-02-27 18:24:35
+ * @since 1.0, 2026-03-06 11:38:26
  */
 public class AlipayCommerceMedicalRegisterOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4366513139973393591L;
+	private static final long serialVersionUID = 7548639673896267692L;
 
 	/**
 	 * 操作类型
@@ -38,6 +38,18 @@ public class AlipayCommerceMedicalRegisterOrderSyncModel extends AlipayObject {
 	 */
 	@ApiField("buss_type")
 	private String bussType;
+
+	/**
+	 * 浙江省杭州市上城区小营街道解放路88号
+	 */
+	@ApiField("campus_address")
+	private String campusAddress;
+
+	/**
+	 * 解放路院区
+	 */
+	@ApiField("campus_name")
+	private String campusName;
 
 	/**
 	 * 取消原因
@@ -351,6 +363,20 @@ SINGLE_HOS_NFYKDZJ_SCENE  珠江医院（扁鹊单院版小程序）
 	}
 	public void setBussType(String bussType) {
 		this.bussType = bussType;
+	}
+
+	public String getCampusAddress() {
+		return this.campusAddress;
+	}
+	public void setCampusAddress(String campusAddress) {
+		this.campusAddress = campusAddress;
+	}
+
+	public String getCampusName() {
+		return this.campusName;
+	}
+	public void setCampusName(String campusName) {
+		this.campusName = campusName;
 	}
 
 	public String getCancelReason() {

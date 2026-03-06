@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ResumeAttribute extends AlipayObject {
 
-	private static final long serialVersionUID = 8126398831445394923L;
+	private static final long serialVersionUID = 4358374253317795946L;
 
 	/**
 	 * 数据key

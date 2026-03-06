@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
 修改路由策略到R
  *
  * @author auto create
- * @since 1.0, 2026-01-09 17:09:25
+ * @since 1.0, 2026-03-06 15:05:31
  */
 public class AlipayTradePrecreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2265738412417562436L;
+	private static final long serialVersionUID = 6797813971617829321L;
 
 	/**
 	 * 支付宝店铺编号。
@@ -125,6 +125,13 @@ public class AlipayTradePrecreateModel extends AlipayObject {
 	 */
 	@ApiField("passback_params")
 	private String passbackParams;
+
+	/**
+	 * 指定支付方式
+agent_pay：智能体SDK支付方式；
+	 */
+	@ApiField("payment_type")
+	private String paymentType;
 
 	/**
 	 * 产品码。
@@ -345,6 +352,13 @@ public class AlipayTradePrecreateModel extends AlipayObject {
 	}
 	public void setPassbackParams(String passbackParams) {
 		this.passbackParams = passbackParams;
+	}
+
+	public String getPaymentType() {
+		return this.paymentType;
+	}
+	public void setPaymentType(String paymentType) {
+		this.paymentType = paymentType;
 	}
 
 	public String getProductCode() {

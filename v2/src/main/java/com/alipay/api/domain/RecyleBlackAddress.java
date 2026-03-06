@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecyleBlackAddress extends AlipayObject {
 
-	private static final long serialVersionUID = 6893745159619633179L;
+	private static final long serialVersionUID = 4113725967719147219L;
 
 	/**
 	 * 详细地址

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class PublicComplexWzw extends AlipayObject {
 
-	private static final long serialVersionUID = 7124643171686931795L;
+	private static final long serialVersionUID = 3546996231342734763L;
 
 	/**
 	 * test

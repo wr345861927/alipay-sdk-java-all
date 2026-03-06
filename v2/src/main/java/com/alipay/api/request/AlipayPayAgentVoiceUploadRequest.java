@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.pay.agent.voice.upload request
  * 
  * @author auto create
- * @since 1.0, 2026-01-09 10:27:43
+ * @since 1.0, 2026-03-05 16:33:45
  */
 public class AlipayPayAgentVoiceUploadRequest implements AlipayRequest<AlipayPayAgentVoiceUploadResponse> {
 

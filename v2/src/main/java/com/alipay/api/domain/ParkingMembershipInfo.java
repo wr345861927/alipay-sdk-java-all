@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ParkingMembershipInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1711767267624134758L;
+	private static final long serialVersionUID = 2598429782759356338L;
 
 	/**
 	 * 周卡、月卡：剩余天数（包括今天），单位日；

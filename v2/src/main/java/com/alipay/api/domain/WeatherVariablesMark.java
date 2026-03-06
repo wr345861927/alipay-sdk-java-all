@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 气象参数查询标记
  *
  * @author auto create
- * @since 1.0, 2026-02-05 09:52:39
+ * @since 1.0, 2026-03-05 11:13:22
  */
 public class WeatherVariablesMark extends AlipayObject {
 
-	private static final long serialVersionUID = 5383627582889854981L;
+	private static final long serialVersionUID = 4866139685694597265L;
 
 	/**
 	 * 体感温度
