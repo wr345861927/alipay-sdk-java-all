@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommercePetMerchantarchiveDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1689871878797754854L;
+	private static final long serialVersionUID = 7364959577279185272L;
 
 	/**
 	 * 支付宝宠物档案Id

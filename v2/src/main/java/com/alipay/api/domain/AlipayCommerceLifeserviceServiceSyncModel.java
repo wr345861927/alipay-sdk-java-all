@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 服务项目同步
  *
  * @author auto create
- * @since 1.0, 2026-03-05 17:52:38
+ * @since 1.0, 2026-03-06 16:32:45
  */
 public class AlipayCommerceLifeserviceServiceSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1476616742873751713L;
+	private static final long serialVersionUID = 3756589696487479279L;
 
 	/**
 	 * 预约时是否需要指定手艺人，默认not_need

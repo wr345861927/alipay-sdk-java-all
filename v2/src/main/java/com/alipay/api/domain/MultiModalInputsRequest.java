@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MultiModalInputsRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 3365964827434827734L;
+	private static final long serialVersionUID = 1238725628377965231L;
 
 	/**
 	 * 当前对话音频信息

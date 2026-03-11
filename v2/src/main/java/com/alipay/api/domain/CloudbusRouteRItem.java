@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CloudbusRouteRItem extends AlipayObject {
 
-	private static final long serialVersionUID = 3692858423915659561L;
+	private static final long serialVersionUID = 1829411782473816914L;
 
 	/**
 	 * 线路变更后结果

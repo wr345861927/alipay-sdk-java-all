@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 留学缴费VCC代付单payment信息
  *
  * @author auto create
- * @since 1.0, 2024-05-28 11:23:56
+ * @since 1.0, 2026-03-09 15:11:25
  */
 public class TuitionISVPoboPaymentInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3793723763996369517L;
+	private static final long serialVersionUID = 1754177545351978827L;
 
 	/**
 	 * 其他缴费信息，目前包含了academic_year（学年）以及payment_category（缴费类目）两个key，后续会根据业务扩展key

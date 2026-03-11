@@ -8,17 +8,23 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.retail.focusbenefitdata.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-05 14:44:26
+ * @since 1.0, 2026-03-11 10:07:43
  */
 public class AlipayCommerceRetailFocusbenefitdataQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2424566354896646596L;
+	private static final long serialVersionUID = 4488882269514634665L;
 
 	/** 
 	 * 返回数据信息
 	 */
 	@ApiField("data_list")
 	private String dataList;
+
+	/** 
+	 * 分页查询游标
+	 */
+	@ApiField("digest")
+	private String digest;
 
 	/** 
 	 * 页码
@@ -43,6 +49,13 @@ public class AlipayCommerceRetailFocusbenefitdataQueryResponse extends AlipayRes
 	}
 	public String getDataList( ) {
 		return this.dataList;
+	}
+
+	public void setDigest(String digest) {
+		this.digest = digest;
+	}
+	public String getDigest( ) {
+		return this.digest;
 	}
 
 	public void setPageIndex(String pageIndex) {

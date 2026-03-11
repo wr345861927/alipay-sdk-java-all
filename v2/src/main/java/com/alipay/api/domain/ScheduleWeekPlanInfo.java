@@ -1,17 +1,27 @@
 package com.alipay.api.domain;
 
+import java.util.List;
+
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
 
 /**
  * 周维度排期
  *
  * @author auto create
- * @since 1.0, 2025-12-03 10:21:05
+ * @since 1.0, 2026-03-06 16:32:14
  */
 public class ScheduleWeekPlanInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7572136741295343821L;
+	private static final long serialVersionUID = 2662373644411552223L;
+
+	/**
+	 * 午休时间
+	 */
+	@ApiListField("break_time")
+	@ApiField("string")
+	private List<String> breakTime;
 
 	/**
 	 * 每天可排期的结束时间 格式24小时制 21:30
@@ -30,6 +40,13 @@ public class ScheduleWeekPlanInfo extends AlipayObject {
 	 */
 	@ApiField("open_time")
 	private String openTime;
+
+	public List<String> getBreakTime() {
+		return this.breakTime;
+	}
+	public void setBreakTime(List<String> breakTime) {
+		this.breakTime = breakTime;
+	}
 
 	public String getCloseTime() {
 		return this.closeTime;

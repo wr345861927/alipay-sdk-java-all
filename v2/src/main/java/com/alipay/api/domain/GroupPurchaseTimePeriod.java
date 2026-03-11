@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class GroupPurchaseTimePeriod extends AlipayObject {
 
-	private static final long serialVersionUID = 2683426246814496333L;
+	private static final long serialVersionUID = 4866445867753926918L;
 
 	/**
 	 * 营业结束时间

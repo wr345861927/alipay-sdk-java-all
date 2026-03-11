@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceCityfacilitatorVoucherConfirmResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1441216977977157661L;
+	private static final long serialVersionUID = 7841214533314483784L;
 
 	/** 
 	 * 订单金额，元为单位

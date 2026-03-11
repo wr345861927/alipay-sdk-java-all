@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceTransportTrafficshareCrowdSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5217469615973363593L;
+	private static final long serialVersionUID = 2334661141622665818L;
 
 	/** 
 	 * null

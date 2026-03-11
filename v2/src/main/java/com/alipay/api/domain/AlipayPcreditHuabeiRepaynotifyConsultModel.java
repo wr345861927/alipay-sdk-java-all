@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * AIFORCE平台拨打前咨询
  *
  * @author auto create
- * @since 1.0, 2025-12-16 11:14:41
+ * @since 1.0, 2026-03-10 19:15:51
  */
 public class AlipayPcreditHuabeiRepaynotifyConsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6367828764389965717L;
+	private static final long serialVersionUID = 4292418347723519876L;
 
 	/**
 	 * Y表示重试，N表示首次进入

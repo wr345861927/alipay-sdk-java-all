@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCloudCloudpromoDocumentSegmentDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6398225332833786375L;
+	private static final long serialVersionUID = 5298885593477367233L;
 
 	/**
 	 * API-Key

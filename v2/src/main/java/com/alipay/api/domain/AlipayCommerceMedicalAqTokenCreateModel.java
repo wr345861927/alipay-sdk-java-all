@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 获取AQ问答H5授权令牌
  *
  * @author auto create
- * @since 1.0, 2026-03-02 17:52:51
+ * @since 1.0, 2026-03-09 10:49:15
  */
 public class AlipayCommerceMedicalAqTokenCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5733315893456767879L;
+	private static final long serialVersionUID = 2893746115491567571L;
 
 	/**
 	 * 支付宝openId

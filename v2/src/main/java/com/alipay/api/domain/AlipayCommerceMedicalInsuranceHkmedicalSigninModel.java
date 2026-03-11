@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 港人就医签到
  *
  * @author auto create
- * @since 1.0, 2025-12-24 09:37:42
+ * @since 1.0, 2026-03-08 16:07:03
  */
 public class AlipayCommerceMedicalInsuranceHkmedicalSigninModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7297886915469887656L;
+	private static final long serialVersionUID = 7232757383788845948L;
 
 	/**
 	 * 医院 id

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.retail.benefitoffline.set request
  * 
  * @author auto create
- * @since 1.0, 2025-12-16 15:47:41
+ * @since 1.0, 2026-03-10 15:47:16
  */
 public class AlipayCommerceRetailBenefitofflineSetRequest implements AlipayRequest<AlipayCommerceRetailBenefitofflineSetResponse> {
 

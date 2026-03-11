@@ -7,11 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 触享查询权益活动接口
  *
  * @author auto create
- * @since 1.0, 2026-03-05 14:44:26
+ * @since 1.0, 2026-03-11 10:07:43
  */
 public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6194389456884787657L;
+	private static final long serialVersionUID = 6673681838277843375L;
+
+	/**
+	 * 区域
+	 */
+	@ApiField("area")
+	private String area;
+
+	/**
+	 * 分页查询游标
+	 */
+	@ApiField("digest")
+	private String digest;
 
 	/**
 	 * 天分区
@@ -24,6 +36,12 @@ public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject
 	 */
 	@ApiField("hh_list")
 	private String hhList;
+
+	/**
+	 * 分钟级时间
+	 */
+	@ApiField("minute_time")
+	private String minuteTime;
 
 	/**
 	 * 页码
@@ -43,6 +61,20 @@ public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject
 	@ApiField("scene_code")
 	private String sceneCode;
 
+	public String getArea() {
+		return this.area;
+	}
+	public void setArea(String area) {
+		this.area = area;
+	}
+
+	public String getDigest() {
+		return this.digest;
+	}
+	public void setDigest(String digest) {
+		this.digest = digest;
+	}
+
 	public String getDtList() {
 		return this.dtList;
 	}
@@ -55,6 +87,13 @@ public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject
 	}
 	public void setHhList(String hhList) {
 		this.hhList = hhList;
+	}
+
+	public String getMinuteTime() {
+		return this.minuteTime;
+	}
+	public void setMinuteTime(String minuteTime) {
+		this.minuteTime = minuteTime;
 	}
 
 	public String getPageIndex() {

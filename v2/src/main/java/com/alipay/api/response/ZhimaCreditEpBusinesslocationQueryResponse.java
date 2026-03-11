@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class ZhimaCreditEpBusinesslocationQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8831674691189493944L;
+	private static final long serialVersionUID = 5491555591927696641L;
 
 	/** 
 	 * 商户地理位置信息列表

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AnttechOceanbaseObglobalSkuSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8769428751572992793L;
+	private static final long serialVersionUID = 5276765127884619922L;
 
 	/**
 	 * 商品sku信息

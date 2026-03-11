@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class CityCountInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5623167164754724645L;
+	private static final long serialVersionUID = 1325612762364137712L;
 
 	/**
 	 * 集团成员地区分布

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class Airline extends AlipayObject {
 
-	private static final long serialVersionUID = 6274434112987537898L;
+	private static final long serialVersionUID = 2621962876232521735L;
 
 	/**
 	 * 票面航司二字码

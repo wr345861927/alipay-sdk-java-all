@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AntfortuneQuotationPlateIndexQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1339239341433572214L;
+	private static final long serialVersionUID = 4494312659661717772L;
 
 	/** 
 	 * 用于返回板块的信息

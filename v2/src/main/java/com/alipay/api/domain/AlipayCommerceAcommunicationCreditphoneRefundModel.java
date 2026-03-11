@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceAcommunicationCreditphoneRefundModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8633431648388159339L;
+	private static final long serialVersionUID = 1399475758757533434L;
 
 	/**
 	 * 当期支付宝订单号

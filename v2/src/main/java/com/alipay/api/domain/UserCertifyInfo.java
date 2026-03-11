@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 用户核身信息
+ * 用户认证信息
  *
  * @author auto create
- * @since 1.0, 2025-11-24 19:57:42
+ * @since 1.0, 2025-11-24 19:52:06
  */
 public class UserCertifyInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1834691637619559929L;
+	private static final long serialVersionUID = 2245337447692114183L;
 
 	/**
 	 * 核身数据

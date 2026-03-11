@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FundAuthFreezeInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8227278228774552232L;
+	private static final long serialVersionUID = 1211521364348986977L;
 
 	/**
 	 * 芝麻外部类目

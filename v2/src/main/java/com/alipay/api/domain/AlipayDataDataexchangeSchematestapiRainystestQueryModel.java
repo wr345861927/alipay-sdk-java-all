@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * Schema模型openApi的测试接口260128
  *
  * @author auto create
- * @since 1.0, 2026-03-06 15:29:51
+ * @since 1.0, 2026-03-06 15:32:44
  */
 public class AlipayDataDataexchangeSchematestapiRainystestQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7639611734788756284L;
+	private static final long serialVersionUID = 1314458459748966835L;
 
 	/**
 	 * 321

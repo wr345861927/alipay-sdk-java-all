@@ -8,11 +8,17 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.pcredit.huabei.repaynotify.consult response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-16 11:17:42
+ * @since 1.0, 2026-03-10 19:17:44
  */
 public class AlipayPcreditHuabeiRepaynotifyConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7698352839743171548L;
+	private static final long serialVersionUID = 6342297722658466141L;
+
+	/** 
+	 * 咨询编号
+	 */
+	@ApiField("consult_code")
+	private String consultCode;
 
 	/** 
 	 * true表示打电话
@@ -25,6 +31,12 @@ public class AlipayPcreditHuabeiRepaynotifyConsultResponse extends AlipayRespons
 	 */
 	@ApiField("phone")
 	private String phone;
+
+	/** 
+	 * Y-执行重试
+	 */
+	@ApiField("re_consult")
+	private String reConsult;
 
 	/** 
 	 * 校验不通过原因
@@ -50,6 +62,13 @@ public class AlipayPcreditHuabeiRepaynotifyConsultResponse extends AlipayRespons
 	@ApiField("voice_code")
 	private String voiceCode;
 
+	public void setConsultCode(String consultCode) {
+		this.consultCode = consultCode;
+	}
+	public String getConsultCode( ) {
+		return this.consultCode;
+	}
+
 	public void setDoCall(Boolean doCall) {
 		this.doCall = doCall;
 	}
@@ -62,6 +81,13 @@ public class AlipayPcreditHuabeiRepaynotifyConsultResponse extends AlipayRespons
 	}
 	public String getPhone( ) {
 		return this.phone;
+	}
+
+	public void setReConsult(String reConsult) {
+		this.reConsult = reConsult;
+	}
+	public String getReConsult( ) {
+		return this.reConsult;
 	}
 
 	public void setReason(String reason) {

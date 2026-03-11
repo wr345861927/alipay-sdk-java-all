@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class StockVerifyRecord extends AlipayObject {
 
-	private static final long serialVersionUID = 7338968117624888765L;
+	private static final long serialVersionUID = 2882392855714464961L;
 
 	/**
 	 * 核对不一致-总数

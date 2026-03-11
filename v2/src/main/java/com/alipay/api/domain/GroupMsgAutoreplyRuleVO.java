@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class GroupMsgAutoreplyRuleVO extends AlipayObject {
 
-	private static final long serialVersionUID = 5395789675195169337L;
+	private static final long serialVersionUID = 8678723314656773668L;
 
 	/**
 	 * 行动配置

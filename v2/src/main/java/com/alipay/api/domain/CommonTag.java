@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CommonTag extends AlipayObject {
 
-	private static final long serialVersionUID = 5549749266814515532L;
+	private static final long serialVersionUID = 4729955422355228533L;
 
 	/**
 	 * 点评热度

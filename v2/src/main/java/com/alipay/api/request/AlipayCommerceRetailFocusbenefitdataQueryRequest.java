@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.retail.focusbenefitdata.query request
  * 
  * @author auto create
- * @since 1.0, 2026-03-05 14:44:26
+ * @since 1.0, 2026-03-11 10:07:43
  */
 public class AlipayCommerceRetailFocusbenefitdataQueryRequest implements AlipayRequest<AlipayCommerceRetailFocusbenefitdataQueryResponse> {
 

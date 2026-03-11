@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HelloBikeMarketWord extends AlipayObject {
 
-	private static final long serialVersionUID = 1845618964924298149L;
+	private static final long serialVersionUID = 5317491261394254229L;
 
 	/**
 	 * 关键字

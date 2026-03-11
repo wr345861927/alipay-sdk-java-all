@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayDataDataserviceSchemaapitesttoRainysQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1838781232741119723L;
+	private static final long serialVersionUID = 5523555146833794741L;
 
 	/**
 	 * null

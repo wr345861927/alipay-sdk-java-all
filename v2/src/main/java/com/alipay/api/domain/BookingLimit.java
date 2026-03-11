@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BookingLimit extends AlipayObject {
 
-	private static final long serialVersionUID = 3324981687245695576L;
+	private static final long serialVersionUID = 3191225298397775741L;
 
 	/**
 	 * 餐饮政策

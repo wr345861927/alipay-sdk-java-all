@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMedicalRegisterStopclinicNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2686414375367988216L;
+	private static final long serialVersionUID = 2234396926288162634L;
 
 	/**
 	 * 停诊日期，格式: yyyy-MM-dd

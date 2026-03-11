@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TaoKeTaskTemplateInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5143814354947312168L;
+	private static final long serialVersionUID = 8673228747837125433L;
 
 	/**
 	 * 跳转链接

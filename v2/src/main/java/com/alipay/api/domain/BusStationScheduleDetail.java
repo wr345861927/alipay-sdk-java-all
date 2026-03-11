@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BusStationScheduleDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 1386312749515114176L;
+	private static final long serialVersionUID = 4657731446656986599L;
 
 	/**
 	 * 途径站点

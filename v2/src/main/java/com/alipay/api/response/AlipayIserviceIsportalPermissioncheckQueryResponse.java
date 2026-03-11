@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayIserviceIsportalPermissioncheckQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1584426121596353252L;
+	private static final long serialVersionUID = 1559286349372813853L;
 
 	/** 
 	 * 鉴权结果

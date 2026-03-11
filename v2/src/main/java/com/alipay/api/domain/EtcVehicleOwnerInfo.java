@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * ETC办理车主信息
  *
  * @author auto create
- * @since 1.0, 2025-08-11 15:30:11
+ * @since 1.0, 2026-03-09 10:00:40
  */
 public class EtcVehicleOwnerInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8824323496956723946L;
+	private static final long serialVersionUID = 2849562426546596486L;
 
 	/**
 	 * 车主地址信息包含省市区(身份证地址)

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FuelVoucherInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2674394553147788583L;
+	private static final long serialVersionUID = 6679551264575173472L;
 
 	/**
 	 * 券归属的活动编码

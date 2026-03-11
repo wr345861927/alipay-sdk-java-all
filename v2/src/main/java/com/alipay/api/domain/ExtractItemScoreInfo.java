@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ExtractItemScoreInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6886189299598961748L;
+	private static final long serialVersionUID = 3427644528681744622L;
 
 	/**
 	 * [{"code":"234","score":"99"}]
