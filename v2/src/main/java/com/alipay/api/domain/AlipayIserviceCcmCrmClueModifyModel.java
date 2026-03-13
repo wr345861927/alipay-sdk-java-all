@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayIserviceCcmCrmClueModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3498469564244721578L;
+	private static final long serialVersionUID = 2811343289128161355L;
 
 	/**
 	 * 线索的客户名称，区分为个人线索和企业线索，个人线索传名称，企业线索传公司名称

@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEcLabelEmployeeidlistQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4141452645145675543L;
+	private static final long serialVersionUID = 8345357385131735784L;
 
 	/** 
 	 * 当前页数

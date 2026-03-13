@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayPayCodecShareTokenCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3648242453951357648L;
+	private static final long serialVersionUID = 8139432315335271251L;
 
 	/** 
 	 * 吱口令失效时间，若为空则表示永久有效

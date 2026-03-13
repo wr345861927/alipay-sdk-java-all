@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.decoration.policyunderwriting.consult response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-17 11:02:42
+ * @since 1.0, 2026-03-11 15:42:44
  */
 public class AlipayCommerceDecorationPolicyunderwritingConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1453952549664771146L;
+	private static final long serialVersionUID = 4644675746722576896L;
 
 	/** 
 	 * 消息
@@ -51,8 +51,15 @@ public class AlipayCommerceDecorationPolicyunderwritingConsultResponse extends A
 	private Date policyStartDate;
 
 	/** 
-	 * 保单状态 PENDING-核保受理 
-UNDERWRITING_SUCCESS-核保成功 UNDERWRITING_FAILURE-核保失败 POLICY_ISSUED_SUCCESS-承保成功 POLICY_ISSUED_FAILURE-承保失败
+	 * 枚举值：
+核保受理 :PENDING
+核保成功:UNDERWRITING_SUCCESS
+核保失败 :UNDERWRITING_FAILURE
+承保成功:POLICY_ISSUED_SUCCESS
+承保失败:POLICY_ISSUED_FAILURE
+已退保:POLICY_CANCELLED
+退保受理:SURRENDER_PENDING
+退保失败:SURRENDER_ FAILURE
 	 */
 	@ApiField("policy_status")
 	private String policyStatus;

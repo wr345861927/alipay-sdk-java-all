@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayInsSceneClaimOverdueCloseResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8364326546825354194L;
+	private static final long serialVersionUID = 6235791996348446987L;
 
 	/** 
 	 * 追偿单号

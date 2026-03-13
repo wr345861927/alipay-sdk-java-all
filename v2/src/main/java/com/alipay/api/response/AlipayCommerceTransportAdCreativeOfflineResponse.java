@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.ad.creative.offline response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-13 23:37:40
+ * @since 1.0, 2026-03-13 17:52:11
  */
 public class AlipayCommerceTransportAdCreativeOfflineResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3155374696883233683L;
+	private static final long serialVersionUID = 5631752442429121237L;
 
 	/** 
 	 * 创意下线结果 + 根据创意id操作创意下线，成功返回true，失败返回false

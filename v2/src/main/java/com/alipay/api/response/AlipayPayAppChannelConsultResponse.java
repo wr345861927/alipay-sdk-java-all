@@ -4,6 +4,7 @@ import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
 import com.alipay.api.domain.ChannelInfo;
+import com.alipay.api.domain.BizExtInfo;
 
 import com.alipay.api.AlipayResponse;
 
@@ -11,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.pay.app.channel.consult response.
  * 
  * @author auto create
- * @since 1.0, 2024-06-25 14:07:04
+ * @since 1.0, 2026-03-13 17:17:44
  */
 public class AlipayPayAppChannelConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7139522287687517397L;
+	private static final long serialVersionUID = 4115195697686274938L;
 
 	/** 
 	 * 渠道信息列表
@@ -23,6 +24,12 @@ public class AlipayPayAppChannelConsultResponse extends AlipayResponse {
 	@ApiListField("channel_info_list")
 	@ApiField("channel_info")
 	private List<ChannelInfo> channelInfoList;
+
+	/** 
+	 * 该参数为Map结构，用于在二方前置咨询返回一些基于特殊业务场景可选返回的参数
+	 */
+	@ApiField("ext_info")
+	private BizExtInfo extInfo;
 
 	/** 
 	 * 前置咨询id
@@ -59,6 +66,13 @@ public class AlipayPayAppChannelConsultResponse extends AlipayResponse {
 	}
 	public List<ChannelInfo> getChannelInfoList( ) {
 		return this.channelInfoList;
+	}
+
+	public void setExtInfo(BizExtInfo extInfo) {
+		this.extInfo = extInfo;
+	}
+	public BizExtInfo getExtInfo( ) {
+		return this.extInfo;
 	}
 
 	public void setPreConsultId(String preConsultId) {

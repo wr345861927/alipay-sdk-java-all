@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.data.dataexchange.treetestapi.rainystest.query request
  * 
  * @author auto create
- * @since 1.0, 2026-01-29 11:15:18
+ * @since 1.0, 2026-03-11 17:57:43
  */
 public class AlipayDataDataexchangeTreetestapiRainystestQueryRequest implements AlipayRequest<AlipayDataDataexchangeTreetestapiRainystestQueryResponse> {
 

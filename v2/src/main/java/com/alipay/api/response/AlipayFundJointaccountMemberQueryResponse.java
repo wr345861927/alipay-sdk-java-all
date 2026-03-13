@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFundJointaccountMemberQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8339732991811617451L;
+	private static final long serialVersionUID = 8733192621643912528L;
 
 	/** 
 	 * 共同账户ID

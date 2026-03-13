@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class CardOpenRewardInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1379572474933588538L;
+	private static final long serialVersionUID = 3174159694664349537L;
 
 	/**
 	 * LDP编码

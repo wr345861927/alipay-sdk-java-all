@@ -17,7 +17,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AnttechAiAgentChatQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3696228525446355981L;
+	private static final long serialVersionUID = 5723461334557193438L;
 
 	/** 
 	 * 最终完整结果的内容

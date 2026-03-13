@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PrescriptionVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8117278369516762617L;
+	private static final long serialVersionUID = 8864696566374423253L;
 
 	/**
 	 * 创建处方的时间，即开方时间

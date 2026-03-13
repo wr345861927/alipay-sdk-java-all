@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ChunkConfig extends AlipayObject {
 
-	private static final long serialVersionUID = 4251327949379277524L;
+	private static final long serialVersionUID = 3161242468867717461L;
 
 	/**
 	 * 分段长度，单位tokens

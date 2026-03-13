@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.user.agreement.delegation.query request
  * 
  * @author auto create
- * @since 1.0, 2026-03-10 17:48:09
+ * @since 1.0, 2026-03-11 15:47:44
  */
 public class AlipayUserAgreementDelegationQueryRequest implements AlipayRequest<AlipayUserAgreementDelegationQueryResponse> {
 

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecycleAssessProductVO extends AlipayObject {
 
-	private static final long serialVersionUID = 5544431796597478449L;
+	private static final long serialVersionUID = 2798376672882182874L;
 
 	/**
 	 * 估价最高金额、固定价

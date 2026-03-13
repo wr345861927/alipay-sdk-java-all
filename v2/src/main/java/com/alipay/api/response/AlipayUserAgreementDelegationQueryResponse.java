@@ -8,11 +8,17 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.agreement.delegation.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-10 17:48:09
+ * @since 1.0, 2026-03-11 15:47:44
  */
 public class AlipayUserAgreementDelegationQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6358896464339128232L;
+	private static final long serialVersionUID = 7862881117442227889L;
+
+	/** 
+	 * AI支付协议号
+	 */
+	@ApiField("agreement_no")
+	private String agreementNo;
 
 	/** 
 	 * 委托号
@@ -73,6 +79,13 @@ public class AlipayUserAgreementDelegationQueryResponse extends AlipayResponse {
 	 */
 	@ApiField("validity_start_time")
 	private String validityStartTime;
+
+	public void setAgreementNo(String agreementNo) {
+		this.agreementNo = agreementNo;
+	}
+	public String getAgreementNo( ) {
+		return this.agreementNo;
+	}
 
 	public void setDelegationId(String delegationId) {
 		this.delegationId = delegationId;

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CreditInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3462524218744621794L;
+	private static final long serialVersionUID = 7628161387735149228L;
 
 	/**
 	 * 芝麻先享受理台用户开通成功后，商家自定义页面跳转地址

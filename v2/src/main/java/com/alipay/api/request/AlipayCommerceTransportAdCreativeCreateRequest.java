@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.transport.ad.creative.create request
  * 
  * @author auto create
- * @since 1.0, 2024-07-04 15:51:39
+ * @since 1.0, 2026-03-13 17:52:44
  */
 public class AlipayCommerceTransportAdCreativeCreateRequest implements AlipayRequest<AlipayCommerceTransportAdCreativeCreateResponse> {
 

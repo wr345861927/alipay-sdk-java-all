@@ -10,7 +10,7 @@ import com.alipay.api.AlipayObject;
  */
 public class AlipayCommerceMerchantcardAgreementtemplateQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6264866989519726627L;
+	private static final long serialVersionUID = 2178269845891792248L;
 
 	
 

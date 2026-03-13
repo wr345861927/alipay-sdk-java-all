@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * AI付代买委托信息
  *
  * @author auto create
- * @since 1.0, 2026-03-06 11:32:44
+ * @since 1.0, 2026-03-11 15:47:44
  */
 public class DelegationParams extends AlipayObject {
 
-	private static final long serialVersionUID = 4185138876466959312L;
+	private static final long serialVersionUID = 8721161824588254985L;
 
 	/**
 	 * 对AI付代买委托意图做描述
@@ -40,7 +40,14 @@ public class DelegationParams extends AlipayObject {
 	/**
 	 * AI付代买委托总次数
 	 */
+	@ApiField("times_limit")
+	private String timesLimit;
+
+	/**
+	 * AI付代买委托总次数 当前字段已废弃(拼写错误，迁移至times_limit字段)
+	 */
 	@ApiField("times_timit")
+	@Deprecated
 	private String timesTimit;
 
 	/**
@@ -81,6 +88,13 @@ public class DelegationParams extends AlipayObject {
 	}
 	public void setMaxTotalAmount(String maxTotalAmount) {
 		this.maxTotalAmount = maxTotalAmount;
+	}
+
+	public String getTimesLimit() {
+		return this.timesLimit;
+	}
+	public void setTimesLimit(String timesLimit) {
+		this.timesLimit = timesLimit;
 	}
 
 	public String getTimesTimit() {

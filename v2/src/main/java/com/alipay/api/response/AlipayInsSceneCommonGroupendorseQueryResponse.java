@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayInsSceneCommonGroupendorseQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2355224585254423718L;
+	private static final long serialVersionUID = 1625645441132967314L;
 
 	/** 
 	 * 子批单的实付保费;单位分

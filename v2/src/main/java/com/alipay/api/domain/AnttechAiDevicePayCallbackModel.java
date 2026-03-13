@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AnttechAiDevicePayCallbackModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4222715418625185578L;
+	private static final long serialVersionUID = 7666569376312251651L;
 
 	/**
 	 * 求签业务上下文数据，与当前支付记录一一对应的业务属性

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.healthca.sign.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-10-11 17:17:40
+ * @since 1.0, 2026-03-11 16:02:43
  */
 public class AlipayCommerceMedicalHealthcaSignQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4183588895858254975L;
+	private static final long serialVersionUID = 3371638527863855517L;
 
 	/** 
 	 * 签署完成的PDF的AFTS的fileId

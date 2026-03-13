@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 单元新增或修改
  *
  * @author auto create
- * @since 1.0, 2025-12-03 10:34:54
+ * @since 1.0, 2026-03-11 11:22:53
  */
 public class AlipayDataDataserviceAdcampaignGroupCreateormodifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5327912272989145283L;
+	private static final long serialVersionUID = 3247686584323264189L;
 
 	/**
 	 * 年龄定向
@@ -230,6 +230,12 @@ MANUAL_DISABLE：手动关闭
 	 */
 	@ApiField("principal_tag")
 	private String principalTag;
+
+	/**
+	 * 0-关闭大促放量；1-开启大促放量;
+	 */
+	@ApiField("promotion_open_traffic_switch")
+	private String promotionOpenTrafficSwitch;
 
 	/**
 	 * 是否开启推荐流量开关.1打开，0关闭
@@ -486,6 +492,13 @@ alipay.data.dataservice.adcrowd.themecrowd.batchquery
 	}
 	public void setPrincipalTag(String principalTag) {
 		this.principalTag = principalTag;
+	}
+
+	public String getPromotionOpenTrafficSwitch() {
+		return this.promotionOpenTrafficSwitch;
+	}
+	public void setPromotionOpenTrafficSwitch(String promotionOpenTrafficSwitch) {
+		this.promotionOpenTrafficSwitch = promotionOpenTrafficSwitch;
 	}
 
 	public Long getReferralTrafficSwitch() {

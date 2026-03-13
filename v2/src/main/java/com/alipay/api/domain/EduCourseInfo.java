@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class EduCourseInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3564347323328924896L;
+	private static final long serialVersionUID = 4434672176327793622L;
 
 	/**
 	 * 课程描述

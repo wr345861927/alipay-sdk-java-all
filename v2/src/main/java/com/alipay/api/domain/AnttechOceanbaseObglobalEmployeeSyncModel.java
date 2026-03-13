@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * crm人员信息回传海图
  *
  * @author auto create
- * @since 1.0, 2026-02-11 11:17:44
+ * @since 1.0, 2026-03-13 11:12:43
  */
 public class AnttechOceanbaseObglobalEmployeeSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6222722425119973813L;
+	private static final long serialVersionUID = 1556525447694112728L;
 
 	/**
 	 * 员工身份
@@ -30,6 +30,12 @@ public class AnttechOceanbaseObglobalEmployeeSyncModel extends AlipayObject {
 	 */
 	@ApiField("main_dept_id")
 	private String mainDeptId;
+
+	/**
+	 * 汇报对象工号
+	 */
+	@ApiField("reporting_to")
+	private String reportingTo;
 
 	/**
 	 * 二级部门id
@@ -80,6 +86,13 @@ public class AnttechOceanbaseObglobalEmployeeSyncModel extends AlipayObject {
 	}
 	public void setMainDeptId(String mainDeptId) {
 		this.mainDeptId = mainDeptId;
+	}
+
+	public String getReportingTo() {
+		return this.reportingTo;
+	}
+	public void setReportingTo(String reportingTo) {
+		this.reportingTo = reportingTo;
 	}
 
 	public String getSecondDeptId() {

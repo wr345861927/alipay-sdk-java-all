@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ExchangeRate extends AlipayObject {
 
-	private static final long serialVersionUID = 7433473955768591586L;
+	private static final long serialVersionUID = 3389271141348277437L;
 
 	/**
 	 * 兑换汇率的基本币种。biz_scene是LOCAL场景下，该参数返回为空。

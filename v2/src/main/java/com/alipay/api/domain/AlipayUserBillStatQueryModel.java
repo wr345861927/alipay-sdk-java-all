@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 支付宝账单统计数据
  *
  * @author auto create
- * @since 1.0, 2021-10-27 21:24:26
+ * @since 1.0, 2026-03-12 19:06:48
  */
 public class AlipayUserBillStatQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4479731139773154881L;
+	private static final long serialVersionUID = 6842171276683283151L;
 
 	/**
 	 * 查询数据开始时间，包含此时间数据，待隐私合规改造后必填

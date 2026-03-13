@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.industrydata.inquirydoctorstatus.upload response.
  * 
  * @author auto create
- * @since 1.0, 2025-04-23 14:22:26
+ * @since 1.0, 2026-03-12 14:22:43
  */
 public class AlipayCommerceMedicalIndustrydataInquirydoctorstatusUploadResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2781982479198327773L;
+	private static final long serialVersionUID = 6894921837885493923L;
 
 	/** 
 	 * 错误信息

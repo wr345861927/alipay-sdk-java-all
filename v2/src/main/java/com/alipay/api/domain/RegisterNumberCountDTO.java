@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RegisterNumberCountDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3619981595392957663L;
+	private static final long serialVersionUID = 6538369611981251617L;
 
 	/**
 	 * 加号标识，

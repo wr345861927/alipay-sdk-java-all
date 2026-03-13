@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 扣款单详情
  *
  * @author auto create
- * @since 1.0, 2025-11-20 15:05:33
+ * @since 1.0, 2026-03-13 10:56:46
  */
 public class AlipayCommerceMerchantcardDeductionorderQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7848792912955491411L;
+	private static final long serialVersionUID = 5772999188395212197L;
 
 	/**
 	 * 售卖订单id
@@ -20,7 +20,7 @@ public class AlipayCommerceMerchantcardDeductionorderQueryModel extends AlipayOb
 	private String cardId;
 
 	/**
-	 * 核销订单id
+	 * 核销订单id，和外部订单号二选一，优先使用核销单号查询
 	 */
 	@ApiField("deduction_order_id")
 	private String deductionOrderId;
@@ -30,6 +30,12 @@ public class AlipayCommerceMerchantcardDeductionorderQueryModel extends AlipayOb
 	 */
 	@ApiField("open_id")
 	private String openId;
+
+	/**
+	 * 外部单号
+	 */
+	@ApiField("out_biz_no")
+	private String outBizNo;
 
 	/**
 	 * 支付宝用户的userId。
@@ -56,6 +62,13 @@ public class AlipayCommerceMerchantcardDeductionorderQueryModel extends AlipayOb
 	}
 	public void setOpenId(String openId) {
 		this.openId = openId;
+	}
+
+	public String getOutBizNo() {
+		return this.outBizNo;
+	}
+	public void setOutBizNo(String outBizNo) {
+		this.outBizNo = outBizNo;
 	}
 
 	public String getUserId() {

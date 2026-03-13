@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayInsSceneEcommercePreorderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2495234416939842767L;
+	private static final long serialVersionUID = 3346989441688869213L;
 
 	/** 
 	 * 预下单列表

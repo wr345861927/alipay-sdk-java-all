@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ContentRiskResult extends AlipayObject {
 
-	private static final long serialVersionUID = 2836469682827232481L;
+	private static final long serialVersionUID = 3769589751557476729L;
 
 	/**
 	 * 风险详细信息

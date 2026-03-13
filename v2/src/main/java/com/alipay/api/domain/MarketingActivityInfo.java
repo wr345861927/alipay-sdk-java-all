@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MarketingActivityInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2148632566446774495L;
+	private static final long serialVersionUID = 3675989699858146124L;
 
 	/**
 	 * 活动结束时间，即券可领取结束时间，格式为yyyy-MM-dd HH:mm:ss

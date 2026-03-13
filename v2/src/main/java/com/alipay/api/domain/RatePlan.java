@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 价格计划
  *
  * @author auto create
- * @since 1.0, 2024-12-18 11:21:16
+ * @since 1.0, 2026-03-12 11:44:09
  */
 public class RatePlan extends AlipayObject {
 
-	private static final long serialVersionUID = 8396134945977624736L;
+	private static final long serialVersionUID = 3865736481825336433L;
 
 	/**
 	 * 对应的预订规则编号列表
@@ -23,6 +23,12 @@ public class RatePlan extends AlipayObject {
 	@ApiListField("booking_rule_ids")
 	@ApiField("string")
 	private List<String> bookingRuleIds;
+
+	/**
+	 * 酒店品牌code
+	 */
+	@ApiField("brand_code")
+	private String brandCode;
 
 	/**
 	 * 取消规则v2，新增商户对接该字段
@@ -45,6 +51,18 @@ FOREIGNER：外宾
 	 */
 	@ApiField("customer_type")
 	private String customerType;
+
+	/**
+	 * 酒店归属集团短名称
+	 */
+	@ApiField("group_short_name")
+	private String groupShortName;
+
+	/**
+	 * 是否有会员权益
+	 */
+	@ApiField("has_member_right")
+	private Boolean hasMemberRight;
 
 	/**
 	 * 证件数量类型：
@@ -104,6 +122,12 @@ PREPAY-预付
 	private String pkgProductIds;
 
 	/**
+	 * BRAND_MEMBER_PRICE：集团会员价
+	 */
+	@ApiField("price_type")
+	private String priceType;
+
+	/**
 	 * 价格计划id
 	 */
 	@ApiField("rate_plan_id")
@@ -150,6 +174,18 @@ false:失效
 	private Boolean status;
 
 	/**
+	 * 商户卖家id
+	 */
+	@ApiField("supplier_seller_id")
+	private String supplierSellerId;
+
+	/**
+	 * 商户卖家名称
+	 */
+	@ApiField("supplier_seller_name")
+	private String supplierSellerName;
+
+	/**
 	 * 供应商信息
 	 */
 	@ApiField("supplier_source")
@@ -160,6 +196,13 @@ false:失效
 	}
 	public void setBookingRuleIds(List<String> bookingRuleIds) {
 		this.bookingRuleIds = bookingRuleIds;
+	}
+
+	public String getBrandCode() {
+		return this.brandCode;
+	}
+	public void setBrandCode(String brandCode) {
+		this.brandCode = brandCode;
 	}
 
 	public List<CancelRule> getCancelRules() {
@@ -181,6 +224,20 @@ false:失效
 	}
 	public void setCustomerType(String customerType) {
 		this.customerType = customerType;
+	}
+
+	public String getGroupShortName() {
+		return this.groupShortName;
+	}
+	public void setGroupShortName(String groupShortName) {
+		this.groupShortName = groupShortName;
+	}
+
+	public Boolean getHasMemberRight() {
+		return this.hasMemberRight;
+	}
+	public void setHasMemberRight(Boolean hasMemberRight) {
+		this.hasMemberRight = hasMemberRight;
 	}
 
 	public Long getIdentification() {
@@ -239,6 +296,13 @@ false:失效
 		this.pkgProductIds = pkgProductIds;
 	}
 
+	public String getPriceType() {
+		return this.priceType;
+	}
+	public void setPriceType(String priceType) {
+		this.priceType = priceType;
+	}
+
 	public String getRatePlanId() {
 		return this.ratePlanId;
 	}
@@ -286,6 +350,20 @@ false:失效
 	}
 	public void setStatus(Boolean status) {
 		this.status = status;
+	}
+
+	public String getSupplierSellerId() {
+		return this.supplierSellerId;
+	}
+	public void setSupplierSellerId(String supplierSellerId) {
+		this.supplierSellerId = supplierSellerId;
+	}
+
+	public String getSupplierSellerName() {
+		return this.supplierSellerName;
+	}
+	public void setSupplierSellerName(String supplierSellerName) {
+		this.supplierSellerName = supplierSellerName;
 	}
 
 	public String getSupplierSource() {

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.retail.benefit.save response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-10 15:52:08
+ * @since 1.0, 2026-03-13 15:29:37
  */
 public class AlipayCommerceRetailBenefitSaveResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8763212197935425438L;
+	private static final long serialVersionUID = 4754638933587654698L;
 
 	/** 
 	 * 活动id

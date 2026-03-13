@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommercePropertyFiledetectionQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5175789785844232278L;
+	private static final long serialVersionUID = 5179498457234281342L;
 
 	/**
 	 * 编码code

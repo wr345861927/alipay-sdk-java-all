@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMarketingCampaignDiscountWhitelistUpdateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7576279224346436718L;
+	private static final long serialVersionUID = 5814698966835143143L;
 
 	
 

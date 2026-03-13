@@ -1,0 +1,68 @@
+package com.alipay.api.domain;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+
+/**
+ * null
+ *
+ * @author auto create
+ * @since 1.0, 2026-03-12 10:15:24
+ */
+public class ClassInfoVO extends AlipayObject {
+
+	private static final long serialVersionUID = 6684964126766671743L;
+
+	/**
+	 * 业务单号
+	 */
+	@ApiField("biz_no")
+	private String bizNo;
+
+	/**
+	 * 结课日期
+	 */
+	@ApiField("end_date")
+	private String endDate;
+
+	/**
+	 * 上课时间描述
+	 */
+	@ApiField("schedule_description")
+	private String scheduleDescription;
+
+	/**
+	 * 开班日期
+	 */
+	@ApiField("start_date")
+	private String startDate;
+
+	public String getBizNo() {
+		return this.bizNo;
+	}
+	public void setBizNo(String bizNo) {
+		this.bizNo = bizNo;
+	}
+
+	public String getEndDate() {
+		return this.endDate;
+	}
+	public void setEndDate(String endDate) {
+		this.endDate = endDate;
+	}
+
+	public String getScheduleDescription() {
+		return this.scheduleDescription;
+	}
+	public void setScheduleDescription(String scheduleDescription) {
+		this.scheduleDescription = scheduleDescription;
+	}
+
+	public String getStartDate() {
+		return this.startDate;
+	}
+	public void setStartDate(String startDate) {
+		this.startDate = startDate;
+	}
+
+}

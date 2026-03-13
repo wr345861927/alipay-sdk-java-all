@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: anttech.oceanbase.obglobal.employee.sync request
  * 
  * @author auto create
- * @since 1.0, 2026-02-11 11:17:44
+ * @since 1.0, 2026-03-13 11:12:43
  */
 public class AnttechOceanbaseObglobalEmployeeSyncRequest implements AlipayRequest<AnttechOceanbaseObglobalEmployeeSyncResponse> {
 

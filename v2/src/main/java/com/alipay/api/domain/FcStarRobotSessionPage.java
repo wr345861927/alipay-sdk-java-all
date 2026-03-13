@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class FcStarRobotSessionPage extends AlipayObject {
 
-	private static final long serialVersionUID = 5295517287945919276L;
+	private static final long serialVersionUID = 3351164927235879912L;
 
 	/**
 	 * 总记录条数

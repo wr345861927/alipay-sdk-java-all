@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayAssetPointPointprodBudgetlibCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1792274615828981821L;
+	private static final long serialVersionUID = 6833145116664559464L;
 
 	/** 
 	 * 预算库余额

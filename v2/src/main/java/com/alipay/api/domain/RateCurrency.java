@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RateCurrency extends AlipayObject {
 
-	private static final long serialVersionUID = 1621254514672434441L;
+	private static final long serialVersionUID = 5151718929117228817L;
 
 	/**
 	 * 货币编码，ISO标准alpha-3币种编码

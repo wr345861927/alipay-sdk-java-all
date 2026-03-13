@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ClaimAttachmentUrlVo extends AlipayObject {
 
-	private static final long serialVersionUID = 5319664267929286519L;
+	private static final long serialVersionUID = 2321781895796941228L;
 
 	/**
 	 * 该参数是同学提交理赔时的病历信息，需要同步给供应商，用户理赔报案使用。

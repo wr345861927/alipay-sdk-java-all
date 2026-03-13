@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 支用状态通知
  *
  * @author auto create
- * @since 1.0, 2026-01-08 11:02:57
+ * @since 1.0, 2026-03-13 09:56:43
  */
 public class XingheLendassistCarfinLendapplystatusNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2653158648283388572L;
+	private static final long serialVersionUID = 5251621715992164198L;
 
 	/**
 	 * 协议文件列表
@@ -28,6 +28,13 @@ public class XingheLendassistCarfinLendapplystatusNotifyModel extends AlipayObje
 	 */
 	@ApiField("apply_no")
 	private String applyNo;
+
+	/**
+	 * 需要替换的审核文件列表
+	 */
+	@ApiListField("approve_file_list")
+	@ApiField("carfin_mortgage_received_file")
+	private List<CarfinMortgageReceivedFile> approveFileList;
 
 	/**
 	 * 授信信息列表
@@ -138,6 +145,13 @@ public class XingheLendassistCarfinLendapplystatusNotifyModel extends AlipayObje
 	}
 	public void setApplyNo(String applyNo) {
 		this.applyNo = applyNo;
+	}
+
+	public List<CarfinMortgageReceivedFile> getApproveFileList() {
+		return this.approveFileList;
+	}
+	public void setApproveFileList(List<CarfinMortgageReceivedFile> approveFileList) {
+		this.approveFileList = approveFileList;
 	}
 
 	public List<Credit> getCreditList() {

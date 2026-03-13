@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2025-12-25 10:22:42
+ * @since 1.0, 2026-03-13 14:22:43
  */
 public class ConsultFailReason extends AlipayObject {
 
-	private static final long serialVersionUID = 8446567675224456139L;
+	private static final long serialVersionUID = 4295422242475289951L;
 
 	/**
 	 * 咨询失败原因枚举编码

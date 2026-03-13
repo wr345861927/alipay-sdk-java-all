@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AssetFundInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2699723757673274849L;
+	private static final long serialVersionUID = 3538973829836269286L;
 
 	/**
 	 * 创建权益模板的金额，创建权益模板时需要指定实际金额，单元是元

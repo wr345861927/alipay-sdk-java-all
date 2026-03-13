@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenPublicPersonalizedAdvertCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2352375662126488187L;
+	private static final long serialVersionUID = 2222898833262796494L;
 
 	/**
 	 * 广告位轮播内容列表。数量限制：大于1个，小于5个。广告位轮播内容顺序：与接口传入的顺序排列一致。
