@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询反馈类型选项
  *
  * @author auto create
- * @since 1.0, 2025-08-11 15:23:08
+ * @since 1.0, 2026-03-17 11:01:59
  */
 public class AlipayCommerceMedicalLargermodelFeedbackQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5194486765272232797L;
+	private static final long serialVersionUID = 3689456866855216671L;
+
+	/**
+	 * 智能体的名称，主要用于识别区分不同智能体，根据智能体名称返回相应智能体的反馈信息配置
+	 */
+	@ApiField("agent_name")
+	private String agentName;
 
 	/**
 	 * 反馈渠道：
@@ -49,6 +55,13 @@ nps高分：npsHigh
 	 */
 	@ApiField("service_status")
 	private String serviceStatus;
+
+	public String getAgentName() {
+		return this.agentName;
+	}
+	public void setAgentName(String agentName) {
+		this.agentName = agentName;
+	}
 
 	public String getFeedbackChannel() {
 		return this.feedbackChannel;

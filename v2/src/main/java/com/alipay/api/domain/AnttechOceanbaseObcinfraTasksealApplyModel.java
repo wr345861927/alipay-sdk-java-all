@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 多云任务中心文件用印
  *
  * @author auto create
- * @since 1.0, 2025-12-11 14:07:42
+ * @since 1.0, 2026-03-18 17:40:23
  */
 public class AnttechOceanbaseObcinfraTasksealApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8775699756592461327L;
+	private static final long serialVersionUID = 6114427771716968322L;
 
 	/**
 	 * 部署云环境

@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: antfortune.stock.poker.chip.send response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-03 17:27:41
+ * @since 1.0, 2026-03-17 16:57:37
  */
 public class AntfortuneStockPokerChipSendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2655118271813388867L;
+	private static final long serialVersionUID = 4159163542283877631L;
 
 	/** 
 	 * 筹码详情

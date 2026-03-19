@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BotBizInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6167544114482412539L;
+	private static final long serialVersionUID = 2758974884268672686L;
 
 	/**
 	 * 在获取不到用户定位时，传递的兜底城市编码

@@ -7,17 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 根据编号查询线圈信息返回值
  *
  * @author auto create
- * @since 1.0, 2025-05-06 10:45:07
+ * @since 1.0, 2026-03-13 23:28:02
  */
 public class NOrderTagQueryByCoilNoResp extends AlipayObject {
 
-	private static final long serialVersionUID = 4654753791849212123L;
+	private static final long serialVersionUID = 4276927712717967826L;
 
 	/**
 	 * 线圈绑定状态
 	 */
 	@ApiField("bind_status")
 	private String bindStatus;
+
+	/**
+	 * 线圈编号
+	 */
+	@ApiField("coil_no")
+	private String coilNo;
 
 	/**
 	 * 点位id
@@ -36,6 +42,13 @@ public class NOrderTagQueryByCoilNoResp extends AlipayObject {
 	}
 	public void setBindStatus(String bindStatus) {
 		this.bindStatus = bindStatus;
+	}
+
+	public String getCoilNo() {
+		return this.coilNo;
+	}
+	public void setCoilNo(String coilNo) {
+		this.coilNo = coilNo;
 	}
 
 	public String getPositionId() {

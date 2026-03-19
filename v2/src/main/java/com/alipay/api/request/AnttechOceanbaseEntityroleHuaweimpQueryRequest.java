@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: anttech.oceanbase.entityrole.huaweimp.query request
  * 
  * @author auto create
- * @since 1.0, 2024-04-15 11:42:00
+ * @since 1.0, 2026-03-18 17:40:23
  */
 public class AnttechOceanbaseEntityroleHuaweimpQueryRequest implements AlipayRequest<AnttechOceanbaseEntityroleHuaweimpQueryResponse> {
 

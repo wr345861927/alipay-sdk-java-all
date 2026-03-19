@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceTransportTaxiOrderinfoSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1238637819939452514L;
+	private static final long serialVersionUID = 3696866199589163629L;
 
 	/** 
 	 * 支付宝唯一司机id

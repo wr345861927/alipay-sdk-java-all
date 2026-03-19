@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-01-26 10:32:43
+ * @since 1.0, 2026-03-18 16:47:44
  */
 public class ShopPageQueryDetailVO extends AlipayObject {
 
-	private static final long serialVersionUID = 2655717237116135271L;
+	private static final long serialVersionUID = 1751339583137746649L;
 
 	/**
 	 * 门店地址库 ID，按照一定的平台规则识别出的线下真实存在、真实经营的蚂蚁门店地址库 ID，将作用于服务商的返佣激励、商品/券等权益的公域分发。如平台未返回alipay_poiid，请在确认门店信息真实有效后，稍后再进行查询。

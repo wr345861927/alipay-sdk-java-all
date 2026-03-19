@@ -14,11 +14,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ebpp.industry.invoice.verify response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-04 14:57:42
+ * @since 1.0, 2026-03-18 19:28:04
  */
 public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5867696569515417184L;
+	private static final long serialVersionUID = 6269286375118183926L;
 
 	/** 
 	 * 飞机行程单信息

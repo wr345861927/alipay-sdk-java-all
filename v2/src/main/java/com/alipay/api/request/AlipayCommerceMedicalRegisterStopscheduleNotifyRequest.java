@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.register.stopschedule.notify request
  * 
  * @author auto create
- * @since 1.0, 2026-03-05 16:47:43
+ * @since 1.0, 2026-03-18 16:52:44
  */
 public class AlipayCommerceMedicalRegisterStopscheduleNotifyRequest implements AlipayRequest<AlipayCommerceMedicalRegisterStopscheduleNotifyResponse> {
 

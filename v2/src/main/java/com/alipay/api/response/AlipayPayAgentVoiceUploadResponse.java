@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.pay.agent.voice.upload response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-05 16:33:45
+ * @since 1.0, 2026-03-17 11:17:44
  */
 public class AlipayPayAgentVoiceUploadResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4335746112641371923L;
+	private static final long serialVersionUID = 4723286845391843423L;
 
 	/** 
 	 * 唯一标识一次语音上传的会话，当商户与支付宝有多次语音上传交互时，首次会新生成，后续带上该字段可以关联本次语音上传的会话上下文
@@ -20,11 +20,24 @@ public class AlipayPayAgentVoiceUploadResponse extends AlipayResponse {
 	@ApiField("agent_voice_sid")
 	private String agentVoiceSid;
 
+	/** 
+	 * 流式语音初始化信息，用于后续调用支付SDK做流式建连
+	 */
+	@ApiField("stream_voice_init_info")
+	private String streamVoiceInitInfo;
+
 	public void setAgentVoiceSid(String agentVoiceSid) {
 		this.agentVoiceSid = agentVoiceSid;
 	}
 	public String getAgentVoiceSid( ) {
 		return this.agentVoiceSid;
+	}
+
+	public void setStreamVoiceInitInfo(String streamVoiceInitInfo) {
+		this.streamVoiceInitInfo = streamVoiceInitInfo;
+	}
+	public String getStreamVoiceInitInfo( ) {
+		return this.streamVoiceInitInfo;
 	}
 
 }

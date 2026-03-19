@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BreakCostsInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8586342271326761468L;
+	private static final long serialVersionUID = 1364981897932647183L;
 
 	/**
 	 * 卡到期后是否收取违约金，默认01

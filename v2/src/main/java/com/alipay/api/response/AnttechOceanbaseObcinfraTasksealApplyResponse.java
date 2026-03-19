@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: anttech.oceanbase.obcinfra.taskseal.apply response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-11 14:07:42
+ * @since 1.0, 2026-03-18 17:40:23
  */
 public class AnttechOceanbaseObcinfraTasksealApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1479461383245347235L;
+	private static final long serialVersionUID = 1415776525754219725L;
 
 	/** 
 	 * 用印流水id

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayInsSceneFlowcardRechargeNotifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2451321797384445227L;
+	private static final long serialVersionUID = 8842918861347489886L;
 
 	/** 
 	 * 业务单号

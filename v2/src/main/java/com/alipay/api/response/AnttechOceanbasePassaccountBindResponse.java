@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: anttech.oceanbase.passaccount.bind response.
  * 
  * @author auto create
- * @since 1.0, 2024-12-19 19:12:21
+ * @since 1.0, 2026-03-18 17:40:21
  */
 public class AnttechOceanbasePassaccountBindResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6557564489584169725L;
+	private static final long serialVersionUID = 5514768364442476163L;
 
 	
 

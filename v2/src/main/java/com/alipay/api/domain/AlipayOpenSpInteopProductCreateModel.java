@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 服务商一体化开通作业添加产品开通项
  *
  * @author auto create
- * @since 1.0, 2026-01-09 18:33:09
+ * @since 1.0, 2026-03-19 15:04:20
  */
 public class AlipayOpenSpInteopProductCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8849574979127833418L;
+	private static final long serialVersionUID = 6637498365126616825L;
 
 	/**
 	 * app信息
@@ -73,10 +73,18 @@ public class AlipayOpenSpInteopProductCreateModel extends AlipayObject {
 	private InteOpShopInfo inteopShopInfo;
 
 	/**
-	 * 特殊行业资质信息
+	 * 特殊行业资质信息 当前字段已废弃(特殊资质类型升级该参数为数组)
 	 */
 	@ApiField("inteop_special_license_info")
+	@Deprecated
 	private InteOpSpecialLicenseInfo inteopSpecialLicenseInfo;
+
+	/**
+	 * 特殊行业资质信息
+	 */
+	@ApiListField("inteop_special_license_infos")
+	@ApiField("inte_op_special_license_info")
+	private List<InteOpSpecialLicenseInfo> inteopSpecialLicenseInfos;
 
 	/**
 	 * 网站信息
@@ -176,6 +184,13 @@ public class AlipayOpenSpInteopProductCreateModel extends AlipayObject {
 	}
 	public void setInteopSpecialLicenseInfo(InteOpSpecialLicenseInfo inteopSpecialLicenseInfo) {
 		this.inteopSpecialLicenseInfo = inteopSpecialLicenseInfo;
+	}
+
+	public List<InteOpSpecialLicenseInfo> getInteopSpecialLicenseInfos() {
+		return this.inteopSpecialLicenseInfos;
+	}
+	public void setInteopSpecialLicenseInfos(List<InteOpSpecialLicenseInfo> inteopSpecialLicenseInfos) {
+		this.inteopSpecialLicenseInfos = inteopSpecialLicenseInfos;
 	}
 
 	public InteOpWebSiteInfo getInteopWebSiteInfo() {

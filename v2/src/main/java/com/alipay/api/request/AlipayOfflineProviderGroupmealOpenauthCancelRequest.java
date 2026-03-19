@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.groupmeal.openauth.cancel request
  * 
  * @author auto create
- * @since 1.0, 2026-02-28 18:17:43
+ * @since 1.0, 2026-03-16 19:22:43
  */
 public class AlipayOfflineProviderGroupmealOpenauthCancelRequest implements AlipayRequest<AlipayOfflineProviderGroupmealOpenauthCancelResponse> {
 

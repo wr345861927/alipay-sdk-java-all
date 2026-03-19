@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 服务商一体化开通作业添加入驻开通项
  *
  * @author auto create
- * @since 1.0, 2026-02-11 21:26:26
+ * @since 1.0, 2026-03-18 19:55:15
  */
 public class AlipayOpenSpInteopSettleCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8533483458848251726L;
+	private static final long serialVersionUID = 5698968988912445458L;
 
 	/**
 	 * 受益人证照

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OfflinepayErrorIndicator extends AlipayObject {
 
-	private static final long serialVersionUID = 3397626651214822577L;
+	private static final long serialVersionUID = 8172391852425193267L;
 
 	/**
 	 * 右动作按钮

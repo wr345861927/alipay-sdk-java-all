@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 企业码账单申请开票
  *
  * @author auto create
- * @since 1.0, 2026-02-28 15:27:43
+ * @since 1.0, 2026-03-17 20:57:43
  */
 public class AlipayCommerceEcInvoiceConsumeApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8775676978628435527L;
+	private static final long serialVersionUID = 8716761617456754252L;
 
 	/**
 	 * 支付宝交易号，可通过查询企业码账单详情获取
@@ -59,7 +59,7 @@ public class AlipayCommerceEcInvoiceConsumeApplyModel extends AlipayObject {
 	private String buyerTel;
 
 	/**
-	 * 企业id，可通过查询入驻企业码企业详情获取
+	 * 付款方企业id，可通过查询入驻企业码企业详情获取
 	 */
 	@ApiField("enterprise_id")
 	private String enterpriseId;
@@ -106,6 +106,12 @@ public class AlipayCommerceEcInvoiceConsumeApplyModel extends AlipayObject {
 	 */
 	@ApiField("remark")
 	private String remark;
+
+	/**
+	 * 收款方企业id，可通过查询入驻企业码企业详情
+	 */
+	@ApiField("seller_enterprise_id")
+	private String sellerEnterpriseId;
 
 	public String getAlipayTradeNo() {
 		return this.alipayTradeNo;
@@ -210,6 +216,13 @@ public class AlipayCommerceEcInvoiceConsumeApplyModel extends AlipayObject {
 	}
 	public void setRemark(String remark) {
 		this.remark = remark;
+	}
+
+	public String getSellerEnterpriseId() {
+		return this.sellerEnterpriseId;
+	}
+	public void setSellerEnterpriseId(String sellerEnterpriseId) {
+		this.sellerEnterpriseId = sellerEnterpriseId;
 	}
 
 }

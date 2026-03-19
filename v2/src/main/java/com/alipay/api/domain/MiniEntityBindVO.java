@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class MiniEntityBindVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8172165264467897585L;
+	private static final long serialVersionUID = 8834922722346331555L;
 
 	/**
 	 * 实体id，具体场景见产品文档

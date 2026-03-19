@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * N链接释放
+ * N模组链接释放和上位机绑定
  *
  * @author auto create
- * @since 1.0, 2025-11-28 16:22:41
+ * @since 1.0, 2026-03-17 15:57:44
  */
 public class AlipayOpenSpNopenNlinkGenerateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7519318261226675593L;
+	private static final long serialVersionUID = 4685961767114845462L;
 
 	/**
 	 * 设备adid

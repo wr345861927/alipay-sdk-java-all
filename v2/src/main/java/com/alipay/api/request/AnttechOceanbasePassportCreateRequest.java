@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: anttech.oceanbase.passport.create request
  * 
  * @author auto create
- * @since 1.0, 2024-12-20 15:12:22
+ * @since 1.0, 2026-03-18 17:40:20
  */
 public class AnttechOceanbasePassportCreateRequest implements AlipayRequest<AnttechOceanbasePassportCreateResponse> {
 

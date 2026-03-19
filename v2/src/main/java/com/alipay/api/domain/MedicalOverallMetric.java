@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MedicalOverallMetric extends AlipayObject {
 
-	private static final long serialVersionUID = 7369635854862172473L;
+	private static final long serialVersionUID = 5711482692647156363L;
 
 	/**
 	 * 日均服务次数

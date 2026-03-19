@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 碰一下团餐批量解约
  *
  * @author auto create
- * @since 1.0, 2026-02-28 18:17:43
+ * @since 1.0, 2026-03-16 19:22:43
  */
 public class AlipayOfflineProviderGroupmealOpenauthCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8234674381969352378L;
+	private static final long serialVersionUID = 6889239122279615335L;
 
 	/**
 	 * 机构id

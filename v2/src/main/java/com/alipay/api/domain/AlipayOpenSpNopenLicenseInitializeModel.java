@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 模组开放license初始化
  *
  * @author auto create
- * @since 1.0, 2025-11-25 10:25:15
+ * @since 1.0, 2026-03-17 15:58:05
  */
 public class AlipayOpenSpNopenLicenseInitializeModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3254142253284423443L;
+	private static final long serialVersionUID = 7155883718632841616L;
 
 	/**
 	 * 模组生成的签名

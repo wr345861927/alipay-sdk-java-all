@@ -1,0 +1,31 @@
+package com.alipay.api.response;
+
+import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.domain.ProvinceVo;
+
+import com.alipay.api.AlipayResponse;
+
+/**
+ * ALIPAY API: alipay.commerce.medical.search.city.query response.
+ * 
+ * @author auto create
+ * @since 1.0, 2026-03-18 11:46:37
+ */
+public class AlipayCommerceMedicalSearchCityQueryResponse extends AlipayResponse {
+
+	private static final long serialVersionUID = 3312585334486264933L;
+
+	/** 
+	 * 省份数据列表
+	 */
+	@ApiField("province_list")
+	private ProvinceVo provinceList;
+
+	public void setProvinceList(ProvinceVo provinceList) {
+		this.provinceList = provinceList;
+	}
+	public ProvinceVo getProvinceList( ) {
+		return this.provinceList;
+	}
+
+}

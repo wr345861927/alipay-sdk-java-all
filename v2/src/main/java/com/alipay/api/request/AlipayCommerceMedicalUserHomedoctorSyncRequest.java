@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.user.homedoctor.sync request
  * 
  * @author auto create
- * @since 1.0, 2026-03-12 18:59:51
+ * @since 1.0, 2026-03-17 13:47:43
  */
 public class AlipayCommerceMedicalUserHomedoctorSyncRequest implements AlipayRequest<AlipayCommerceMedicalUserHomedoctorSyncResponse> {
 

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.iservice.icontrol.nonstandarddata.upload request
  * 
  * @author auto create
- * @since 1.0, 2025-04-22 17:37:26
+ * @since 1.0, 2026-03-16 14:22:44
  */
 public class AlipayIserviceIcontrolNonstandarddataUploadRequest implements AlipayRequest<AlipayIserviceIcontrolNonstandarddataUploadResponse> {
 

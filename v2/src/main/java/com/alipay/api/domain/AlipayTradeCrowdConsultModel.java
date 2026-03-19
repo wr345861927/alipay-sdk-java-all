@@ -10,11 +10,24 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 推送淘宝营销人群
  *
  * @author auto create
- * @since 1.0, 2025-12-01 15:52:50
+ * @since 1.0, 2026-03-18 21:06:09
  */
 public class AlipayTradeCrowdConsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5415421922862629632L;
+	private static final long serialVersionUID = 3267786844627817259L;
+
+	/**
+	 * 单位元
+	 */
+	@ApiField("average_amount")
+	private String averageAmount;
+
+	/**
+	 * 定义咨询人群场景，如花呗、Z1
+	 */
+	@ApiListField("consult_crowd_list")
+	@ApiField("string")
+	private List<String> consultCrowdList;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识
@@ -42,6 +55,20 @@ AAC潜客营销-aacProspectMarketing
 	 */
 	@ApiField("user_id")
 	private String userId;
+
+	public String getAverageAmount() {
+		return this.averageAmount;
+	}
+	public void setAverageAmount(String averageAmount) {
+		this.averageAmount = averageAmount;
+	}
+
+	public List<String> getConsultCrowdList() {
+		return this.consultCrowdList;
+	}
+	public void setConsultCrowdList(List<String> consultCrowdList) {
+		this.consultCrowdList = consultCrowdList;
+	}
 
 	public String getOpenId() {
 		return this.openId;

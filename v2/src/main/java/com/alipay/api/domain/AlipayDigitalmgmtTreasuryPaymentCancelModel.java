@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 财资TMS对外付款撤销
  *
  * @author auto create
- * @since 1.0, 2026-01-09 19:05:04
+ * @since 1.0, 2026-03-16 11:12:44
  */
 public class AlipayDigitalmgmtTreasuryPaymentCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4288285595111744968L;
+	private static final long serialVersionUID = 7662961241878671325L;
 
 	/**
 	 * 操作人员，取消主动付款需要传

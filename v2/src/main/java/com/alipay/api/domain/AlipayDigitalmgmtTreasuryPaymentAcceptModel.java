@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 财资TMS对外付款受理
  *
  * @author auto create
- * @since 1.0, 2026-01-13 16:55:33
+ * @since 1.0, 2026-03-16 11:12:44
  */
 public class AlipayDigitalmgmtTreasuryPaymentAcceptModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1643969312177199672L;
+	private static final long serialVersionUID = 1453498945581632169L;
 
 	/**
 	 * 主动/被动；ACTIVE/PASSIVE
@@ -26,6 +26,12 @@ public class AlipayDigitalmgmtTreasuryPaymentAcceptModel extends AlipayObject {
 	 */
 	@ApiField("bank_code")
 	private String bankCode;
+
+	/**
+	 * 关联业务单据号，用于上游业务根据自己定义的单据号到资金结算中心查询(页面) 
+	 */
+	@ApiField("biz_ref_no")
+	private String bizRefNo;
 
 	/**
 	 * 收款行本地清算分支行号
@@ -124,6 +130,12 @@ public class AlipayDigitalmgmtTreasuryPaymentAcceptModel extends AlipayObject {
 	private String creditorInstAbbr;
 
 	/**
+	 * 收款金融机构所在城市（境内使用，比如北京市、上海市，目前主要是代发在使用）
+	 */
+	@ApiField("creditor_inst_city")
+	private String creditorInstCity;
+
+	/**
 	 * 收款银行两位国家代码；收款渠道为银行必填
 	 */
 	@ApiField("creditor_inst_country_code")
@@ -134,6 +146,12 @@ public class AlipayDigitalmgmtTreasuryPaymentAcceptModel extends AlipayObject {
 	 */
 	@ApiField("creditor_inst_name")
 	private String creditorInstName;
+
+	/**
+	 * 收款金融机构所在省份（境内使用），比如湖南、湖北，目前主要是代发在使用
+	 */
+	@ApiField("creditor_inst_province")
+	private String creditorInstProvince;
 
 	/**
 	 * 收款人邮编
@@ -257,6 +275,13 @@ public class AlipayDigitalmgmtTreasuryPaymentAcceptModel extends AlipayObject {
 		this.bankCode = bankCode;
 	}
 
+	public String getBizRefNo() {
+		return this.bizRefNo;
+	}
+	public void setBizRefNo(String bizRefNo) {
+		this.bizRefNo = bizRefNo;
+	}
+
 	public String getBranchCode() {
 		return this.branchCode;
 	}
@@ -369,6 +394,13 @@ public class AlipayDigitalmgmtTreasuryPaymentAcceptModel extends AlipayObject {
 		this.creditorInstAbbr = creditorInstAbbr;
 	}
 
+	public String getCreditorInstCity() {
+		return this.creditorInstCity;
+	}
+	public void setCreditorInstCity(String creditorInstCity) {
+		this.creditorInstCity = creditorInstCity;
+	}
+
 	public String getCreditorInstCountryCode() {
 		return this.creditorInstCountryCode;
 	}
@@ -381,6 +413,13 @@ public class AlipayDigitalmgmtTreasuryPaymentAcceptModel extends AlipayObject {
 	}
 	public void setCreditorInstName(String creditorInstName) {
 		this.creditorInstName = creditorInstName;
+	}
+
+	public String getCreditorInstProvince() {
+		return this.creditorInstProvince;
+	}
+	public void setCreditorInstProvince(String creditorInstProvince) {
+		this.creditorInstProvince = creditorInstProvince;
 	}
 
 	public String getCreditorPostCode() {

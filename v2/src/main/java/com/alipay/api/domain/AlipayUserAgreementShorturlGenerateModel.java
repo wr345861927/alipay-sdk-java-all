@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 用户协议签约短链生成接口
  *
  * @author auto create
- * @since 1.0, 2026-03-12 10:17:44
+ * @since 1.0, 2026-03-16 15:32:44
  */
 public class AlipayUserAgreementShorturlGenerateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4496139633238843628L;
+	private static final long serialVersionUID = 6656156353856477819L;
 
 	/**
 	 * 原始签约长链接

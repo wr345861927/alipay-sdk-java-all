@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.groupmeal.openauth.cancel response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-28 18:17:43
+ * @since 1.0, 2026-03-16 19:22:43
  */
 public class AlipayOfflineProviderGroupmealOpenauthCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2528736458427137913L;
+	private static final long serialVersionUID = 3326572276546768489L;
 
 	/** 
 	 * 碰一下团餐批量解约授权开通结果对象

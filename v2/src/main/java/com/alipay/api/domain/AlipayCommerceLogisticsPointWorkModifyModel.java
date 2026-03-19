@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 物流作业平台铺设点变更
  *
  * @author auto create
- * @since 1.0, 2025-04-22 10:47:27
+ * @since 1.0, 2026-03-18 17:25:47
  */
 public class AlipayCommerceLogisticsPointWorkModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4243326319878733558L;
+	private static final long serialVersionUID = 1558313815659535594L;
 
 	/**
 	 * 新的铺设点描述

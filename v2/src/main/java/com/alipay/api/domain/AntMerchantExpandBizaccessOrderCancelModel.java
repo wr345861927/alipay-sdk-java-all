@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AntMerchantExpandBizaccessOrderCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8256532644119134684L;
+	private static final long serialVersionUID = 4393714918616655949L;
 
 	/**
 	 * 主单id	

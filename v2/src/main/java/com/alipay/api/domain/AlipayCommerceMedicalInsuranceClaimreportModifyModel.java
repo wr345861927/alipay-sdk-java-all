@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 更新理赔单状态
  *
  * @author auto create
- * @since 1.0, 2025-12-24 10:49:26
+ * @since 1.0, 2026-03-18 09:43:32
  */
 public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5165463992599974246L;
+	private static final long serialVersionUID = 4358273244435387622L;
 
 	/**
 	 * 账号信息
@@ -33,6 +33,12 @@ public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends Alipay
 	 */
 	@ApiField("biz_no")
 	private String bizNo;
+
+	/**
+	 * 业务发生时间
+	 */
+	@ApiField("biz_time")
+	private String bizTime;
 
 	/**
 	 * 是否是赔案重开
@@ -103,6 +109,12 @@ public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends Alipay
 	private List<IdentityMaterials> identityMaterials;
 
 	/**
+	 * 影像件批次流水号
+	 */
+	@ApiField("image_batch_no")
+	private String imageBatchNo;
+
+	/**
 	 * 补材场景
 	 */
 	@ApiField("lack_materials_sense")
@@ -133,6 +145,12 @@ public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends Alipay
 	private String openId;
 
 	/**
+	 * 外部业务单号
+	 */
+	@ApiField("out_biz_no")
+	private String outBizNo;
+
+	/**
 	 * 立案失败原因或拒赔原因
 	 */
 	@ApiField("reject_reason")
@@ -152,10 +170,28 @@ public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends Alipay
 	private List<SeltInfoList> seltInfoList;
 
 	/**
+	 * 结算列表
+	 */
+	@ApiField("settle_ids")
+	private String settleIds;
+
+	/**
 	 * 交易来源
 	 */
 	@ApiField("source")
 	private String source;
+
+	/**
+	 * 密算结果
+	 */
+	@ApiField("sscr")
+	private String sscr;
+
+	/**
+	 * 提交流水号
+	 */
+	@ApiField("submit_no")
+	private String submitNo;
 
 	/**
 	 * 理赔总金额，单位：元
@@ -188,6 +224,13 @@ public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends Alipay
 	}
 	public void setBizNo(String bizNo) {
 		this.bizNo = bizNo;
+	}
+
+	public String getBizTime() {
+		return this.bizTime;
+	}
+	public void setBizTime(String bizTime) {
+		this.bizTime = bizTime;
 	}
 
 	public Boolean getCaseReopened() {
@@ -267,6 +310,13 @@ public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends Alipay
 		this.identityMaterials = identityMaterials;
 	}
 
+	public String getImageBatchNo() {
+		return this.imageBatchNo;
+	}
+	public void setImageBatchNo(String imageBatchNo) {
+		this.imageBatchNo = imageBatchNo;
+	}
+
 	public String getLackMaterialsSense() {
 		return this.lackMaterialsSense;
 	}
@@ -302,6 +352,13 @@ public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends Alipay
 		this.openId = openId;
 	}
 
+	public String getOutBizNo() {
+		return this.outBizNo;
+	}
+	public void setOutBizNo(String outBizNo) {
+		this.outBizNo = outBizNo;
+	}
+
 	public String getRejectReason() {
 		return this.rejectReason;
 	}
@@ -323,11 +380,32 @@ public class AlipayCommerceMedicalInsuranceClaimreportModifyModel extends Alipay
 		this.seltInfoList = seltInfoList;
 	}
 
+	public String getSettleIds() {
+		return this.settleIds;
+	}
+	public void setSettleIds(String settleIds) {
+		this.settleIds = settleIds;
+	}
+
 	public String getSource() {
 		return this.source;
 	}
 	public void setSource(String source) {
 		this.source = source;
+	}
+
+	public String getSscr() {
+		return this.sscr;
+	}
+	public void setSscr(String sscr) {
+		this.sscr = sscr;
+	}
+
+	public String getSubmitNo() {
+		return this.submitNo;
+	}
+	public void setSubmitNo(String submitNo) {
+		this.submitNo = submitNo;
 	}
 
 	public String getTotalClaimAmount() {

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 号源停诊通知
  *
  * @author auto create
- * @since 1.0, 2026-03-05 16:37:47
+ * @since 1.0, 2026-03-18 16:21:44
  */
 public class AlipayCommerceMedicalRegisterStopscheduleNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2287341271943492436L;
+	private static final long serialVersionUID = 5472483762132129412L;
 
 	/**
 	 * yyyyMMdd.停诊日期.格式如上
@@ -38,6 +38,12 @@ public class AlipayCommerceMedicalRegisterStopscheduleNotifyModel extends Alipay
 	private String notifyType;
 
 	/**
+	 * 号源id维度停诊，支持批量.numberIds 逗号分隔
+	 */
+	@ApiField("number_ids")
+	private String numberIds;
+
+	/**
 	 * 平台 code
 	 */
 	@ApiField("platform_code")
@@ -54,6 +60,12 @@ public class AlipayCommerceMedicalRegisterStopscheduleNotifyModel extends Alipay
 	 */
 	@ApiField("register_ids")
 	private String registerIds;
+
+	/**
+	 * 停诊属性
+	 */
+	@ApiField("stop_prop")
+	private String stopProp;
 
 	/**
 	 * 排班类型 上午
@@ -89,6 +101,13 @@ public class AlipayCommerceMedicalRegisterStopscheduleNotifyModel extends Alipay
 		this.notifyType = notifyType;
 	}
 
+	public String getNumberIds() {
+		return this.numberIds;
+	}
+	public void setNumberIds(String numberIds) {
+		this.numberIds = numberIds;
+	}
+
 	public String getPlatformCode() {
 		return this.platformCode;
 	}
@@ -108,6 +127,13 @@ public class AlipayCommerceMedicalRegisterStopscheduleNotifyModel extends Alipay
 	}
 	public void setRegisterIds(String registerIds) {
 		this.registerIds = registerIds;
+	}
+
+	public String getStopProp() {
+		return this.stopProp;
+	}
+	public void setStopProp(String stopProp) {
+		this.stopProp = stopProp;
 	}
 
 	public String getType() {

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DocumentProcessRule extends AlipayObject {
 
-	private static final long serialVersionUID = 6391692132428621376L;
+	private static final long serialVersionUID = 3667636337931257725L;
 
 	/**
 	 * 切分配置

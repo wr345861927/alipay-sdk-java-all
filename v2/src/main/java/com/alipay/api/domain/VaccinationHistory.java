@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class VaccinationHistory extends AlipayObject {
 
-	private static final long serialVersionUID = 2321238229724117197L;
+	private static final long serialVersionUID = 8148295793314659738L;
 
 	/**
 	 * 疫苗名称

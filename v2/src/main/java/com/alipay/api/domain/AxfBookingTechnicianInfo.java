@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AxfBookingTechnicianInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1434451385422225186L;
+	private static final long serialVersionUID = 2396524786722833535L;
 
 	/**
 	 * 手艺人头像url

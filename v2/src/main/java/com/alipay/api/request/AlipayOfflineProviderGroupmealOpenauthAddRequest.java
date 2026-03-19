@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.groupmeal.openauth.add request
  * 
  * @author auto create
- * @since 1.0, 2026-02-28 18:15:53
+ * @since 1.0, 2026-03-17 11:42:44
  */
 public class AlipayOfflineProviderGroupmealOpenauthAddRequest implements AlipayRequest<AlipayOfflineProviderGroupmealOpenauthAddResponse> {
 

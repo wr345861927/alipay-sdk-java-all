@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BeaconDeviceInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2653567293293553363L;
+	private static final long serialVersionUID = 7822821628893639838L;
 
 	/**
 	 * 设备类型

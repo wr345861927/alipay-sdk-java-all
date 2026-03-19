@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.agreement.shorturl.generate response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-12 10:17:44
+ * @since 1.0, 2026-03-16 15:32:44
  */
 public class AlipayUserAgreementShorturlGenerateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4132922865863627733L;
+	private static final long serialVersionUID = 5264648179922441775L;
 
 	/** 
 	 * 原始签约长链接经过转换后得到的短链

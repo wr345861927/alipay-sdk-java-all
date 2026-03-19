@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 团餐碰一下签约授权开通结果对象
  *
  * @author auto create
- * @since 1.0, 2026-02-28 18:15:53
+ * @since 1.0, 2026-03-17 11:42:44
  */
 public class GroupmealOpenAuthAddResult extends AlipayObject {
 
-	private static final long serialVersionUID = 5431544621115463494L;
+	private static final long serialVersionUID = 8391641948331916285L;
 
 	/**
 	 * 团餐碰一下签约授权开通结果,true-开通成功；false-开通失败。

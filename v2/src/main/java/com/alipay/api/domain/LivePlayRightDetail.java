@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LivePlayRightDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 1141588481451751685L;
+	private static final long serialVersionUID = 6893176913353921775L;
 
 	/**
 	 * 券可以领取的过期时间

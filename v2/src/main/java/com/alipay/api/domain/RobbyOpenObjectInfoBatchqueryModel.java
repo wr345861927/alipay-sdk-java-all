@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RobbyOpenObjectInfoBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6745986349545193184L;
+	private static final long serialVersionUID = 7558851192951377949L;
 
 	/**
 	 * 业务编号，如订单号

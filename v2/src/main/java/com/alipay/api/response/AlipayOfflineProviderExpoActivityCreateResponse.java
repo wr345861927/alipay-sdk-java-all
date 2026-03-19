@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.expo.activity.create response.
  * 
  * @author auto create
- * @since 1.0, 2025-11-10 10:20:43
+ * @since 1.0, 2026-03-16 10:42:44
  */
 public class AlipayOfflineProviderExpoActivityCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6168969354285635326L;
+	private static final long serialVersionUID = 1427377487857851574L;
 
 	/** 
 	 * 活动编码

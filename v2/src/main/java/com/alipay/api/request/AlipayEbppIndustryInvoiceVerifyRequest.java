@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ebpp.industry.invoice.verify request
  * 
  * @author auto create
- * @since 1.0, 2026-02-04 14:57:42
+ * @since 1.0, 2026-03-18 19:28:04
  */
 public class AlipayEbppIndustryInvoiceVerifyRequest implements AlipayRequest<AlipayEbppIndustryInvoiceVerifyResponse> {
 

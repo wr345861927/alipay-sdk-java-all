@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.digitalmgmt.treasury.payment.accept request
  * 
  * @author auto create
- * @since 1.0, 2026-01-13 16:55:33
+ * @since 1.0, 2026-03-16 11:12:44
  */
 public class AlipayDigitalmgmtTreasuryPaymentAcceptRequest implements AlipayRequest<AlipayDigitalmgmtTreasuryPaymentAcceptResponse> {
 

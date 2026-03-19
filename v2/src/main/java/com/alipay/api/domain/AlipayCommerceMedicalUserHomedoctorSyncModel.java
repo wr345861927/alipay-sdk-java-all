@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 蚂蚁健康用户医生签约状态数据同步
  *
  * @author auto create
- * @since 1.0, 2026-03-12 18:59:51
+ * @since 1.0, 2026-03-17 13:47:43
  */
 public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2637715495986846792L;
+	private static final long serialVersionUID = 5723993726594257764L;
 
 	/**
 	 * 蚂蚁健康用户的openId
@@ -22,7 +22,13 @@ public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 	private String aqOpenId;
 
 	/**
-	 * 签约医生的身份证号
+	 * 签约地-区编码(签约状态为居民已完成、医生签署中、医生已完成的必填)
+	 */
+	@ApiField("district_code")
+	private String districtCode;
+
+	/**
+	 * 签约医生的身份证号(签约状态为居民已完成、医生签署中、医生已完成的必填)
 	 */
 	@ApiField("doctor_cert_no")
 	private String doctorCertNo;
@@ -34,7 +40,7 @@ public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 	private String doctorCertNoEncrypt;
 
 	/**
-	 * 签约医生团队
+	 * 签约医生团队(签约状态为居民已完成、医生签署中、医生已完成的，签约医生姓名和签约团队二选一必填)
 	 */
 	@ApiField("doctor_group")
 	private String doctorGroup;
@@ -46,19 +52,19 @@ public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 	private String doctorId;
 
 	/**
-	 * 签约医生机构
+	 * 签约医生机构(签约状态为居民已完成、医生签署中、医生已完成的必填)
 	 */
 	@ApiField("doctor_organization")
 	private String doctorOrganization;
 
 	/**
-	 * 签约医生机构id
+	 * 签约医生机构id(签约状态为居民已完成、医生签署中、医生已完成的必填)
 	 */
 	@ApiField("doctor_organization_id")
 	private String doctorOrganizationId;
 
 	/**
-	 * 签约医生的真实姓名
+	 * 签约医生的真实姓名(签约状态为居民已完成、医生签署中、医生已完成的，签约医生姓名和签约团队二选一必填)
 	 */
 	@ApiField("doctor_real_name")
 	private String doctorRealName;
@@ -88,13 +94,20 @@ public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 	private String signBizType;
 
 	/**
-	 * 用户签约结束日期
+	 * 签约时间 
+(签约状态为居民已完成、医生签署中、医生已完成的必填)
+	 */
+	@ApiField("sign_date")
+	private Date signDate;
+
+	/**
+	 * 用户签约结束日期(签约状态为医生已完成的必填)
 	 */
 	@ApiField("sign_end_date")
 	private Date signEndDate;
 
 	/**
-	 * 用户签约开始日期
+	 * 用户签约开始日期(签约状态为医生已完成的必填)
 	 */
 	@ApiField("sign_start_date")
 	private Date signStartDate;
@@ -110,6 +123,12 @@ public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 	 */
 	@ApiField("status")
 	private String status;
+
+	/**
+	 * 签约地-街道编码(签约状态为居民已完成、医生签署中、医生已完成的必填)
+	 */
+	@ApiField("street_code")
+	private String streetCode;
 
 	/**
 	 * 用户身份证号
@@ -140,6 +159,13 @@ public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 	}
 	public void setAqOpenId(String aqOpenId) {
 		this.aqOpenId = aqOpenId;
+	}
+
+	public String getDistrictCode() {
+		return this.districtCode;
+	}
+	public void setDistrictCode(String districtCode) {
+		this.districtCode = districtCode;
 	}
 
 	public String getDoctorCertNo() {
@@ -219,6 +245,13 @@ public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 		this.signBizType = signBizType;
 	}
 
+	public Date getSignDate() {
+		return this.signDate;
+	}
+	public void setSignDate(Date signDate) {
+		this.signDate = signDate;
+	}
+
 	public Date getSignEndDate() {
 		return this.signEndDate;
 	}
@@ -245,6 +278,13 @@ public class AlipayCommerceMedicalUserHomedoctorSyncModel extends AlipayObject {
 	}
 	public void setStatus(String status) {
 		this.status = status;
+	}
+
+	public String getStreetCode() {
+		return this.streetCode;
+	}
+	public void setStreetCode(String streetCode) {
+		this.streetCode = streetCode;
 	}
 
 	public String getUserCertNo() {

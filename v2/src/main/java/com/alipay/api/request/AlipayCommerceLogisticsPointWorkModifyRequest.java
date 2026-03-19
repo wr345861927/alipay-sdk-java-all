@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.logistics.point.work.modify request
  * 
  * @author auto create
- * @since 1.0, 2025-04-22 10:47:27
+ * @since 1.0, 2026-03-18 17:25:47
  */
 public class AlipayCommerceLogisticsPointWorkModifyRequest implements AlipayRequest<AlipayCommerceLogisticsPointWorkModifyResponse> {
 

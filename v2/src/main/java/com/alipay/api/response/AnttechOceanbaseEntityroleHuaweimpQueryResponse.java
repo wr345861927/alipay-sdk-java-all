@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: anttech.oceanbase.entityrole.huaweimp.query response.
  * 
  * @author auto create
- * @since 1.0, 2024-04-15 11:42:00
+ * @since 1.0, 2026-03-18 17:40:23
  */
 public class AnttechOceanbaseEntityroleHuaweimpQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4739365111443556136L;
+	private static final long serialVersionUID = 1177323712937459951L;
 
 	/** 
 	 * 华为云客户名称

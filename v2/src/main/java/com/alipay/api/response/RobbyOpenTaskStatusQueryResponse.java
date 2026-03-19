@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class RobbyOpenTaskStatusQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5864368433619283911L;
+	private static final long serialVersionUID = 5867558962672721143L;
 
 	/** 
 	 * 业务编号

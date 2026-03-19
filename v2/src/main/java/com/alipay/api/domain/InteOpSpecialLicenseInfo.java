@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 一体化作业特殊行业资质信息
  *
  * @author auto create
- * @since 1.0, 2026-01-09 18:33:09
+ * @since 1.0, 2026-03-19 15:04:20
  */
 public class InteOpSpecialLicenseInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1397153125271639196L;
+	private static final long serialVersionUID = 1489997758166568842L;
 
 	/**
 	 * 企业特殊资质图片，可参考 商家经营类目 中的“需要的特殊资质证书”。文件最小为 5KB，最大为5M，图片格式必须为：png、bmp、gif、jpg、jpeg。
@@ -21,7 +21,7 @@ public class InteOpSpecialLicenseInfo extends AlipayObject {
 	private String specialLicensePic;
 
 	/**
-	 * 合约特殊资质的类型，枚举值，默认可以传99
+	 * 合约特殊资质的类型，默认可以传99
 	 */
 	@ApiField("special_license_type")
 	private String specialLicenseType;

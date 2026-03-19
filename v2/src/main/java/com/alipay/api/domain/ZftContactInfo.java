@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ZftContactInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8629976678656983289L;
+	private static final long serialVersionUID = 1313143461224354555L;
 
 	/**
 	 * 电子邮箱

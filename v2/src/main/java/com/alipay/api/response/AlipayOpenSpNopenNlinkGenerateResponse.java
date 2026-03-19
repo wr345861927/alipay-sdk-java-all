@@ -8,17 +8,36 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.sp.nopen.nlink.generate response.
  * 
  * @author auto create
- * @since 1.0, 2025-11-28 16:22:41
+ * @since 1.0, 2026-03-17 15:57:44
  */
 public class AlipayOpenSpNopenNlinkGenerateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4136427565483349634L;
+	private static final long serialVersionUID = 8112652494235112316L;
 
 	/** 
 	 * 耗时单位毫秒
 	 */
 	@ApiField("cost_time")
 	private Long costTime;
+
+	/** 
+	 * 1绑定
+0未绑定
+	 */
+	@ApiField("device_bind_status")
+	private String deviceBindStatus;
+
+	/** 
+	 * N链接对应的链接id
+	 */
+	@ApiField("n_link_id")
+	private String nLinkId;
+
+	/** 
+	 * N链接的对应类型
+	 */
+	@ApiField("n_link_type")
+	private String nLinkType;
 
 	/** 
 	 * 碰一下链接
@@ -37,6 +56,27 @@ public class AlipayOpenSpNopenNlinkGenerateResponse extends AlipayResponse {
 	}
 	public Long getCostTime( ) {
 		return this.costTime;
+	}
+
+	public void setDeviceBindStatus(String deviceBindStatus) {
+		this.deviceBindStatus = deviceBindStatus;
+	}
+	public String getDeviceBindStatus( ) {
+		return this.deviceBindStatus;
+	}
+
+	public void setnLinkId(String nLinkId) {
+		this.nLinkId = nLinkId;
+	}
+	public String getnLinkId( ) {
+		return this.nLinkId;
+	}
+
+	public void setnLinkType(String nLinkType) {
+		this.nLinkType = nLinkType;
+	}
+	public String getnLinkType( ) {
+		return this.nLinkType;
 	}
 
 	public void setnLinkUrl(String nLinkUrl) {

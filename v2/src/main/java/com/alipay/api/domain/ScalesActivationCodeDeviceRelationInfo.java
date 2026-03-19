@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ScalesActivationCodeDeviceRelationInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8857729474564753975L;
+	private static final long serialVersionUID = 1548697118159572641L;
 
 	/**
 	 * 蚂蚁激活码

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceTransportEtcenterpriseInvoicerepeatApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7646976373939194771L;
+	private static final long serialVersionUID = 5693764555158425712L;
 
 	/**
 	 * 虚拟运单编码

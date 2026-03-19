@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.digitalmgmt.treasury.payment.accept response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-13 16:55:33
+ * @since 1.0, 2026-03-16 11:12:44
  */
 public class AlipayDigitalmgmtTreasuryPaymentAcceptResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1857815279983812176L;
+	private static final long serialVersionUID = 1651488533133246871L;
 
 	/** 
 	 * 受理单ID
@@ -20,11 +20,24 @@ public class AlipayDigitalmgmtTreasuryPaymentAcceptResponse extends AlipayRespon
 	@ApiField("payment_accept_id")
 	private String paymentAcceptId;
 
+	/** 
+	 * 付款受理是否成功，true-成功 false-失败
+	 */
+	@ApiField("payment_accept_success")
+	private Boolean paymentAcceptSuccess;
+
 	public void setPaymentAcceptId(String paymentAcceptId) {
 		this.paymentAcceptId = paymentAcceptId;
 	}
 	public String getPaymentAcceptId( ) {
 		return this.paymentAcceptId;
+	}
+
+	public void setPaymentAcceptSuccess(Boolean paymentAcceptSuccess) {
+		this.paymentAcceptSuccess = paymentAcceptSuccess;
+	}
+	public Boolean getPaymentAcceptSuccess( ) {
+		return this.paymentAcceptSuccess;
 	}
 
 }

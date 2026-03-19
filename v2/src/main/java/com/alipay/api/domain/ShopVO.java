@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ShopVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8641578311131461143L;
+	private static final long serialVersionUID = 5232753253729718157L;
 
 	/**
 	 * 店铺状态

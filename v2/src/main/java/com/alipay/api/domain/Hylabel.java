@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class Hylabel extends AlipayObject {
 
-	private static final long serialVersionUID = 6157157545933447738L;
+	private static final long serialVersionUID = 8586536676384267591L;
 
 	/**
 	 * 行业id

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: ant.merchant.expand.shop.info.batchquery request
  * 
  * @author auto create
- * @since 1.0, 2026-01-26 10:32:43
+ * @since 1.0, 2026-03-18 16:47:44
  */
 public class AntMerchantExpandShopInfoBatchqueryRequest implements AlipayRequest<AntMerchantExpandShopInfoBatchqueryResponse> {
 

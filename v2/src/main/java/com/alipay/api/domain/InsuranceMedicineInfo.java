@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InsuranceMedicineInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2262168497897771174L;
+	private static final long serialVersionUID = 6828273491971866444L;
 
 	/**
 	 * 药品总价，单位：元，保留2位小数

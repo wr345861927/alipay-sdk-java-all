@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEbppIndustryCareertrainingNewcourseCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6212433751543127375L;
+	private static final long serialVersionUID = 2657973143178544196L;
 
 	/**
 	 * null

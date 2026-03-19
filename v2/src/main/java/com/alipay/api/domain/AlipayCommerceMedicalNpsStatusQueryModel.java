@@ -7,14 +7,14 @@ import com.alipay.api.internal.mapping.ApiField;
  * nps卡片状态查询
  *
  * @author auto create
- * @since 1.0, 2026-02-10 18:25:07
+ * @since 1.0, 2026-03-17 11:01:42
  */
 public class AlipayCommerceMedicalNpsStatusQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6652774123937273448L;
+	private static final long serialVersionUID = 7398398432355771992L;
 
 	/**
-	 * 用于区分入口是云陪诊详情还是消息进对话
+	 * 用于区分请求的入口，由调用方传入
 	 */
 	@ApiField("entrance_type")
 	private String entranceType;
@@ -24,6 +24,12 @@ public class AlipayCommerceMedicalNpsStatusQueryModel extends AlipayObject {
 	 */
 	@ApiField("open_id")
 	private String openId;
+
+	/**
+	 * 智能体所属机构id，由调用方传入
+	 */
+	@ApiField("org_id")
+	private String orgId;
 
 	/**
 	 * 用户id
@@ -49,6 +55,13 @@ public class AlipayCommerceMedicalNpsStatusQueryModel extends AlipayObject {
 	}
 	public void setOpenId(String openId) {
 		this.openId = openId;
+	}
+
+	public String getOrgId() {
+		return this.orgId;
+	}
+	public void setOrgId(String orgId) {
+		this.orgId = orgId;
 	}
 
 	public String getOutUserId() {

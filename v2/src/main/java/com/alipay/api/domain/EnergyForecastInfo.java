@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EnergyForecastInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4121563853635115154L;
+	private static final long serialVersionUID = 5731875686716376156L;
 
 	/**
 	 * 预测服务对应的预测值

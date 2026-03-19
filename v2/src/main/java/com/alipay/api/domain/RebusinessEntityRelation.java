@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RebusinessEntityRelation extends AlipayObject {
 
-	private static final long serialVersionUID = 5367922941964177497L;
+	private static final long serialVersionUID = 7657521176923262456L;
 
 	/**
 	 * 企业关系列表

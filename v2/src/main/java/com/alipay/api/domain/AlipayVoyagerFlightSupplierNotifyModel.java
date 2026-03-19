@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayVoyagerFlightSupplierNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2166146621557959213L;
+	private static final long serialVersionUID = 3251782175117332399L;
 
 	/**
 	 * 通知事件类型。

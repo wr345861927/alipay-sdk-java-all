@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 智能体代理支付语音上传
+ * 智能体代理支付语音上传/流式初始化接口
  *
  * @author auto create
- * @since 1.0, 2026-03-05 16:33:45
+ * @since 1.0, 2026-03-17 11:17:44
  */
 public class AlipayPayAgentVoiceUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5123318627992783842L;
+	private static final long serialVersionUID = 1795613876943911411L;
 
 	/**
 	 * 首次调用后返回，关联一次会话（存在多次语音上传交互时，后续带上该字段可以关联本次语音上传的会话上下文）
@@ -36,6 +36,12 @@ public class AlipayPayAgentVoiceUploadModel extends AlipayObject {
 	 */
 	@ApiField("device_name")
 	private String deviceName;
+
+	/**
+	 * 语音模式，目前支持流式语音初始化和批式语音上传。不填默认为voiceUpload
+	 */
+	@ApiField("mode")
+	private String mode;
 
 	/**
 	 * 业务场景，由支付宝分配，用于调用管控和定制化处理
@@ -84,6 +90,13 @@ public class AlipayPayAgentVoiceUploadModel extends AlipayObject {
 	}
 	public void setDeviceName(String deviceName) {
 		this.deviceName = deviceName;
+	}
+
+	public String getMode() {
+		return this.mode;
+	}
+	public void setMode(String mode) {
+		this.mode = mode;
 	}
 
 	public String getScene() {

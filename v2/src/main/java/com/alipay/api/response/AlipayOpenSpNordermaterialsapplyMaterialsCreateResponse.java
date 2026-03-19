@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.sp.nordermaterialsapply.materials.create response.
  * 
  * @author auto create
- * @since 1.0, 2025-04-18 15:31:29
+ * @since 1.0, 2026-03-19 13:32:44
  */
 public class AlipayOpenSpNordermaterialsapplyMaterialsCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1338636947165545488L;
+	private static final long serialVersionUID = 5262718738736675128L;
 
 	/** 
 	 * 成立成功的二维码链接，与入参对应
