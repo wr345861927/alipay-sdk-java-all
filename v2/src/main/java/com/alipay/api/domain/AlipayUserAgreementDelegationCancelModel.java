@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付宝个人代买委托任务取消接口
  *
  * @author auto create
- * @since 1.0, 2026-03-06 11:27:47
+ * @since 1.0, 2026-03-23 16:02:44
  */
 public class AlipayUserAgreementDelegationCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6463814514746965646L;
+	private static final long serialVersionUID = 8755533441414932965L;
 
 	/**
 	 * AI付协议号

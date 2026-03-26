@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 好大夫app搜索省市回显
  *
  * @author auto create
- * @since 1.0, 2026-03-18 11:46:37
+ * @since 1.0, 2026-03-25 14:37:16
  */
 public class AlipayCommerceMedicalSearchCityQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5852586431243844397L;
+	private static final long serialVersionUID = 8262313556135366198L;
 
 	/**
 	 * 渠道编码

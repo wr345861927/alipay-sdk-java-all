@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.open.sp.nopen.nlink.generate request
  * 
  * @author auto create
- * @since 1.0, 2026-03-17 15:57:44
+ * @since 1.0, 2026-03-24 16:33:49
  */
 public class AlipayOpenSpNopenNlinkGenerateRequest implements AlipayRequest<AlipayOpenSpNopenNlinkGenerateResponse> {
 

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 广告权益状态推进到发布接口
  *
  * @author auto create
- * @since 1.0, 2026-03-10 15:42:31
+ * @since 1.0, 2026-03-24 22:57:43
  */
 public class AlipayCommerceRetailBenefitpublishSetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8888966853639465946L;
+	private static final long serialVersionUID = 5245539543152494685L;
 
 	/**
 	 * 活动id

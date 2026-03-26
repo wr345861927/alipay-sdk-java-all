@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 科室列表
  *
  * @author auto create
- * @since 1.0, 2026-03-18 11:47:44
+ * @since 1.0, 2026-03-25 14:37:44
  */
 public class DepartmentInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 1875153276876996531L;
+	private static final long serialVersionUID = 4183836421553619177L;
 
 	/**
 	 * null

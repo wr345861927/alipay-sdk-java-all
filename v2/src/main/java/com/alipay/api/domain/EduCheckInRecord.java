@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 签到记录
  *
  * @author auto create
- * @since 1.0, 2025-08-29 19:41:25
+ * @since 1.0, 2026-03-25 20:48:07
  */
 public class EduCheckInRecord extends AlipayObject {
 
-	private static final long serialVersionUID = 4269565764528693823L;
+	private static final long serialVersionUID = 6623525535791384678L;
 
 	/**
 	 * 签到图片链接
@@ -86,6 +86,12 @@ public class EduCheckInRecord extends AlipayObject {
 	 */
 	@ApiField("longitude")
 	private String longitude;
+
+	/**
+	 * 最小停留时长，单位是分钟，默认30分钟
+	 */
+	@ApiField("min_stay_minutes")
+	private Long minStayMinutes;
 
 	/**
 	 * 姓名
@@ -211,6 +217,13 @@ public class EduCheckInRecord extends AlipayObject {
 	}
 	public void setLongitude(String longitude) {
 		this.longitude = longitude;
+	}
+
+	public Long getMinStayMinutes() {
+		return this.minStayMinutes;
+	}
+	public void setMinStayMinutes(Long minStayMinutes) {
+		this.minStayMinutes = minStayMinutes;
 	}
 
 	public String getName() {

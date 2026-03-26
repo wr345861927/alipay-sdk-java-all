@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 删除课程班次
  *
  * @author auto create
- * @since 1.0, 2026-03-12 10:15:22
+ * @since 1.0, 2026-03-25 16:04:50
  */
 public class AlipayEbppIndustryCareertrainingCoursecyclicalDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1542915166466886359L;
+	private static final long serialVersionUID = 2622937946385276731L;
 
 	/**
 	 * 业务单号

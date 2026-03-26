@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 回收产品模型
  *
  * @author auto create
- * @since 1.0, 2025-12-15 10:22:17
+ * @since 1.0, 2026-03-23 15:46:01
  */
 public class RecycleProductInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7819343725841918185L;
+	private static final long serialVersionUID = 3174931881827863785L;
 
 	/**
 	 * 品牌code
@@ -47,6 +47,12 @@ public class RecycleProductInfo extends AlipayObject {
 	 */
 	@ApiField("product_code")
 	private String productCode;
+
+	/**
+	 * 产品ID
+	 */
+	@ApiField("product_id")
+	private String productId;
 
 	/**
 	 * 产品名称
@@ -117,6 +123,13 @@ public class RecycleProductInfo extends AlipayObject {
 	}
 	public void setProductCode(String productCode) {
 		this.productCode = productCode;
+	}
+
+	public String getProductId() {
+		return this.productId;
+	}
+	public void setProductId(String productId) {
+		this.productId = productId;
 	}
 
 	public String getProductName() {

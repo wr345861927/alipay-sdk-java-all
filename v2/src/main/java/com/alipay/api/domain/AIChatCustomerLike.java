@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AIChatCustomerLike extends AlipayObject {
 
-	private static final long serialVersionUID = 6287269433297598246L;
+	private static final long serialVersionUID = 5656161256372581738L;
 
 	/**
 	 * 是否第一次进行对话

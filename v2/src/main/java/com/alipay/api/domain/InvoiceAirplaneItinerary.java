@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 飞机行程单信息
  *
  * @author auto create
- * @since 1.0, 2026-03-18 19:28:04
+ * @since 1.0, 2026-03-26 10:27:44
  */
 public class InvoiceAirplaneItinerary extends AlipayObject {
 
-	private static final long serialVersionUID = 2388778339316628735L;
+	private static final long serialVersionUID = 1834669171794827438L;
 
 	/**
 	 * 免费行李

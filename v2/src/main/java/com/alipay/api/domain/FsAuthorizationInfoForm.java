@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class FsAuthorizationInfoForm extends AlipayObject {
 
-	private static final long serialVersionUID = 6613675996771317313L;
+	private static final long serialVersionUID = 8461378546822961467L;
 
 	/**
 	 * 授权业务域：券

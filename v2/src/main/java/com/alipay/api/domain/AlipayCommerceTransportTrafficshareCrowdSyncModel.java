@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 共享出行业务人群同步
  *
  * @author auto create
- * @since 1.0, 2026-03-19 19:45:48
+ * @since 1.0, 2026-03-25 14:37:44
  */
 public class AlipayCommerceTransportTrafficshareCrowdSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2647491489865847639L;
+	private static final long serialVersionUID = 8197788789155261289L;
 
 	/**
 	 * 由商户侧定义本次业务传输的用户归属的人群类型标识

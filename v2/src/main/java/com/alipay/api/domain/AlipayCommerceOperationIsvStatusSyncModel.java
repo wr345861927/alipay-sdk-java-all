@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  *  餐饮服务标准化服务状态同步
  *
  * @author auto create
- * @since 1.0, 2021-09-14 14:12:04
+ * @since 1.0, 2026-03-24 17:26:55
  */
 public class AlipayCommerceOperationIsvStatusSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4335722742487841886L;
+	private static final long serialVersionUID = 5522235771863492625L;
 
 	/**
 	 * 服务code

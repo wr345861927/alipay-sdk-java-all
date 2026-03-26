@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-03-19 19:45:48
+ * @since 1.0, 2026-03-25 14:37:44
  */
 public class TrafficshareCrowdUserSync extends AlipayObject {
 
-	private static final long serialVersionUID = 1554649296924697738L;
+	private static final long serialVersionUID = 1421631652724549168L;
 
 	/**
 	 * 用于标识"增加"操作类型时，该数据是否是增量数据。true:增量数据；false:存量数据
@@ -24,6 +24,12 @@ public class TrafficshareCrowdUserSync extends AlipayObject {
 	 */
 	@ApiField("device_number")
 	private String deviceNumber;
+
+	/**
+	 * 商户自己侧保存的用户信息
+	 */
+	@ApiField("merchant_user_identity")
+	private String merchantUserIdentity;
 
 	/**
 	 * 同步类型，枚举。目前支持：增加-add；删除-delete。如果是人群用户新增，传入"add"。如果是对已同步新增人群用户做删除，传入"delete"
@@ -49,6 +55,13 @@ public class TrafficshareCrowdUserSync extends AlipayObject {
 	}
 	public void setDeviceNumber(String deviceNumber) {
 		this.deviceNumber = deviceNumber;
+	}
+
+	public String getMerchantUserIdentity() {
+		return this.merchantUserIdentity;
+	}
+	public void setMerchantUserIdentity(String merchantUserIdentity) {
+		this.merchantUserIdentity = merchantUserIdentity;
 	}
 
 	public String getOperationType() {

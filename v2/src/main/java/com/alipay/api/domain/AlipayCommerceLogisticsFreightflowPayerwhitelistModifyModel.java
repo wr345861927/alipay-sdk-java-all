@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceLogisticsFreightflowPayerwhitelistModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1386262121697417479L;
+	private static final long serialVersionUID = 3541425834287474274L;
 
 	/**
 	 * null

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询有效课程班次
  *
  * @author auto create
- * @since 1.0, 2026-03-12 10:17:43
+ * @since 1.0, 2026-03-25 16:07:33
  */
 public class AlipayEbppIndustryCareertrainingCoursecyclicalQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7646613512182982545L;
+	private static final long serialVersionUID = 6746327218211862878L;
 
 	/**
 	 * 课程ID

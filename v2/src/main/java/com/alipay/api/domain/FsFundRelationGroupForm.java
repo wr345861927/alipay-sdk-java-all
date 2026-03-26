@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class FsFundRelationGroupForm extends AlipayObject {
 
-	private static final long serialVersionUID = 5175476178564384456L;
+	private static final long serialVersionUID = 8281929789385668776L;
 
 	/**
 	 * 出资明细

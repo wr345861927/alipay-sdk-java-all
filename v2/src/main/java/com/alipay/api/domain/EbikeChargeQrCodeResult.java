@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EbikeChargeQrCodeResult extends AlipayObject {
 
-	private static final long serialVersionUID = 3312357888777697859L;
+	private static final long serialVersionUID = 1431811683489389522L;
 
 	/**
 	 * 业务流水号，入参原样返回

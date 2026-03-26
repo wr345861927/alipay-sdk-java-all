@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 离境退税服务
  *
  * @author auto create
- * @since 1.0, 2025-08-11 11:30:37
+ * @since 1.0, 2026-03-23 11:12:26
  */
 public class AlipayUserTaxRefundModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7542486246663361164L;
+	private static final long serialVersionUID = 5121415959186556597L;
 
 	/**
 	 * 资金记账本id
@@ -26,13 +26,16 @@ public class AlipayUserTaxRefundModel extends AlipayObject {
 	private String certNo;
 
 	/**
-	 * 证件类型
+	 * 证件类型。特定商户(具体咨询开发者)必选时可传值为：【枚举值】
+护照: PASSPORT
+港澳居民来往内地通行证: HOME_VISIT_PERMIT_HK_MC
+台湾居民来往大陆通行证: HOME_VISIT_PERMIT_TAIWAN
 	 */
 	@ApiField("cert_type")
 	private String certType;
 
 	/**
-	 * 退税申请单总金额
+	 * 退税申请单总金额，单位元
 	 */
 	@ApiField("invoice_amount")
 	private String invoiceAmount;

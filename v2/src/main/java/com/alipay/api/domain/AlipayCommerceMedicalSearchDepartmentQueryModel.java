@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 好大夫app搜索科室回显
  *
  * @author auto create
- * @since 1.0, 2026-03-18 11:47:44
+ * @since 1.0, 2026-03-25 14:37:44
  */
 public class AlipayCommerceMedicalSearchDepartmentQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1576522983294663951L;
+	private static final long serialVersionUID = 2897882544751155449L;
 
 	/**
 	 * 渠道编码

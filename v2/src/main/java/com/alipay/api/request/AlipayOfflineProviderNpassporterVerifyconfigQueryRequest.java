@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.npassporter.verifyconfig.query request
  * 
  * @author auto create
- * @since 1.0, 2026-01-19 16:47:43
+ * @since 1.0, 2026-03-24 11:07:45
  */
 public class AlipayOfflineProviderNpassporterVerifyconfigQueryRequest implements AlipayRequest<AlipayOfflineProviderNpassporterVerifyconfigQueryResponse> {
 
@@ -19,7 +19,7 @@ public class AlipayOfflineProviderNpassporterVerifyconfigQueryRequest implements
 	private String apiVersion="1.0";
 
 	/** 
-	* N核审配置查询
+	* N核身方案配置查询
 	 */
 	private String bizContent;
 

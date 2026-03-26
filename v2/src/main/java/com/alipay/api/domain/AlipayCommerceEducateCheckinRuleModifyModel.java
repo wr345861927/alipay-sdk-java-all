@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 修改签到规则
  *
  * @author auto create
- * @since 1.0, 2025-12-04 10:48:26
+ * @since 1.0, 2026-03-25 20:48:03
  */
 public class AlipayCommerceEducateCheckinRuleModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3672777871251957796L;
+	private static final long serialVersionUID = 2386756458239218372L;
 
 	/**
 	 * auth_activity_id
@@ -178,6 +178,12 @@ public class AlipayCommerceEducateCheckinRuleModifyModel extends AlipayObject {
 	 */
 	@ApiField("start_type")
 	private String startType;
+
+	/**
+	 * 场馆签到规则扩展
+	 */
+	@ApiField("venue_config")
+	private VenueConfigModel venueConfig;
 
 	/**
 	 * 周天列表，数字1-7分别表示周一到周日。
@@ -373,6 +379,13 @@ public class AlipayCommerceEducateCheckinRuleModifyModel extends AlipayObject {
 	}
 	public void setStartType(String startType) {
 		this.startType = startType;
+	}
+
+	public VenueConfigModel getVenueConfig() {
+		return this.venueConfig;
+	}
+	public void setVenueConfig(VenueConfigModel venueConfig) {
+		this.venueConfig = venueConfig;
 	}
 
 	public List<Long> getWeekDayList() {

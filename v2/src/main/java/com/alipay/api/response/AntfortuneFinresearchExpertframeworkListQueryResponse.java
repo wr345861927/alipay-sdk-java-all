@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AntfortuneFinresearchExpertframeworkListQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4739659719815729721L;
+	private static final long serialVersionUID = 1813199353178622648L;
 
 	/** 
 	 * 返回值里面是预设专家框架列表信息，包括了框架名称。介绍，所属的大类等信息

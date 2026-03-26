@@ -5,7 +5,9 @@ import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
 import com.alipay.api.domain.InvoiceAirplaneItinerary;
 import com.alipay.api.domain.InvoiceItemDTO;
+import com.alipay.api.domain.MotorVehicleSales;
 import com.alipay.api.domain.InvoicePassenger;
+import com.alipay.api.domain.SecondVehicleSales;
 import com.alipay.api.domain.InvoiceTrainItinerary;
 
 import com.alipay.api.AlipayResponse;
@@ -14,11 +16,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ebpp.industry.invoice.verify response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-18 19:28:04
+ * @since 1.0, 2026-03-26 10:27:44
  */
 public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6269286375118183926L;
+	private static final long serialVersionUID = 1141893477633757653L;
 
 	/** 
 	 * 飞机行程单信息
@@ -94,11 +96,29 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 	private List<InvoiceItemDTO> itemList;
 
 	/** 
+	 * 机动车销售统一发票明细
+	 */
+	@ApiField("motor_vehicle_sales")
+	private MotorVehicleSales motorVehicleSales;
+
+	/** 
 	 * null
 	 */
 	@ApiListField("passenger_list")
 	@ApiField("invoice_passenger")
 	private List<InvoicePassenger> passengerList;
+
+	/** 
+	 * 代开发票标志
+	 */
+	@ApiField("proxy_issued")
+	private Boolean proxyIssued;
+
+	/** 
+	 * 二手车销售统一发票专用明细
+	 */
+	@ApiField("second_vehicle_sales")
+	private SecondVehicleSales secondVehicleSales;
 
 	/** 
 	 * 销售方地址
@@ -238,11 +258,32 @@ public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 		return this.itemList;
 	}
 
+	public void setMotorVehicleSales(MotorVehicleSales motorVehicleSales) {
+		this.motorVehicleSales = motorVehicleSales;
+	}
+	public MotorVehicleSales getMotorVehicleSales( ) {
+		return this.motorVehicleSales;
+	}
+
 	public void setPassengerList(List<InvoicePassenger> passengerList) {
 		this.passengerList = passengerList;
 	}
 	public List<InvoicePassenger> getPassengerList( ) {
 		return this.passengerList;
+	}
+
+	public void setProxyIssued(Boolean proxyIssued) {
+		this.proxyIssued = proxyIssued;
+	}
+	public Boolean getProxyIssued( ) {
+		return this.proxyIssued;
+	}
+
+	public void setSecondVehicleSales(SecondVehicleSales secondVehicleSales) {
+		this.secondVehicleSales = secondVehicleSales;
+	}
+	public SecondVehicleSales getSecondVehicleSales( ) {
+		return this.secondVehicleSales;
 	}
 
 	public void setSellerAddress(String sellerAddress) {

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AxfEnumValueItem extends AlipayObject {
 
-	private static final long serialVersionUID = 6364846437551971443L;
+	private static final long serialVersionUID = 3511691639867974254L;
 
 	/**
 	 * 枚举值key

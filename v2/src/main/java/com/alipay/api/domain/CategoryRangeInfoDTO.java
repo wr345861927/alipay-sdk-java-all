@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CategoryRangeInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8831141736472761957L;
+	private static final long serialVersionUID = 3597114738548971277L;
 
 	/**
 	 * 最大值，对应0-100分

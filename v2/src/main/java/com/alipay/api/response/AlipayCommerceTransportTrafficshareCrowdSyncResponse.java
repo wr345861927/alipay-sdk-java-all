@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.trafficshare.crowd.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-19 19:45:48
+ * @since 1.0, 2026-03-25 14:37:44
  */
 public class AlipayCommerceTransportTrafficshareCrowdSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5832541318612441378L;
+	private static final long serialVersionUID = 8121563999817687537L;
 
 	/** 
 	 * null

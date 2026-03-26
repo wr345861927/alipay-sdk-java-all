@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.transport.trafficshare.crowd.sync request
  * 
  * @author auto create
- * @since 1.0, 2026-03-19 19:45:48
+ * @since 1.0, 2026-03-25 14:37:44
  */
 public class AlipayCommerceTransportTrafficshareCrowdSyncRequest implements AlipayRequest<AlipayCommerceTransportTrafficshareCrowdSyncResponse> {
 

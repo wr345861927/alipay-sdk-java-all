@@ -15,11 +15,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.educate.roster.detail.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-04-17 20:07:27
+ * @since 1.0, 2026-03-25 20:52:44
  */
 public class AlipayCommerceEducateRosterDetailQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4587419974537971277L;
+	private static final long serialVersionUID = 8727189293783223928L;
 
 	/** 
 	 * 花名册是否绑定支付宝

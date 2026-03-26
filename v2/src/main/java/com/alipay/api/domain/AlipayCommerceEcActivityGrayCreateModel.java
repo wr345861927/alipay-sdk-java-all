@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceEcActivityGrayCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2292528972247638284L;
+	private static final long serialVersionUID = 1189139162527554327L;
 
 	/**
 	 * 员工价活动id，用于指定需要修改灰度策略的活动；通过 alipay.commerce.ec.activity.discount.create 创建活动

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 检验报告详情
  *
  * @author auto create
- * @since 1.0, 2025-12-15 13:37:41
+ * @since 1.0, 2026-03-23 17:40:38
  */
 public class LaboratoryReport extends AlipayObject {
 
-	private static final long serialVersionUID = 5261334727781398741L;
+	private static final long serialVersionUID = 7381246559539764315L;
 
 	/**
 	 * null

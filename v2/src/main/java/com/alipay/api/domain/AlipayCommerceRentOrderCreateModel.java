@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 租赁订单创建
  *
  * @author auto create
- * @since 1.0, 2026-03-17 19:45:27
+ * @since 1.0, 2026-03-20 14:03:24
  */
 public class AlipayCommerceRentOrderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2789121721265192741L;
+	private static final long serialVersionUID = 7558525734994715312L;
 
 	/**
 	 * 优惠前置咨询组件返回的优惠活动咨询ID
@@ -27,6 +27,12 @@ public class AlipayCommerceRentOrderCreateModel extends AlipayObject {
 	 */
 	@ApiField("address_info")
 	private RentOrderReceiverAddressInfoDTO addressInfo;
+
+	/**
+	 * 订单业务身份
+	 */
+	@ApiField("biz_identity")
+	private String bizIdentity;
 
 	/**
 	 * 买家支付宝用户id，小程序场景下获取用户ID请参考：用户授权; 其它场景下获取用户ID请参考：网页授权获取用户信息。
@@ -191,6 +197,13 @@ public class AlipayCommerceRentOrderCreateModel extends AlipayObject {
 	}
 	public void setAddressInfo(RentOrderReceiverAddressInfoDTO addressInfo) {
 		this.addressInfo = addressInfo;
+	}
+
+	public String getBizIdentity() {
+		return this.bizIdentity;
+	}
+	public void setBizIdentity(String bizIdentity) {
+		this.bizIdentity = bizIdentity;
 	}
 
 	public String getBuyerId() {

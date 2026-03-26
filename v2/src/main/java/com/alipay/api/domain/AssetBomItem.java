@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AssetBomItem extends AlipayObject {
 
-	private static final long serialVersionUID = 2251233983294856194L;
+	private static final long serialVersionUID = 8576962523479274175L;
 
 	/**
 	 * 业务类型

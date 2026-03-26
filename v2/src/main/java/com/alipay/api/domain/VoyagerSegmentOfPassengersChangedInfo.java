@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class VoyagerSegmentOfPassengersChangedInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7597873818776739812L;
+	private static final long serialVersionUID = 7821523867365228646L;
 
 	/**
 	 * 到达机场是否变更

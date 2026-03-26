@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 履约物流发货
  *
  * @author auto create
- * @since 1.0, 2025-08-27 11:15:54
+ * @since 1.0, 2026-03-24 19:19:30
  */
 public class AlipayCommerceRentOrderFulfillmentSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3372472348383345536L;
+	private static final long serialVersionUID = 2368664382932421739L;
 
 	/**
 	 * 补充凭证
@@ -30,6 +30,13 @@ public class AlipayCommerceRentOrderFulfillmentSendModel extends AlipayObject {
 	@ApiListField("delivery_list")
 	@ApiField("fulfillment_delivery_info")
 	private List<FulfillmentDeliveryInfo> deliveryList;
+
+	/**
+	 * 设备信息列表
+	 */
+	@ApiListField("device_list")
+	@ApiField("fulfillment_device_info")
+	private List<FulfillmentDeviceInfo> deviceList;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识
@@ -79,6 +86,13 @@ public class AlipayCommerceRentOrderFulfillmentSendModel extends AlipayObject {
 	}
 	public void setDeliveryList(List<FulfillmentDeliveryInfo> deliveryList) {
 		this.deliveryList = deliveryList;
+	}
+
+	public List<FulfillmentDeviceInfo> getDeviceList() {
+		return this.deviceList;
+	}
+	public void setDeviceList(List<FulfillmentDeviceInfo> deviceList) {
+		this.deviceList = deviceList;
 	}
 
 	public String getOpenId() {

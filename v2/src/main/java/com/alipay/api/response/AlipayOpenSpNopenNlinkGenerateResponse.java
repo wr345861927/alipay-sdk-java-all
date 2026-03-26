@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.sp.nopen.nlink.generate response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-17 15:57:44
+ * @since 1.0, 2026-03-24 16:33:49
  */
 public class AlipayOpenSpNopenNlinkGenerateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8112652494235112316L;
+	private static final long serialVersionUID = 2198976116423183825L;
 
 	/** 
 	 * 耗时单位毫秒

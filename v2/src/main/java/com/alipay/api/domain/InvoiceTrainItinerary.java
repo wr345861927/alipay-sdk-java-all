@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 火车行程单信息
  *
  * @author auto create
- * @since 1.0, 2026-03-18 19:28:04
+ * @since 1.0, 2026-03-26 10:27:44
  */
 public class InvoiceTrainItinerary extends AlipayObject {
 
-	private static final long serialVersionUID = 7534619481279552564L;
+	private static final long serialVersionUID = 7598797578118669748L;
 
 	/**
 	 * 出发站

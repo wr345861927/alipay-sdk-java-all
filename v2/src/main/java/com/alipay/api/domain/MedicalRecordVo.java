@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 就诊记录信息
  *
  * @author auto create
- * @since 1.0, 2026-03-19 19:08:10
+ * @since 1.0, 2026-03-25 14:42:44
  */
 public class MedicalRecordVo extends AlipayObject {
 
-	private static final long serialVersionUID = 1754995365199791134L;
+	private static final long serialVersionUID = 8716181582524516542L;
 
 	/**
 	 * 头像

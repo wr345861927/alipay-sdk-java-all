@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ebpp.industry.careertraining.coursecyclical.delete request
  * 
  * @author auto create
- * @since 1.0, 2026-03-12 10:15:22
+ * @since 1.0, 2026-03-25 16:04:50
  */
 public class AlipayEbppIndustryCareertrainingCoursecyclicalDeleteRequest implements AlipayRequest<AlipayEbppIndustryCareertrainingCoursecyclicalDeleteResponse> {
 

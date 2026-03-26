@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class DatabaseTable extends AlipayObject {
 
-	private static final long serialVersionUID = 3887554682335466247L;
+	private static final long serialVersionUID = 6668528163815875642L;
 
 	/**
 	 * 数据库名称

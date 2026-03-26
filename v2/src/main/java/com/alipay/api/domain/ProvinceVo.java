@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 省份数据列表
  *
  * @author auto create
- * @since 1.0, 2026-03-18 11:46:37
+ * @since 1.0, 2026-03-25 14:37:16
  */
 public class ProvinceVo extends AlipayObject {
 
-	private static final long serialVersionUID = 6558941962843312698L;
+	private static final long serialVersionUID = 7333781486838943927L;
 
 	/**
 	 * null

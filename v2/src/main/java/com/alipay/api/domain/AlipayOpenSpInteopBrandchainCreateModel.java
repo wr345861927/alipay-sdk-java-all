@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 服务商代开通”连锁品牌“解决方案
  *
  * @author auto create
- * @since 1.0, 2026-01-06 09:42:42
+ * @since 1.0, 2026-03-20 10:32:44
  */
 public class AlipayOpenSpInteopBrandchainCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4575658645193377877L;
+	private static final long serialVersionUID = 3647773537924573677L;
 
 	/**
 	 * 银行卡信息
@@ -26,7 +26,7 @@ public class AlipayOpenSpInteopBrandchainCreateModel extends AlipayObject {
 	private String brandAppId;
 
 	/**
-	 * 商户营业执照信息
+	 * 【重要提示】申请特殊费率时，请务必提供营业执照以提升审核通过率。
 	 */
 	@ApiField("business_license_info")
 	private BusinessLicenseInfo businessLicenseInfo;

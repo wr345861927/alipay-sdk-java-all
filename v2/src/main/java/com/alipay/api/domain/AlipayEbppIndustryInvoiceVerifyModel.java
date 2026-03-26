@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 发票信息核验
  *
  * @author auto create
- * @since 1.0, 2026-03-18 19:28:04
+ * @since 1.0, 2026-03-26 10:27:44
  */
 public class AlipayEbppIndustryInvoiceVerifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5532314823518726981L;
+	private static final long serialVersionUID = 2676247775238787549L;
 
 	/**
 	 * 校验码，20位数字：全电发票没有

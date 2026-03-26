@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class NDeviceWorkPosition extends AlipayObject {
 
-	private static final long serialVersionUID = 1456142227462127531L;
+	private static final long serialVersionUID = 6166996492678317774L;
 
 	/**
 	 * 当前作业人员所在位置纬度

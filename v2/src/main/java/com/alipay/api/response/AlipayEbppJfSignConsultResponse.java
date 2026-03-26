@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppJfSignConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6772413693296777416L;
+	private static final long serialVersionUID = 6333968969313877712L;
 
 	/** 
 	 * 咨询结果代码,允许签约时为SUCCESS, 其他情况根据不同的机构返回咨询异常设置

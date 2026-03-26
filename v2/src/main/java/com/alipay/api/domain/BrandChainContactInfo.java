@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商家联系方式
  *
  * @author auto create
- * @since 1.0, 2026-01-06 09:42:42
+ * @since 1.0, 2026-03-20 10:32:44
  */
 public class BrandChainContactInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3596398937924679998L;
+	private static final long serialVersionUID = 3493729568993497849L;
 
 	/**
 	 * 联系人手机号码

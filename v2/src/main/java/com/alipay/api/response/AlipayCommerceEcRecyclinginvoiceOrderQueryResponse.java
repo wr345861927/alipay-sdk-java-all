@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
+import com.alipay.api.domain.OrderElectronicReceipt;
 import com.alipay.api.domain.OrderInvoice;
 import com.alipay.api.domain.RecyclinginvoiceOrderItem;
 import com.alipay.api.domain.OrderPayment;
@@ -15,11 +16,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.ec.recyclinginvoice.order.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-13 17:32:43
+ * @since 1.0, 2026-03-26 16:37:44
  */
 public class AlipayCommerceEcRecyclinginvoiceOrderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2331949773754232365L;
+	private static final long serialVersionUID = 5557524736944929872L;
 
 	/** 
 	 * 收款即开票页面支付宝URL（自然人端） 在支付宝里打开的自然人缴税并收款页面，可从企业（商户）/服务商自有APP/小程序页面打开 供应商ID存在值时返回 未安装支付宝或使用受限目标容器时可能无法打开
@@ -64,6 +65,12 @@ public class AlipayCommerceEcRecyclinginvoiceOrderQueryResponse extends AlipayRe
 	 */
 	@ApiField("order_amount")
 	private String orderAmount;
+
+	/** 
+	 * 订单交易资金的电子回单
+	 */
+	@ApiField("order_electronic_receipt")
+	private OrderElectronicReceipt orderElectronicReceipt;
 
 	/** 
 	 * 订单号
@@ -220,6 +227,13 @@ public class AlipayCommerceEcRecyclinginvoiceOrderQueryResponse extends AlipayRe
 	}
 	public String getOrderAmount( ) {
 		return this.orderAmount;
+	}
+
+	public void setOrderElectronicReceipt(OrderElectronicReceipt orderElectronicReceipt) {
+		this.orderElectronicReceipt = orderElectronicReceipt;
+	}
+	public OrderElectronicReceipt getOrderElectronicReceipt( ) {
+		return this.orderElectronicReceipt;
 	}
 
 	public void setOrderId(String orderId) {

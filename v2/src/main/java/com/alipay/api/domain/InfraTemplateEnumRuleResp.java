@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class InfraTemplateEnumRuleResp extends AlipayObject {
 
-	private static final long serialVersionUID = 3638741673718118685L;
+	private static final long serialVersionUID = 8442758886968929246L;
 
 	/**
 	 * 元素可选值对象集合

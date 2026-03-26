@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 物流作业平台铺设点变更
  *
  * @author auto create
- * @since 1.0, 2026-03-18 17:25:47
+ * @since 1.0, 2026-03-23 13:47:43
  */
 public class AlipayCommerceLogisticsPointWorkModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1558313815659535594L;
+	private static final long serialVersionUID = 3437816854152913498L;
 
 	/**
 	 * 新的铺设点描述
@@ -82,6 +82,12 @@ public class AlipayCommerceLogisticsPointWorkModifyModel extends AlipayObject {
 	@ApiField("out_place_id")
 	@Deprecated
 	private String outPlaceId;
+
+	/**
+	 * 作业租户码
+	 */
+	@ApiField("tenant_code")
+	private String tenantCode;
 
 	/**
 	 * 变更后的铺设点地址。
@@ -171,6 +177,13 @@ public class AlipayCommerceLogisticsPointWorkModifyModel extends AlipayObject {
 	}
 	public void setOutPlaceId(String outPlaceId) {
 		this.outPlaceId = outPlaceId;
+	}
+
+	public String getTenantCode() {
+		return this.tenantCode;
+	}
+	public void setTenantCode(String tenantCode) {
+		this.tenantCode = tenantCode;
 	}
 
 	public BusinessAddress getWorkPlaceAddress() {

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.retail.benefitpublish.set request
  * 
  * @author auto create
- * @since 1.0, 2026-03-10 15:42:31
+ * @since 1.0, 2026-03-24 22:57:43
  */
 public class AlipayCommerceRetailBenefitpublishSetRequest implements AlipayRequest<AlipayCommerceRetailBenefitpublishSetResponse> {
 

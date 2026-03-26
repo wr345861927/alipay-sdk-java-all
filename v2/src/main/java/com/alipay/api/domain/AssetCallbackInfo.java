@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AssetCallbackInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4599999963566229153L;
+	private static final long serialVersionUID = 6441178454391916715L;
 
 	/**
 	 * 是哪一个交互动作之后的回调

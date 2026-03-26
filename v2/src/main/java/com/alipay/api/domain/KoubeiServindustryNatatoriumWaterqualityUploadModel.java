@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class KoubeiServindustryNatatoriumWaterqualityUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4825256921962871723L;
+	private static final long serialVersionUID = 5486742469938297243L;
 
 	/**
 	 * ISV的插件ID

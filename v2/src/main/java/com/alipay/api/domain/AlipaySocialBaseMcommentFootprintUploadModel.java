@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySocialBaseMcommentFootprintUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1762619924121113636L;
+	private static final long serialVersionUID = 8121144548322874439L;
 
 	/**
 	 * 足迹服务分配的业务码

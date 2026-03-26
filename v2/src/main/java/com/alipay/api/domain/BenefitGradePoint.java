@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class BenefitGradePoint extends AlipayObject {
 
-	private static final long serialVersionUID = 5199165915276143783L;
+	private static final long serialVersionUID = 8482271547538351118L;
 
 	/**
 	 * 蚂蚁会员权益配置的ID

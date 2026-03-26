@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 科普内容
  *
  * @author auto create
- * @since 1.0, 2026-03-19 19:08:10
+ * @since 1.0, 2026-03-25 14:42:44
  */
 public class ArticleVo extends AlipayObject {
 
-	private static final long serialVersionUID = 2797113723272675886L;
+	private static final long serialVersionUID = 7837752882269618127L;
 
 	/**
 	 * 科普文字内容
@@ -54,6 +54,12 @@ public class ArticleVo extends AlipayObject {
 	 */
 	@ApiField("doctor_name")
 	private String doctorName;
+
+	/**
+	 * 视频时长，单位：秒
+	 */
+	@ApiField("duration")
+	private Long duration;
 
 	/**
 	 * 医院名称
@@ -120,6 +126,13 @@ public class ArticleVo extends AlipayObject {
 	}
 	public void setDoctorName(String doctorName) {
 		this.doctorName = doctorName;
+	}
+
+	public Long getDuration() {
+		return this.duration;
+	}
+	public void setDuration(Long duration) {
+		this.duration = duration;
 	}
 
 	public String getHospitalName() {

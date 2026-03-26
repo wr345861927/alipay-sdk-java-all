@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class QuotaInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1344139871766913415L;
+	private static final long serialVersionUID = 7466827216872818627L;
 
 	/**
 	 * 总限额

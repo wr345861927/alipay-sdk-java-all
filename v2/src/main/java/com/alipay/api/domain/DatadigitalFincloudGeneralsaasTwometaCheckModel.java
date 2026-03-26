@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class DatadigitalFincloudGeneralsaasTwometaCheckModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1382882331376977252L;
+	private static final long serialVersionUID = 1312466819589959538L;
 
 	/**
 	 * 身份证二要素核验具体类型

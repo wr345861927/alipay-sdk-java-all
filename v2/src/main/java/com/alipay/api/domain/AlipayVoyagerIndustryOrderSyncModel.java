@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * Voyager商户订单状态变更通知接口
  *
  * @author auto create
- * @since 1.0, 2026-03-17 20:21:38
+ * @since 1.0, 2026-03-25 20:35:30
  */
 public class AlipayVoyagerIndustryOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7756822564465655496L;
+	private static final long serialVersionUID = 4286642587871635192L;
 
 	/**
 	 * 买家信息

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 正常页配置
  *
  * @author auto create
- * @since 1.0, 2026-01-19 16:47:43
+ * @since 1.0, 2026-03-24 11:07:45
  */
 public class VerifyConfigCommonPageConfig extends AlipayObject {
 
-	private static final long serialVersionUID = 2238493385588633154L;
+	private static final long serialVersionUID = 1227824175294337111L;
 
 	/**
 	 * 背景图片

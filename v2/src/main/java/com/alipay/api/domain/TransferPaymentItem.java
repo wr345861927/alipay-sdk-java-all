@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TransferPaymentItem extends AlipayObject {
 
-	private static final long serialVersionUID = 5669147551638379361L;
+	private static final long serialVersionUID = 5514248392272117715L;
 
 	/**
 	 * 缴费接收日期，yyyy-MM-DD

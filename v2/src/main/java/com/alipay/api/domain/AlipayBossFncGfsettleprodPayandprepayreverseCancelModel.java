@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayBossFncGfsettleprodPayandprepayreverseCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8418548398574987328L;
+	private static final long serialVersionUID = 6136455544961444329L;
 
 	/**
 	 * 应付撤回参数

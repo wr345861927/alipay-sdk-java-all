@@ -13,7 +13,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.npassporter.face.verify request
  * 
  * @author auto create
- * @since 1.0, 2026-03-19 17:28:03
+ * @since 1.0, 2026-03-24 10:47:44
  */
 public class AlipayOfflineProviderNpassporterFaceVerifyRequest implements AlipayUploadRequest<AlipayOfflineProviderNpassporterFaceVerifyResponse> {
 
@@ -49,6 +49,11 @@ public class AlipayOfflineProviderNpassporterFaceVerifyRequest implements Alipay
 	* 解决方案
 	 */
 	private String solutionType;
+
+	/** 
+	* 接入方传入具体活动场次唯一ID即可，此字段作为密算证件号的关键信息，即同一场次下的人群传统一ID即可，若不填写默认以“projectID”字段作为密算计算信息。接入方调用支付宝传入的场次ID，需跟自己按密算规则传入的ID保持一致，否则会出现两侧密算后信息无法匹配。
+	 */
+	private String subProjectId;
 
 	public void setAlipayId(String alipayId) {
 		this.alipayId = alipayId;
@@ -90,6 +95,13 @@ public class AlipayOfflineProviderNpassporterFaceVerifyRequest implements Alipay
 	}
 	public String getSolutionType() {
 		return this.solutionType;
+	}
+
+	public void setSubProjectId(String subProjectId) {
+		this.subProjectId = subProjectId;
+	}
+	public String getSubProjectId() {
+		return this.subProjectId;
 	}
 	private String terminalType;
 	private String terminalInfo;
@@ -157,6 +169,7 @@ public class AlipayOfflineProviderNpassporterFaceVerifyRequest implements Alipay
 		txtParams.put("photo_url", this.photoUrl);
 		txtParams.put("project_id", this.projectId);
 		txtParams.put("solution_type", this.solutionType);
+		txtParams.put("sub_project_id", this.subProjectId);
 		if(udfParams != null) {
 			txtParams.putAll(this.udfParams);
 		}

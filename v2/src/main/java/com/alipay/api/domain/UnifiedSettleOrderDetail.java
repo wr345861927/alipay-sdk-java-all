@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class UnifiedSettleOrderDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 2464981469392378682L;
+	private static final long serialVersionUID = 3126634478875914342L;
 
 	/**
 	 * 订单同步金额，biz_type=PAY_SYNC时为支付金额，biz_type=REFUND_SYNC时为退款金额。以元为单位，人民币。

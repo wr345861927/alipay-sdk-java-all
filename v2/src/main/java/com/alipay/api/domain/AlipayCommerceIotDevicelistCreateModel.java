@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceIotDevicelistCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7625846928664838768L;
+	private static final long serialVersionUID = 6544176452821726438L;
 
 	/**
 	 * 设备对象列表+不唯一+用于批量创建设备记录+协议服务商指定+0个或多个设备对象列表，单次调用传入设备对象个数不能超过200

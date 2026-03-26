@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEcoEduKtBillingSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8775346619717295575L;
+	private static final long serialVersionUID = 1457823835617436891L;
 
 	/**
 	 * 如果所在学校分校区，传入分校区编号，不传默认为总校或无分校区

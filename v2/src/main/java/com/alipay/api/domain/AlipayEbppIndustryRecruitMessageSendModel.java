@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEbppIndustryRecruitMessageSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8118741553216936547L;
+	private static final long serialVersionUID = 4262772593947456697L;
 
 	/**
 	 * 场景，上班打卡提醒=CLOCK_IN_REMINDER
