@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenAppRentroomAreaDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6337376717417591123L;
+	private static final long serialVersionUID = 3216261268836256721L;
 
 	
 

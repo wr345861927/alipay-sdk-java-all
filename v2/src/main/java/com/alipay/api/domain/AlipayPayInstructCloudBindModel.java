@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayPayInstructCloudBindModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1474475367821686854L;
+	private static final long serialVersionUID = 7896256823761738219L;
 
 	/**
 	 * 绑定时从 N 设备 KD4 接收的 SN

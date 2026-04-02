@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class KoubeiServindustryReservationIsvorderSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1244264846686363742L;
+	private static final long serialVersionUID = 7643156797932865453L;
 
 	/** 
 	 * 错误码

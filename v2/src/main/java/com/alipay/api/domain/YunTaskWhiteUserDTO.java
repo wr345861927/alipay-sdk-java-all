@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class YunTaskWhiteUserDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 4639851149274132552L;
+	private static final long serialVersionUID = 7719716458873573727L;
 
 	/**
 	 * 姓名

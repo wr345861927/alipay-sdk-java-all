@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RoboCurrentLevel extends AlipayObject {
 
-	private static final long serialVersionUID = 7679137686365146612L;
+	private static final long serialVersionUID = 8898645358262714387L;
 
 	/**
 	 * 左侧座椅加热档位，0是未设置，1，2，3档

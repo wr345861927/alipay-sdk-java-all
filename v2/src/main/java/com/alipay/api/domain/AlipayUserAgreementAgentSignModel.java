@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付宝个人AI协议签约接口
  *
  * @author auto create
- * @since 1.0, 2026-02-10 16:19:45
+ * @since 1.0, 2026-03-27 16:02:54
  */
 public class AlipayUserAgreementAgentSignModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4232467121265376687L;
+	private static final long serialVersionUID = 1554953399844939559L;
 
 	/**
 	 * 【描述】请按当前接入的方式进行填充，且输入值必须为文档中的参数取值范围。
@@ -36,6 +36,18 @@ public class AlipayUserAgreementAgentSignModel extends AlipayObject {
 	 */
 	@ApiField("personal_product_code")
 	private String personalProductCode;
+
+	/**
+	 * 根据支付宝提供的秘钥信息，对手机号或者联登支付宝账号进行加密后的字符串；
+	 */
+	@ApiField("user_token")
+	private String userToken;
+
+	/**
+	 * 如果加密的是手机号，传固定值 encrypt_phone，如果加密的是联登账号，传固定值encrypt_uid
+	 */
+	@ApiField("user_token_type")
+	private String userTokenType;
 
 	public AccessParams getAccessParams() {
 		return this.accessParams;
@@ -63,6 +75,20 @@ public class AlipayUserAgreementAgentSignModel extends AlipayObject {
 	}
 	public void setPersonalProductCode(String personalProductCode) {
 		this.personalProductCode = personalProductCode;
+	}
+
+	public String getUserToken() {
+		return this.userToken;
+	}
+	public void setUserToken(String userToken) {
+		this.userToken = userToken;
+	}
+
+	public String getUserTokenType() {
+		return this.userTokenType;
+	}
+	public void setUserTokenType(String userTokenType) {
+		this.userTokenType = userTokenType;
 	}
 
 }

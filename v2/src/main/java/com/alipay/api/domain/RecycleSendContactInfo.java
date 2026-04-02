@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 回收工程师信息
  *
  * @author auto create
- * @since 1.0, 2026-01-07 17:37:42
+ * @since 1.0, 2026-03-30 14:02:45
  */
 public class RecycleSendContactInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6493683445454719852L;
+	private static final long serialVersionUID = 4339321818553344566L;
 
 	/**
 	 * 工程师联系方式

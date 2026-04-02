@@ -4,20 +4,26 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 关联的商品信息
+ * 商品模型
  *
  * @author auto create
- * @since 1.0, 2026-03-26 16:35:43
+ * @since 1.0, 2026-03-29 14:48:37
  */
 public class NexusPayProduct extends AlipayObject {
 
-	private static final long serialVersionUID = 4837234238514157229L;
+	private static final long serialVersionUID = 4721346422933799438L;
 
 	/**
 	 * 是否可用
 	 */
 	@ApiField("active")
 	private Boolean active;
+
+	/**
+	 * 默认价格信息
+	 */
+	@ApiField("default_price")
+	private NexusSimplePrice defaultPrice;
 
 	/**
 	 * 商品的默认价格id
@@ -60,6 +66,13 @@ public class NexusPayProduct extends AlipayObject {
 	}
 	public void setActive(Boolean active) {
 		this.active = active;
+	}
+
+	public NexusSimplePrice getDefaultPrice() {
+		return this.defaultPrice;
+	}
+	public void setDefaultPrice(NexusSimplePrice defaultPrice) {
+		this.defaultPrice = defaultPrice;
 	}
 
 	public String getDefaultPriceId() {

@@ -7,17 +7,29 @@ import com.alipay.api.internal.mapping.ApiField;
  * 加密手机号触达用户接口
  *
  * @author auto create
- * @since 1.0, 2024-12-25 13:41:31
+ * @since 1.0, 2026-04-01 11:06:37
  */
 public class AlipayCommerceAcommunicationMessageHashSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5814281884242526666L;
+	private static final long serialVersionUID = 3254663819553368247L;
 
 	/**
 	 * 动态参数
 	 */
 	@ApiField("context")
 	private String context;
+
+	/**
+	 * 机构侧消息id
+	 */
+	@ApiField("inst_message_id")
+	private String instMessageId;
+
+	/**
+	 * 用于标记支付宝用户在应用下的唯一标识
+	 */
+	@ApiField("open_id")
+	private String openId;
 
 	/**
 	 * 哈希后的手机号，行业侧保存和用户的对应关系
@@ -31,11 +43,31 @@ public class AlipayCommerceAcommunicationMessageHashSendModel extends AlipayObje
 	@ApiField("trigger_condition")
 	private String triggerCondition;
 
+	/**
+	 * 支付宝用户的userId。
+	 */
+	@ApiField("user_id")
+	private String userId;
+
 	public String getContext() {
 		return this.context;
 	}
 	public void setContext(String context) {
 		this.context = context;
+	}
+
+	public String getInstMessageId() {
+		return this.instMessageId;
+	}
+	public void setInstMessageId(String instMessageId) {
+		this.instMessageId = instMessageId;
+	}
+
+	public String getOpenId() {
+		return this.openId;
+	}
+	public void setOpenId(String openId) {
+		this.openId = openId;
 	}
 
 	public String getToMobileHash() {
@@ -50,6 +82,13 @@ public class AlipayCommerceAcommunicationMessageHashSendModel extends AlipayObje
 	}
 	public void setTriggerCondition(String triggerCondition) {
 		this.triggerCondition = triggerCondition;
+	}
+
+	public String getUserId() {
+		return this.userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
 }

@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CalendarRoomPriceInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3464524784247171716L;
+	private static final long serialVersionUID = 5212687592756561955L;
 
 	/**
 	 * 入住酒店日期

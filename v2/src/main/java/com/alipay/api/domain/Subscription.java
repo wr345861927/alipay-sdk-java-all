@@ -1,0 +1,164 @@
+package com.alipay.api.domain;
+
+import java.util.List;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
+
+/**
+ * null
+ *
+ * @author auto create
+ * @since 1.0, 2026-03-29 14:52:44
+ */
+public class Subscription extends AlipayObject {
+
+	private static final long serialVersionUID = 5249981657324254329L;
+
+	/**
+	 * true - 周期结束状态生效
+false - 周期结束依旧生效
+	 */
+	@ApiField("cancel_at_period_end")
+	private Boolean cancelAtPeriodEnd;
+
+	/**
+	 * 订阅取消时间
+	 */
+	@ApiField("canceled_date")
+	private String canceledDate;
+
+	/**
+	 * 创建时间
+	 */
+	@ApiField("created")
+	private String created;
+
+	/**
+	 * 当前周期结束时间
+	 */
+	@ApiField("current_period_end")
+	private String currentPeriodEnd;
+
+	/**
+	 * 当前周期开始时间
+	 */
+	@ApiField("current_period_start")
+	private String currentPeriodStart;
+
+	/**
+	 * 支付宝客户id
+	 */
+	@ApiField("customer_id")
+	private String customerId;
+
+	/**
+	 * null
+	 */
+	@ApiListField("items")
+	@ApiField("subscription_query_item")
+	private List<SubscriptionQueryItem> items;
+
+	/**
+	 * 订阅开始日期
+	 */
+	@ApiField("start_date")
+	private String startDate;
+
+	/**
+	 * 订阅标题
+	 */
+	@ApiField("subscribe_title")
+	private String subscribeTitle;
+
+	/**
+	 * 订阅id
+	 */
+	@ApiField("subscription_id")
+	private String subscriptionId;
+
+	/**
+	 * 订阅状态，例如INCOMPLETE（未完成），ACTIVE（活跃），INCOMPLETE_EXPIRED（未完成已过期），CANCELED（已取消）等
+	 */
+	@ApiField("subscription_status")
+	private String subscriptionStatus;
+
+	public Boolean getCancelAtPeriodEnd() {
+		return this.cancelAtPeriodEnd;
+	}
+	public void setCancelAtPeriodEnd(Boolean cancelAtPeriodEnd) {
+		this.cancelAtPeriodEnd = cancelAtPeriodEnd;
+	}
+
+	public String getCanceledDate() {
+		return this.canceledDate;
+	}
+	public void setCanceledDate(String canceledDate) {
+		this.canceledDate = canceledDate;
+	}
+
+	public String getCreated() {
+		return this.created;
+	}
+	public void setCreated(String created) {
+		this.created = created;
+	}
+
+	public String getCurrentPeriodEnd() {
+		return this.currentPeriodEnd;
+	}
+	public void setCurrentPeriodEnd(String currentPeriodEnd) {
+		this.currentPeriodEnd = currentPeriodEnd;
+	}
+
+	public String getCurrentPeriodStart() {
+		return this.currentPeriodStart;
+	}
+	public void setCurrentPeriodStart(String currentPeriodStart) {
+		this.currentPeriodStart = currentPeriodStart;
+	}
+
+	public String getCustomerId() {
+		return this.customerId;
+	}
+	public void setCustomerId(String customerId) {
+		this.customerId = customerId;
+	}
+
+	public List<SubscriptionQueryItem> getItems() {
+		return this.items;
+	}
+	public void setItems(List<SubscriptionQueryItem> items) {
+		this.items = items;
+	}
+
+	public String getStartDate() {
+		return this.startDate;
+	}
+	public void setStartDate(String startDate) {
+		this.startDate = startDate;
+	}
+
+	public String getSubscribeTitle() {
+		return this.subscribeTitle;
+	}
+	public void setSubscribeTitle(String subscribeTitle) {
+		this.subscribeTitle = subscribeTitle;
+	}
+
+	public String getSubscriptionId() {
+		return this.subscriptionId;
+	}
+	public void setSubscriptionId(String subscriptionId) {
+		this.subscriptionId = subscriptionId;
+	}
+
+	public String getSubscriptionStatus() {
+		return this.subscriptionStatus;
+	}
+	public void setSubscriptionStatus(String subscriptionStatus) {
+		this.subscriptionStatus = subscriptionStatus;
+	}
+
+}

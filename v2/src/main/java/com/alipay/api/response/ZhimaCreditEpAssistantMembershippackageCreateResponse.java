@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: zhima.credit.ep.assistant.membershippackage.create response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-03 15:12:44
+ * @since 1.0, 2026-03-30 10:11:08
  */
 public class ZhimaCreditEpAssistantMembershippackageCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4495755912552144191L;
+	private static final long serialVersionUID = 3489633879414532445L;
 
 	/** 
 	 * null

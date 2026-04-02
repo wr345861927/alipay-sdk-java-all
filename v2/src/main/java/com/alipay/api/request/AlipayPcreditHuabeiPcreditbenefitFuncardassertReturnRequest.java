@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.pcredit.huabei.pcreditbenefit.funcardassert.return request
  * 
  * @author auto create
- * @since 1.0, 2024-12-25 10:52:21
+ * @since 1.0, 2026-03-27 16:13:06
  */
 public class AlipayPcreditHuabeiPcreditbenefitFuncardassertReturnRequest implements AlipayRequest<AlipayPcreditHuabeiPcreditbenefitFuncardassertReturnResponse> {
 

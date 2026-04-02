@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AxfItemAttrTemplate extends AlipayObject {
 
-	private static final long serialVersionUID = 2847635598987572364L;
+	private static final long serialVersionUID = 8521314273981224434L;
 
 	/**
 	 * 属性说明

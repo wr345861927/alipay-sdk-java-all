@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付宝二手车订单同步
  *
  * @author auto create
- * @since 1.0, 2025-12-18 17:11:46
+ * @since 1.0, 2026-03-31 16:42:01
  */
 public class AlipayCommerceTransportCarsaleBtoborderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5278853519798813111L;
+	private static final long serialVersionUID = 3637875296956976931L;
 
 	/**
 	 * 城市编码，买家城市编码
@@ -30,6 +30,12 @@ public class AlipayCommerceTransportCarsaleBtoborderSyncModel extends AlipayObje
 	 */
 	@ApiField("car_city_code")
 	private String carCityCode;
+
+	/**
+	 * 服务费，单位：分
+	 */
+	@ApiField("charge_amount")
+	private Long chargeAmount;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识
@@ -152,6 +158,13 @@ public class AlipayCommerceTransportCarsaleBtoborderSyncModel extends AlipayObje
 	}
 	public void setCarCityCode(String carCityCode) {
 		this.carCityCode = carCityCode;
+	}
+
+	public Long getChargeAmount() {
+		return this.chargeAmount;
+	}
+	public void setChargeAmount(Long chargeAmount) {
+		this.chargeAmount = chargeAmount;
 	}
 
 	public String getOpenId() {

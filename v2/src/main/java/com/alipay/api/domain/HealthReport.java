@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-03-23 17:40:38
+ * @since 1.0, 2026-03-30 16:37:44
  */
 public class HealthReport extends AlipayObject {
 
-	private static final long serialVersionUID = 6146816922764935793L;
+	private static final long serialVersionUID = 4467818754486878894L;
 
 	/**
 	 * 年龄
@@ -33,6 +33,19 @@ public class HealthReport extends AlipayObject {
 	 */
 	@ApiField("data_source")
 	private String dataSource;
+
+	/**
+	 * 文件类型
+PDF/PIC
+	 */
+	@ApiField("file_type")
+	private String fileType;
+
+	/**
+	 * 原始文件地址
+	 */
+	@ApiField("file_url")
+	private String fileUrl;
 
 	/**
 	 * 医院名称
@@ -103,6 +116,20 @@ public class HealthReport extends AlipayObject {
 	}
 	public void setDataSource(String dataSource) {
 		this.dataSource = dataSource;
+	}
+
+	public String getFileType() {
+		return this.fileType;
+	}
+	public void setFileType(String fileType) {
+		this.fileType = fileType;
+	}
+
+	public String getFileUrl() {
+		return this.fileUrl;
+	}
+	public void setFileUrl(String fileUrl) {
+		this.fileUrl = fileUrl;
 	}
 
 	public String getHospitalName() {

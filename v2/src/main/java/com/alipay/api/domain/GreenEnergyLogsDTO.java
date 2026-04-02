@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class GreenEnergyLogsDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8119189228596228484L;
+	private static final long serialVersionUID = 6196274894695619387L;
 
 	/**
 	 * 能量数量,单位g

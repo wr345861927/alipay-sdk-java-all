@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 模组开放license初始化
  *
  * @author auto create
- * @since 1.0, 2026-03-17 15:58:05
+ * @since 1.0, 2026-03-30 16:56:29
  */
 public class AlipayOpenSpNopenLicenseInitializeModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4744769448545386299L;
+	private static final long serialVersionUID = 4676193268661567795L;
 
 	/**
 	 * 模组生成的签名
@@ -26,7 +26,7 @@ public class AlipayOpenSpNopenLicenseInitializeModel extends AlipayObject {
 	private String itemId;
 
 	/**
-	 * mcu的uuid
+	 * 模组的mcu_id
 	 */
 	@ApiField("mcu_id")
 	private String mcuId;
@@ -38,7 +38,7 @@ public class AlipayOpenSpNopenLicenseInitializeModel extends AlipayObject {
 	private String publicKey;
 
 	/**
-	 * se的uuid（16进制的字符串，没有0x前缀）
+	 * 模组的se_uuid（16进制的字符串，没有0x前缀）
 	 */
 	@ApiField("se_uuid")
 	private String seUuid;
@@ -50,13 +50,13 @@ public class AlipayOpenSpNopenLicenseInitializeModel extends AlipayObject {
 	private String sn;
 
 	/**
-	 * 厂商ID
+	 * 模组供应商ID
 	 */
 	@ApiField("supplier_id")
 	private String supplierId;
 
 	/**
-	 * license类型
+	 * 环境类型
 	 */
 	@ApiField("type")
 	private String type;

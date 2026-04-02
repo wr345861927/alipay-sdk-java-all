@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.iservice.anthotlinemng.recording.query response.
  * 
  * @author auto create
- * @since 1.0, 2023-12-11 10:46:55
+ * @since 1.0, 2026-03-30 11:19:29
  */
 public class AlipayIserviceAnthotlinemngRecordingQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3629632573739882114L;
+	private static final long serialVersionUID = 8873972954885549523L;
 
 	/** 
 	 * 录音文件详情列表

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 商品落地页信息创建或更新
  *
  * @author auto create
- * @since 1.0, 2026-01-13 14:23:15
+ * @since 1.0, 2026-03-31 14:21:36
  */
 public class AlipayDataDataserviceProductLandinginfoCreateormodifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5317959949798686897L;
+	private static final long serialVersionUID = 8883669184139221949L;
 
 	/**
 	 * 支付宝平台侧商品ID，是支付宝平台侧商品的唯一标识，后续与平台交互，需要使用该 ID
@@ -35,6 +35,13 @@ public class AlipayDataDataserviceProductLandinginfoCreateormodifyModel extends 
 	@ApiField("out_item_id")
 	private String outItemId;
 
+	/**
+	 * 商品视频信息
+	 */
+	@ApiListField("video_info_list")
+	@ApiField("video_info")
+	private List<VideoInfo> videoInfoList;
+
 	public String getItemId() {
 		return this.itemId;
 	}
@@ -54,6 +61,13 @@ public class AlipayDataDataserviceProductLandinginfoCreateormodifyModel extends 
 	}
 	public void setOutItemId(String outItemId) {
 		this.outItemId = outItemId;
+	}
+
+	public List<VideoInfo> getVideoInfoList() {
+		return this.videoInfoList;
+	}
+	public void setVideoInfoList(List<VideoInfo> videoInfoList) {
+		this.videoInfoList = videoInfoList;
 	}
 
 }

@@ -3,6 +3,7 @@ package com.alipay.api.response;
 import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
+import com.alipay.api.domain.RecycleAuctionInfoVO;
 import com.alipay.api.domain.RecycleSubOrderInfoVO;
 
 import com.alipay.api.AlipayResponse;
@@ -11,11 +12,23 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.recycle.order.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-09-02 11:27:39
+ * @since 1.0, 2026-03-30 14:07:45
  */
 public class AlipayCommerceRecycleOrderQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5752828236673234563L;
+	private static final long serialVersionUID = 5535494996562799235L;
+
+	/** 
+	 * 回收竞拍信息
+	 */
+	@ApiField("auction_info")
+	private RecycleAuctionInfoVO auctionInfo;
+
+	/** 
+	 * 商家的名称
+	 */
+	@ApiField("merchant_alias")
+	private String merchantAlias;
 
 	/** 
 	 * 用于标记支付宝用户在应用下的唯一标识
@@ -47,6 +60,20 @@ public class AlipayCommerceRecycleOrderQueryResponse extends AlipayResponse {
 	@ApiListField("sub_order_info_list")
 	@ApiField("recycle_sub_order_info_v_o")
 	private List<RecycleSubOrderInfoVO> subOrderInfoList;
+
+	public void setAuctionInfo(RecycleAuctionInfoVO auctionInfo) {
+		this.auctionInfo = auctionInfo;
+	}
+	public RecycleAuctionInfoVO getAuctionInfo( ) {
+		return this.auctionInfo;
+	}
+
+	public void setMerchantAlias(String merchantAlias) {
+		this.merchantAlias = merchantAlias;
+	}
+	public String getMerchantAlias( ) {
+		return this.merchantAlias;
+	}
 
 	public void setOpenId(String openId) {
 		this.openId = openId;

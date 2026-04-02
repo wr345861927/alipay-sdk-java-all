@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 账户使用条件
  *
  * @author auto create
- * @since 1.0, 2025-11-28 10:24:41
+ * @since 1.0, 2026-04-01 11:13:46
  */
 public class EcPayRestriction extends AlipayObject {
 
-	private static final long serialVersionUID = 3215194149278329416L;
+	private static final long serialVersionUID = 7841236136886261978L;
 
 	/**
 	 * 账户使用条件类型
@@ -23,7 +23,7 @@ public class EcPayRestriction extends AlipayObject {
 	private String category;
 
 	/**
-	 * 账户使用范围限定
+	 * 账户使用范围限定。是企业码平台定义的费用类型，如差旅（ENT_TRAVEL）、外卖（TAKE_AWAY），更多类型请咨询业务
 	 */
 	@ApiListField("ranges")
 	@ApiField("string")

@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenAppItemModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5834536291386446829L;
+	private static final long serialVersionUID = 2689191946571891283L;
 
 	/** 
 	 * 商品业务模式，租赁业务模式包含（短租：0；长租：1；先租后买 ： 2）

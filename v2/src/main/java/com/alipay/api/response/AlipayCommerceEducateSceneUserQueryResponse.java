@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEducateSceneUserQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2653396545246979566L;
+	private static final long serialVersionUID = 5342479941525621678L;
 
 	/** 
 	 * 校园一脸通行开通状态。OPEN：开通，CLOSE：关闭

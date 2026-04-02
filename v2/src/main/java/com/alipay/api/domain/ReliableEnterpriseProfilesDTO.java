@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 企业个性化信息
  *
  * @author auto create
- * @since 1.0, 2025-12-29 14:06:56
+ * @since 1.0, 2026-04-01 16:11:32
  */
 public class ReliableEnterpriseProfilesDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7123334975247578882L;
+	private static final long serialVersionUID = 4156366298925667989L;
 
 	/**
 	 * 企业注册来源渠道
@@ -66,6 +66,12 @@ public class ReliableEnterpriseProfilesDTO extends AlipayObject {
 	 */
 	@ApiField("tax_no")
 	private String taxNo;
+
+	/**
+	 * 用于标识企业入驻链路
+	 */
+	@ApiField("utm_chain")
+	private String utmChain;
 
 	/**
 	 * 具体流量内容区分，如推荐码、推荐人、推荐服务商名称等。由渠道侧自定义
@@ -140,6 +146,13 @@ public class ReliableEnterpriseProfilesDTO extends AlipayObject {
 	}
 	public void setTaxNo(String taxNo) {
 		this.taxNo = taxNo;
+	}
+
+	public String getUtmChain() {
+		return this.utmChain;
+	}
+	public void setUtmChain(String utmChain) {
+		this.utmChain = utmChain;
 	}
 
 	public String getUtmContent() {

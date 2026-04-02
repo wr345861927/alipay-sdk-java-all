@@ -10,11 +10,18 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 商户质检结果
  *
  * @author auto create
- * @since 1.0, 2025-11-17 15:02:41
+ * @since 1.0, 2026-03-31 16:05:19
  */
 public class RecycleQcReportResult extends AlipayObject {
 
-	private static final long serialVersionUID = 8444164649764767277L;
+	private static final long serialVersionUID = 1683428354668716991L;
+
+	/**
+	 * true：是
+false：不是
+	 */
+	@ApiField("defect_option")
+	private Boolean defectOption;
 
 	/**
 	 * null
@@ -35,6 +42,13 @@ public class RecycleQcReportResult extends AlipayObject {
 	 */
 	@ApiField("text")
 	private String text;
+
+	public Boolean getDefectOption() {
+		return this.defectOption;
+	}
+	public void setDefectOption(Boolean defectOption) {
+		this.defectOption = defectOption;
+	}
 
 	public List<String> getImageIdList() {
 		return this.imageIdList;

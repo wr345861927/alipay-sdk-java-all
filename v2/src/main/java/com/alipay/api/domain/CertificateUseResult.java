@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 凭证核销结果
  *
  * @author auto create
- * @since 1.0, 2026-02-05 14:27:53
+ * @since 1.0, 2026-03-31 16:45:01
  */
 public class CertificateUseResult extends AlipayObject {
 
-	private static final long serialVersionUID = 7413553565976844429L;
+	private static final long serialVersionUID = 2564187693815791641L;
 
 	/**
 	 * 凭证实例的金额信息，在异常场景下可能为空，需要判断是否有值才可进行使用。
@@ -29,7 +29,7 @@ public class CertificateUseResult extends AlipayObject {
 	private String certificateId;
 
 	/**
-	 * 三方码
+	 * 三方码或支付宝平台券码
 	 */
 	@ApiField("code")
 	private String code;

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.merchant.npromo.indirect.query request
  * 
  * @author auto create
- * @since 1.0, 2025-09-12 19:57:38
+ * @since 1.0, 2026-03-30 11:31:48
  */
 public class AlipayMerchantNpromoIndirectQueryRequest implements AlipayRequest<AlipayMerchantNpromoIndirectQueryResponse> {
 

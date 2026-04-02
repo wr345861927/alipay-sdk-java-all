@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BudgetVO extends AlipayObject {
 
-	private static final long serialVersionUID = 5396649834545647316L;
+	private static final long serialVersionUID = 5665178837923649713L;
 
 	/**
 	 * 应还总金额 = 正常本金+逾期本金+正常利息+逾期利息+逾期本金罚息+逾期利息罚息

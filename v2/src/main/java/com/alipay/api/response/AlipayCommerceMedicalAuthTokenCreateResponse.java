@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.auth.token.create response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-03 14:27:43
+ * @since 1.0, 2026-03-26 17:33:57
  */
 public class AlipayCommerceMedicalAuthTokenCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2555992213947852649L;
+	private static final long serialVersionUID = 1639968983173151553L;
 
 	/** 
 	 * 蚂蚁阿福访问令牌。通过该令牌调用需要授权接口

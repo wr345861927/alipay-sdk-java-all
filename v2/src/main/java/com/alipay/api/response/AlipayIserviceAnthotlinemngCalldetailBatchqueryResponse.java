@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.iservice.anthotlinemng.calldetail.batchquery response.
  * 
  * @author auto create
- * @since 1.0, 2023-12-11 16:11:55
+ * @since 1.0, 2026-03-30 11:19:32
  */
 public class AlipayIserviceAnthotlinemngCalldetailBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6656178312866448575L;
+	private static final long serialVersionUID = 8146999717649215528L;
 
 	/** 
 	 * 当前分页页码

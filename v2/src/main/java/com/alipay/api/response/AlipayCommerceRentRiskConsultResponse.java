@@ -15,14 +15,15 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.rent.risk.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-17 09:52:43
+ * @since 1.0, 2026-03-31 17:37:44
  */
 public class AlipayCommerceRentRiskConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7413239482583872334L;
+	private static final long serialVersionUID = 7357584184598247572L;
 
 	/** 
-	 * Tn_Level类型结果，risk_level字段取值范围T1-T10（T1 ~ T4: 低风险；T5 ~ T6: 中风险；T7 ~ T8: 高风险；T9 ~ T10: 极高风险）
+	 * 长租/汽车订阅：Tn_Level类型结果，risk_level字段取值范围T1-T10（T1 ~ T4: 低风险；T5 ~ T6: 中风险；T7 ~ T8: 高风险；T9 ~ T10: 极高风险）
+短租：Sn_Level类型结果, risk_level字段取值范围S1-S5 （S1-S3：低风险，S4：中风险，S5：高风险）
 	 */
 	@ApiField("comprehensive_risk_models")
 	private RentRiskProVO comprehensiveRiskModels;

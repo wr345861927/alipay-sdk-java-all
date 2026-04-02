@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ecapiprod.drawndn.drawndnlist.query request
  * 
  * @author auto create
- * @since 1.0, 2024-07-04 17:31:52
+ * @since 1.0, 2026-03-30 09:14:33
  */
 public class AlipayEcapiprodDrawndnDrawndnlistQueryRequest implements AlipayRequest<AlipayEcapiprodDrawndnDrawndnlistQueryResponse> {
 

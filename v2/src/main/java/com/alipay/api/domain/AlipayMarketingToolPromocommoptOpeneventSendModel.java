@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayMarketingToolPromocommoptOpeneventSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2897746174822599924L;
+	private static final long serialVersionUID = 2857856347597826171L;
 
 	/**
 	 * 外部事件发生时间，必须是（yyyy-MM-dd HH:mm:ss）格式

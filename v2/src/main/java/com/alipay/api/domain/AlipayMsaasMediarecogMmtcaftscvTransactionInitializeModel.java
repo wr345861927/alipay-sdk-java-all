@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 多媒体视觉付交易初始化接口
  *
  * @author auto create
- * @since 1.0, 2025-08-14 13:59:25
+ * @since 1.0, 2026-03-30 14:52:47
  */
 public class AlipayMsaasMediarecogMmtcaftscvTransactionInitializeModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7647884356132314319L;
+	private static final long serialVersionUID = 4764548696123314463L;
 
 	/**
 	 * 该参数用于明确指定货柜 air 是否开启识别。
@@ -50,10 +50,23 @@ public class AlipayMsaasMediarecogMmtcaftscvTransactionInitializeModel extends A
 	private String reqId;
 
 	/**
+	 * 右柜商品清单(仅单pad双门柜)
+	 */
+	@ApiListField("right_goods_infos")
+	@ApiField("good_info")
+	private List<GoodInfo> rightGoodsInfos;
+
+	/**
 	 * 标识是什么场景下的视觉识别请求，visionPay,putInOrder,queryAll
 	 */
 	@ApiField("scene")
 	private String scene;
+
+	/**
+	 * 单pad左右柜标识
+	 */
+	@ApiField("single_pad_door_pos")
+	private String singlePadDoorPos;
 
 	/**
 	 * 二级商户ID
@@ -127,11 +140,25 @@ public class AlipayMsaasMediarecogMmtcaftscvTransactionInitializeModel extends A
 		this.reqId = reqId;
 	}
 
+	public List<GoodInfo> getRightGoodsInfos() {
+		return this.rightGoodsInfos;
+	}
+	public void setRightGoodsInfos(List<GoodInfo> rightGoodsInfos) {
+		this.rightGoodsInfos = rightGoodsInfos;
+	}
+
 	public String getScene() {
 		return this.scene;
 	}
 	public void setScene(String scene) {
 		this.scene = scene;
+	}
+
+	public String getSinglePadDoorPos() {
+		return this.singlePadDoorPos;
+	}
+	public void setSinglePadDoorPos(String singlePadDoorPos) {
+		this.singlePadDoorPos = singlePadDoorPos;
 	}
 
 	public String getSubMerchantId() {

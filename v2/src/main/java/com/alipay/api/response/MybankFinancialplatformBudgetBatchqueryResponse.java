@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class MybankFinancialplatformBudgetBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8567726568474211388L;
+	private static final long serialVersionUID = 8465713471784719767L;
 
 	/** 
 	 * 当前页码

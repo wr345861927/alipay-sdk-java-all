@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 企业基本信息
  *
  * @author auto create
- * @since 1.0, 2025-11-03 15:46:55
+ * @since 1.0, 2026-04-01 16:11:32
  */
 public class ReliableEnterpriseBaseInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2791646811393375197L;
+	private static final long serialVersionUID = 2136526577779776977L;
 
 	/**
 	 * 企业认证状态
@@ -20,7 +20,7 @@ public class ReliableEnterpriseBaseInfoDTO extends AlipayObject {
 	private String authStatus;
 
 	/**
-	 * 企业注册页面需要回显的统一社会信用代码，只能是数字和字母组成
+	 * 企业营业执照中的统一社会信用代码，只能是数字和字母组成
 	 */
 	@ApiField("enterprise_code")
 	private String enterpriseCode;

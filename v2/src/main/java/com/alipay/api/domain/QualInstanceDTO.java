@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class QualInstanceDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7714664391795834844L;
+	private static final long serialVersionUID = 4147275953768949779L;
 
 	/**
 	 * 资格实例生效时间

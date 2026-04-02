@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.iservice.anthotlinemng.calldetail.batchquery request
  * 
  * @author auto create
- * @since 1.0, 2023-12-11 16:11:55
+ * @since 1.0, 2026-03-30 11:19:32
  */
 public class AlipayIserviceAnthotlinemngCalldetailBatchqueryRequest implements AlipayRequest<AlipayIserviceAnthotlinemngCalldetailBatchqueryResponse> {
 

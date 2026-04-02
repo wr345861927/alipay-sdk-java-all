@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.ecapiprod.drawndn.drawndnlist.query response.
  * 
  * @author auto create
- * @since 1.0, 2024-07-04 17:31:52
+ * @since 1.0, 2026-03-30 09:14:33
  */
 public class AlipayEcapiprodDrawndnDrawndnlistQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3581622545957554311L;
+	private static final long serialVersionUID = 7275269327155446665L;
 
 	/** 
 	 * 支用列表

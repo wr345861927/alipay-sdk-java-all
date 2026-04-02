@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.msaas.mediarecog.mmtcaftscv.device.bind request
  * 
  * @author auto create
- * @since 1.0, 2026-02-24 16:43:21
+ * @since 1.0, 2026-03-30 14:57:44
  */
 public class AlipayMsaasMediarecogMmtcaftscvDeviceBindRequest implements AlipayRequest<AlipayMsaasMediarecogMmtcaftscvDeviceBindResponse> {
 

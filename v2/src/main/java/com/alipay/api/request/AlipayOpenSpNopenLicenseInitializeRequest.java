@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.open.sp.nopen.license.initialize request
  * 
  * @author auto create
- * @since 1.0, 2026-03-17 16:02:44
+ * @since 1.0, 2026-03-30 16:57:44
  */
 public class AlipayOpenSpNopenLicenseInitializeRequest implements AlipayRequest<AlipayOpenSpNopenLicenseInitializeResponse> {
 

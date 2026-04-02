@@ -17,11 +17,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.dtbankcust.activityconfig.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-20 14:09:25
+ * @since 1.0, 2026-03-31 15:32:14
  */
 public class AlipayUserDtbankcustActivityconfigQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1649228189893831546L;
+	private static final long serialVersionUID = 8454644873128467743L;
 
 	/** 
 	 * 当入参活动类型是DISCOUNT、VOUCHER、FIRST_BIND_CARD_GIFT时返回活动ID；

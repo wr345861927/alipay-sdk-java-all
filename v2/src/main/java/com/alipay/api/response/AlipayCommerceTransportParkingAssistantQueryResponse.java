@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceTransportParkingAssistantQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1185256364187372535L;
+	private static final long serialVersionUID = 2376371953658337154L;
 
 	/** 
 	 * 停车助手服务状态；开通服务：

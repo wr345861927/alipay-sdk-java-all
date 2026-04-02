@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOverseasTravelBenefitbudgetQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6123983417746594412L;
+	private static final long serialVersionUID = 7723492388325646139L;
 
 	/**
 	 * 权益预算id列表

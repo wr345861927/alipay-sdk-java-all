@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * N模组返厂解绑
  *
  * @author auto create
- * @since 1.0, 2026-03-17 10:27:44
+ * @since 1.0, 2026-03-30 16:57:44
  */
 public class AlipayOpenSpNopenModuleUnbindModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8691462348911553397L;
+	private static final long serialVersionUID = 7114847622742927624L;
 
 	/**
 	 * 上位机 itemId 必传
@@ -26,19 +26,19 @@ public class AlipayOpenSpNopenModuleUnbindModel extends AlipayObject {
 	private String deviceSn;
 
 	/**
-	 * 模组 itemId 必传
+	 * 模组 item_Id必传
 	 */
 	@ApiField("item_id")
 	private String itemId;
 
 	/**
-	 * 模组有 mcuid 必传
+	 * 模组 mcu_id必传
 	 */
 	@ApiField("mcu_id")
 	private String mcuId;
 
 	/**
-	 * 模组有 seuuid 必传
+	 * 模组有 se_uuid 必传
 	 */
 	@ApiField("se_uuid")
 	private String seUuid;
@@ -50,13 +50,13 @@ public class AlipayOpenSpNopenModuleUnbindModel extends AlipayObject {
 	private String sn;
 
 	/**
-	 * 供应商 Id
+	 * 模组供应商 Id
 	 */
 	@ApiField("supplier_id")
 	private String supplierId;
 
 	/**
-	 * 模板code 必传
+	 * 模组链接模板
 	 */
 	@ApiField("template_code")
 	private String templateCode;

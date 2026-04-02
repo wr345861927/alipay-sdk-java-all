@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 配送指令增加正向业务场景
  *
  * @author auto create
- * @since 1.0, 2025-09-05 22:33:54
+ * @since 1.0, 2026-04-01 14:03:29
  */
 public class AssetDeliveryItem extends AlipayObject {
 
-	private static final long serialVersionUID = 2559454528646651567L;
+	private static final long serialVersionUID = 5312535943462516911L;
 
 	/**
 	 * SEND - 发货指令(执行向目的地进行发货动作) , RECEIVE - 收货指令(执行从来源地进行收货动作)
@@ -29,6 +29,12 @@ public class AssetDeliveryItem extends AlipayObject {
 	private Long amount;
 
 	/**
+	 * AO单申请配送数量
+	 */
+	@ApiField("apply_order_amount")
+	private Long applyOrderAmount;
+
+	/**
 	 * 订单申请日期, 格式:
 yyyy-MM-dd HH：mm:ss
 	 */
@@ -40,6 +46,12 @@ yyyy-MM-dd HH：mm:ss
 	 */
 	@ApiField("apply_order_id")
 	private String applyOrderId;
+
+	/**
+	 * 生产资料：用于提供物料供应商生产所需资料
+	 */
+	@ApiField("asset_resource")
+	private String assetResource;
 
 	/**
 	 * 配送订单唯一Id
@@ -76,6 +88,12 @@ yyyy-MM-dd HH：mm:ss
 	 */
 	@ApiField("biz_type")
 	private String bizType;
+
+	/**
+	 * (线圈码牌物料仓发的配送指令中，会带码组序列标识，用于供应商对物料进行分包）
+	 */
+	@ApiField("code_group_ser_number")
+	private String codeGroupSerNumber;
 
 	/**
 	 * 合单批次号
@@ -176,6 +194,12 @@ N 不需要合单
 	private String isCombinationOrder;
 
 	/**
+	 * is_kit_pack为Y，则组合单维度下，多个子物料需要打包到一起进行发货，related_kit_item_id和related_kit_item_name不为空，目前只有线圈调拨入指令会带该标识
+	 */
+	@ApiField("is_kit_pack")
+	private String isKitPack;
+
+	/**
 	 * 物料id
 	 */
 	@ApiField("item_id")
@@ -274,6 +298,18 @@ N 不需要合单
 	private Long relatedChildrenOutBizNoCount;
 
 	/**
+	 * 组合单维度下，多个子物料需要打包到一起进行发货，套组物料id和套组名称，作为打包的标签（备注：目前只有线圈调入指令会带该标识）
+	 */
+	@ApiField("related_kit_item_id")
+	private String relatedKitItemId;
+
+	/**
+	 * 组合单维度下，多个子物料需要打包到一起进行发货，套组物料id和套组名称，作为打包的标签(备注：目前只有线圈调拨入指令会带该标识)
+	 */
+	@ApiField("related_kit_item_name")
+	private String relatedKitItemName;
+
+	/**
 	 * 关联其它业务单据号，同一个父业务单据号的其它业务单据号（不包含related_out_biz_no）
 	 */
 	@ApiListField("related_others_out_biz_no")
@@ -336,6 +372,13 @@ N 不需要合单
 		this.amount = amount;
 	}
 
+	public Long getApplyOrderAmount() {
+		return this.applyOrderAmount;
+	}
+	public void setApplyOrderAmount(Long applyOrderAmount) {
+		this.applyOrderAmount = applyOrderAmount;
+	}
+
 	public String getApplyOrderDate() {
 		return this.applyOrderDate;
 	}
@@ -348,6 +391,13 @@ N 不需要合单
 	}
 	public void setApplyOrderId(String applyOrderId) {
 		this.applyOrderId = applyOrderId;
+	}
+
+	public String getAssetResource() {
+		return this.assetResource;
+	}
+	public void setAssetResource(String assetResource) {
+		this.assetResource = assetResource;
 	}
 
 	public String getAssignItemId() {
@@ -390,6 +440,13 @@ N 不需要合单
 	}
 	public void setBizType(String bizType) {
 		this.bizType = bizType;
+	}
+
+	public String getCodeGroupSerNumber() {
+		return this.codeGroupSerNumber;
+	}
+	public void setCodeGroupSerNumber(String codeGroupSerNumber) {
+		this.codeGroupSerNumber = codeGroupSerNumber;
 	}
 
 	public String getCombinationBatchNo() {
@@ -504,6 +561,13 @@ N 不需要合单
 		this.isCombinationOrder = isCombinationOrder;
 	}
 
+	public String getIsKitPack() {
+		return this.isKitPack;
+	}
+	public void setIsKitPack(String isKitPack) {
+		this.isKitPack = isKitPack;
+	}
+
 	public String getItemId() {
 		return this.itemId;
 	}
@@ -614,6 +678,20 @@ N 不需要合单
 	}
 	public void setRelatedChildrenOutBizNoCount(Long relatedChildrenOutBizNoCount) {
 		this.relatedChildrenOutBizNoCount = relatedChildrenOutBizNoCount;
+	}
+
+	public String getRelatedKitItemId() {
+		return this.relatedKitItemId;
+	}
+	public void setRelatedKitItemId(String relatedKitItemId) {
+		this.relatedKitItemId = relatedKitItemId;
+	}
+
+	public String getRelatedKitItemName() {
+		return this.relatedKitItemName;
+	}
+	public void setRelatedKitItemName(String relatedKitItemName) {
+		this.relatedKitItemName = relatedKitItemName;
 	}
 
 	public List<String> getRelatedOthersOutBizNo() {

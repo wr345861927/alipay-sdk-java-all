@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 报告总结
  *
  * @author auto create
- * @since 1.0, 2025-11-17 15:02:41
+ * @since 1.0, 2026-03-31 16:05:19
  */
 public class RecycleQcReportSummaryInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2176846848232741897L;
+	private static final long serialVersionUID = 4815527415869351418L;
 
 	/**
 	 * null
@@ -28,6 +28,13 @@ public class RecycleQcReportSummaryInfo extends AlipayObject {
 	 */
 	@ApiField("inconsistent_text")
 	private String inconsistentText;
+
+	/**
+	 * null
+	 */
+	@ApiListField("product_real_image_id_list")
+	@ApiField("string")
+	private List<String> productRealImageIdList;
 
 	/**
 	 * 报告总结文本内容
@@ -47,6 +54,13 @@ public class RecycleQcReportSummaryInfo extends AlipayObject {
 	}
 	public void setInconsistentText(String inconsistentText) {
 		this.inconsistentText = inconsistentText;
+	}
+
+	public List<String> getProductRealImageIdList() {
+		return this.productRealImageIdList;
+	}
+	public void setProductRealImageIdList(List<String> productRealImageIdList) {
+		this.productRealImageIdList = productRealImageIdList;
 	}
 
 	public String getText() {

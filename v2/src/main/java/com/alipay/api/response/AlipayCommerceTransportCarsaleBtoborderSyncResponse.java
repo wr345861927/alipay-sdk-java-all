@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.transport.carsale.btoborder.sync response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-18 17:12:41
+ * @since 1.0, 2026-04-01 14:32:44
  */
 public class AlipayCommerceTransportCarsaleBtoborderSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7786991648769391988L;
+	private static final long serialVersionUID = 3573956751689393958L;
 
 	/** 
 	 * 车生活订单id

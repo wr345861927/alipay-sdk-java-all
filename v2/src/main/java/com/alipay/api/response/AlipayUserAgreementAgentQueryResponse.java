@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.user.agreement.agent.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-10 16:22:43
+ * @since 1.0, 2026-03-26 17:25:31
  */
 public class AlipayUserAgreementAgentQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2688398478746821986L;
+	private static final long serialVersionUID = 6333375621261623211L;
 
 	/** 
 	 * 【描述】支付宝系统中用以唯一标识用户签约记录的编号（用户签约成功后的协议号 ） ，如果传了该参数，其他参数会被忽略

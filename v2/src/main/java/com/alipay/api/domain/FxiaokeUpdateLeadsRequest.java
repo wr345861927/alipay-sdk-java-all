@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 纷享销客更新leads
  *
  * @author auto create
- * @since 1.0, 2023-10-19 09:22:17
+ * @since 1.0, 2026-03-30 16:03:53
  */
 public class FxiaokeUpdateLeadsRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 4414151752886368532L;
+	private static final long serialVersionUID = 4447686796983646399L;
 
 	/**
 	 * 负责BD工号
@@ -36,6 +36,12 @@ public class FxiaokeUpdateLeadsRequest extends AlipayObject {
 	 */
 	@ApiField("modifier")
 	private String modifier;
+
+	/**
+	 * 商机的来源
+	 */
+	@ApiField("source")
+	private String source;
 
 	public String getBdWorkNo() {
 		return this.bdWorkNo;
@@ -63,6 +69,13 @@ public class FxiaokeUpdateLeadsRequest extends AlipayObject {
 	}
 	public void setModifier(String modifier) {
 		this.modifier = modifier;
+	}
+
+	public String getSource() {
+		return this.source;
+	}
+	public void setSource(String source) {
+		this.source = source;
 	}
 
 }

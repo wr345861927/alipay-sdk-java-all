@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenMiniAmpeTracerSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5125585134992233143L;
+	private static final long serialVersionUID = 5451496369375896789L;
 
 	/**
 	 * 智能设备在AMPE平台注册的设备ID

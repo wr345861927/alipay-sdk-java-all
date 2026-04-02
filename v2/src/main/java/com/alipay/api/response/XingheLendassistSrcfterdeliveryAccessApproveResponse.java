@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class XingheLendassistSrcfterdeliveryAccessApproveResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3389399717261759858L;
+	private static final long serialVersionUID = 5125858469737554935L;
 
 	/** 
 	 * 审核结果，APPROVE_PASS-审批通过、APPROVE_REJECT-审批拒绝

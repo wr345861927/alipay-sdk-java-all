@@ -7,14 +7,14 @@ import com.alipay.api.internal.mapping.ApiField;
  * N模组链接释放和上位机绑定
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:33:49
+ * @since 1.0, 2026-03-30 16:57:44
  */
 public class AlipayOpenSpNopenNlinkGenerateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5555662552246977337L;
+	private static final long serialVersionUID = 6428916357564232586L;
 
 	/**
-	 * 设备adid
+	 * 设备device_ad_id
 	 */
 	@ApiField("device_ad_id")
 	private String deviceAdId;
@@ -26,7 +26,7 @@ public class AlipayOpenSpNopenNlinkGenerateModel extends AlipayObject {
 	private String deviceBizTid;
 
 	/**
-	 * 设备itemId
+	 * 设备item_Id
 	 */
 	@ApiField("device_item_id")
 	private String deviceItemId;
@@ -38,25 +38,25 @@ public class AlipayOpenSpNopenNlinkGenerateModel extends AlipayObject {
 	private String deviceSn;
 
 	/**
-	 * 模组itemId
+	 * 模组item_id
 	 */
 	@ApiField("item_id")
 	private String itemId;
 
 	/**
-	 * 模组mcuid
+	 * 模组的mcu_id
 	 */
 	@ApiField("mcu_id")
 	private String mcuId;
 
 	/**
-	 * 链接模版
+	 * 模组链接模版
 	 */
 	@ApiField("n_link_template_code")
 	private String nLinkTemplateCode;
 
 	/**
-	 * 模组se芯片id
+	 * 模组的se_uuid
 	 */
 	@ApiField("se_uuid")
 	private String seUuid;
@@ -68,7 +68,7 @@ public class AlipayOpenSpNopenNlinkGenerateModel extends AlipayObject {
 	private String sn;
 
 	/**
-	 * 供应商ID
+	 * 模组的供应商ID
 	 */
 	@ApiField("supplier_id")
 	private String supplierId;

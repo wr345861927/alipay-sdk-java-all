@@ -10,7 +10,7 @@ import com.alipay.api.AlipayObject;
  */
 public class AlipaySecurityHqschemaQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8271749495982754352L;
+	private static final long serialVersionUID = 3529617495758987383L;
 
 	
 

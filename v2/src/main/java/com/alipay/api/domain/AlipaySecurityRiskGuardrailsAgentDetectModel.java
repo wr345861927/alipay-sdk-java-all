@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 大模型安全agent检测服务
  *
  * @author auto create
- * @since 1.0, 2026-03-21 20:57:42
+ * @since 1.0, 2026-03-27 13:47:51
  */
 public class AlipaySecurityRiskGuardrailsAgentDetectModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4795881764984294189L;
+	private static final long serialVersionUID = 5534676868691662733L;
 
 	/**
 	 * agent标识

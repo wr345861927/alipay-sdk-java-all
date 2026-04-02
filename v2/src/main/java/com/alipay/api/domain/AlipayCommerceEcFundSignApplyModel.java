@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 账户签约申请
  *
  * @author auto create
- * @since 1.0, 2025-11-28 10:24:31
+ * @since 1.0, 2026-04-01 11:13:37
  */
 public class AlipayCommerceEcFundSignApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4747534995333167158L;
+	private static final long serialVersionUID = 3771298748454595258L;
 
 	/**
 	 * 企业因公代付的资金账户
@@ -31,6 +31,12 @@ public class AlipayCommerceEcFundSignApplyModel extends AlipayObject {
 	@ApiField("fund_account_type")
 	@Deprecated
 	private String fundAccountType;
+
+	/**
+	 * 不同资金来源时需要填写补充信息
+	 */
+	@ApiField("fund_constraint")
+	private FundConstraints fundConstraint;
 
 	/**
 	 * 企业因公代付的资金来源
@@ -58,9 +64,10 @@ public class AlipayCommerceEcFundSignApplyModel extends AlipayObject {
 	private String signerCategory;
 
 	/**
-	 * 限定出资的银行卡号
+	 * 限定出资的银行卡号 当前字段已废弃(请使用fund_constraint进行设置)
 	 */
 	@ApiField("specified_bank_card_no")
+	@Deprecated
 	private String specifiedBankCardNo;
 
 	/**
@@ -90,6 +97,13 @@ public class AlipayCommerceEcFundSignApplyModel extends AlipayObject {
 	}
 	public void setFundAccountType(String fundAccountType) {
 		this.fundAccountType = fundAccountType;
+	}
+
+	public FundConstraints getFundConstraint() {
+		return this.fundConstraint;
+	}
+	public void setFundConstraint(FundConstraints fundConstraint) {
+		this.fundConstraint = fundConstraint;
 	}
 
 	public String getFundSource() {

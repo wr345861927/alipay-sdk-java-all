@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AnttechNftCtocAssetcountQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5627842877433986955L;
+	private static final long serialVersionUID = 8277927333862317623L;
 
 	/** 
 	 * 查询分区

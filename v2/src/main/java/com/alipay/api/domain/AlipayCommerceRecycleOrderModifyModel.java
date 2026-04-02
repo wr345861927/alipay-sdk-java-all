@@ -7,17 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 回收订单信息修改
  *
  * @author auto create
- * @since 1.0, 2026-01-07 17:37:42
+ * @since 1.0, 2026-03-30 14:02:45
  */
 public class AlipayCommerceRecycleOrderModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8547969644442244519L;
+	private static final long serialVersionUID = 2246748133591274217L;
 
 	/**
 	 * 地址信息
 	 */
 	@ApiField("address_info")
 	private RecycleModifyAddressInfo addressInfo;
+
+	/**
+	 * 竞拍履约信息
+	 */
+	@ApiField("auction_delivery_info")
+	private RecycleAuctionDeliveryInfoVO auctionDeliveryInfo;
 
 	/**
 	 * 修改原因
@@ -60,6 +66,13 @@ public class AlipayCommerceRecycleOrderModifyModel extends AlipayObject {
 	}
 	public void setAddressInfo(RecycleModifyAddressInfo addressInfo) {
 		this.addressInfo = addressInfo;
+	}
+
+	public RecycleAuctionDeliveryInfoVO getAuctionDeliveryInfo() {
+		return this.auctionDeliveryInfo;
+	}
+	public void setAuctionDeliveryInfo(RecycleAuctionDeliveryInfoVO auctionDeliveryInfo) {
+		this.auctionDeliveryInfo = auctionDeliveryInfo;
 	}
 
 	public String getModifyReason() {

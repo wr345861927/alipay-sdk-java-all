@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 视觉货柜产品化设备注册
  *
  * @author auto create
- * @since 1.0, 2025-12-31 10:40:04
+ * @since 1.0, 2026-03-30 14:53:34
  */
 public class AlipayMsaasMediarecogMmtcaftscvDeviceBindModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7493534692829152493L;
+	private static final long serialVersionUID = 6624483611774893598L;
+
+	/**
+	 * 柜门类型
+	 */
+	@ApiField("device_door_type")
+	private String deviceDoorType;
 
 	/**
 	 * IOT统一设备id
@@ -39,6 +45,12 @@ public class AlipayMsaasMediarecogMmtcaftscvDeviceBindModel extends AlipayObject
 	private String isvTid;
 
 	/**
+	 * 位置
+	 */
+	@ApiField("position")
+	private String position;
+
+	/**
 	 * 设备注册类型
 	 */
 	@ApiField("register_type")
@@ -50,6 +62,13 @@ public class AlipayMsaasMediarecogMmtcaftscvDeviceBindModel extends AlipayObject
 	 */
 	@ApiField("weight_device")
 	private String weightDevice;
+
+	public String getDeviceDoorType() {
+		return this.deviceDoorType;
+	}
+	public void setDeviceDoorType(String deviceDoorType) {
+		this.deviceDoorType = deviceDoorType;
+	}
 
 	public String getDeviceId() {
 		return this.deviceId;
@@ -77,6 +96,13 @@ public class AlipayMsaasMediarecogMmtcaftscvDeviceBindModel extends AlipayObject
 	}
 	public void setIsvTid(String isvTid) {
 		this.isvTid = isvTid;
+	}
+
+	public String getPosition() {
+		return this.position;
+	}
+	public void setPosition(String position) {
+		this.position = position;
 	}
 
 	public String getRegisterType() {

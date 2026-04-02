@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 创建出资方式
  *
  * @author auto create
- * @since 1.0, 2025-11-28 10:24:41
+ * @since 1.0, 2026-04-01 11:13:46
  */
 public class AlipayCommerceEcFundStrategyCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7181156311337375766L;
+	private static final long serialVersionUID = 8222958959597278377L;
 
 	/**
 	 * 企业id

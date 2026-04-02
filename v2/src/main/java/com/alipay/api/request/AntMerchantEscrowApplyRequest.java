@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: ant.merchant.escrow.apply request
  * 
  * @author auto create
- * @since 1.0, 2026-03-24 16:12:45
+ * @since 1.0, 2026-03-30 22:07:43
  */
 public class AntMerchantEscrowApplyRequest implements AlipayRequest<AntMerchantEscrowApplyResponse> {
 

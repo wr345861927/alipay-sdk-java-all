@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 担保商户签约入驻
  *
  * @author auto create
- * @since 1.0, 2026-03-24 16:11:55
+ * @since 1.0, 2026-03-30 22:06:39
  */
 public class AntMerchantEscrowApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5591457263259376934L;
+	private static final long serialVersionUID = 2119594315499288878L;
 
 	/**
 	 * 经营信息

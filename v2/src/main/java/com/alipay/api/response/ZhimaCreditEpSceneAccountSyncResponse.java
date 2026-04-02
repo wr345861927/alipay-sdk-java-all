@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class ZhimaCreditEpSceneAccountSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2369335973759815453L;
+	private static final long serialVersionUID = 7845787378695556424L;
 
 	
 

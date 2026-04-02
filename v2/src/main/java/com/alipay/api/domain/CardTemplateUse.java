@@ -10,11 +10,17 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 卡使用信息
  *
  * @author auto create
- * @since 1.0, 2025-10-17 17:27:47
+ * @since 1.0, 2026-03-31 15:02:10
  */
 public class CardTemplateUse extends AlipayObject {
 
-	private static final long serialVersionUID = 8618557666459269712L;
+	private static final long serialVersionUID = 7571171614477934514L;
+
+	/**
+	 * 日历价格
+	 */
+	@ApiField("calendar_price")
+	private LifeserviceItemCalendarPrice calendarPrice;
 
 	/**
 	 * 周期付需要配置周期信息
@@ -40,6 +46,12 @@ public class CardTemplateUse extends AlipayObject {
 	@ApiListField("period_price_list")
 	@ApiField("card_period_price")
 	private List<CardPeriodPrice> periodPriceList;
+
+	/**
+	 * 价格模式。默认阶梯价格
+	 */
+	@ApiField("price_mode")
+	private String priceMode;
 
 	/**
 	 * 购卡须知信息，可以设置适用人群，适用人数，预约规则，用于卡详情展示。
@@ -92,6 +104,13 @@ public class CardTemplateUse extends AlipayObject {
 	@ApiField("card_use_method_info")
 	private List<CardUseMethodInfo> useMethod;
 
+	public LifeserviceItemCalendarPrice getCalendarPrice() {
+		return this.calendarPrice;
+	}
+	public void setCalendarPrice(LifeserviceItemCalendarPrice calendarPrice) {
+		this.calendarPrice = calendarPrice;
+	}
+
 	public CardCycle getCycleInfo() {
 		return this.cycleInfo;
 	}
@@ -118,6 +137,13 @@ public class CardTemplateUse extends AlipayObject {
 	}
 	public void setPeriodPriceList(List<CardPeriodPrice> periodPriceList) {
 		this.periodPriceList = periodPriceList;
+	}
+
+	public String getPriceMode() {
+		return this.priceMode;
+	}
+	public void setPriceMode(String priceMode) {
+		this.priceMode = priceMode;
 	}
 
 	public CardPurchaseNotice getPurchaseNotice() {

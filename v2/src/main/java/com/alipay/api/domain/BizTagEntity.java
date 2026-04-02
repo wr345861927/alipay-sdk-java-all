@@ -12,7 +12,7 @@ extParams	Map<String,String>	扩展参数
  */
 public class BizTagEntity extends AlipayObject {
 
-	private static final long serialVersionUID = 7825182938447929864L;
+	private static final long serialVersionUID = 1315739758546767996L;
 
 	/**
 	 * 标签扩展参数

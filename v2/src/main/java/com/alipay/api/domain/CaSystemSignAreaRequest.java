@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CaSystemSignAreaRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 5697827898793362435L;
+	private static final long serialVersionUID = 4669129465773911841L;
 
 	/**
 	 * 骑缝章信息

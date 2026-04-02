@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class NotifyRecord extends AlipayObject {
 
-	private static final long serialVersionUID = 5619914847534595593L;
+	private static final long serialVersionUID = 7145552686861612862L;
 
 	/**
 	 * 通话的唯一ID

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 留学缴费VCC代付单payment信息
  *
  * @author auto create
- * @since 1.0, 2026-03-09 15:11:25
+ * @since 1.0, 2026-03-27 14:46:24
  */
 public class TuitionISVPoboPaymentInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2652434998511779794L;
+	private static final long serialVersionUID = 1233171148288658323L;
 
 	/**
 	 * 其他缴费信息，目前包含了academic_year（学年）以及payment_category（缴费类目）两个key，后续会根据业务扩展key
@@ -66,6 +66,12 @@ public class TuitionISVPoboPaymentInfo extends AlipayObject {
 	 */
 	@ApiField("cvv")
 	private String cvv;
+
+	/**
+	 * cvv加密。使用rsa3072加密算法进行加密。理论长度为512个字符
+	 */
+	@ApiField("cvv_encrypted")
+	private String cvvEncrypted;
 
 	/**
 	 * 机构推单的单号
@@ -140,6 +146,13 @@ public class TuitionISVPoboPaymentInfo extends AlipayObject {
 	}
 	public void setCvv(String cvv) {
 		this.cvv = cvv;
+	}
+
+	public String getCvvEncrypted() {
+		return this.cvvEncrypted;
+	}
+	public void setCvvEncrypted(String cvvEncrypted) {
+		this.cvvEncrypted = cvvEncrypted;
 	}
 
 	public String getPreOrderId() {

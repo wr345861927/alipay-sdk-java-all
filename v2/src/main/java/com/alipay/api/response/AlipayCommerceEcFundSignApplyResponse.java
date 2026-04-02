@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.ec.fund.sign.apply response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-26 15:06:37
+ * @since 1.0, 2026-04-01 11:22:43
  */
 public class AlipayCommerceEcFundSignApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2877918624166284883L;
+	private static final long serialVersionUID = 1835351358311629196L;
 
 	/** 
 	 * 签约链接

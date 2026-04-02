@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 物料生产指令对象, 包括物料生产的相关信息: 订单明细ID, 申请单号, 模板ID, 物料名称, 物料图片Url, 数量,  申请日期,收货人姓名,联系人电话,收货人地址等.
  *
  * @author auto create
- * @since 1.0, 2025-09-05 22:33:42
+ * @since 1.0, 2026-04-01 14:03:32
  */
 public class AssetProduceItem extends AlipayObject {
 
-	private static final long serialVersionUID = 2147661788999171363L;
+	private static final long serialVersionUID = 3723396746432119824L;
 
 	/**
 	 * 生产指令动作类别：套组则为ASSEMBLE，组装
@@ -131,6 +131,12 @@ public class AssetProduceItem extends AlipayObject {
 	 */
 	@ApiField("is_combination_order")
 	private String isCombinationOrder;
+
+	/**
+	 * is_kit_pack为Y，则组合单维度下，多个子物料需要打包到一起进行发货，related_kit_item_id和related_kit_item_name不为空
+	 */
+	@ApiField("is_kit_pack")
+	private String isKitPack;
 
 	/**
 	 * 物流公司代码
@@ -265,6 +271,18 @@ public class AssetProduceItem extends AlipayObject {
 	 */
 	@ApiField("related_children_out_biz_no_count")
 	private Long relatedChildrenOutBizNoCount;
+
+	/**
+	 * 组合单维度下，多个子物料需要打包到一起进行发货，套组物料id和套组名称，作为打包的标签
+	 */
+	@ApiField("related_kit_item_id")
+	private String relatedKitItemId;
+
+	/**
+	 * 组合单维度下，多个子物料需要打包到一起进行发货，套组物料id和套组名称，作为打包的标签
+	 */
+	@ApiField("related_kit_item_name")
+	private String relatedKitItemName;
 
 	/**
 	 * 关联的其它业务单据号，即相同组合订单号下除了当前业务单据号以外的剩余所有业务单据号
@@ -448,6 +466,13 @@ public class AssetProduceItem extends AlipayObject {
 		this.isCombinationOrder = isCombinationOrder;
 	}
 
+	public String getIsKitPack() {
+		return this.isKitPack;
+	}
+	public void setIsKitPack(String isKitPack) {
+		this.isKitPack = isKitPack;
+	}
+
 	public String getLogisticsCode() {
 		return this.logisticsCode;
 	}
@@ -600,6 +625,20 @@ public class AssetProduceItem extends AlipayObject {
 	}
 	public void setRelatedChildrenOutBizNoCount(Long relatedChildrenOutBizNoCount) {
 		this.relatedChildrenOutBizNoCount = relatedChildrenOutBizNoCount;
+	}
+
+	public String getRelatedKitItemId() {
+		return this.relatedKitItemId;
+	}
+	public void setRelatedKitItemId(String relatedKitItemId) {
+		this.relatedKitItemId = relatedKitItemId;
+	}
+
+	public String getRelatedKitItemName() {
+		return this.relatedKitItemName;
+	}
+	public void setRelatedKitItemName(String relatedKitItemName) {
+		this.relatedKitItemName = relatedKitItemName;
 	}
 
 	public List<String> getRelatedOthersOutBizNo() {
