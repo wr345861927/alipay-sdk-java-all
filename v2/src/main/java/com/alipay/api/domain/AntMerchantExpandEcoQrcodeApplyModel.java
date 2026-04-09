@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AntMerchantExpandEcoQrcodeApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5586361821774329487L;
+	private static final long serialVersionUID = 7344288178315348925L;
 
 	/**
 	 * 支付宝物料通码code

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class CreativeRefuseExtendInfoRes extends AlipayObject {
 
-	private static final long serialVersionUID = 2624786484952498228L;
+	private static final long serialVersionUID = 7182892946154187392L;
 
 	/**
 	 * 审核拒绝的原因文案

@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFinanceQuotationQuotetradeTrendBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1477133127155373151L;
+	private static final long serialVersionUID = 8367364679159119866L;
 
 	/** 
 	 * 个股分时信息

@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 刷卡菜品信息
  *
  * @author auto create
- * @since 1.0, 2024-03-01 17:28:14
+ * @since 1.0, 2026-04-08 13:47:16
  */
 public class DcmealDishDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 4821867134763294533L;
+	private static final long serialVersionUID = 5126925523111741541L;
+
+	/**
+	 * 菜品描述
+	 */
+	@ApiField("desc")
+	private String desc;
 
 	/**
 	 * 智盘平台菜品id
@@ -36,6 +42,37 @@ public class DcmealDishDetail extends AlipayObject {
 	 */
 	@ApiField("dish_sale_amount")
 	private String dishSaleAmount;
+
+	/**
+	 * "nutrition"
+	 */
+	@ApiField("nutrition")
+	private String nutrition;
+
+	/**
+	 * unit
+	 */
+	@ApiField("unit")
+	private String unit;
+
+	/**
+	 * 商品重量，单位为g
+	 */
+	@ApiField("weight")
+	private String weight;
+
+	/**
+	 * 菜品类型
+	 */
+	@ApiField("weight_type")
+	private String weightType;
+
+	public String getDesc() {
+		return this.desc;
+	}
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
 
 	public String getDishId() {
 		return this.dishId;
@@ -63,6 +100,34 @@ public class DcmealDishDetail extends AlipayObject {
 	}
 	public void setDishSaleAmount(String dishSaleAmount) {
 		this.dishSaleAmount = dishSaleAmount;
+	}
+
+	public String getNutrition() {
+		return this.nutrition;
+	}
+	public void setNutrition(String nutrition) {
+		this.nutrition = nutrition;
+	}
+
+	public String getUnit() {
+		return this.unit;
+	}
+	public void setUnit(String unit) {
+		this.unit = unit;
+	}
+
+	public String getWeight() {
+		return this.weight;
+	}
+	public void setWeight(String weight) {
+		this.weight = weight;
+	}
+
+	public String getWeightType() {
+		return this.weightType;
+	}
+	public void setWeightType(String weightType) {
+		this.weightType = weightType;
 	}
 
 }

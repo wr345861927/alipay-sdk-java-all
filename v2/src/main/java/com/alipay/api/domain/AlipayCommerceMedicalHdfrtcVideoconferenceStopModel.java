@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMedicalHdfrtcVideoconferenceStopModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7325325742464333363L;
+	private static final long serialVersionUID = 8497154598795982717L;
 
 	/**
 	 * 手机型号

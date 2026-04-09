@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 订单商家确认
  *
  * @author auto create
- * @since 1.0, 2025-08-19 16:48:22
+ * @since 1.0, 2026-04-03 10:58:29
  */
 public class AlipayCommerceRentOrderFulfillmentApproveModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6362785341125972766L;
+	private static final long serialVersionUID = 3373258586614718397L;
+
+	/**
+	 * 扩展信息
+	 */
+	@ApiField("extra_info")
+	private FulfillmentApproveExtraInfo extraInfo;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识
@@ -42,6 +48,13 @@ public class AlipayCommerceRentOrderFulfillmentApproveModel extends AlipayObject
 	 */
 	@ApiField("user_id")
 	private String userId;
+
+	public FulfillmentApproveExtraInfo getExtraInfo() {
+		return this.extraInfo;
+	}
+	public void setExtraInfo(FulfillmentApproveExtraInfo extraInfo) {
+		this.extraInfo = extraInfo;
+	}
 
 	public String getOpenId() {
 		return this.openId;

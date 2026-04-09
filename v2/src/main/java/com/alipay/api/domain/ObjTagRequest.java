@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ObjTagRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 1667393452799212813L;
+	private static final long serialVersionUID = 7275151265866575436L;
 
 	/**
 	 * 股票代码列表，限制条数100个以内

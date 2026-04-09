@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class XingheLendassistCarfinRepayplanchangeNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1569844462911245866L;
+	private static final long serialVersionUID = 1545893974942977658L;
 
 	/**
 	 * 星河申请单号

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceTransportTrafficshareCrowdSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7755174934762752627L;
+	private static final long serialVersionUID = 1728447336649794227L;
 
 	/**
 	 * 由商户侧定义本次业务传输的用户归属的人群类型标识

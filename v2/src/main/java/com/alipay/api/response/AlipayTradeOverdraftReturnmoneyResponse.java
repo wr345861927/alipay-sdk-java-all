@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayTradeOverdraftReturnmoneyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4737322265327638145L;
+	private static final long serialVersionUID = 3548493674425648395L;
 
 	/** 
 	 * 汇率（仅跨境追款执行成功后返回）

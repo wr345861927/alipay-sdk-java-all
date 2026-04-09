@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-03-25 16:07:33
+ * @since 1.0, 2026-04-07 10:52:45
  */
 public class ClassInfoQueryVO extends AlipayObject {
 
-	private static final long serialVersionUID = 4735744522596998398L;
+	private static final long serialVersionUID = 6883698422942351215L;
 
 	/**
 	 * 业务单号
@@ -30,6 +30,12 @@ public class ClassInfoQueryVO extends AlipayObject {
 	 */
 	@ApiField("schedule_description")
 	private String scheduleDescription;
+
+	/**
+	 * 蚂蚁门店id
+	 */
+	@ApiField("shop_id")
+	private String shopId;
 
 	/**
 	 * 开班日期
@@ -56,6 +62,13 @@ public class ClassInfoQueryVO extends AlipayObject {
 	}
 	public void setScheduleDescription(String scheduleDescription) {
 		this.scheduleDescription = scheduleDescription;
+	}
+
+	public String getShopId() {
+		return this.shopId;
+	}
+	public void setShopId(String shopId) {
+		this.shopId = shopId;
 	}
 
 	public String getStartDate() {

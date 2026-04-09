@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 手术信息
  *
  * @author auto create
- * @since 1.0, 2026-03-30 16:37:44
+ * @since 1.0, 2026-04-02 17:22:45
  */
 public class SurgeryInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7379527823361828122L;
+	private static final long serialVersionUID = 1649263292211683885L;
 
 	/**
 	 * 麻醉方式

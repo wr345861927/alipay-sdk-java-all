@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 企业码服务订购接口
  *
  * @author auto create
- * @since 1.0, 2026-03-31 19:07:43
+ * @since 1.0, 2026-04-07 16:12:45
  */
 public class AlipayCommerceEcServiceProductBuyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5754847462792644522L;
+	private static final long serialVersionUID = 3656741766429144273L;
 
 	/**
 	 * 企业ID，用于水平权限鉴权。通过alipay.commerce.ec.enterprise.change.notify获取

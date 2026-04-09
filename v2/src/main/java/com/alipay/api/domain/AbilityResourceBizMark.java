@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AbilityResourceBizMark extends AlipayObject {
 
-	private static final long serialVersionUID = 7887744535812841961L;
+	private static final long serialVersionUID = 3376574826949431775L;
 
 	/**
 	 * isv的业务code,商户可以用户这个code和商户进行数据核对

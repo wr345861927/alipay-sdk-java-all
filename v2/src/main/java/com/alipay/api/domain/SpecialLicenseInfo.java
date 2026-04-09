@@ -7,15 +7,15 @@ import com.alipay.api.internal.mapping.ApiField;
  * 特殊行业资质信息
  *
  * @author auto create
- * @since 1.0, 2025-12-25 10:27:42
+ * @since 1.0, 2026-04-07 11:07:45
  */
 public class SpecialLicenseInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3296371992438498774L;
+	private static final long serialVersionUID = 3176867316526758292L;
 
 	/**
 	 * 【描述】企业特殊资质图片，可参考 商家经营类目 中的“需要的特殊资质证书”。
-【必选条件】根据商家类目判断是否需要资质，资质信息见 商家经营类目2.0。
+【必选条件】根据商家类目判断是否需要资质，资质信息见  <a href="https://opendocs.alipay.com/common/02khjv">商家经营类目2.0</a> 。
 传入使用 alipay.open.file.upload接口上传图片获取的file_id。
 	 */
 	@ApiField("special_license_pic")

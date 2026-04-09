@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayInsSceneChannelsaleVoucherCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5585637899947919722L;
+	private static final long serialVersionUID = 4196971127593333388L;
 
 	/**
 	 * 渠道商户ID，蚂蚁保分配

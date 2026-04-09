@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 用于结算风险咨询请求入参里的Map类型参数
  *
  * @author auto create
- * @since 1.0, 2024-12-05 15:37:21
+ * @since 1.0, 2026-04-08 16:52:30
  */
 public class RiskDetectionMap extends AlipayObject {
 
-	private static final long serialVersionUID = 5134388614797125348L;
+	private static final long serialVersionUID = 4747259835921648647L;
 
 	/**
 	 * 参数的名字

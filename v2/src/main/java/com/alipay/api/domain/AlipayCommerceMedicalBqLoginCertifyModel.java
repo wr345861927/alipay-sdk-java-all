@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMedicalBqLoginCertifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8163743587412844147L;
+	private static final long serialVersionUID = 4772225535969582498L;
 
 	/**
 	 * 原始authCode使用Base64编码后的结果

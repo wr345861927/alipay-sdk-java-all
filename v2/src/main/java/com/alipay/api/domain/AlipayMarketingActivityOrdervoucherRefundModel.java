@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商家券退券
  *
  * @author auto create
- * @since 1.0, 2023-10-30 19:19:11
+ * @since 1.0, 2026-04-08 10:38:11
  */
 public class AlipayMarketingActivityOrdervoucherRefundModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2371248962332923855L;
+	private static final long serialVersionUID = 5718194527379781829L;
 
 	/**
 	 * 活动id

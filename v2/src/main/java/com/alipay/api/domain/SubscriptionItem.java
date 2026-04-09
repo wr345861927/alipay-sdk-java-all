@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-03-30 10:27:44
+ * @since 1.0, 2026-04-08 00:37:44
  */
 public class SubscriptionItem extends AlipayObject {
 
-	private static final long serialVersionUID = 3437881936815464135L;
+	private static final long serialVersionUID = 2415375957155372527L;
 
 	/**
 	 * 订阅场景下项目id

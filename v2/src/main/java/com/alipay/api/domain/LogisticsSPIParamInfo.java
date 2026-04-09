@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * null
+ * 物流消息KV
  *
  * @author auto create
- * @since 1.0, 2026-03-31 16:52:44
+ * @since 1.0, 2026-03-31 16:50:54
  */
 public class LogisticsSPIParamInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4319498227446916892L;
+	private static final long serialVersionUID = 5363681748586427791L;
 
 	/**
 	 * 参数名

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ApprovalConfigDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3458998464736777914L;
+	private static final long serialVersionUID = 4638316521884533676L;
 
 	/**
 	 * 审批单配置项

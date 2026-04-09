@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.security.risk.sanction.watchlist.check response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-15 15:12:41
+ * @since 1.0, 2026-04-08 14:10:06
  */
 public class AlipaySecurityRiskSanctionWatchlistCheckResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5587349496513759546L;
+	private static final long serialVersionUID = 5797995953711786193L;
 
 	/** 
 	 * 人行制裁扫描返回结果

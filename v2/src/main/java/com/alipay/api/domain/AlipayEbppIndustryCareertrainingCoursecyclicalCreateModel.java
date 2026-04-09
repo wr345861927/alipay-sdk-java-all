@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 创建课程班次
  *
  * @author auto create
- * @since 1.0, 2026-03-25 16:10:50
+ * @since 1.0, 2026-04-07 10:52:05
  */
 public class AlipayEbppIndustryCareertrainingCoursecyclicalCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4724816483482747825L;
+	private static final long serialVersionUID = 6152657632923359591L;
 
 	/**
 	 * 课程ID
@@ -30,6 +30,12 @@ public class AlipayEbppIndustryCareertrainingCoursecyclicalCreateModel extends A
 	 */
 	@ApiField("schedule_description")
 	private String scheduleDescription;
+
+	/**
+	 * 蚂蚁门店id
+	 */
+	@ApiField("shop_id")
+	private String shopId;
 
 	/**
 	 * 开班日期
@@ -56,6 +62,13 @@ public class AlipayEbppIndustryCareertrainingCoursecyclicalCreateModel extends A
 	}
 	public void setScheduleDescription(String scheduleDescription) {
 		this.scheduleDescription = scheduleDescription;
+	}
+
+	public String getShopId() {
+		return this.shopId;
+	}
+	public void setShopId(String shopId) {
+		this.shopId = shopId;
 	}
 
 	public String getStartDate() {

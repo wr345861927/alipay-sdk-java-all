@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 删除课程班次
  *
  * @author auto create
- * @since 1.0, 2026-03-25 16:04:50
+ * @since 1.0, 2026-04-07 10:52:16
  */
 public class AlipayEbppIndustryCareertrainingCoursecyclicalDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2279232476499834754L;
+	private static final long serialVersionUID = 4432763838262267385L;
 
 	/**
 	 * 业务单号
@@ -25,6 +25,12 @@ public class AlipayEbppIndustryCareertrainingCoursecyclicalDeleteModel extends A
 	@ApiField("course_id")
 	private String courseId;
 
+	/**
+	 * 蚂蚁门店id
+	 */
+	@ApiField("shop_id")
+	private String shopId;
+
 	public String getBizNo() {
 		return this.bizNo;
 	}
@@ -37,6 +43,13 @@ public class AlipayEbppIndustryCareertrainingCoursecyclicalDeleteModel extends A
 	}
 	public void setCourseId(String courseId) {
 		this.courseId = courseId;
+	}
+
+	public String getShopId() {
+		return this.shopId;
+	}
+	public void setShopId(String shopId) {
+		this.shopId = shopId;
 	}
 
 }

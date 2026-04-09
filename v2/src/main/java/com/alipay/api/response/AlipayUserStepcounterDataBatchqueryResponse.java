@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserStepcounterDataBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8547713597741915778L;
+	private static final long serialVersionUID = 1897488525843911138L;
 
 	/** 
 	 * 查询到的用户日计步信息

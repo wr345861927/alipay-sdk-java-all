@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.security.risk.sanction.watchlist.check request
  * 
  * @author auto create
- * @since 1.0, 2025-12-15 15:12:41
+ * @since 1.0, 2026-04-08 14:10:06
  */
 public class AlipaySecurityRiskSanctionWatchlistCheckRequest implements AlipayRequest<AlipaySecurityRiskSanctionWatchlistCheckResponse> {
 

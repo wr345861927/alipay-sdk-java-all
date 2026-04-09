@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayIserviceItaskAvatarGentaskSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6472936542339333277L;
+	private static final long serialVersionUID = 6232244557419586265L;
 
 	/** 
 	 * 数字人视频结果

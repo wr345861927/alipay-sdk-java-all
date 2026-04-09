@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CorpusSyncResult extends AlipayObject {
 
-	private static final long serialVersionUID = 5115822268398539531L;
+	private static final long serialVersionUID = 4171974432423897325L;
 
 	/**
 	 * 异常数量

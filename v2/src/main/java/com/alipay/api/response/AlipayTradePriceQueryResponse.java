@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.price.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-26 15:57:45
+ * @since 1.0, 2026-04-02 21:27:44
  */
 public class AlipayTradePriceQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8189952676752145413L;
+	private static final long serialVersionUID = 5265477894229214723L;
 
 	/** 
 	 * 该价格实例是否可用

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class FindTextRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 8779887269916968161L;
+	private static final long serialVersionUID = 2712439579851667468L;
 
 	/**
 	 * null

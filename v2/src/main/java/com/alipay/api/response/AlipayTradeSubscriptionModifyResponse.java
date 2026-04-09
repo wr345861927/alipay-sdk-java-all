@@ -8,14 +8,20 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.subscription.modify response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-30 10:27:44
+ * @since 1.0, 2026-04-08 00:37:44
  */
 public class AlipayTradeSubscriptionModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5526616933851339227L;
+	private static final long serialVersionUID = 3781136162928456839L;
 
 	/** 
-	 * alipay_schema
+	 * 长链，适用于跳转拉起支付宝端
+	 */
+	@ApiField("alipay_jump_schema")
+	private String alipayJumpSchema;
+
+	/** 
+	 * 短链，适用于生成二维码
 	 */
 	@ApiField("alipay_schema")
 	private String alipaySchema;
@@ -31,6 +37,13 @@ public class AlipayTradeSubscriptionModifyResponse extends AlipayResponse {
 	 */
 	@ApiField("subscription_id")
 	private String subscriptionId;
+
+	public void setAlipayJumpSchema(String alipayJumpSchema) {
+		this.alipayJumpSchema = alipayJumpSchema;
+	}
+	public String getAlipayJumpSchema( ) {
+		return this.alipayJumpSchema;
+	}
 
 	public void setAlipaySchema(String alipaySchema) {
 		this.alipaySchema = alipaySchema;

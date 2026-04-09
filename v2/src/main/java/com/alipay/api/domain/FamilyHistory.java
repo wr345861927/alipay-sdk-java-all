@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-03-30 16:37:44
+ * @since 1.0, 2026-04-02 17:22:45
  */
 public class FamilyHistory extends AlipayObject {
 
-	private static final long serialVersionUID = 2124692686334799488L;
+	private static final long serialVersionUID = 2262678335882574735L;
 
 	/**
 	 * 疾病名称

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LngAndLatParam extends AlipayObject {
 
-	private static final long serialVersionUID = 5847165264473774427L;
+	private static final long serialVersionUID = 7879715119437436122L;
 
 	/**
 	 * 维度坐标

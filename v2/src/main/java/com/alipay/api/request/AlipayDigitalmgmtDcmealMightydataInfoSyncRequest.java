@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.digitalmgmt.dcmeal.mightydata.info.sync request
  * 
  * @author auto create
- * @since 1.0, 2026-03-24 16:53:19
+ * @since 1.0, 2026-04-08 13:47:44
  */
 public class AlipayDigitalmgmtDcmealMightydataInfoSyncRequest implements AlipayRequest<AlipayDigitalmgmtDcmealMightydataInfoSyncResponse> {
 

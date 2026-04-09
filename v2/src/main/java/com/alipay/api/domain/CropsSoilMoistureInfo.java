@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CropsSoilMoistureInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1713678233974983618L;
+	private static final long serialVersionUID = 2412475654684424831L;
 
 	/**
 	 * 数据实际日期，YYYYMMDD

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PaymentAbilityQueryResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 2242141523176592982L;
+	private static final long serialVersionUID = 5643214271783972486L;
 
 	/**
 	 * 附加信息，json格式字符串。暂时包含信息：是否是支付宝钱包用户，是否是数字娱乐行业活跃用户。

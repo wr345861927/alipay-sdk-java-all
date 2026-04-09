@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.digitalmgmt.dcmeal.mightydata.info.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-24 16:53:19
+ * @since 1.0, 2026-04-08 13:47:44
  */
 public class AlipayDigitalmgmtDcmealMightydataInfoSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6141693653263236548L;
+	private static final long serialVersionUID = 1661983778597558397L;
 
 	
 

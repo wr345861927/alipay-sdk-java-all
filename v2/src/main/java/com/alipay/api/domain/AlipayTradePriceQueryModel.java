@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 价格查询
  *
  * @author auto create
- * @since 1.0, 2026-03-26 15:57:45
+ * @since 1.0, 2026-04-02 21:27:44
  */
 public class AlipayTradePriceQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5323971485576631863L;
+	private static final long serialVersionUID = 5578823431697628263L;
 
 	/**
 	 * 价格id

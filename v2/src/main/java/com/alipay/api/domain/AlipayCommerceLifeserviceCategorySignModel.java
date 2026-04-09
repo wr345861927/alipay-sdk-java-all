@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 安心生活商品类目开通
  *
  * @author auto create
- * @since 1.0, 2026-01-28 15:22:42
+ * @since 1.0, 2026-04-07 19:42:44
  */
 public class AlipayCommerceLifeserviceCategorySignModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5837349972381993256L;
+	private static final long serialVersionUID = 5239638831636165934L;
 
 	/**
 	 * 类目编码

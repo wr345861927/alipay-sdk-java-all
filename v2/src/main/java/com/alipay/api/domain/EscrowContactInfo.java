@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EscrowContactInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1782536818215525177L;
+	private static final long serialVersionUID = 1539168254761722172L;
 
 	/**
 	 * 联系人邮箱

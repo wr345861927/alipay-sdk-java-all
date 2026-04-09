@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.boss.fnc.gfcreditcontrol.riskdetectionservice.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-01-15 13:52:41
+ * @since 1.0, 2026-04-08 16:52:43
  */
 public class AlipayBossFncGfcreditcontrolRiskdetectionserviceQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8275182922892751344L;
+	private static final long serialVersionUID = 4742493215591578824L;
 
 	/** 
 	 * 风险检测结果

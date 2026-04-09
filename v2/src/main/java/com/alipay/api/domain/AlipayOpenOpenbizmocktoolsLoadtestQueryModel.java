@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * openbizmock压测使用接口
  *
  * @author auto create
- * @since 1.0, 2026-03-30 22:19:29
+ * @since 1.0, 2026-04-02 22:19:49
  */
 public class AlipayOpenOpenbizmocktoolsLoadtestQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5199282524815539311L;
+	private static final long serialVersionUID = 7618448361313482679L;
 
 	/**
 	 * 名称

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayMarketingImageDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5634693415212447366L;
+	private static final long serialVersionUID = 2332677546525554842L;
 
 	/**
 	 * 需要操作删除的图片索引id列表。

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayDigitalmgmtLandcoreLandcoretpspCbbpmSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1827547781547113462L;
+	private static final long serialVersionUID = 2817132721126236283L;
 
 	/**
 	 * 流程唯一标识

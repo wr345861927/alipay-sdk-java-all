@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.insurance.tpaclaimstatus.notify response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-26 17:37:42
+ * @since 1.0, 2026-04-03 14:27:45
  */
 public class AlipayCommerceMedicalInsuranceTpaclaimstatusNotifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7248743768523641166L;
+	private static final long serialVersionUID = 3843258862199878512L;
 
 	
 

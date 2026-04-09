@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOfflineProviderGroupmealOpenauthCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1336729342824226693L;
+	private static final long serialVersionUID = 7628529332494484291L;
 
 	/** 
 	 * 碰一下团餐批量解约授权开通结果对象

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 同步工牌消费信息
  *
  * @author auto create
- * @since 1.0, 2024-03-11 13:36:01
+ * @since 1.0, 2026-04-08 13:47:16
  */
 public class AlipayDigitalmgmtDcmealMightydataInfoSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4247323598332867664L;
+	private static final long serialVersionUID = 1493257145291365965L;
 
 	/**
 	 * 交易时间毫秒级时间戳

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FinSymbolDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 6233183879198434959L;
+	private static final long serialVersionUID = 3425115812534851372L;
 
 	/**
 	 * 标的编码

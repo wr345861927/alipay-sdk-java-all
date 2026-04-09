@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 支付宝年检订单回流
  *
  * @author auto create
- * @since 1.0, 2026-03-27 17:05:38
+ * @since 1.0, 2026-04-03 17:08:40
  */
 public class AlipayEcoMycarInspectionOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8298552347593664823L;
+	private static final long serialVersionUID = 3294269794223388291L;
 
 	/**
 	 * 下单时间

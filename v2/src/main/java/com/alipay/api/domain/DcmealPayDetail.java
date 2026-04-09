@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 食堂消费支付详情
  *
  * @author auto create
- * @since 1.0, 2024-03-01 17:28:05
+ * @since 1.0, 2026-04-08 13:47:16
  */
 public class DcmealPayDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 1175283141316884423L;
+	private static final long serialVersionUID = 3496284251193415722L;
 
 	/**
 	 * 支付金额，单位元，保留两位小数
