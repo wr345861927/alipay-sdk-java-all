@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 投保接口
  *
  * @author auto create
- * @since 1.0, 2026-03-11 15:34:21
+ * @since 1.0, 2026-04-10 09:52:16
  */
 public class AlipayCommerceDecorationPolicyunderwritingConsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4211936194825413552L;
+	private static final long serialVersionUID = 7835889381883844662L;
 
 	/**
 	 * 投保申请时间,格式：yyyy-MM-dd HH24:mm:ss,一般是系统当前时间,不传默认系统当前时间
@@ -70,7 +70,7 @@ public class AlipayCommerceDecorationPolicyunderwritingConsultModel extends Alip
 	private Date policyStartDate;
 
 	/**
-	 * 家财: JiaCai 团意1:TuanYi1 团意2:TuanYi2
+	 * 家财:JiaCai 团意1:TuanYi1 团意2:TuanYi2
 	 */
 	@ApiField("product_code")
 	private String productCode;

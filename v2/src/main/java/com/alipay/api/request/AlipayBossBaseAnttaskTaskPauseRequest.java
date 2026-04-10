@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.boss.base.anttask.task.pause request
  * 
  * @author auto create
- * @since 1.0, 2023-09-18 22:11:43
+ * @since 1.0, 2026-04-09 16:49:04
  */
 public class AlipayBossBaseAnttaskTaskPauseRequest implements AlipayRequest<AlipayBossBaseAnttaskTaskPauseResponse> {
 

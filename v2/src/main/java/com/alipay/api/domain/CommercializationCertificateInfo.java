@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CommercializationCertificateInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2251357313861327711L;
+	private static final long serialVersionUID = 2665683884748597447L;
 
 	/**
 	 * 商家侧凭证的唯一标识

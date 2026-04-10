@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FQExtendParams extends AlipayObject {
 
-	private static final long serialVersionUID = 6646311712754572756L;
+	private static final long serialVersionUID = 1817837929451816223L;
 
 	/**
 	 * 分期期数

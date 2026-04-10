@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.npassporter.face.verify response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-24 10:47:44
+ * @since 1.0, 2026-04-09 20:37:45
  */
 public class AlipayOfflineProviderNpassporterFaceVerifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8112428955989669228L;
+	private static final long serialVersionUID = 1672223652981362316L;
 
 	/** 
 	 * 证件类型

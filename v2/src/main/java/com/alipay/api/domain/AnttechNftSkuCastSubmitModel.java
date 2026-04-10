@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 藏品铸造提交
  *
  * @author auto create
- * @since 1.0, 2026-03-11 15:46:28
+ * @since 1.0, 2026-04-09 16:21:15
  */
 public class AnttechNftSkuCastSubmitModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6391822189784596253L;
+	private static final long serialVersionUID = 5896761434283332275L;
 
 	/**
 	 * 申请单号必须保证唯一

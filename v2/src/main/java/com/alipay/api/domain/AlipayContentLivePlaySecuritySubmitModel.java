@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayContentLivePlaySecuritySubmitModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5682168856846162266L;
+	private static final long serialVersionUID = 3363373713585693478L;
 
 	/**
 	 * 支付宝直播id

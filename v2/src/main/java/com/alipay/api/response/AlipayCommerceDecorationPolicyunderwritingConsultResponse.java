@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.decoration.policyunderwriting.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-11 15:42:44
+ * @since 1.0, 2026-04-10 10:12:45
  */
 public class AlipayCommerceDecorationPolicyunderwritingConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7485113987958761635L;
+	private static final long serialVersionUID = 4596124671663678483L;
 
 	/** 
 	 * 消息
@@ -52,9 +52,9 @@ public class AlipayCommerceDecorationPolicyunderwritingConsultResponse extends A
 
 	/** 
 	 * 枚举值：
-核保受理 :PENDING
+核保受理:PENDING
 核保成功:UNDERWRITING_SUCCESS
-核保失败 :UNDERWRITING_FAILURE
+核保失败:UNDERWRITING_FAILURE
 承保成功:POLICY_ISSUED_SUCCESS
 承保失败:POLICY_ISSUED_FAILURE
 已退保:POLICY_CANCELLED
@@ -72,7 +72,7 @@ public class AlipayCommerceDecorationPolicyunderwritingConsultResponse extends A
 
 	/** 
 	 * 保险计划code
-家财: JiaCai
+家财:JiaCai
 团意1:TuanYi1
 团意2:TuanYi2
 	 */

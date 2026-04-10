@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HdfCompletionChunk extends AlipayObject {
 
-	private static final long serialVersionUID = 4258623627945562936L;
+	private static final long serialVersionUID = 2269378553115571781L;
 
 	/**
 	 * 载荷的具体内容结构，JSON。

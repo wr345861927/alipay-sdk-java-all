@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CreditRiskInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8269329284912211796L;
+	private static final long serialVersionUID = 3181591184785875128L;
 
 	/**
 	 * 查询失败的情况下，是否可以通过重试解决。true 表示可以适当重试一定次数；false 表示有明确的失败原因，无需重试，

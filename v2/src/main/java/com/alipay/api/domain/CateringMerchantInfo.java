@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CateringMerchantInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4139973457458221313L;
+	private static final long serialVersionUID = 1699791794412374369L;
 
 	/**
 	 * 品牌名称

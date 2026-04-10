@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 计划列表查询
  *
  * @author auto create
- * @since 1.0, 2025-12-03 10:35:15
+ * @since 1.0, 2026-04-10 14:08:29
  */
 public class AlipayDataDataserviceAdcampaignPlanBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4594191927262322778L;
+	private static final long serialVersionUID = 2257659891277589711L;
 
 	/**
 	 * 计费方式
@@ -71,6 +71,12 @@ public class AlipayDataDataserviceAdcampaignPlanBatchqueryModel extends AlipayOb
 	 */
 	@ApiField("search_keywords")
 	private String searchKeywords;
+
+	/**
+	 * 计划子状态。2-表示计划不在投放时间段。仅在计划状态为有效的情况下透出
+	 */
+	@ApiField("sub_status")
+	private String subStatus;
 
 	public List<String> getChargeTypeList() {
 		return this.chargeTypeList;
@@ -133,6 +139,13 @@ public class AlipayDataDataserviceAdcampaignPlanBatchqueryModel extends AlipayOb
 	}
 	public void setSearchKeywords(String searchKeywords) {
 		this.searchKeywords = searchKeywords;
+	}
+
+	public String getSubStatus() {
+		return this.subStatus;
+	}
+	public void setSubStatus(String subStatus) {
+		this.subStatus = subStatus;
 	}
 
 }

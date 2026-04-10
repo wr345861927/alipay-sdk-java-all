@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceLogisticsWalletAutodepositstatusGetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8296742796718585687L;
+	private static final long serialVersionUID = 1594521475648136596L;
 
 	/**
 	 * 支付宝钱包产品码

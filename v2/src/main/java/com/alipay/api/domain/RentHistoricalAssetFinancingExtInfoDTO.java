@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RentHistoricalAssetFinancingExtInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7366321668794486276L;
+	private static final long serialVersionUID = 4161199278386473672L;
 
 	/**
 	 * 已还期数

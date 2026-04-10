@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HealthInspectionReport extends AlipayObject {
 
-	private static final long serialVersionUID = 1635933923558477456L;
+	private static final long serialVersionUID = 6845912726286344654L;
 
 	/**
 	 * 年龄

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 添加备注
  *
  * @author auto create
- * @since 1.0, 2022-03-18 10:20:59
+ * @since 1.0, 2026-04-09 16:49:54
  */
 public class AlipayBossBaseProcessInstanceAddmemoModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4125321952395724895L;
+	private static final long serialVersionUID = 4788314931573727568L;
 
 	/**
 	 * 备注

@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * TPA渠道直付状态同步
  *
  * @author auto create
- * @since 1.0, 2026-02-27 10:12:44
+ * @since 1.0, 2026-04-10 10:50:35
  */
 public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4625262725177529729L;
+	private static final long serialVersionUID = 7836343374982637341L;
 
 	/**
 	 * 直付码值

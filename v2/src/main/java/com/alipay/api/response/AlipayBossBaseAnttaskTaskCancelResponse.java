@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.boss.base.anttask.task.cancel response.
  * 
  * @author auto create
- * @since 1.0, 2023-09-18 22:11:44
+ * @since 1.0, 2026-04-09 16:48:34
  */
 public class AlipayBossBaseAnttaskTaskCancelResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2327676692816169889L;
+	private static final long serialVersionUID = 1214254254428225383L;
 
 	/** 
 	 * 失败才会返回信息

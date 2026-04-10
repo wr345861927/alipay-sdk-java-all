@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OrgServiceMetric extends AlipayObject {
 
-	private static final long serialVersionUID = 2195774772379417186L;
+	private static final long serialVersionUID = 1876174244311388679L;
 
 	/**
 	 * 医疗机构ID

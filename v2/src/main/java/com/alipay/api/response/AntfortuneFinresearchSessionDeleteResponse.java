@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AntfortuneFinresearchSessionDeleteResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4277153244272941625L;
+	private static final long serialVersionUID = 8858774225723195828L;
 
 	/** 
 	 * 是否删除成功

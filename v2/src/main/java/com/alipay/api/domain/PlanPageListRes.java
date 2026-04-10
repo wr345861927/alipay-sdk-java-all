@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 计划分页返回对象
  *
  * @author auto create
- * @since 1.0, 2025-12-03 10:35:15
+ * @since 1.0, 2026-04-10 14:08:29
  */
 public class PlanPageListRes extends AlipayObject {
 
-	private static final long serialVersionUID = 1818127783149713166L;
+	private static final long serialVersionUID = 7574731621241555698L;
 
 	/**
 	 * 计划日预算。单位：元
@@ -104,6 +104,12 @@ public class PlanPageListRes extends AlipayObject {
 	 */
 	@ApiField("start_date")
 	private String startDate;
+
+	/**
+	 * 计划子状态。2-表示计划不在投放时间段。仅在计划状态为有效的情况下透出
+	 */
+	@ApiField("sub_status")
+	private String subStatus;
 
 	/**
 	 * 投放时段 全时段投放-位null 不返回该字段
@@ -214,6 +220,13 @@ public class PlanPageListRes extends AlipayObject {
 	}
 	public void setStartDate(String startDate) {
 		this.startDate = startDate;
+	}
+
+	public String getSubStatus() {
+		return this.subStatus;
+	}
+	public void setSubStatus(String subStatus) {
+		this.subStatus = subStatus;
 	}
 
 	public String getTimeSchema() {

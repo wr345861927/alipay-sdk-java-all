@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceTransportVehownerbaseBenefitinterestQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2638144724466715123L;
+	private static final long serialVersionUID = 1732424516236677129L;
 
 	/**
 	 * 权益编码，用于获取对应的权益信息，从会员信息获取。

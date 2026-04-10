@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.decoration.policy.cancel.apply request
  * 
  * @author auto create
- * @since 1.0, 2026-03-12 13:57:43
+ * @since 1.0, 2026-04-10 10:07:45
  */
 public class AlipayCommerceDecorationPolicyCancelApplyRequest implements AlipayRequest<AlipayCommerceDecorationPolicyCancelApplyResponse> {
 

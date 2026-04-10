@@ -10,11 +10,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.data.dataservice.adcampaign.plan.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-20 14:32:44
+ * @since 1.0, 2026-04-10 14:12:45
  */
 public class AlipayDataDataserviceAdcampaignPlanQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4542776662632228357L;
+	private static final long serialVersionUID = 8576859671225973187L;
 
 	/** 
 	 * 计划日预算。单位：元【人民币】不限日预算时此值为空
@@ -149,6 +149,12 @@ public class AlipayDataDataserviceAdcampaignPlanQueryResponse extends AlipayResp
 	 */
 	@ApiField("start_date")
 	private String startDate;
+
+	/** 
+	 * 计划子状态。2-表示计划不在投放时间段。仅在计划状态为有效的情况下透出
+	 */
+	@ApiField("sub_status")
+	private String subStatus;
 
 	/** 
 	 * 投放时段
@@ -322,6 +328,13 @@ public class AlipayDataDataserviceAdcampaignPlanQueryResponse extends AlipayResp
 	}
 	public String getStartDate( ) {
 		return this.startDate;
+	}
+
+	public void setSubStatus(String subStatus) {
+		this.subStatus = subStatus;
+	}
+	public String getSubStatus( ) {
+		return this.subStatus;
 	}
 
 	public void setTimeSchema(String timeSchema) {

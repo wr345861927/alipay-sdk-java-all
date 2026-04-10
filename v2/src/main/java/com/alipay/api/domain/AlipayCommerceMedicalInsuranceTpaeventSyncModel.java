@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * TPA渠道业务事件同步
  *
  * @author auto create
- * @since 1.0, 2026-02-12 21:07:44
+ * @since 1.0, 2026-04-10 10:25:20
  */
 public class AlipayCommerceMedicalInsuranceTpaeventSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3738234139897873789L;
+	private static final long serialVersionUID = 1586299851731518632L;
 
 	/**
 	 * 码值

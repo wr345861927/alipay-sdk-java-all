@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 取消任务
  *
  * @author auto create
- * @since 1.0, 2023-09-18 22:09:37
+ * @since 1.0, 2026-04-09 16:48:34
  */
 public class AlipayBossBaseAnttaskTaskCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2884623436816729541L;
+	private static final long serialVersionUID = 2399747961133973572L;
 
 	/**
 	 * 接入时的systemType

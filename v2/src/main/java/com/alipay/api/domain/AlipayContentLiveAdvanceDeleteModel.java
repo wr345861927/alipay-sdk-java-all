@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayContentLiveAdvanceDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8163778933926784812L;
+	private static final long serialVersionUID = 5865486285398185275L;
 
 	/**
 	 * 用户生活号标识id

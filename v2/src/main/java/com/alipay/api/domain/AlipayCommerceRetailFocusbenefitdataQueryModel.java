@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceRetailFocusbenefitdataQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5678121985323559978L;
+	private static final long serialVersionUID = 3125341792724289532L;
 
 	/**
 	 * 区域

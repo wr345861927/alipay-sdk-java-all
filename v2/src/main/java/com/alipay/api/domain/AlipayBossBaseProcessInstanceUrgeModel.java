@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 催单
  *
  * @author auto create
- * @since 1.0, 2022-03-17 09:36:53
+ * @since 1.0, 2026-04-09 16:50:07
  */
 public class AlipayBossBaseProcessInstanceUrgeModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2353339636294865125L;
+	private static final long serialVersionUID = 6562934865286558421L;
 
 	/**
 	 * 模板

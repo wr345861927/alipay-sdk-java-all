@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.decoration.policy.cancel.apply response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-12 13:57:43
+ * @since 1.0, 2026-04-10 10:07:45
  */
 public class AlipayCommerceDecorationPolicyCancelApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5835525452643955656L;
+	private static final long serialVersionUID = 6466717121694829151L;
 
 	/** 
 	 * 保司保单号

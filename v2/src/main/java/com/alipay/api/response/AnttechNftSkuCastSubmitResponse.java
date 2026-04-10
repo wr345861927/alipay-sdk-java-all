@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: anttech.nft.sku.cast.submit response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-11 15:46:28
+ * @since 1.0, 2026-04-09 16:21:15
  */
 public class AnttechNftSkuCastSubmitResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7761747626239855986L;
+	private static final long serialVersionUID = 2765359951373498349L;
 
 	/** 
 	 * 申请单号

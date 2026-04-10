@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.rent.order.pay.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-24 14:07:42
+ * @since 1.0, 2026-04-10 11:52:45
  */
 public class AlipayCommerceRentOrderPayQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8534317822845219323L;
+	private static final long serialVersionUID = 1545883653317144332L;
 
 	/** 
 	 * 交易附加状态： SELLER_NOT_RECEIVED（买家已付款，卖家未收款）

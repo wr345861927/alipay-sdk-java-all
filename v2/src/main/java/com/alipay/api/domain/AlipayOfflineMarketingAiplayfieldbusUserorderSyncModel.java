@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOfflineMarketingAiplayfieldbusUserorderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8156658265888986722L;
+	private static final long serialVersionUID = 7526288987423588469L;
 
 	/**
 	 * 订单额，单位分

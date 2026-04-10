@@ -37,7 +37,7 @@ OTHERS(其他):001(其他)
  */
 public class SmartAutomatScene extends AlipayObject {
 
-	private static final long serialVersionUID = 2827836242912392961L;
+	private static final long serialVersionUID = 3498951811496975198L;
 
 	/**
 	 * 自助售货机一级场景，可取值如下：

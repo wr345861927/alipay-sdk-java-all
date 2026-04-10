@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserGameopenpromoChallengeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5716169882561273838L;
+	private static final long serialVersionUID = 7323359323315359328L;
 
 	/** 
 	 * 副本奖励列表, 用户所有能获得的奖励都在列表中

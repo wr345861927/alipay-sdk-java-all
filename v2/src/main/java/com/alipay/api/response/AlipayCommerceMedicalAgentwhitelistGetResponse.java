@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMedicalAgentwhitelistGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6163464177732749336L;
+	private static final long serialVersionUID = 2122345657758497762L;
 
 	/** 
 	 * null

@@ -13,7 +13,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppIndustryBotSessionConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1647594575457555271L;
+	private static final long serialVersionUID = 4363181685668123214L;
 
 	/** 
 	 * 机器人对话问答的回复

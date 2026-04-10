@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceSignShakecodeCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7481993622754987237L;
+	private static final long serialVersionUID = 6787417918612762579L;
 
 	/** 
 	 * 创建的吱口令，可复制拉起签约页面

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ReplyRecord extends AlipayObject {
 
-	private static final long serialVersionUID = 2165188893715114335L;
+	private static final long serialVersionUID = 4728749269279129866L;
 
 	/**
 	 * 回复内容

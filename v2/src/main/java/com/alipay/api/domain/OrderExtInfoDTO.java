@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OrderExtInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8733145371419282266L;
+	private static final long serialVersionUID = 4699826866661121155L;
 
 	/**
 	 * 预约时间，字段名称:预约上门取件时间

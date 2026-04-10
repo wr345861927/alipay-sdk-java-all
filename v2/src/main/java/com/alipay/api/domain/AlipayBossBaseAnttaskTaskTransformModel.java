@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 转交任务
  *
  * @author auto create
- * @since 1.0, 2023-09-18 22:07:34
+ * @since 1.0, 2026-04-09 16:47:40
  */
 public class AlipayBossBaseAnttaskTaskTransformModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6618854363416814134L;
+	private static final long serialVersionUID = 2238859978923962421L;
 
 	/**
 	 * 接入时的systemType

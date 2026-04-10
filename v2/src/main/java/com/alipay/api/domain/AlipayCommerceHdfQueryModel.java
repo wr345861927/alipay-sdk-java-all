@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceHdfQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5693185579281878781L;
+	private static final long serialVersionUID = 5333776748169638395L;
 
 	/**
 	 * 好大夫的authCode

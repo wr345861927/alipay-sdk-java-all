@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 重启任务
  *
  * @author auto create
- * @since 1.0, 2023-09-18 22:09:06
+ * @since 1.0, 2026-04-09 16:49:17
  */
 public class AlipayBossBaseAnttaskTaskRestartModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5669735773666671471L;
+	private static final long serialVersionUID = 5291234874685649849L;
 
 	/**
 	 * 接入时的systemType

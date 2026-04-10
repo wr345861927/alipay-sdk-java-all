@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenAppOpenidUidtoopenidBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5137483954521542839L;
+	private static final long serialVersionUID = 5782764875178293212L;
 
 	/**
 	 * 蚂蚁统一会员ID

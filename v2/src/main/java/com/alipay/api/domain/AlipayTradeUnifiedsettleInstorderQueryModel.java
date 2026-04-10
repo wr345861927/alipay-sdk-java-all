@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayTradeUnifiedsettleInstorderQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5315682324336681488L;
+	private static final long serialVersionUID = 5125152257519766237L;
 
 	/**
 	 * 金额筛选上限，币种为人民币

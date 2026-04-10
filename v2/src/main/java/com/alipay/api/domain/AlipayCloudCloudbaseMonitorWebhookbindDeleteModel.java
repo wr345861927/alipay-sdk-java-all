@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCloudCloudbaseMonitorWebhookbindDeleteModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6698335866558352828L;
+	private static final long serialVersionUID = 8437864724197548387L;
 
 	/**
 	 * 绑定id
