@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class GolGoodsExtParam extends AlipayObject {
 
-	private static final long serialVersionUID = 5371245838693577665L;
+	private static final long serialVersionUID = 6344915531483148723L;
 
 	/**
 	 * 品牌名称

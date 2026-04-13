@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class JobworthAdapter extends AlipayObject {
 
-	private static final long serialVersionUID = 3361974568312983124L;
+	private static final long serialVersionUID = 5768167695511935655L;
 
 	/**
 	 * 两个数字 使用英文逗号隔开，-1代表没要求。eg:18,35表示18岁到35岁，-1,40表示40岁以下

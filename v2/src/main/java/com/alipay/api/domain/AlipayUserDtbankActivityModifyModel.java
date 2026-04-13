@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 活动修改
  *
  * @author auto create
- * @since 1.0, 2026-01-08 11:34:07
+ * @since 1.0, 2026-04-10 16:37:23
  */
 public class AlipayUserDtbankActivityModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1187576493328983744L;
+	private static final long serialVersionUID = 2888634584728919495L;
 
 	/**
 	 * 数字分行活动唯一id，支持天天减和智银管家

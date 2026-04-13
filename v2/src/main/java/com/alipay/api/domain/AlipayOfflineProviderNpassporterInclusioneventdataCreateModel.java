@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOfflineProviderNpassporterInclusioneventdataCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4432311182453512857L;
+	private static final long serialVersionUID = 8661862192543261279L;
 
 	/**
 	 * 注册和开闸场景传项目ID，如：HD20250730000001XKK999，其他论坛签到场景传论坛各自论坛活动ID即可

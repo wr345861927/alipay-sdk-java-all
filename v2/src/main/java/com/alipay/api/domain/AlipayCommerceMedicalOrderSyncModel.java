@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 阿福三方订单回流
  *
  * @author auto create
- * @since 1.0, 2026-04-10 14:14:28
+ * @since 1.0, 2026-04-10 14:17:45
  */
 public class AlipayCommerceMedicalOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1273168362987471438L;
+	private static final long serialVersionUID = 8437379289681161575L;
 
 	/**
 	 * 关联支付宝交易号

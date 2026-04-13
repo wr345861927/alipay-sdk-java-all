@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: zhima.credit.ep.cbecomdetail.person.query request
  * 
  * @author auto create
- * @since 1.0, 2026-04-01 16:02:44
+ * @since 1.0, 2026-04-13 12:07:44
  */
 public class ZhimaCreditEpCbecomdetailPersonQueryRequest implements AlipayRequest<ZhimaCreditEpCbecomdetailPersonQueryResponse> {
 

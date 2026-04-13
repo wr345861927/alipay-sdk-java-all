@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceEdasEcodataSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8657972393617439757L;
+	private static final long serialVersionUID = 2883358289281952965L;
 
 	/**
 	 * 数据场景代码

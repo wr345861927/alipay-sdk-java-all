@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEcoCityserviceMessageQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1729122627978683182L;
+	private static final long serialVersionUID = 2676388464866579271L;
 
 	/**
 	 * 传入值为支付宝uid； 机构配置传入类型为支付宝uid时，必填； alipay_user_id优先级高于(certificate_number/certificate_username) 和 mobile，若不为空则以alipay_user_id为准作为用户身份

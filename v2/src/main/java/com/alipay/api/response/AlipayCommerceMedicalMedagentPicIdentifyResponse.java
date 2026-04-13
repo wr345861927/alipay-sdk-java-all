@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.medagent.pic.identify response.
  * 
  * @author auto create
- * @since 1.0, 2025-04-15 19:42:29
+ * @since 1.0, 2026-04-10 16:13:52
  */
 public class AlipayCommerceMedicalMedagentPicIdentifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6113525328387552658L;
+	private static final long serialVersionUID = 8478566451559454594L;
 
 	/** 
 	 * 图片内容坐标信息

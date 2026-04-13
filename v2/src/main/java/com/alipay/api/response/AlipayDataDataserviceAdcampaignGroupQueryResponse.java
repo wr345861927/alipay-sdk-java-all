@@ -13,11 +13,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.data.dataservice.adcampaign.group.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-12-03 10:37:42
+ * @since 1.0, 2026-04-13 15:59:27
  */
 public class AlipayDataDataserviceAdcampaignGroupQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4625181743637378852L;
+	private static final long serialVersionUID = 4313961388342289985L;
 
 	/** 
 	 * 年龄

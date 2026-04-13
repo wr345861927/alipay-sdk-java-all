@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 信息回传接口
  *
  * @author auto create
- * @since 1.0, 2026-01-08 11:03:08
+ * @since 1.0, 2026-04-10 19:29:14
  */
 public class XingheLendassistCarfinInstinfoNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1778557266887512785L;
+	private static final long serialVersionUID = 3222453427983951853L;
 
 	/**
 	 * 星河侧唯一业务编号
@@ -77,6 +77,12 @@ public class XingheLendassistCarfinInstinfoNotifyModel extends AlipayObject {
 	 */
 	@ApiField("valuation_info")
 	private ValuationInfo valuationInfo;
+
+	/**
+	 * 人车核验信息
+	 */
+	@ApiField("vehicle_verification_info")
+	private CarfinVehicleVerificationInfo vehicleVerificationInfo;
 
 	public String getApplyNo() {
 		return this.applyNo;
@@ -146,6 +152,13 @@ public class XingheLendassistCarfinInstinfoNotifyModel extends AlipayObject {
 	}
 	public void setValuationInfo(ValuationInfo valuationInfo) {
 		this.valuationInfo = valuationInfo;
+	}
+
+	public CarfinVehicleVerificationInfo getVehicleVerificationInfo() {
+		return this.vehicleVerificationInfo;
+	}
+	public void setVehicleVerificationInfo(CarfinVehicleVerificationInfo vehicleVerificationInfo) {
+		this.vehicleVerificationInfo = vehicleVerificationInfo;
 	}
 
 }

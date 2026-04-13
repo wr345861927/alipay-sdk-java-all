@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceTransportHotelMinpriceQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7258511272686292491L;
+	private static final long serialVersionUID = 5459373873341298569L;
 
 	/** 
 	 * 支付宝聚合酒店id

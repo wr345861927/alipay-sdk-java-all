@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceLogisticsLinkGetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3158985897422724347L;
+	private static final long serialVersionUID = 6253176233781944294L;
 
 	/**
 	 * 小件员和驿站结算的支付宝账号

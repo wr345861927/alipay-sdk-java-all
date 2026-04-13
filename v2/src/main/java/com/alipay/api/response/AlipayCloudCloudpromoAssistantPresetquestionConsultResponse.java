@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCloudCloudpromoAssistantPresetquestionConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8615467945826242491L;
+	private static final long serialVersionUID = 6362359812864181964L;
 
 	/** 
 	 * 回答内容

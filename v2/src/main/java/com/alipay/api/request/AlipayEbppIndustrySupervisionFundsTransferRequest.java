@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ebpp.industry.supervision.funds.transfer request
  * 
  * @author auto create
- * @since 1.0, 2025-08-18 16:37:36
+ * @since 1.0, 2026-04-13 13:57:09
  */
 public class AlipayEbppIndustrySupervisionFundsTransferRequest implements AlipayRequest<AlipayEbppIndustrySupervisionFundsTransferResponse> {
 

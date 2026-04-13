@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEbppIndustryEarthquakeSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3166485717436853131L;
+	private static final long serialVersionUID = 6489385676267472737L;
 
 	/**
 	 * 六位adcode

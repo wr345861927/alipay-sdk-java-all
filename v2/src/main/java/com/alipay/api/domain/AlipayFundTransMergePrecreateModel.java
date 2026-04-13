@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayFundTransMergePrecreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5141499228517458983L;
+	private static final long serialVersionUID = 8372471645438665821L;
 
 	/**
 	 * 业务场景。

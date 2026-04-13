@@ -1,17 +1,27 @@
 package com.alipay.api.domain;
 
+import java.util.List;
+
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
 
 /**
  * 履约物流确认收货
  *
  * @author auto create
- * @since 1.0, 2025-08-19 16:47:51
+ * @since 1.0, 2026-04-13 15:25:31
  */
 public class AlipayCommerceRentOrderFulfillmentReceiveModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3142269975832215213L;
+	private static final long serialVersionUID = 2653666892118285258L;
+
+	/**
+	 * 补充凭证
+	 */
+	@ApiListField("additional_media_list")
+	@ApiField("fulfillment_additional_media_info")
+	private List<FulfillmentAdditionalMediaInfo> additionalMediaList;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识
@@ -42,6 +52,13 @@ public class AlipayCommerceRentOrderFulfillmentReceiveModel extends AlipayObject
 	 */
 	@ApiField("user_id")
 	private String userId;
+
+	public List<FulfillmentAdditionalMediaInfo> getAdditionalMediaList() {
+		return this.additionalMediaList;
+	}
+	public void setAdditionalMediaList(List<FulfillmentAdditionalMediaInfo> additionalMediaList) {
+		this.additionalMediaList = additionalMediaList;
+	}
 
 	public String getOpenId() {
 		return this.openId;

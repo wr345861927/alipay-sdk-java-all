@@ -13,7 +13,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.marketing.verification.trade.audit request
  * 
  * @author auto create
- * @since 1.0, 2025-04-11 12:02:27
+ * @since 1.0, 2026-04-10 19:15:26
  */
 public class AlipayMarketingVerificationTradeAuditRequest implements AlipayUploadRequest<AlipayMarketingVerificationTradeAuditResponse> {
 

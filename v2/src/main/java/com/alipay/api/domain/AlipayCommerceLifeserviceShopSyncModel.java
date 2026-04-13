@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceLifeserviceShopSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3154178832851124526L;
+	private static final long serialVersionUID = 1188311157131917733L;
 
 	/**
 	 * 预约时间间隔【stockFetchType=sync时必填】 单位分钟，只能是15的倍数，最小15（15分钟），最大 15 * 24（6小时）

@@ -8,11 +8,11 @@ import com.alipay.api.internal.mapping.ApiField;
 短租：Sn_Level类型结果, risk_level字段取值范围S1-S5 （S1-S3：低风险，S4：中风险，S5：高风险）
  *
  * @author auto create
- * @since 1.0, 2026-04-10 14:15:18
+ * @since 1.0, 2026-04-10 14:17:45
  */
 public class RentRiskProVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7586812553242121286L;
+	private static final long serialVersionUID = 8114161452628496617L;
 
 	/**
 	 * 描述信息

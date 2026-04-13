@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RainyComplexTypeRefWeakFirst extends AlipayObject {
 
-	private static final long serialVersionUID = 8772244499153378531L;
+	private static final long serialVersionUID = 8198792537796423851L;
 
 	/**
 	 * boolean

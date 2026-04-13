@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCloudCloudbaseSaasMaxQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5876741958249795689L;
+	private static final long serialVersionUID = 3487887688689364123L;
 
 	/** 
 	 * 返回OCR结果数据，即返回图片中识别出来的文字内容，具体内容由上传图片决定

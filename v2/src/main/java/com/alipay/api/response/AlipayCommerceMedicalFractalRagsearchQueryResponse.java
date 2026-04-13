@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceMedicalFractalRagsearchQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3825695229186981485L;
+	private static final long serialVersionUID = 7114431884253821674L;
 
 	/** 
 	 * 请求信息，包含query, results, responseTime

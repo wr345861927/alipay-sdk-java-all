@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CourseTagVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7172163798291165892L;
+	private static final long serialVersionUID = 3121545397835998884L;
 
 	/**
 	 * 描述

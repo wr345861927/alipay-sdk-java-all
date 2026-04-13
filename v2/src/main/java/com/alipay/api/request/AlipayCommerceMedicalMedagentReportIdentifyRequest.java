@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.medagent.report.identify request
  * 
  * @author auto create
- * @since 1.0, 2025-04-01 15:52:26
+ * @since 1.0, 2026-04-10 16:35:09
  */
 public class AlipayCommerceMedicalMedagentReportIdentifyRequest implements AlipayRequest<AlipayCommerceMedicalMedagentReportIdentifyResponse> {
 

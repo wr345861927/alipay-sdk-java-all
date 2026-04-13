@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCircularZftIndirectCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3287195719398855229L;
+	private static final long serialVersionUID = 2478572171841212576L;
 
 	/** 
 	 * 签约状态

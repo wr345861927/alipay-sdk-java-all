@@ -1,0 +1,55 @@
+package com.alipay.api.domain;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+
+/**
+ * null
+ *
+ * @author auto create
+ * @since 1.0, 2026-04-10 17:42:45
+ */
+public class SpecialtyDiseasePackage extends AlipayObject {
+
+	private static final long serialVersionUID = 2734361313128448422L;
+
+	/**
+	 * 服务包描述
+	 */
+	@ApiField("service_package_desc")
+	private String servicePackageDesc;
+
+	/**
+	 * 服务包Id
+	 */
+	@ApiField("service_package_id")
+	private String servicePackageId;
+
+	/**
+	 * 服务包名称，长度1-200
+	 */
+	@ApiField("service_package_name")
+	private String servicePackageName;
+
+	public String getServicePackageDesc() {
+		return this.servicePackageDesc;
+	}
+	public void setServicePackageDesc(String servicePackageDesc) {
+		this.servicePackageDesc = servicePackageDesc;
+	}
+
+	public String getServicePackageId() {
+		return this.servicePackageId;
+	}
+	public void setServicePackageId(String servicePackageId) {
+		this.servicePackageId = servicePackageId;
+	}
+
+	public String getServicePackageName() {
+		return this.servicePackageName;
+	}
+	public void setServicePackageName(String servicePackageName) {
+		this.servicePackageName = servicePackageName;
+	}
+
+}

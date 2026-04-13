@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOverseasRemitReverseNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1863388353182613845L;
+	private static final long serialVersionUID = 8334114794274884232L;
 
 	/**
 	 * 拓展信息
