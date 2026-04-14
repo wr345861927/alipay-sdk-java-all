@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ShellCompanyGsChangeDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 7272975899293434314L;
+	private static final long serialVersionUID = 8394465128938923668L;
 
 	/**
 	 * 变更后内容

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TapPayInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4797492753267528242L;
+	private static final long serialVersionUID = 4592121778334652673L;
 
 	/**
 	 * 碰一下支付的支付介质类型，标识当前支付为碰一下支付

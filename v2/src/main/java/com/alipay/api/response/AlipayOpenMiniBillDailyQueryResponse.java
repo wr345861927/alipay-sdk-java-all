@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.mini.bill.daily.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-08 15:21:51
+ * @since 1.0, 2026-04-13 16:46:18
  */
 public class AlipayOpenMiniBillDailyQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5491438893232491526L;
+	private static final long serialVersionUID = 3784426891167167241L;
 
 	/** 
 	 * 查询返回的账单

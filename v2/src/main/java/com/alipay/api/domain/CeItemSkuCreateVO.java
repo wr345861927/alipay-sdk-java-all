@@ -1,0 +1,150 @@
+package com.alipay.api.domain;
+
+import java.util.List;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
+
+/**
+ * null
+ *
+ * @author auto create
+ * @since 1.0, 2026-04-14 15:59:35
+ */
+public class CeItemSkuCreateVO extends AlipayObject {
+
+	private static final long serialVersionUID = 4314378771541185493L;
+
+	/**
+	 * sku条形码信息
+	 */
+	@ApiField("barcode")
+	private String barcode;
+
+	/**
+	 * sku原价，分为单位。
+	 */
+	@ApiField("original_price")
+	private Long originalPrice;
+
+	/**
+	 * 商家侧sku ID，要求 APPID 下全局唯一。
+	 */
+	@ApiField("out_sku_id")
+	private String outSkuId;
+
+	/**
+	 * 商品价格单元
+	 */
+	@ApiField("price_unit")
+	private String priceUnit;
+
+	/**
+	 * sku售价，分为单位
+	 */
+	@ApiField("sale_price")
+	private String salePrice;
+
+	/**
+	 * sku售卖状态，包含以下两种状态： 已下架(DELISTING) 可售卖(AVAILABLE)
+	 */
+	@ApiField("sale_status")
+	private String saleStatus;
+
+	/**
+	 * null
+	 */
+	@ApiListField("sku_attrs")
+	@ApiField("ce_item_sku_attr_v_o")
+	private List<CeItemSkuAttrVO> skuAttrs;
+
+	/**
+	 * sku类型
+	 */
+	@ApiField("sku_type")
+	private String skuType;
+
+	/**
+	 * sku库存，目前支持库存区间为0-99999
+	 */
+	@ApiField("stock_num")
+	private String stockNum;
+
+	/**
+	 * sku小图。图片宽高为400px*400px，宽高比1:1。
+	 */
+	@ApiField("thumb_img")
+	private String thumbImg;
+
+	public String getBarcode() {
+		return this.barcode;
+	}
+	public void setBarcode(String barcode) {
+		this.barcode = barcode;
+	}
+
+	public Long getOriginalPrice() {
+		return this.originalPrice;
+	}
+	public void setOriginalPrice(Long originalPrice) {
+		this.originalPrice = originalPrice;
+	}
+
+	public String getOutSkuId() {
+		return this.outSkuId;
+	}
+	public void setOutSkuId(String outSkuId) {
+		this.outSkuId = outSkuId;
+	}
+
+	public String getPriceUnit() {
+		return this.priceUnit;
+	}
+	public void setPriceUnit(String priceUnit) {
+		this.priceUnit = priceUnit;
+	}
+
+	public String getSalePrice() {
+		return this.salePrice;
+	}
+	public void setSalePrice(String salePrice) {
+		this.salePrice = salePrice;
+	}
+
+	public String getSaleStatus() {
+		return this.saleStatus;
+	}
+	public void setSaleStatus(String saleStatus) {
+		this.saleStatus = saleStatus;
+	}
+
+	public List<CeItemSkuAttrVO> getSkuAttrs() {
+		return this.skuAttrs;
+	}
+	public void setSkuAttrs(List<CeItemSkuAttrVO> skuAttrs) {
+		this.skuAttrs = skuAttrs;
+	}
+
+	public String getSkuType() {
+		return this.skuType;
+	}
+	public void setSkuType(String skuType) {
+		this.skuType = skuType;
+	}
+
+	public String getStockNum() {
+		return this.stockNum;
+	}
+	public void setStockNum(String stockNum) {
+		this.stockNum = stockNum;
+	}
+
+	public String getThumbImg() {
+		return this.thumbImg;
+	}
+	public void setThumbImg(String thumbImg) {
+		this.thumbImg = thumbImg;
+	}
+
+}

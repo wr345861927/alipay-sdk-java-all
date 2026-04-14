@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 货运企业支付交易结果查询
  *
  * @author auto create
- * @since 1.0, 2026-02-26 14:16:37
+ * @since 1.0, 2026-04-13 17:15:02
  */
 public class AlipayCommerceLogisticsFreightflowTraderesultQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2686151744796761391L;
+	private static final long serialVersionUID = 5389832989914221141L;
 
 	/**
 	 * 如果biz_scene是转账场景，则传入转账申请时候的幂等号

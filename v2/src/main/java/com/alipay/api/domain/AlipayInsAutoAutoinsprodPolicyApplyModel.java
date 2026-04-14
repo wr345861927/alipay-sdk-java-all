@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayInsAutoAutoinsprodPolicyApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6768665112325822543L;
+	private static final long serialVersionUID = 3862736715955255822L;
 
 	/**
 	 * 出单的坐席的工号，新电焊模式必填

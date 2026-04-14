@@ -1,0 +1,55 @@
+package com.alipay.api.domain;
+
+import com.alipay.api.AlipayObject;
+import com.alipay.api.internal.mapping.ApiField;
+
+/**
+ * null
+ *
+ * @author auto create
+ * @since 1.0, 2026-04-14 15:59:35
+ */
+public class CeItemSkuAttrVO extends AlipayObject {
+
+	private static final long serialVersionUID = 6561614948959244578L;
+
+	/**
+	 * 销售属性key值
+	 */
+	@ApiField("attr_key")
+	private String attrKey;
+
+	/**
+	 * 属性的类型，选填，不填时默认赋值spec
+	 */
+	@ApiField("attr_type")
+	private String attrType;
+
+	/**
+	 * 销售属性值
+	 */
+	@ApiField("attr_value")
+	private String attrValue;
+
+	public String getAttrKey() {
+		return this.attrKey;
+	}
+	public void setAttrKey(String attrKey) {
+		this.attrKey = attrKey;
+	}
+
+	public String getAttrType() {
+		return this.attrType;
+	}
+	public void setAttrType(String attrType) {
+		this.attrType = attrType;
+	}
+
+	public String getAttrValue() {
+		return this.attrValue;
+	}
+	public void setAttrValue(String attrValue) {
+		this.attrValue = attrValue;
+	}
+
+}

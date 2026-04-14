@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.decoration.policyunderwriting.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-10 10:12:45
+ * @since 1.0, 2026-04-14 16:37:45
  */
 public class AlipayCommerceDecorationPolicyunderwritingConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1263211153547419922L;
+	private static final long serialVersionUID = 4485396994728326847L;
 
 	/** 
 	 * 消息
@@ -59,7 +59,7 @@ public class AlipayCommerceDecorationPolicyunderwritingConsultResponse extends A
 承保失败:POLICY_ISSUED_FAILURE
 已退保:POLICY_CANCELLED
 退保受理:SURRENDER_PENDING
-退保失败:SURRENDER_ FAILURE
+退保失败:SURRENDER_FAILURE
 	 */
 	@ApiField("policy_status")
 	private String policyStatus;

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 提前回购接口
  *
  * @author auto create
- * @since 1.0, 2025-08-19 15:25:19
+ * @since 1.0, 2026-04-14 10:50:13
  */
 public class AlipayCommerceRentRoyaltyEarlyBuyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8748722962331986957L;
+	private static final long serialVersionUID = 1258488648696585376L;
 
 	/**
 	 * 表示本次操作的类型

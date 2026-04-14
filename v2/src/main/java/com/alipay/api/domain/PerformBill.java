@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PerformBill extends AlipayObject {
 
-	private static final long serialVersionUID = 1321393666348358425L;
+	private static final long serialVersionUID = 6385658164574998922L;
 
 	/**
 	 * [{"name":"未分账","value":"I"},{"name":"分账中","value":"P"},{"name":"分账成功","value":"S"},{"name":"分账关闭","value":"C"}]

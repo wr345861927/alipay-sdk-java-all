@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayChinareModelResult extends AlipayObject {
 
-	private static final long serialVersionUID = 6226748693598835973L;
+	private static final long serialVersionUID = 4247548949886558288L;
 
 	/**
 	 * 体检记录id

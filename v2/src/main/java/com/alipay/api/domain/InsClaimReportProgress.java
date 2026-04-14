@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InsClaimReportProgress extends AlipayObject {
 
-	private static final long serialVersionUID = 2889283769335886353L;
+	private static final long serialVersionUID = 6515896131988717427L;
 
 	/**
 	 * 案件更新内容

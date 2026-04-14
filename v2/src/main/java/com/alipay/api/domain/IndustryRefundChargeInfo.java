@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class IndustryRefundChargeInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3265219466122417663L;
+	private static final long serialVersionUID = 3872759641315469958L;
 
 	/**
 	 * 收单手续费trade，花呗分期手续hbf...

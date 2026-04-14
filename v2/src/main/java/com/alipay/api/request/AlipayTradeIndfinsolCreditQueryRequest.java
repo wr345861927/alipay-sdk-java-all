@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.trade.indfinsol.credit.query request
  * 
  * @author auto create
- * @since 1.0, 2026-03-26 20:17:44
+ * @since 1.0, 2026-04-14 16:31:37
  */
 public class AlipayTradeIndfinsolCreditQueryRequest implements AlipayRequest<AlipayTradeIndfinsolCreditQueryResponse> {
 

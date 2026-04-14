@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * nfc展会碰一下打卡接口
+ * 碰一下打卡远程打卡接口
  *
  * @author auto create
- * @since 1.0, 2026-04-07 17:07:44
+ * @since 1.0, 2026-04-14 16:22:45
  */
 public class AlipayOfflineProviderExpoNfccheckinSubmitModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3334325581361243123L;
+	private static final long serialVersionUID = 2474575133814974126L;
 
 	/**
 	 * 活动code值
@@ -26,10 +26,16 @@ public class AlipayOfflineProviderExpoNfccheckinSubmitModel extends AlipayObject
 	private String checkPlace;
 
 	/**
-	 * 打卡配置模板类型
+	 * 打卡模板
 	 */
 	@ApiField("check_template_type")
 	private String checkTemplateType;
+
+	/**
+	 * 自定义外部标识
+	 */
+	@ApiField("external_place_mark")
+	private String externalPlaceMark;
 
 	/**
 	 * open_id
@@ -74,6 +80,13 @@ public class AlipayOfflineProviderExpoNfccheckinSubmitModel extends AlipayObject
 	}
 	public void setCheckTemplateType(String checkTemplateType) {
 		this.checkTemplateType = checkTemplateType;
+	}
+
+	public String getExternalPlaceMark() {
+		return this.externalPlaceMark;
+	}
+	public void setExternalPlaceMark(String externalPlaceMark) {
+		this.externalPlaceMark = externalPlaceMark;
 	}
 
 	public String getOpenId() {

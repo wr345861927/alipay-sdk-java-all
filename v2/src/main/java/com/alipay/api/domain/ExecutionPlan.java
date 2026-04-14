@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ExecutionPlan extends AlipayObject {
 
-	private static final long serialVersionUID = 3246142248811597153L;
+	private static final long serialVersionUID = 6376899367455816514L;
 
 	/**
 	 * 周期扣预期执行时间，格式为YYYY-MM-DD

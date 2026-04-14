@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class IotCareWorkOrder extends AlipayObject {
 
-	private static final long serialVersionUID = 7522561594859158498L;
+	private static final long serialVersionUID = 1698531235996611375L;
 
 	/**
 	 * 用于标识是何种系列的设备

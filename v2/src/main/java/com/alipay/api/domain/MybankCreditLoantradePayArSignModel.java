@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MybankCreditLoantradePayArSignModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1239199513292753924L;
+	private static final long serialVersionUID = 3128199168638179516L;
 
 	/**
 	 * 用户支付宝ID-映射开放id

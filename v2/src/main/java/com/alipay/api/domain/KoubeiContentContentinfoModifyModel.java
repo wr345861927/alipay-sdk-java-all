@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class KoubeiContentContentinfoModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8397691749486753932L;
+	private static final long serialVersionUID = 7423289571784126362L;
 
 	/**
 	 * 内容跳转地址

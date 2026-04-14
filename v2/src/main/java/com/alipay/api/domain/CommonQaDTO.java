@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CommonQaDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5161413879235258977L;
+	private static final long serialVersionUID = 5378692637337362559L;
 
 	/**
 	 * 城市code

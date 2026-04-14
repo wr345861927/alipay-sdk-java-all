@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class CounterpartyVerifyResult extends AlipayObject {
 
-	private static final long serialVersionUID = 7531777417333435631L;
+	private static final long serialVersionUID = 4429149726639275813L;
 
 	/**
 	 * 存在转账关系的企业列表

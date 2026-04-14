@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.offline.provider.expo.nfccheckin.submit response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-07 17:07:44
+ * @since 1.0, 2026-04-14 16:22:45
  */
 public class AlipayOfflineProviderExpoNfccheckinSubmitResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3583559873553756222L;
+	private static final long serialVersionUID = 3424931176617266778L;
 
 	
 

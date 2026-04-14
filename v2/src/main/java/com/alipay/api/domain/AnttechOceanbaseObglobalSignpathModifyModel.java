@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商机同步签约路径开放接口
  *
  * @author auto create
- * @since 1.0, 2026-01-07 18:34:48
+ * @since 1.0, 2026-04-14 15:55:07
  */
 public class AnttechOceanbaseObglobalSignpathModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2881923488662721492L;
+	private static final long serialVersionUID = 7636913513313419986L;
 
 	/**
 	 * 阿里云结算模式
@@ -42,6 +42,18 @@ public class AnttechOceanbaseObglobalSignpathModifyModel extends AlipayObject {
 	 */
 	@ApiField("final_customer_sign_other_party_subject_name")
 	private String finalCustomerSignOtherPartySubjectName;
+
+	/**
+	 * 最终客户签约主体id
+	 */
+	@ApiField("final_customer_sign_subject_id")
+	private String finalCustomerSignSubjectId;
+
+	/**
+	 * 最终客户签约主体名称
+	 */
+	@ApiField("final_customer_sign_subject_name")
+	private String finalCustomerSignSubjectName;
 
 	/**
 	 * 总代合作类型枚举
@@ -130,6 +142,20 @@ public class AnttechOceanbaseObglobalSignpathModifyModel extends AlipayObject {
 	}
 	public void setFinalCustomerSignOtherPartySubjectName(String finalCustomerSignOtherPartySubjectName) {
 		this.finalCustomerSignOtherPartySubjectName = finalCustomerSignOtherPartySubjectName;
+	}
+
+	public String getFinalCustomerSignSubjectId() {
+		return this.finalCustomerSignSubjectId;
+	}
+	public void setFinalCustomerSignSubjectId(String finalCustomerSignSubjectId) {
+		this.finalCustomerSignSubjectId = finalCustomerSignSubjectId;
+	}
+
+	public String getFinalCustomerSignSubjectName() {
+		return this.finalCustomerSignSubjectName;
+	}
+	public void setFinalCustomerSignSubjectName(String finalCustomerSignSubjectName) {
+		this.finalCustomerSignSubjectName = finalCustomerSignSubjectName;
 	}
 
 	public String getGeneralAgentCooperationType() {

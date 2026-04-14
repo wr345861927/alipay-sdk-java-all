@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySecurityRiskAuthenticationCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5749557281927394266L;
+	private static final long serialVersionUID = 4781835642993368542L;
 
 	/**
 	 * 身份认证场景信息

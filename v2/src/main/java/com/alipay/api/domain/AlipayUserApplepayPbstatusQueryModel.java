@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayUserApplepayPbstatusQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8559626649758726518L;
+	private static final long serialVersionUID = 1468381348434494365L;
 
 	/**
 	 * 当前的状态

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayUserAliyunbenefitSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3656551298517216694L;
+	private static final long serialVersionUID = 1363393813521115967L;
 
 	/**
 	 * 阿里云商品类目编码

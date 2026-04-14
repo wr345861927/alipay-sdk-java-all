@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ChargeOrderInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1249621796681997931L;
+	private static final long serialVersionUID = 7276799894326691288L;
 
 	/**
 	 * 充电枪ID

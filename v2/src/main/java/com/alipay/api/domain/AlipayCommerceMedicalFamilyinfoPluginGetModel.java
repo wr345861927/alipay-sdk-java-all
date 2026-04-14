@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMedicalFamilyinfoPluginGetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3655191585648947551L;
+	private static final long serialVersionUID = 6843765954454166936L;
 
 	/**
 	 * 用户在支付宝插件中操作完成后的回跳地址

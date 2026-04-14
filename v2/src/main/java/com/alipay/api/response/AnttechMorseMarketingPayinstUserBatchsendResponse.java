@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AnttechMorseMarketingPayinstUserBatchsendResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3553855366839287236L;
+	private static final long serialVersionUID = 2581669392629799614L;
 
 	
 

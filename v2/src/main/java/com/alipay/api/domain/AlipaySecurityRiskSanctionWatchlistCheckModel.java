@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 反洗钱制裁扫描风险筛查
  *
  * @author auto create
- * @since 1.0, 2026-04-08 14:10:06
+ * @since 1.0, 2026-04-13 17:09:03
  */
 public class AlipaySecurityRiskSanctionWatchlistCheckModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1572748737764216796L;
+	private static final long serialVersionUID = 6187679771957547199L;
 
 	/**
 	 * null

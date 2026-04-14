@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.logistics.freightflow.transfer.apply response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-10 15:20:09
+ * @since 1.0, 2026-04-13 17:17:45
  */
 public class AlipayCommerceLogisticsFreightflowTransferApplyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8278483197427798189L;
+	private static final long serialVersionUID = 3245634173955789789L;
 
 	/** 
 	 * 银行操作单号(查询时需要使用)

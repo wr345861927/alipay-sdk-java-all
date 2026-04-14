@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BrandTrademarkInfoOpenApi extends AlipayObject {
 
-	private static final long serialVersionUID = 7287287239251977741L;
+	private static final long serialVersionUID = 8133772498512495161L;
 
 	/**
 	 * 商标注册地址

@@ -7,26 +7,26 @@ import com.alipay.api.internal.mapping.ApiField;
  * 运企付-浦发银行流水好复杂对象
  *
  * @author auto create
- * @since 1.0, 2026-02-26 14:16:37
+ * @since 1.0, 2026-04-13 17:15:02
  */
 public class FreigtFlowSpdbBizSeqNo extends AlipayObject {
 
-	private static final long serialVersionUID = 1269476124269596756L;
+	private static final long serialVersionUID = 1247785688567831414L;
 
 	/**
-	 * 渠道流水号
+	 * 渠道流水号，与交易流水号2选1填入即可
 	 */
 	@ApiField("channel_seq_no")
 	private String channelSeqNo;
 
 	/**
-	 * 交易流水号
+	 * 交易流水号，与渠道流水号2选1填入即可
 	 */
 	@ApiField("tran_seq_no")
 	private String tranSeqNo;
 
 	/**
-	 * 核心交易流水号
+	 * 核心交易流水号，目前为预留字段,暂不要使用
 	 */
 	@ApiField("ylk_tran_seq_no")
 	private String ylkTranSeqNo;

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 货运企业支付转账申请
  *
  * @author auto create
- * @since 1.0, 2026-02-26 15:09:32
+ * @since 1.0, 2026-04-13 17:14:59
  */
 public class AlipayCommerceLogisticsFreightflowTransferApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6136176618253314936L;
+	private static final long serialVersionUID = 3299613637925438357L;
 
 	/**
 	 * 转账金额，单位分
@@ -30,6 +30,15 @@ public class AlipayCommerceLogisticsFreightflowTransferApplyModel extends Alipay
 	 */
 	@ApiField("currency")
 	private String currency;
+
+	/**
+	 * 约定的拓展字段.
+当mode为网商银行时,无需传入！！！
+
+当mode为浦发银行(SPDB)且收款方为支付宝(钱包/余额)时必传cnl_id的属性值为151,,其余参数需根据银行要求进行具体确认
+	 */
+	@ApiField("ext_info")
+	private String extInfo;
 
 	/**
 	 * 物流公司编码
@@ -122,6 +131,13 @@ public class AlipayCommerceLogisticsFreightflowTransferApplyModel extends Alipay
 	}
 	public void setCurrency(String currency) {
 		this.currency = currency;
+	}
+
+	public String getExtInfo() {
+		return this.extInfo;
+	}
+	public void setExtInfo(String extInfo) {
+		this.extInfo = extInfo;
 	}
 
 	public String getLogisticsCode() {

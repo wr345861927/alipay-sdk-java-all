@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayMarketingCampaignWarmcardQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7357374657419378217L;
+	private static final long serialVersionUID = 8151787221619125617L;
 
 	/**
 	 * 春暖花开活动场景码

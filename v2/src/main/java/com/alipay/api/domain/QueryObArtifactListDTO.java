@@ -7,17 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 查询OB制品信息结果DTO
  *
  * @author auto create
- * @since 1.0, 2025-06-19 15:44:02
+ * @since 1.0, 2026-04-13 18:37:18
  */
 public class QueryObArtifactListDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5578834536914386823L;
+	private static final long serialVersionUID = 2315478425135851582L;
 
 	/**
 	 * 制品版本
 	 */
 	@ApiField("artifact_version")
 	private String artifactVersion;
+
+	/**
+	 * 产品编码
+	 */
+	@ApiField("boss_code")
+	private String bossCode;
 
 	/**
 	 * OB制品产品ID
@@ -72,6 +78,13 @@ public class QueryObArtifactListDTO extends AlipayObject {
 	}
 	public void setArtifactVersion(String artifactVersion) {
 		this.artifactVersion = artifactVersion;
+	}
+
+	public String getBossCode() {
+		return this.bossCode;
+	}
+	public void setBossCode(String bossCode) {
+		this.bossCode = bossCode;
 	}
 
 	public Long getBossId() {

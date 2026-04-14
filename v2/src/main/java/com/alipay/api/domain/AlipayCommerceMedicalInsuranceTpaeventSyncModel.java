@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * TPA渠道业务事件同步
  *
  * @author auto create
- * @since 1.0, 2026-04-10 10:25:20
+ * @since 1.0, 2026-04-13 21:02:45
  */
 public class AlipayCommerceMedicalInsuranceTpaeventSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8118259282947368186L;
+	private static final long serialVersionUID = 8445978593149577272L;
 
 	/**
 	 * 码值
@@ -24,6 +24,24 @@ public class AlipayCommerceMedicalInsuranceTpaeventSyncModel extends AlipayObjec
 	 */
 	@ApiField("event_action")
 	private String eventAction;
+
+	/**
+	 * {"reason":"xxx"}
+	 */
+	@ApiField("ext_data")
+	private String extData;
+
+	/**
+	 * 医院分院医院
+	 */
+	@ApiField("hospital_branch_code")
+	private String hospitalBranchCode;
+
+	/**
+	 * 医院分院医院
+	 */
+	@ApiField("hospital_branch_name")
+	private String hospitalBranchName;
 
 	/**
 	 * 医院编码
@@ -103,6 +121,27 @@ public class AlipayCommerceMedicalInsuranceTpaeventSyncModel extends AlipayObjec
 	}
 	public void setEventAction(String eventAction) {
 		this.eventAction = eventAction;
+	}
+
+	public String getExtData() {
+		return this.extData;
+	}
+	public void setExtData(String extData) {
+		this.extData = extData;
+	}
+
+	public String getHospitalBranchCode() {
+		return this.hospitalBranchCode;
+	}
+	public void setHospitalBranchCode(String hospitalBranchCode) {
+		this.hospitalBranchCode = hospitalBranchCode;
+	}
+
+	public String getHospitalBranchName() {
+		return this.hospitalBranchName;
+	}
+	public void setHospitalBranchName(String hospitalBranchName) {
+		this.hospitalBranchName = hospitalBranchName;
 	}
 
 	public String getHospitalCode() {

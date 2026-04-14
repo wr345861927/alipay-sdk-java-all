@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TicketInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2515151777166627633L;
+	private static final long serialVersionUID = 7795147727869486898L;
 
 	/**
 	 * 店铺地址

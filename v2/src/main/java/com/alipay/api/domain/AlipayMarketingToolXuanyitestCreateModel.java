@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayMarketingToolXuanyitestCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3631334816574198825L;
+	private static final long serialVersionUID = 6778285194693473491L;
 
 	/**
 	 * 这是一个复杂类型测试描述

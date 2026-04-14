@@ -11,11 +11,17 @@ import com.alipay.api.internal.mapping.ApiListField;
  * TPA渠道直付状态同步
  *
  * @author auto create
- * @since 1.0, 2026-04-10 10:50:35
+ * @since 1.0, 2026-04-13 20:47:44
  */
 public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7317771472554938426L;
+	private static final long serialVersionUID = 8186188445455661353L;
+
+	/**
+	 * 订单信息回传必传 
+	 */
+	@ApiField("claim_application")
+	private String claimApplication;
 
 	/**
 	 * 直付码值
@@ -49,6 +55,12 @@ public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends A
 	private List<InsuranceMedicineInfo> medicineList;
 
 	/**
+	 * 是否需要自费
+	 */
+	@ApiField("need_self_pay")
+	private Boolean needSelfPay;
+
+	/**
 	 * 支付宝用户id
 	 */
 	@ApiField("open_id")
@@ -73,6 +85,13 @@ public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends A
 	private Date orderTime;
 
 	/**
+	 * 线上：online
+线下：offline
+	 */
+	@ApiField("order_type")
+	private String orderType;
+
+	/**
 	 * 门店参数
 	 */
 	@ApiField("outlet_info")
@@ -83,6 +102,12 @@ public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends A
 	 */
 	@ApiField("policy_no")
 	private String policyNo;
+
+	/**
+	 * 发票回传状态必传
+	 */
+	@ApiField("recipe_image")
+	private String recipeImage;
 
 	/**
 	 * 退款金额(单位：元，保留2位小数，退款为负数）
@@ -101,6 +126,13 @@ public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends A
 	 */
 	@ApiField("user_id")
 	private String userId;
+
+	public String getClaimApplication() {
+		return this.claimApplication;
+	}
+	public void setClaimApplication(String claimApplication) {
+		this.claimApplication = claimApplication;
+	}
 
 	public String getCodeData() {
 		return this.codeData;
@@ -137,6 +169,13 @@ public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends A
 		this.medicineList = medicineList;
 	}
 
+	public Boolean getNeedSelfPay() {
+		return this.needSelfPay;
+	}
+	public void setNeedSelfPay(Boolean needSelfPay) {
+		this.needSelfPay = needSelfPay;
+	}
+
 	public String getOpenId() {
 		return this.openId;
 	}
@@ -165,6 +204,13 @@ public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends A
 		this.orderTime = orderTime;
 	}
 
+	public String getOrderType() {
+		return this.orderType;
+	}
+	public void setOrderType(String orderType) {
+		this.orderType = orderType;
+	}
+
 	public OutletInfo getOutletInfo() {
 		return this.outletInfo;
 	}
@@ -177,6 +223,13 @@ public class AlipayCommerceMedicalInsuranceTpadirectpaystatusSyncModel extends A
 	}
 	public void setPolicyNo(String policyNo) {
 		this.policyNo = policyNo;
+	}
+
+	public String getRecipeImage() {
+		return this.recipeImage;
+	}
+	public void setRecipeImage(String recipeImage) {
+		this.recipeImage = recipeImage;
 	}
 
 	public String getRefundAmount() {

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceHotelEmployeeLoginCertifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7237236997819196318L;
+	private static final long serialVersionUID = 2374335657131834932L;
 
 	/**
 	 * 设备唯一id

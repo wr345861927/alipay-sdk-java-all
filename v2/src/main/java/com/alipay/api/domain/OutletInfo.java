@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 门店参数
  *
  * @author auto create
- * @since 1.0, 2026-04-10 10:50:35
+ * @since 1.0, 2026-04-13 20:47:44
  */
 public class OutletInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6627413993384183176L;
+	private static final long serialVersionUID = 4351158945787692129L;
 
 	/**
 	 * 是否支持商保直付

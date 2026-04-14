@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayFundMbpcardPurchaseSignModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6396157414722369517L;
+	private static final long serialVersionUID = 5285242177249873824L;
 
 	/**
 	 * 算法名称，加密使用

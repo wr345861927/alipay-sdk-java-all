@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MybankMarketingCampaignBkpromosceneorderPointPayModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1189626378175912146L;
+	private static final long serialVersionUID = 8162785854386842781L;
 
 	/**
 	 * LinkedMall入驻的业务ID

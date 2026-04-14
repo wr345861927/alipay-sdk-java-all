@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCloudTraasCloudriskRiskmetadataSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6465664853497946911L;
+	private static final long serialVersionUID = 5372151414653335475L;
 
 	/**
 	 * 风险元数据参数，包含元数据信息及操作类型

@@ -1,5 +1,6 @@
 package com.alipay.api.response;
 
+import java.util.Date;
 import java.util.List;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
@@ -11,11 +12,23 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: zhima.credit.ep.assistant.membershippackage.create response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-30 10:11:08
+ * @since 1.0, 2026-04-13 22:17:45
  */
 public class ZhimaCreditEpAssistantMembershippackageCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1185743117444946384L;
+	private static final long serialVersionUID = 8555445322134972763L;
+
+	/** 
+	 * 会员包生效时间
+	 */
+	@ApiField("begin_time")
+	private Date beginTime;
+
+	/** 
+	 * 会员包失效时间
+	 */
+	@ApiField("end_time")
+	private Date endTime;
 
 	/** 
 	 * null
@@ -36,6 +49,20 @@ public class ZhimaCreditEpAssistantMembershippackageCreateResponse extends Alipa
 	 */
 	@ApiField("package_id")
 	private String packageId;
+
+	public void setBeginTime(Date beginTime) {
+		this.beginTime = beginTime;
+	}
+	public Date getBeginTime( ) {
+		return this.beginTime;
+	}
+
+	public void setEndTime(Date endTime) {
+		this.endTime = endTime;
+	}
+	public Date getEndTime( ) {
+		return this.endTime;
+	}
 
 	public void setLicenseDetailList(List<AssistantLicenseInfo> licenseDetailList) {
 		this.licenseDetailList = licenseDetailList;

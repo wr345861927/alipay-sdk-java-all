@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.cloud.cloudrun.env.share.create response.
  * 
  * @author auto create
- * @since 1.0, 2024-01-23 10:31:58
+ * @since 1.0, 2026-04-13 17:31:55
  */
 public class AlipayCloudCloudrunEnvShareCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8228915829432159488L;
+	private static final long serialVersionUID = 2429188854275882488L;
 
 	/** 
 	 * 对响应结果的描述

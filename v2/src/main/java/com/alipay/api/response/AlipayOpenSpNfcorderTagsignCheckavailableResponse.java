@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenSpNfcorderTagsignCheckavailableResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2124453799198486398L;
+	private static final long serialVersionUID = 2263231172681264321L;
 
 	/** 
 	 * 唯一签名校验结果，true: uniqueId可用，正常碰请求；false: 签名已经使用或已经过期，非法请求

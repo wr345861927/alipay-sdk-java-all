@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOverseasTravelAccountMktaccountQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4399662327249875883L;
+	private static final long serialVersionUID = 6623526781561992268L;
 
 	/**
 	 * cn账号列表

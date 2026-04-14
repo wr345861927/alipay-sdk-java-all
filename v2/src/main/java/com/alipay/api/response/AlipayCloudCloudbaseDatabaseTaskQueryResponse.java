@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCloudCloudbaseDatabaseTaskQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3471987261519872799L;
+	private static final long serialVersionUID = 5779558242229312145L;
 
 	/** 
 	 * 页码

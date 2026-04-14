@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayAfxMuseUserBindResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5475893959245945651L;
+	private static final long serialVersionUID = 3581495226968738465L;
 
 	/** 
 	 * muse 会话id

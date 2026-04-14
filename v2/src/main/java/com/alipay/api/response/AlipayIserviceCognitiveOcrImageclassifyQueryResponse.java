@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayIserviceCognitiveOcrImageclassifyQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3858533743541589342L;
+	private static final long serialVersionUID = 6461112235961287152L;
 
 	/** 
 	 * 图像分类类型

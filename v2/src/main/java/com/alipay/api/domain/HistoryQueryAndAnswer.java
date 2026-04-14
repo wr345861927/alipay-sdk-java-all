@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HistoryQueryAndAnswer extends AlipayObject {
 
-	private static final long serialVersionUID = 4428514718677286537L;
+	private static final long serialVersionUID = 3377497269937338687L;
 
 	/**
 	 * 历史回答
