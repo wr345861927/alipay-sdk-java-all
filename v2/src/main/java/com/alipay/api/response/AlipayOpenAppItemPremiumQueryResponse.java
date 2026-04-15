@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenAppItemPremiumQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7381738941635665147L;
+	private static final long serialVersionUID = 2136869432739632468L;
 
 	/** 
 	 * 审核状态，包含：审核中（AUDITING）、审核通过（ENABLED）、审核驳回（REJECTED）、审核撤销（CANCELED）、已暂停（SUSPEND）、已终止（TERMINATED）

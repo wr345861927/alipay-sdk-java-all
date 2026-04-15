@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InsurancePayExtendParams extends AlipayObject {
 
-	private static final long serialVersionUID = 4854236854365436715L;
+	private static final long serialVersionUID = 4639679855354334553L;
 
 	/**
 	 * 用来表示调用接口的渠道方名称，目前为固定的枚举值

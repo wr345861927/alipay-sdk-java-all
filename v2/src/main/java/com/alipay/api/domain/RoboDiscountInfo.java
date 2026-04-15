@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RoboDiscountInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5619913466236991128L;
+	private static final long serialVersionUID = 6616926283994628763L;
 
 	/**
 	 * 金额，单位：分

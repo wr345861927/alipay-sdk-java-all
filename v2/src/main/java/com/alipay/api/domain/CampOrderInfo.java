@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CampOrderInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8887999153588323176L;
+	private static final long serialVersionUID = 7547829186881421819L;
 
 	/**
 	 * 抽奖平台活动ID

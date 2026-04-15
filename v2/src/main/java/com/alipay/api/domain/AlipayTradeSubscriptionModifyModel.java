@@ -10,14 +10,17 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 订阅修改
  *
  * @author auto create
- * @since 1.0, 2026-04-11 19:17:59
+ * @since 1.0, 2026-04-15 00:27:45
  */
 public class AlipayTradeSubscriptionModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2377828553811561662L;
+	private static final long serialVersionUID = 3877654323843799742L;
 
 	/**
-	 * 周期结束失效标识，用于取消订阅，升级等场景不用填
+	 * 周期结束失效标识，用于取消/取消后恢复订阅，升级等场景不用填
+true：当前周期结束后
+取消
+false：取消后恢复
 	 */
 	@ApiField("cancel_at_period_end")
 	private Boolean cancelAtPeriodEnd;
@@ -34,6 +37,29 @@ public class AlipayTradeSubscriptionModifyModel extends AlipayObject {
 	@ApiListField("items")
 	@ApiField("subscription_item")
 	private List<SubscriptionItem> items;
+
+	/**
+	 * UPGRADE：升级，DOWNGRADE：降级，
+取消：CANCEL，
+取消后恢复：REVERT_CANCEL，如若不传则视为UPGRADE
+
+	 */
+	@ApiField("modify_type")
+	private String modifyType;
+
+	/**
+	 * 支付金额，单位分； 仅用于商户自定义金额，若传了该值，用户实际支付金额会以该值为准
+	 */
+	@ApiField("pay_amount")
+	private Long payAmount;
+
+	/**
+	 * 是否保持计费周期不变，当前仅用于升级场景
+true：周期不变
+false：重置周期
+	 */
+	@ApiField("preserve_billing_cycle")
+	private Boolean preserveBillingCycle;
 
 	/**
 	 * 订单标题
@@ -66,6 +92,27 @@ public class AlipayTradeSubscriptionModifyModel extends AlipayObject {
 	}
 	public void setItems(List<SubscriptionItem> items) {
 		this.items = items;
+	}
+
+	public String getModifyType() {
+		return this.modifyType;
+	}
+	public void setModifyType(String modifyType) {
+		this.modifyType = modifyType;
+	}
+
+	public Long getPayAmount() {
+		return this.payAmount;
+	}
+	public void setPayAmount(Long payAmount) {
+		this.payAmount = payAmount;
+	}
+
+	public Boolean getPreserveBillingCycle() {
+		return this.preserveBillingCycle;
+	}
+	public void setPreserveBillingCycle(Boolean preserveBillingCycle) {
+		this.preserveBillingCycle = preserveBillingCycle;
 	}
 
 	public String getSubscribeTitle() {

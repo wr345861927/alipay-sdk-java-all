@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 人行调用支付宝制裁扫描接口返回名单信息
  *
  * @author auto create
- * @since 1.0, 2025-12-15 15:11:26
+ * @since 1.0, 2026-04-14 19:10:43
  */
 public class PBCHitDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 4542499663642115393L;
+	private static final long serialVersionUID = 2846341779595534658L;
 
 	/**
 	 * 名单匹配属性
@@ -72,6 +72,12 @@ public class PBCHitDetail extends AlipayObject {
 	 */
 	@ApiField("reference_id")
 	private String referenceId;
+
+	/**
+	 * 扫描请求事件ID
+	 */
+	@ApiField("scan_event_id")
+	private String scanEventId;
 
 	public String getMatchParam() {
 		return this.matchParam;
@@ -141,6 +147,13 @@ public class PBCHitDetail extends AlipayObject {
 	}
 	public void setReferenceId(String referenceId) {
 		this.referenceId = referenceId;
+	}
+
+	public String getScanEventId() {
+		return this.scanEventId;
+	}
+	public void setScanEventId(String scanEventId) {
+		this.scanEventId = scanEventId;
 	}
 
 }

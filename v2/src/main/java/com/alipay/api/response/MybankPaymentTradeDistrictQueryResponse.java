@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class MybankPaymentTradeDistrictQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8439733493367414744L;
+	private static final long serialVersionUID = 8121154996595119575L;
 
 	/** 
 	 * District列表

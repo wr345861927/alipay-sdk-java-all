@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 商品描述详情
  *
  * @author auto create
- * @since 1.0, 2026-04-14 15:59:35
+ * @since 1.0, 2026-04-14 16:52:45
  */
 public class CeItemDescInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 1797254273491424315L;
+	private static final long serialVersionUID = 4835565188256889585L;
 
 	/**
 	 * 商品详情描述文本（不超过2000字）。若接入商品详情页组件，将在详情页组件处透出。

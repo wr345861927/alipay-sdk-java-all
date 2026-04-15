@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: anttech.nft.sku.cast.submit request
  * 
  * @author auto create
- * @since 1.0, 2026-04-09 16:21:15
+ * @since 1.0, 2026-04-14 17:22:45
  */
 public class AnttechNftSkuCastSubmitRequest implements AlipayRequest<AnttechNftSkuCastSubmitResponse> {
 

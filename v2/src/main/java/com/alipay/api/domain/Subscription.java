@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-04-14 14:40:00
+ * @since 1.0, 2026-04-14 22:17:46
  */
 public class Subscription extends AlipayObject {
 
-	private static final long serialVersionUID = 3576731356963144744L;
+	private static final long serialVersionUID = 1699384327945662875L;
 
 	/**
 	 * true - 周期结束状态生效
@@ -36,13 +36,13 @@ false - 周期结束依旧生效
 	private String created;
 
 	/**
-	 * 当前周期结束时间
+	 * 最近一个扣款周期结束时间
 	 */
 	@ApiField("current_period_end")
 	private String currentPeriodEnd;
 
 	/**
-	 * 当前周期开始时间
+	 * 最近一个扣款周期开始时间
 	 */
 	@ApiField("current_period_start")
 	private String currentPeriodStart;
@@ -59,6 +59,12 @@ false - 周期结束依旧生效
 	@ApiListField("items")
 	@ApiField("subscription_query_item")
 	private List<SubscriptionQueryItem> items;
+
+	/**
+	 * 订阅元数据，订阅创建时传入
+	 */
+	@ApiField("metadata")
+	private String metadata;
 
 	/**
 	 * 订阅开始日期
@@ -131,6 +137,13 @@ false - 周期结束依旧生效
 	}
 	public void setItems(List<SubscriptionQueryItem> items) {
 		this.items = items;
+	}
+
+	public String getMetadata() {
+		return this.metadata;
+	}
+	public void setMetadata(String metadata) {
+		this.metadata = metadata;
 	}
 
 	public String getStartDate() {

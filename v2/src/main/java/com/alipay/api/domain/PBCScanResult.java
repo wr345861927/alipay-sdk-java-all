@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 人行制裁扫描返回结果
  *
  * @author auto create
- * @since 1.0, 2026-04-13 17:09:03
+ * @since 1.0, 2026-04-14 19:12:45
  */
 public class PBCScanResult extends AlipayObject {
 
-	private static final long serialVersionUID = 7691223553741918981L;
+	private static final long serialVersionUID = 1828146486826545512L;
 
 	/**
 	 * null

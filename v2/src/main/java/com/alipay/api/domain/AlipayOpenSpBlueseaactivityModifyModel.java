@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenSpBlueseaactivityModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6393447968348183117L;
+	private static final long serialVersionUID = 7391266949928223486L;
 
 	/**
 	 * 详细地址

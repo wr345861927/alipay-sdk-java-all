@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class IndirectExtraCredentials extends AlipayObject {
 
-	private static final long serialVersionUID = 5588685177677827696L;
+	private static final long serialVersionUID = 2783348461342549648L;
 
 	/**
 	 * 待确认商户号列表，最多20个

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CardPromoDO extends AlipayObject {
 
-	private static final long serialVersionUID = 8325275475714852752L;
+	private static final long serialVersionUID = 6725826968518875993L;
 
 	/**
 	 * 卡片Id

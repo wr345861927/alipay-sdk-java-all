@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 回收行业质检报告上传
  *
  * @author auto create
- * @since 1.0, 2026-03-31 16:05:19
+ * @since 1.0, 2026-04-14 20:02:46
  */
 public class AlipayCommerceRecycleQcreportUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4887562559946372424L;
+	private static final long serialVersionUID = 7692312739141897432L;
 
 	/**
 	 * null
@@ -52,6 +52,12 @@ public class AlipayCommerceRecycleQcreportUploadModel extends AlipayObject {
 	 */
 	@ApiField("product_info")
 	private RecycleQcReportProductInfo productInfo;
+
+	/**
+	 * 质检报告确认
+	 */
+	@ApiField("report_confirm")
+	private Boolean reportConfirm;
 
 	/**
 	 * 报告总结
@@ -105,6 +111,13 @@ public class AlipayCommerceRecycleQcreportUploadModel extends AlipayObject {
 	}
 	public void setProductInfo(RecycleQcReportProductInfo productInfo) {
 		this.productInfo = productInfo;
+	}
+
+	public Boolean getReportConfirm() {
+		return this.reportConfirm;
+	}
+	public void setReportConfirm(Boolean reportConfirm) {
+		this.reportConfirm = reportConfirm;
 	}
 
 	public RecycleQcReportSummaryInfo getSummary() {

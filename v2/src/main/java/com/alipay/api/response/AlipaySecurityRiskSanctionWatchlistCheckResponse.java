@@ -9,17 +9,30 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.security.risk.sanction.watchlist.check response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-13 17:09:03
+ * @since 1.0, 2026-04-14 19:12:45
  */
 public class AlipaySecurityRiskSanctionWatchlistCheckResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2794928339573968144L;
+	private static final long serialVersionUID = 8588433596622638486L;
+
+	/** 
+	 * 可追溯响应ID
+	 */
+	@ApiField("open_trace_id")
+	private String openTraceId;
 
 	/** 
 	 * 人行制裁扫描返回结果
 	 */
 	@ApiField("pbc_scan_result")
 	private PBCScanResult pbcScanResult;
+
+	public void setOpenTraceId(String openTraceId) {
+		this.openTraceId = openTraceId;
+	}
+	public String getOpenTraceId( ) {
+		return this.openTraceId;
+	}
 
 	public void setPbcScanResult(PBCScanResult pbcScanResult) {
 		this.pbcScanResult = pbcScanResult;

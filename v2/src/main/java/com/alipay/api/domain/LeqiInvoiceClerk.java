@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LeqiInvoiceClerk extends AlipayObject {
 
-	private static final long serialVersionUID = 5745873295911869381L;
+	private static final long serialVersionUID = 4147656124179232744L;
 
 	/**
 	 * 开票员姓名

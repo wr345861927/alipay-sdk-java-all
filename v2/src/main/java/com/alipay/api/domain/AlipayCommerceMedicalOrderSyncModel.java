@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 阿福三方订单回流
  *
  * @author auto create
- * @since 1.0, 2026-04-10 14:17:45
+ * @since 1.0, 2026-04-15 09:37:45
  */
 public class AlipayCommerceMedicalOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3561482927837581974L;
+	private static final long serialVersionUID = 6681792111849723717L;
 
 	/**
 	 * 关联支付宝交易号
@@ -90,7 +90,7 @@ public class AlipayCommerceMedicalOrderSyncModel extends AlipayObject {
 	 * 订单时间信息
 	 */
 	@ApiField("order_time_info")
-	private OrderTimeInfo orderTimeInfo;
+	private OrderTimestampInfo orderTimeInfo;
 
 	/**
 	 * 打包费，单位为【分】
@@ -212,10 +212,10 @@ public class AlipayCommerceMedicalOrderSyncModel extends AlipayObject {
 		this.orderStatus = orderStatus;
 	}
 
-	public OrderTimeInfo getOrderTimeInfo() {
+	public OrderTimestampInfo getOrderTimeInfo() {
 		return this.orderTimeInfo;
 	}
-	public void setOrderTimeInfo(OrderTimeInfo orderTimeInfo) {
+	public void setOrderTimeInfo(OrderTimestampInfo orderTimeInfo) {
 		this.orderTimeInfo = orderTimeInfo;
 	}
 

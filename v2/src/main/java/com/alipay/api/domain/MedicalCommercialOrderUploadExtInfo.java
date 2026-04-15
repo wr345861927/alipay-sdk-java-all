@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 医疗商业化订单上传接口入参ext_info
  *
  * @author auto create
- * @since 1.0, 2023-07-11 10:36:17
+ * @since 1.0, 2026-04-14 17:19:02
  */
 public class MedicalCommercialOrderUploadExtInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3766317262363657367L;
+	private static final long serialVersionUID = 2447636474831123892L;
 
 	/**
 	 * 费用明细

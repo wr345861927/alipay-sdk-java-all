@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommercePropertyVideocallCheckModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8328185811356476211L;
+	private static final long serialVersionUID = 2781241229894613967L;
 
 	/**
 	 * 用于后续访客记录交互

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CounterpartyInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4775218363111821565L;
+	private static final long serialVersionUID = 5783241826889166864L;
 
 	/**
 	 * 与对手方近6个月资金往来金额等级

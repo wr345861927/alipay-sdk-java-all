@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 藏品铸造提交
  *
  * @author auto create
- * @since 1.0, 2026-04-09 16:21:15
+ * @since 1.0, 2026-04-14 17:22:45
  */
 public class AnttechNftSkuCastSubmitModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2585414194846368441L;
+	private static final long serialVersionUID = 5565966784652984449L;
 
 	/**
 	 * 申请单号必须保证唯一
@@ -30,6 +30,12 @@ public class AnttechNftSkuCastSubmitModel extends AlipayObject {
 	 */
 	@ApiField("creation_time")
 	private String creationTime;
+
+	/**
+	 * 自定义藏品基模 true-基模，其他值为否
+	 */
+	@ApiField("custom_flag")
+	private String customFlag;
 
 	/**
 	 * 发行藏品的自然人或公司
@@ -122,6 +128,13 @@ AR-场景藏品
 	}
 	public void setCreationTime(String creationTime) {
 		this.creationTime = creationTime;
+	}
+
+	public String getCustomFlag() {
+		return this.customFlag;
+	}
+	public void setCustomFlag(String customFlag) {
+		this.customFlag = customFlag;
 	}
 
 	public String getIssuer() {

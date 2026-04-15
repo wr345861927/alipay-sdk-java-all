@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class KoubeiCateringDishCreatedishSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6395774247811891859L;
+	private static final long serialVersionUID = 3171633816413922175L;
 
 	/** 
 	 * 口碑菜品id

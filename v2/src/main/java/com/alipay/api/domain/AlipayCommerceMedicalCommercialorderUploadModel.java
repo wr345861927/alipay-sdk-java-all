@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 医疗商业化订单回流接口
  *
  * @author auto create
- * @since 1.0, 2023-07-11 10:36:17
+ * @since 1.0, 2026-04-14 16:56:48
  */
 public class AlipayCommerceMedicalCommercialorderUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7779235226664124397L;
+	private static final long serialVersionUID = 8232385777776112337L;
 
 	/**
 	 * 支付金额，精确到小数点后2位，单位为元。

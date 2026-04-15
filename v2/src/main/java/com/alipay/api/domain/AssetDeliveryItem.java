@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 配送指令增加正向业务场景
  *
  * @author auto create
- * @since 1.0, 2026-04-01 14:03:29
+ * @since 1.0, 2026-04-14 23:01:44
  */
 public class AssetDeliveryItem extends AlipayObject {
 
-	private static final long serialVersionUID = 8868784529669419327L;
+	private static final long serialVersionUID = 2699257748973483282L;
 
 	/**
 	 * SEND - 发货指令(执行向目的地进行发货动作) , RECEIVE - 收货指令(执行从来源地进行收货动作)
@@ -216,6 +216,12 @@ N 不需要合单
 	 */
 	@ApiField("logistics_info")
 	private LogisticsInfo logisticsInfo;
+
+	/**
+	 * 主要用于供应商区分发货模式
+	 */
+	@ApiField("logistics_mode")
+	private String logisticsMode;
 
 	/**
 	 * 备注
@@ -587,6 +593,13 @@ N 不需要合单
 	}
 	public void setLogisticsInfo(LogisticsInfo logisticsInfo) {
 		this.logisticsInfo = logisticsInfo;
+	}
+
+	public String getLogisticsMode() {
+		return this.logisticsMode;
+	}
+	public void setLogisticsMode(String logisticsMode) {
+		this.logisticsMode = logisticsMode;
 	}
 
 	public String getMemo() {

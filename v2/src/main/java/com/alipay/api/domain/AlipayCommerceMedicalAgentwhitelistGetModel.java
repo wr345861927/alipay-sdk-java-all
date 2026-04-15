@@ -10,7 +10,7 @@ import com.alipay.api.AlipayObject;
  */
 public class AlipayCommerceMedicalAgentwhitelistGetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6115816981671474456L;
+	private static final long serialVersionUID = 8799744228659247494L;
 
 	
 

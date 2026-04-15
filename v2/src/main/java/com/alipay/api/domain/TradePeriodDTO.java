@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TradePeriodDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 7573858348621911353L;
+	private static final long serialVersionUID = 2223347848552297794L;
 
 	/**
 	 * 归属日期

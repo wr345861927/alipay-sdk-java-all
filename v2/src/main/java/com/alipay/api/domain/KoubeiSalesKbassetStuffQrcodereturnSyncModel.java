@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class KoubeiSalesKbassetStuffQrcodereturnSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5816524974742311275L;
+	private static final long serialVersionUID = 1872114518191345923L;
 
 	/**
 	 * 供应商回传码物料码值记录（最多200条）

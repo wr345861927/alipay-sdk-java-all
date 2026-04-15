@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceMedicalInsuranceClaimSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2267699469331491959L;
+	private static final long serialVersionUID = 2242167259385618892L;
 
 	/**
 	 * TPA垫付金额，单位为元，精确到小数点后两位

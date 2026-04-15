@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecycleVoucherInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3534168363874213237L;
+	private static final long serialVersionUID = 2357286971692963324L;
 
 	/**
 	 * 券金额

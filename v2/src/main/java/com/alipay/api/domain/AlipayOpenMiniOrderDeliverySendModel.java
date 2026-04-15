@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayOpenMiniOrderDeliverySendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3752377477244677922L;
+	private static final long serialVersionUID = 8359266368975787247L;
 
 	/**
 	 * 物流信息列表，由商品类型决定，目前电商购物场景最多传5个，虚拟商品不需要传入

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CarfinMortgageFinancePostInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7845881484566838233L;
+	private static final long serialVersionUID = 5138712647188136291L;
 
 	/**
 	 * 收件人地址

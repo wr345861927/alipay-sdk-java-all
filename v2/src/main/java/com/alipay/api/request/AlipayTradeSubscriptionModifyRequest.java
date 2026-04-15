@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.trade.subscription.modify request
  * 
  * @author auto create
- * @since 1.0, 2026-04-11 19:17:59
+ * @since 1.0, 2026-04-15 00:27:45
  */
 public class AlipayTradeSubscriptionModifyRequest implements AlipayRequest<AlipayTradeSubscriptionModifyResponse> {
 

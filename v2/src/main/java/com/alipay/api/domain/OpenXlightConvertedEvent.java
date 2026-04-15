@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OpenXlightConvertedEvent extends AlipayObject {
 
-	private static final long serialVersionUID = 4311283811734672787L;
+	private static final long serialVersionUID = 8552111726213356721L;
 
 	/**
 	 * 转化事件英文值

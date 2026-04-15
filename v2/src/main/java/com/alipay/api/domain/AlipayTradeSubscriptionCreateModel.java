@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 订阅创建
  *
  * @author auto create
- * @since 1.0, 2026-04-14 12:25:48
+ * @since 1.0, 2026-04-14 23:17:44
  */
 public class AlipayTradeSubscriptionCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5312243547516642424L;
+	private static final long serialVersionUID = 7116182486155578257L;
 
 	/**
 	 * 支付宝客户id
@@ -28,6 +28,19 @@ public class AlipayTradeSubscriptionCreateModel extends AlipayObject {
 	@ApiListField("items")
 	@ApiField("subscription_item")
 	private List<SubscriptionItem> items;
+
+	/**
+	 * 保存在订阅里的元数据
+	 */
+	@ApiField("metadata")
+	private String metadata;
+
+	/**
+	 * 支付金额，单位分；
+仅用于商户自定义金额，若传了该值，用户实际支付金额会以该值为准
+	 */
+	@ApiField("pay_amount")
+	private Long payAmount;
 
 	/**
 	 * 订单标题
@@ -47,6 +60,20 @@ public class AlipayTradeSubscriptionCreateModel extends AlipayObject {
 	}
 	public void setItems(List<SubscriptionItem> items) {
 		this.items = items;
+	}
+
+	public String getMetadata() {
+		return this.metadata;
+	}
+	public void setMetadata(String metadata) {
+		this.metadata = metadata;
+	}
+
+	public Long getPayAmount() {
+		return this.payAmount;
+	}
+	public void setPayAmount(Long payAmount) {
+		this.payAmount = payAmount;
 	}
 
 	public String getSubscribeTitle() {

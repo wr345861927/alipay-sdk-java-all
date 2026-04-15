@@ -1,7 +1,5 @@
 package com.alipay.api.domain;
 
-import java.util.Date;
-
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
@@ -9,113 +7,113 @@ import com.alipay.api.internal.mapping.ApiField;
  * 订单时间信息
  *
  * @author auto create
- * @since 1.0, 2026-04-10 14:17:45
+ * @since 1.0, 2026-04-15 09:37:45
  */
-public class OrderTimeInfo extends AlipayObject {
+public class OrderTimestampInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3372623884462483356L;
+	private static final long serialVersionUID = 1162794249127436791L;
 
 	/**
 	 * 订单取消时间
 	 */
 	@ApiField("order_cancel_time")
-	private Date orderCancelTime;
+	private String orderCancelTime;
 
 	/**
 	 * 订单关闭时间
 	 */
 	@ApiField("order_close_time")
-	private Date orderCloseTime;
+	private String orderCloseTime;
 
 	/**
 	 * 订单创建时间
 	 */
 	@ApiField("order_create_time")
-	private Date orderCreateTime;
+	private String orderCreateTime;
 
 	/**
 	 * 订单发货时间
 	 */
 	@ApiField("order_deliver_time")
-	private Date orderDeliverTime;
+	private String orderDeliverTime;
 
 	/**
 	 * 订单完成时间
 	 */
 	@ApiField("order_finish_time")
-	private Date orderFinishTime;
+	private String orderFinishTime;
 
 	/**
 	 * 订单最后更新时间
 	 */
 	@ApiField("order_last_update_time")
-	private Date orderLastUpdateTime;
+	private String orderLastUpdateTime;
 
 	/**
 	 * 订单支付时间
 	 */
 	@ApiField("order_pay_time")
-	private Date orderPayTime;
+	private String orderPayTime;
 
 	/**
 	 * 订单收货时间
 	 */
 	@ApiField("order_receive_time")
-	private Date orderReceiveTime;
+	private String orderReceiveTime;
 
-	public Date getOrderCancelTime() {
+	public String getOrderCancelTime() {
 		return this.orderCancelTime;
 	}
-	public void setOrderCancelTime(Date orderCancelTime) {
+	public void setOrderCancelTime(String orderCancelTime) {
 		this.orderCancelTime = orderCancelTime;
 	}
 
-	public Date getOrderCloseTime() {
+	public String getOrderCloseTime() {
 		return this.orderCloseTime;
 	}
-	public void setOrderCloseTime(Date orderCloseTime) {
+	public void setOrderCloseTime(String orderCloseTime) {
 		this.orderCloseTime = orderCloseTime;
 	}
 
-	public Date getOrderCreateTime() {
+	public String getOrderCreateTime() {
 		return this.orderCreateTime;
 	}
-	public void setOrderCreateTime(Date orderCreateTime) {
+	public void setOrderCreateTime(String orderCreateTime) {
 		this.orderCreateTime = orderCreateTime;
 	}
 
-	public Date getOrderDeliverTime() {
+	public String getOrderDeliverTime() {
 		return this.orderDeliverTime;
 	}
-	public void setOrderDeliverTime(Date orderDeliverTime) {
+	public void setOrderDeliverTime(String orderDeliverTime) {
 		this.orderDeliverTime = orderDeliverTime;
 	}
 
-	public Date getOrderFinishTime() {
+	public String getOrderFinishTime() {
 		return this.orderFinishTime;
 	}
-	public void setOrderFinishTime(Date orderFinishTime) {
+	public void setOrderFinishTime(String orderFinishTime) {
 		this.orderFinishTime = orderFinishTime;
 	}
 
-	public Date getOrderLastUpdateTime() {
+	public String getOrderLastUpdateTime() {
 		return this.orderLastUpdateTime;
 	}
-	public void setOrderLastUpdateTime(Date orderLastUpdateTime) {
+	public void setOrderLastUpdateTime(String orderLastUpdateTime) {
 		this.orderLastUpdateTime = orderLastUpdateTime;
 	}
 
-	public Date getOrderPayTime() {
+	public String getOrderPayTime() {
 		return this.orderPayTime;
 	}
-	public void setOrderPayTime(Date orderPayTime) {
+	public void setOrderPayTime(String orderPayTime) {
 		this.orderPayTime = orderPayTime;
 	}
 
-	public Date getOrderReceiveTime() {
+	public String getOrderReceiveTime() {
 		return this.orderReceiveTime;
 	}
-	public void setOrderReceiveTime(Date orderReceiveTime) {
+	public void setOrderReceiveTime(String orderReceiveTime) {
 		this.orderReceiveTime = orderReceiveTime;
 	}
 

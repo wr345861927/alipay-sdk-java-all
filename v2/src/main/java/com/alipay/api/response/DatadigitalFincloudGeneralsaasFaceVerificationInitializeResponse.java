@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class DatadigitalFincloudGeneralsaasFaceVerificationInitializeResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3481611587678414135L;
+	private static final long serialVersionUID = 7758157512384912183L;
 
 	/** 
 	 * 认证单据号，请保留以便排查问题。
