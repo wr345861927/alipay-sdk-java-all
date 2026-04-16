@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EpIndicatorCityCountInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3641529947568419587L;
+	private static final long serialVersionUID = 8177816182934489215L;
 
 	/**
 	 * 数量

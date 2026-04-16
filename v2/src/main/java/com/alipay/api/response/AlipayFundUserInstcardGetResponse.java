@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.fund.user.instcard.get response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-14 16:12:50
+ * @since 1.0, 2026-04-15 20:57:45
  */
 public class AlipayFundUserInstcardGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5423934995617524615L;
+	private static final long serialVersionUID = 8491312762582842294L;
 
 	/** 
 	 * 支付宝用户id

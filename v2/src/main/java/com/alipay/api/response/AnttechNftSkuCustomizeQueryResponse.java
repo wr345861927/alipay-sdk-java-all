@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AnttechNftSkuCustomizeQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8741427493943725927L;
+	private static final long serialVersionUID = 1675996318942371942L;
 
 	/** 
 	 * 发放状态：WAITING待发放，FINISHED发放完成，CANCEL审核返回失败，FAILED无法发放，RECYCLE藏品被回收

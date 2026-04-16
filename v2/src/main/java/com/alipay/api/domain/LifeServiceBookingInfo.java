@@ -10,11 +10,17 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-03-05 16:32:44
+ * @since 1.0, 2026-04-15 19:27:45
  */
 public class LifeServiceBookingInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1214426571898677662L;
+	private static final long serialVersionUID = 1745756431627398331L;
+
+	/**
+	 * 商家已经发起了核销，此时在待用户确认状态。如果用户一直没确认，会在yyyy-MM-dd HH:mm:ss自动确认核销
+	 */
+	@ApiField("auto_confirm_deduction_time")
+	private String autoConfirmDeductionTime;
 
 	/**
 	 * null
@@ -36,10 +42,22 @@ public class LifeServiceBookingInfo extends AlipayObject {
 	private String bookingDate;
 
 	/**
+	 * 预约单对应的核销单状态。not_start表示没有发起核销，此时没有核销单id。wait_user_confirm对应核销单状态的FROZEN，表示商家已经发起核销，等待用户确认。done表示已经核销完成。processing表示核销正在处理中。
+	 */
+	@ApiField("booking_deduction_status")
+	private String bookingDeductionStatus;
+
+	/**
 	 * 预约单id
 	 */
 	@ApiField("booking_id")
 	private String bookingId;
+
+	/**
+	 * 核销单id
+	 */
+	@ApiField("deduction_order_id")
+	private String deductionOrderId;
 
 	/**
 	 * 预约结束时间 yyyy-MM-dd HH:mm:ss
@@ -161,6 +179,13 @@ public class LifeServiceBookingInfo extends AlipayObject {
 	@ApiField("user_id")
 	private String userId;
 
+	public String getAutoConfirmDeductionTime() {
+		return this.autoConfirmDeductionTime;
+	}
+	public void setAutoConfirmDeductionTime(String autoConfirmDeductionTime) {
+		this.autoConfirmDeductionTime = autoConfirmDeductionTime;
+	}
+
 	public List<LifeServiceAttr> getBookingAttrs() {
 		return this.bookingAttrs;
 	}
@@ -182,11 +207,25 @@ public class LifeServiceBookingInfo extends AlipayObject {
 		this.bookingDate = bookingDate;
 	}
 
+	public String getBookingDeductionStatus() {
+		return this.bookingDeductionStatus;
+	}
+	public void setBookingDeductionStatus(String bookingDeductionStatus) {
+		this.bookingDeductionStatus = bookingDeductionStatus;
+	}
+
 	public String getBookingId() {
 		return this.bookingId;
 	}
 	public void setBookingId(String bookingId) {
 		this.bookingId = bookingId;
+	}
+
+	public String getDeductionOrderId() {
+		return this.deductionOrderId;
+	}
+	public void setDeductionOrderId(String deductionOrderId) {
+		this.deductionOrderId = deductionOrderId;
 	}
 
 	public String getEndTime() {

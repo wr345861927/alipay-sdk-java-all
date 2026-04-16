@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-04-02 15:07:45
+ * @since 1.0, 2026-04-15 17:22:45
  */
 public class TourTicketInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4842428922829475354L;
+	private static final long serialVersionUID = 5152654786427533173L;
+
+	/**
+	 * 门票id
+	 */
+	@ApiField("ticket_id")
+	private String ticketId;
 
 	/**
 	 * 门票信息
@@ -30,6 +36,13 @@ public class TourTicketInfo extends AlipayObject {
 	 */
 	@ApiField("ticket_target_audience")
 	private String ticketTargetAudience;
+
+	public String getTicketId() {
+		return this.ticketId;
+	}
+	public void setTicketId(String ticketId) {
+		this.ticketId = ticketId;
+	}
 
 	public String getTicketName() {
 		return this.ticketName;

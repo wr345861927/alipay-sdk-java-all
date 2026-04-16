@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InsurePlanDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5423527143981431521L;
+	private static final long serialVersionUID = 4395879538369657272L;
 
 	/**
 	 * 折扣率

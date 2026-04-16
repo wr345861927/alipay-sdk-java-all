@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 请求对象
  *
  * @author auto create
- * @since 1.0, 2026-03-24 14:12:44
+ * @since 1.0, 2026-04-15 15:17:46
  */
 public class FindTextRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 7378266984931192321L;
+	private static final long serialVersionUID = 7278997377545769631L;
 
 	/**
 	 * null

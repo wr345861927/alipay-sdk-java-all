@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayBossProdAntlegalchainNdasignerCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7773338177494398759L;
+	private static final long serialVersionUID = 2821994997119956178L;
 
 	/** 
 	 * 失败的记录集合,只记录创建失败或通知失败的记录

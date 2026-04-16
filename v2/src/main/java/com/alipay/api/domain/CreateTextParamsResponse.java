@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 在百灵创建文案接口的返回对象
  *
  * @author auto create
- * @since 1.0, 2026-03-24 14:12:44
+ * @since 1.0, 2026-04-15 15:17:44
  */
 public class CreateTextParamsResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 1878912193347161755L;
+	private static final long serialVersionUID = 2588577899161814161L;
 
 	/**
 	 * 操作成功后完成标识为true

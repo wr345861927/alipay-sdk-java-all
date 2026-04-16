@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MiniIcpAuditReason extends AlipayObject {
 
-	private static final long serialVersionUID = 2635249139619226973L;
+	private static final long serialVersionUID = 1176539341577695478L;
 
 	/**
 	 * 小程序备案结果说明

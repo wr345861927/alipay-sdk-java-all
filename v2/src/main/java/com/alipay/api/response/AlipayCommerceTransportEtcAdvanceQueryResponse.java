@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceTransportEtcAdvanceQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2154466748759971989L;
+	private static final long serialVersionUID = 6228577426212586164L;
 
 	/** 
 	 * 行程垫资未还列表

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCloudNextbuilderAgentCompletionGenerateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2292754849845939111L;
+	private static final long serialVersionUID = 3131437487174721986L;
 
 	/**
 	 * AI 创作平台创建的智能体 的 id，可从AI 创作平台页面获取

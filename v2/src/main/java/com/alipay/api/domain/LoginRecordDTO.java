@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class LoginRecordDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2274322843213139698L;
+	private static final long serialVersionUID = 2519957883723543897L;
 
 	/**
 	 * 退出时间

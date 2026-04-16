@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HdfHospital extends AlipayObject {
 
-	private static final long serialVersionUID = 3335587256444689233L;
+	private static final long serialVersionUID = 1681192823897859825L;
 
 	/**
 	 * 例：医保卡、身份证 

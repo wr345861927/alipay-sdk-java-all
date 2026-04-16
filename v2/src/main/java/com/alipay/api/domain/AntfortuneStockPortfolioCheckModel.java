@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AntfortuneStockPortfolioCheckModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2539259348434433412L;
+	private static final long serialVersionUID = 6349293643321599545L;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识

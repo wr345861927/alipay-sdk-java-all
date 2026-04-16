@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 百灵文案创建接口
  *
  * @author auto create
- * @since 1.0, 2026-03-24 14:12:44
+ * @since 1.0, 2026-04-15 15:17:44
  */
 public class AnttechOceanbaseObglobalBailingualCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4124931948353338529L;
+	private static final long serialVersionUID = 1699742435859748835L;
 
 	/**
 	 * 动态在百灵平台创建及发布文案,支持批量操作

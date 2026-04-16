@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WithholdingDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 7688528289683724621L;
+	private static final long serialVersionUID = 5665128678242993823L;
 
 	/**
 	 * 应扣时间

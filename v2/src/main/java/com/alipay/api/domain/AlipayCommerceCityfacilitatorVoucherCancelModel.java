@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceCityfacilitatorVoucherCancelModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3639444117449341612L;
+	private static final long serialVersionUID = 4571469334352475914L;
 
 	/**
 	 * 渠道商提供的其它信息

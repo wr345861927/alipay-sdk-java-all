@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEbppEbppFamilyNoticeSendModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3714774329215762451L;
+	private static final long serialVersionUID = 4245168599356359381L;
 
 	/**
 	 * 发送的消息类型

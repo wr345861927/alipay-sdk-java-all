@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 提供给SalesForce更新项目组成员入参
  *
  * @author auto create
- * @since 1.0, 2026-04-14 14:32:45
+ * @since 1.0, 2026-04-15 16:12:46
  */
 public class SaleForceLeadsMemberModifyDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 2238149239373123948L;
+	private static final long serialVersionUID = 3619821518495487849L;
 
 	/**
 	 * 商机ID

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SeatInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8515918496122272487L;
+	private static final long serialVersionUID = 3319297326657572946L;
 
 	/**
 	 * 座位等级

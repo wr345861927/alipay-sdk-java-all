@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RoboDowntimeInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7182739397582527164L;
+	private static final long serialVersionUID = 7271836726461374842L;
 
 	/**
 	 * 停运结束时间

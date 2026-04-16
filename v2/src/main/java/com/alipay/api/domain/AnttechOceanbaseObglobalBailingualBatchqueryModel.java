@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 百灵文案批量查询接口
  *
  * @author auto create
- * @since 1.0, 2026-03-24 14:12:44
+ * @since 1.0, 2026-04-15 15:17:46
  */
 public class AnttechOceanbaseObglobalBailingualBatchqueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5169436334522437776L;
+	private static final long serialVersionUID = 4865548772318398628L;
 
 	/**
 	 * 请求对象

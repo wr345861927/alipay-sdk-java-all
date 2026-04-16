@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MccQueryInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3368462697775146228L;
+	private static final long serialVersionUID = 7881873616381154792L;
 
 	/**
 	 * 是否特殊行业

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 用户授权绑定关系绑定
  *
  * @author auto create
- * @since 1.0, 2025-09-04 13:46:45
+ * @since 1.0, 2026-04-15 14:40:32
  */
 public class AlipayCommerceTransportFlightsAuthBindModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7221379572462373431L;
+	private static final long serialVersionUID = 5484717127551729968L;
 
 	/**
 	 * 授权码主体用于授权对象范围，当字段不为空时，表示仅授权特定航旅航司；若字段值为空，则表示一键授权所有航旅航司

@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: anttech.oceanbase.obglobal.bailingual.create response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-24 14:12:44
+ * @since 1.0, 2026-04-15 15:17:44
  */
 public class AnttechOceanbaseObglobalBailingualCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5831787236495395364L;
+	private static final long serialVersionUID = 4156499654512367771L;
 
 	/** 
 	 * 在百灵创建文案接口的返回对象

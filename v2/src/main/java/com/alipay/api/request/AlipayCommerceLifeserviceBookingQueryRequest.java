@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.lifeservice.booking.query request
  * 
  * @author auto create
- * @since 1.0, 2026-03-05 16:32:44
+ * @since 1.0, 2026-04-15 19:27:45
  */
 public class AlipayCommerceLifeserviceBookingQueryRequest implements AlipayRequest<AlipayCommerceLifeserviceBookingQueryResponse> {
 

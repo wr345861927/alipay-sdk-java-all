@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class UnifiedSettleRefundInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3238148929452998797L;
+	private static final long serialVersionUID = 1394528399445683425L;
 
 	/**
 	 * 表示退款同步的类型，比如用于标识退款时是否发生垫资

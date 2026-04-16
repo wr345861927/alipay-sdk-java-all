@@ -7,11 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 门店行业资质
  *
  * @author auto create
- * @since 1.0, 2023-11-09 11:32:40
+ * @since 1.0, 2026-04-16 10:22:12
  */
 public class ShopIndustryLicense extends AlipayObject {
 
-	private static final long serialVersionUID = 7527117683385415415L;
+	private static final long serialVersionUID = 4162956766393318425L;
+
+	/**
+	 * 证件过期时间
+	 */
+	@ApiField("expire_time")
+	private String expireTime;
+
+	/**
+	 * 资质证件编号
+	 */
+	@ApiField("license_no")
+	private String licenseNo;
 
 	/**
 	 * 资质图片信息
@@ -24,6 +36,20 @@ public class ShopIndustryLicense extends AlipayObject {
 	 */
 	@ApiField("license_type")
 	private String licenseType;
+
+	public String getExpireTime() {
+		return this.expireTime;
+	}
+	public void setExpireTime(String expireTime) {
+		this.expireTime = expireTime;
+	}
+
+	public String getLicenseNo() {
+		return this.licenseNo;
+	}
+	public void setLicenseNo(String licenseNo) {
+		this.licenseNo = licenseNo;
+	}
 
 	public String getLicensePic() {
 		return this.licensePic;

@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class HonorTempLimitInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 4748961893471463892L;
+	private static final long serialVersionUID = 4297937815773946443L;
 
 	/**
 	 * 临额可用额度，单位：分

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class EpRatioInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4484775648269655363L;
+	private static final long serialVersionUID = 5445645586748452756L;
 
 	/**
 	 * 统一社会信用代码

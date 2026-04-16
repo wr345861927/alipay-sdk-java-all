@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BenefitAccountRepayBankInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5179892855921498371L;
+	private static final long serialVersionUID = 8575194212779211188L;
 
 	/**
 	 * 还款银行编码

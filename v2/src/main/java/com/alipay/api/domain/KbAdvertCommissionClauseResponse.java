@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class KbAdvertCommissionClauseResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 2127263696556287772L;
+	private static final long serialVersionUID = 7847666598866146263L;
 
 	/**
 	 * 比例分佣规则

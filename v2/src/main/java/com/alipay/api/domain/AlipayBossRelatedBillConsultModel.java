@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayBossRelatedBillConsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8361544475686356829L;
+	private static final long serialVersionUID = 1568913745941759921L;
 
 	/**
 	 * 业务发生时间,格式为 2022-02-02

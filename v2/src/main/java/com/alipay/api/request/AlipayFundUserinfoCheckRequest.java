@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.fund.userinfo.check request
  * 
  * @author auto create
- * @since 1.0, 2026-04-14 16:17:45
+ * @since 1.0, 2026-04-15 20:52:45
  */
 public class AlipayFundUserinfoCheckRequest implements AlipayRequest<AlipayFundUserinfoCheckResponse> {
 

@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 动态在百灵平台创建及发布文案,支持批量操作
  *
  * @author auto create
- * @since 1.0, 2026-03-24 14:12:44
+ * @since 1.0, 2026-04-15 15:17:44
  */
 public class CreateTextRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 2343513544547756213L;
+	private static final long serialVersionUID = 1148944842411947947L;
 
 	/**
 	 * null

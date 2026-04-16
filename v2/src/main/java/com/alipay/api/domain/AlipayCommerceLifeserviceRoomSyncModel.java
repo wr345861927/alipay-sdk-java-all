@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 场地信息同步
  *
  * @author auto create
- * @since 1.0, 2026-01-26 15:57:41
+ * @since 1.0, 2026-04-15 19:27:45
  */
 public class AlipayCommerceLifeserviceRoomSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3525564721898845558L;
+	private static final long serialVersionUID = 2571616586177625563L;
 
 	/**
 	 * 三方场地id【需保证唯一性】
@@ -30,7 +30,9 @@ public class AlipayCommerceLifeserviceRoomSyncModel extends AlipayObject {
 	private List<LifeServiceAttr> roomAttrs;
 
 	/**
-	 * 场地种类
+	 * 所属类目code，建议code和商品保持一致
+仅支持传入叶子类目
+
 	 */
 	@ApiField("room_category")
 	private String roomCategory;

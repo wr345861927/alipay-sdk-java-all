@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SubPrizeDiscountInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6325872353611194827L;
+	private static final long serialVersionUID = 4768553171359221759L;
 
 	/**
 	 * 有门槛

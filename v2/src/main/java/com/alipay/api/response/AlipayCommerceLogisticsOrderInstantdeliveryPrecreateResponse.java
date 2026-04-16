@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceLogisticsOrderInstantdeliveryPrecreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7483932187534199717L;
+	private static final long serialVersionUID = 8467428959388612133L;
 
 	/** 
 	 * 即时配送运单列表

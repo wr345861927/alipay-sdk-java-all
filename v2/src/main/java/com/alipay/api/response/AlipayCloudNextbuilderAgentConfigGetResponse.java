@@ -13,11 +13,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.cloud.nextbuilder.agent.config.get response.
  * 
  * @author auto create
- * @since 1.0, 2024-07-05 11:12:04
+ * @since 1.0, 2026-04-15 21:29:17
  */
 public class AlipayCloudNextbuilderAgentConfigGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6232422113793337733L;
+	private static final long serialVersionUID = 6859848787727845466L;
 
 	/** 
 	 * 配置版本号

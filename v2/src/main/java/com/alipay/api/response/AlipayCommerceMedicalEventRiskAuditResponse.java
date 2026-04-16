@@ -8,11 +8,21 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.event.risk.audit response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-27 17:17:44
+ * @since 1.0, 2026-04-16 10:17:45
  */
 public class AlipayCommerceMedicalEventRiskAuditResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7758774993123896912L;
+	private static final long serialVersionUID = 2665922831813615381L;
+
+	/** 
+	 * 请求参数
+参照【蚂蚁文档
+NextGuard总线接入文档
+】
+auditItemResultList
+	 */
+	@ApiField("audit_item_result_list")
+	private String auditItemResultList;
 
 	/** 
 	 * 事件id
@@ -21,16 +31,38 @@ public class AlipayCommerceMedicalEventRiskAuditResponse extends AlipayResponse 
 	private String eventId;
 
 	/** 
+	 * 一般放存证信息
+	 */
+	@ApiField("notarization")
+	private String notarization;
+
+	/** 
 	 * 请求id
 	 */
 	@ApiField("request_id")
 	private String requestId;
 
 	/** 
+	 * 审核状态
+	 */
+	@ApiField("result")
+	private String result;
+
+	/** 
 	 * 事件code
 	 */
 	@ApiField("risk_event_code")
 	private String riskEventCode;
+
+	/** 
+	 * 请求参数
+参照【蚂蚁文档
+NextGuard总线接入文档
+】params
+riskLabelList
+	 */
+	@ApiField("risk_label_list")
+	private String riskLabelList;
 
 	/** 
 	 * SUCCESS表示有审核结果，不需要等待结果消息
@@ -42,11 +74,25 @@ NextGuard总线接入文档
 	@ApiField("risk_process")
 	private String riskProcess;
 
+	public void setAuditItemResultList(String auditItemResultList) {
+		this.auditItemResultList = auditItemResultList;
+	}
+	public String getAuditItemResultList( ) {
+		return this.auditItemResultList;
+	}
+
 	public void setEventId(String eventId) {
 		this.eventId = eventId;
 	}
 	public String getEventId( ) {
 		return this.eventId;
+	}
+
+	public void setNotarization(String notarization) {
+		this.notarization = notarization;
+	}
+	public String getNotarization( ) {
+		return this.notarization;
 	}
 
 	public void setRequestId(String requestId) {
@@ -56,11 +102,25 @@ NextGuard总线接入文档
 		return this.requestId;
 	}
 
+	public void setResult(String result) {
+		this.result = result;
+	}
+	public String getResult( ) {
+		return this.result;
+	}
+
 	public void setRiskEventCode(String riskEventCode) {
 		this.riskEventCode = riskEventCode;
 	}
 	public String getRiskEventCode( ) {
 		return this.riskEventCode;
+	}
+
+	public void setRiskLabelList(String riskLabelList) {
+		this.riskLabelList = riskLabelList;
+	}
+	public String getRiskLabelList( ) {
+		return this.riskLabelList;
 	}
 
 	public void setRiskProcess(String riskProcess) {

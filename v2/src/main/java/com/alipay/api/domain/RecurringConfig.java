@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecurringConfig extends AlipayObject {
 
-	private static final long serialVersionUID = 8624914234874128919L;
+	private static final long serialVersionUID = 7595919594692186134L;
 
 	/**
 	 * 计价周期单位，和interval_count组合使用

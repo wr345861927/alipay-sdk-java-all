@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
 修改路由策略到R
  *
  * @author auto create
- * @since 1.0, 2026-03-06 15:05:31
+ * @since 1.0, 2026-04-16 10:32:09
  */
 public class AlipayTradePrecreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1524249479954434351L;
+	private static final long serialVersionUID = 5248832778121877533L;
 
 	/**
 	 * 支付宝店铺编号。

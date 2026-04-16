@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ScheduleWeekPlanInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5374458526871525263L;
+	private static final long serialVersionUID = 7648646569166954292L;
 
 	/**
 	 * 午休时间
