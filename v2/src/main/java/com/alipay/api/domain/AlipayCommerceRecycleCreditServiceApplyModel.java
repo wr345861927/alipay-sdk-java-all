@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceRecycleCreditServiceApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2176753978815134994L;
+	private static final long serialVersionUID = 3352211928522272378L;
 
 	/**
 	 * 商家绑定的支付宝登录账号

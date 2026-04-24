@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 缓存key信息
+ * null
  *
  * @author auto create
- * @since 1.0, 2026-03-25 14:42:44
+ * @since 1.0, 2026-04-16 17:47:45
  */
 public class KeyInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4643236846731945583L;
+	private static final long serialVersionUID = 3889295142645646939L;
 
 	/**
 	 * 条件是否变更

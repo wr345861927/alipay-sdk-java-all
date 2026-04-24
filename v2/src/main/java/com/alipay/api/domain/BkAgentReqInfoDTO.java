@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class BkAgentReqInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5456549241221825188L;
+	private static final long serialVersionUID = 4787253867175317438L;
 
 	/**
 	 * 收单机构在清算组织登记或分配的机构代码

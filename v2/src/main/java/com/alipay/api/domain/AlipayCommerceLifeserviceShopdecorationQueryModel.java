@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 门店装修信息查询
  *
  * @author auto create
- * @since 1.0, 2026-02-09 14:37:44
+ * @since 1.0, 2026-04-16 17:37:44
  */
 public class AlipayCommerceLifeserviceShopdecorationQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6573534997315269742L;
+	private static final long serialVersionUID = 3656882481317354369L;
 
 	/**
 	 * 蚂蚁门店id

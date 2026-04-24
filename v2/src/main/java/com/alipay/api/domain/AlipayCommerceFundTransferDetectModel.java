@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 流水记录校验真假
  *
  * @author auto create
- * @since 1.0, 2024-12-03 15:51:21
+ * @since 1.0, 2026-04-16 14:12:48
  */
 public class AlipayCommerceFundTransferDetectModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4627189725245974216L;
+	private static final long serialVersionUID = 6218126721595573655L;
 
 	/**
 	 * 实际支付金额, 单位元
@@ -56,7 +56,7 @@ public class AlipayCommerceFundTransferDetectModel extends AlipayObject {
 	private String recipient;
 
 	/**
-	 * 收款方身份证号
+	 * 收款方身份证号,到户需要填
 	 */
 	@ApiField("recipient_id")
 	private String recipientId;

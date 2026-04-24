@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 获取授权
  *
  * @author auto create
- * @since 1.0, 2024-01-08 17:20:04
+ * @since 1.0, 2026-04-22 18:17:19
  */
 public class AlipayInsSceneCommonPremissionAuthModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6387775289167772627L;
+	private static final long serialVersionUID = 5266129779849824276L;
 
 	/**
 	 * 订购组件token
@@ -40,6 +40,12 @@ public class AlipayInsSceneCommonPremissionAuthModel extends AlipayObject {
 	 */
 	@ApiField("login_user_id")
 	private String loginUserId;
+
+	/**
+	 * 主订单
+	 */
+	@ApiField("order_dto")
+	private EcomOrderDTO orderDto;
 
 	/**
 	 * 外部sessionid
@@ -79,6 +85,13 @@ public class AlipayInsSceneCommonPremissionAuthModel extends AlipayObject {
 	}
 	public void setLoginUserId(String loginUserId) {
 		this.loginUserId = loginUserId;
+	}
+
+	public EcomOrderDTO getOrderDto() {
+		return this.orderDto;
+	}
+	public void setOrderDto(EcomOrderDTO orderDto) {
+		this.orderDto = orderDto;
 	}
 
 	public String getOutSessionId() {

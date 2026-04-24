@@ -7,6 +7,7 @@ import com.alipay.api.internal.mapping.ApiListField;
 import com.alipay.api.domain.AftersaleAddressInfoVO;
 import com.alipay.api.domain.AftersaleItemInfo;
 import com.alipay.api.domain.OrderMediaInfo;
+import com.alipay.api.domain.AftersaleFundsDetailItem;
 import com.alipay.api.domain.LogisticsWaybill;
 import com.alipay.api.domain.AftersaleServiceTag;
 
@@ -16,11 +17,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.mini.order.aftersale.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-07-09 16:07:33
+ * @since 1.0, 2026-04-20 09:47:45
  */
 public class AlipayOpenMiniOrderAftersaleQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6177964833147268871L;
+	private static final long serialVersionUID = 7423539238973544231L;
 
 	/** 
 	 * 售后单触发类型
@@ -79,10 +80,22 @@ public class AlipayOpenMiniOrderAftersaleQueryResponse extends AlipayResponse {
 	private Date createTime;
 
 	/** 
+	 * 返回优惠总金额用于，用于信息展示，单位元，默认为空
+	 */
+	@ApiField("discount_amount")
+	private String discountAmount;
+
+	/** 
 	 * 最终退款金额，单位：元,精确到小数点后两位
 	 */
 	@ApiField("finally_refund_amount")
 	private String finallyRefundAmount;
+
+	/** 
+	 * 用于返回售后资金明细信息数据，从oc_aftersale_funds_detail表中获取，默认为空，其中金额的单位为元
+	 */
+	@ApiField("funds_details")
+	private AftersaleFundsDetailItem fundsDetails;
 
 	/** 
 	 * 物流单详情
@@ -197,11 +210,25 @@ public class AlipayOpenMiniOrderAftersaleQueryResponse extends AlipayResponse {
 		return this.createTime;
 	}
 
+	public void setDiscountAmount(String discountAmount) {
+		this.discountAmount = discountAmount;
+	}
+	public String getDiscountAmount( ) {
+		return this.discountAmount;
+	}
+
 	public void setFinallyRefundAmount(String finallyRefundAmount) {
 		this.finallyRefundAmount = finallyRefundAmount;
 	}
 	public String getFinallyRefundAmount( ) {
 		return this.finallyRefundAmount;
+	}
+
+	public void setFundsDetails(AftersaleFundsDetailItem fundsDetails) {
+		this.fundsDetails = fundsDetails;
+	}
+	public AftersaleFundsDetailItem getFundsDetails( ) {
+		return this.fundsDetails;
 	}
 
 	public void setLogisticsWaybills(List<LogisticsWaybill> logisticsWaybills) {

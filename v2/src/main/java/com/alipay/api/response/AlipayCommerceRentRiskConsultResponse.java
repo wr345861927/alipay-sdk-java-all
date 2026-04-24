@@ -8,6 +8,7 @@ import com.alipay.api.domain.ConsultFailReason;
 import com.alipay.api.domain.RiskBasicInfoVO;
 import com.alipay.api.domain.RentRiskInfoVO;
 import com.alipay.api.domain.ShipGoodsRiskVO;
+import com.alipay.api.domain.VerticalRiskVO;
 
 import com.alipay.api.AlipayResponse;
 
@@ -15,11 +16,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.rent.risk.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-15 13:45:22
+ * @since 1.0, 2026-04-23 15:37:45
  */
 public class AlipayCommerceRentRiskConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2199397752521267638L;
+	private static final long serialVersionUID = 4269327295522366235L;
 
 	/** 
 	 * 长租/汽车订阅：Tn_Level类型结果，risk_level字段取值范围T1-T10（T1 ~ T4: 低风险；T5 ~ T6: 中风险；T7 ~ T8: 高风险；T9 ~ T10: 极高风险）
@@ -79,6 +80,18 @@ PRO-租安盾专业版，面向签约商户；
 	 */
 	@ApiField("vam_group")
 	private String vamGroup;
+
+	/** 
+	 * 【注意事项】此字段返回需要满足以下条件
+1.3C租赁场景需签约租安盾产品
+ 2.订单需要完成代扣或免押签约后，才会返回值。
+ 3.租安盾产品订单——免押场景下需要配置租安盾策略且拉起免押受理台的策略是租安盾策略；
+4.使用的风控策略类型为芝麻租赁租安盾长租策略: risk_policy_value=zhimazulin_zuandun
+5.接口查询参数请求中?consult_risk_types=VERTICAL_RENT_RISK
+其他信息可参考租安盾产品接入指南。
+	 */
+	@ApiField("vertical_risk_models")
+	private VerticalRiskVO verticalRiskModels;
 
 	public void setComprehensiveRiskModels(RentRiskProVO comprehensiveRiskModels) {
 		this.comprehensiveRiskModels = comprehensiveRiskModels;
@@ -141,6 +154,13 @@ PRO-租安盾专业版，面向签约商户；
 	}
 	public String getVamGroup( ) {
 		return this.vamGroup;
+	}
+
+	public void setVerticalRiskModels(VerticalRiskVO verticalRiskModels) {
+		this.verticalRiskModels = verticalRiskModels;
+	}
+	public VerticalRiskVO getVerticalRiskModels( ) {
+		return this.verticalRiskModels;
 	}
 
 }

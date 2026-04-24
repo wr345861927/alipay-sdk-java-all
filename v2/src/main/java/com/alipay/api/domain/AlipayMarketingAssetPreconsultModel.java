@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 权益前置咨询
  *
  * @author auto create
- * @since 1.0, 2025-08-19 15:24:54
+ * @since 1.0, 2026-04-20 10:11:53
  */
 public class AlipayMarketingAssetPreconsultModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6132359269445819263L;
+	private static final long serialVersionUID = 8195761763347225284L;
 
 	/**
 	 * 作为内部交易号使用

@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayIserviceIsresourceLeafnodequerybyorgidQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8582193552421799671L;
+	private static final long serialVersionUID = 2394988216586351968L;
 
 	/** 
 	 * 返回的组织节点列表

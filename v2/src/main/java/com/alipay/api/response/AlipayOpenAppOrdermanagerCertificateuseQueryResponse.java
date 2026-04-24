@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.app.ordermanager.certificateuse.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-05 16:28:03
+ * @since 1.0, 2026-04-20 20:12:45
  */
 public class AlipayOpenAppOrdermanagerCertificateuseQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7559959955547117748L;
+	private static final long serialVersionUID = 6264387112367116781L;
 
 	/** 
 	 * 核销明细列表

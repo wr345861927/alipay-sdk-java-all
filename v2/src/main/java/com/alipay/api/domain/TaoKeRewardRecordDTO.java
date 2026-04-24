@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class TaoKeRewardRecordDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8397899167715745919L;
+	private static final long serialVersionUID = 8423998585916682912L;
 
 	/**
 	 * 达成交易的用户openId

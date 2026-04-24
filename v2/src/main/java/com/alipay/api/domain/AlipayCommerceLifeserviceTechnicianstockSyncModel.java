@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 手艺人库存同步
  *
  * @author auto create
- * @since 1.0, 2026-02-05 16:47:44
+ * @since 1.0, 2026-04-16 17:37:44
  */
 public class AlipayCommerceLifeserviceTechnicianstockSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7775798995766236122L;
+	private static final long serialVersionUID = 7684859555951487726L;
 
 	/**
 	 * 三方手艺人id【需保证唯一性】

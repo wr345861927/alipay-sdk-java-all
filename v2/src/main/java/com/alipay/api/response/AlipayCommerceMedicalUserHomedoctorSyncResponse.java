@@ -7,11 +7,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.user.homedoctor.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-20 19:07:44
+ * @since 1.0, 2026-04-20 16:32:41
  */
 public class AlipayCommerceMedicalUserHomedoctorSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7247952114319747177L;
+	private static final long serialVersionUID = 4167548692284637499L;
 
 	
 

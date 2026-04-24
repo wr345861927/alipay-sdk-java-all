@@ -13,12 +13,17 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.marketing.verification.trade.audit request
  * 
  * @author auto create
- * @since 1.0, 2026-04-10 19:15:26
+ * @since 1.0, 2026-04-22 16:37:45
  */
 public class AlipayMarketingVerificationTradeAuditRequest implements AlipayUploadRequest<AlipayMarketingVerificationTradeAuditResponse> {
 
 	private AlipayHashMap udfParams; // add user-defined text parameters
 	private String apiVersion="1.0";
+
+	/** 
+	* 激活照片（3c必填）转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem activateContent;
 
 	/** 
 	* 支付宝交易号，用于识别交易信息
@@ -46,6 +51,36 @@ public class AlipayMarketingVerificationTradeAuditRequest implements AlipayUploa
 	private FileItem invoiceContent;
 
 	/** 
+	* 产品送达现场照或自提现场照片（家电必传），转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem onSiteContent;
+
+	/** 
+	* 其他辅助材料1，转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem otherContent1;
+
+	/** 
+	* 其他辅助材料2,转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem otherContent2;
+
+	/** 
+	* 其他辅助材料3，转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem otherContent3;
+
+	/** 
+	* 其他辅助材料4，转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem otherContent4;
+
+	/** 
+	* 其他辅助材料5，转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem otherContent5;
+
+	/** 
 	* 外部订单号
 	 */
 	private String outTradeNo;
@@ -59,6 +94,23 @@ public class AlipayMarketingVerificationTradeAuditRequest implements AlipayUploa
 	* 支付宝分配的场景编码，用于识别活动场景及区域等信息
 	 */
 	private String sceneCode;
+
+	/** 
+	* 机身SN照（家电必传），转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem snBodyContent;
+
+	/** 
+	* 商品SN照转为字节流传递，要求为jpg、jpeg、png格式
+	 */
+	private FileItem snContent;
+
+	public void setActivateContent(FileItem activateContent) {
+		this.activateContent = activateContent;
+	}
+	public FileItem getActivateContent() {
+		return this.activateContent;
+	}
 
 	public void setAlipayTradeNo(String alipayTradeNo) {
 		this.alipayTradeNo = alipayTradeNo;
@@ -95,6 +147,48 @@ public class AlipayMarketingVerificationTradeAuditRequest implements AlipayUploa
 		return this.invoiceContent;
 	}
 
+	public void setOnSiteContent(FileItem onSiteContent) {
+		this.onSiteContent = onSiteContent;
+	}
+	public FileItem getOnSiteContent() {
+		return this.onSiteContent;
+	}
+
+	public void setOtherContent1(FileItem otherContent1) {
+		this.otherContent1 = otherContent1;
+	}
+	public FileItem getOtherContent1() {
+		return this.otherContent1;
+	}
+
+	public void setOtherContent2(FileItem otherContent2) {
+		this.otherContent2 = otherContent2;
+	}
+	public FileItem getOtherContent2() {
+		return this.otherContent2;
+	}
+
+	public void setOtherContent3(FileItem otherContent3) {
+		this.otherContent3 = otherContent3;
+	}
+	public FileItem getOtherContent3() {
+		return this.otherContent3;
+	}
+
+	public void setOtherContent4(FileItem otherContent4) {
+		this.otherContent4 = otherContent4;
+	}
+	public FileItem getOtherContent4() {
+		return this.otherContent4;
+	}
+
+	public void setOtherContent5(FileItem otherContent5) {
+		this.otherContent5 = otherContent5;
+	}
+	public FileItem getOtherContent5() {
+		return this.otherContent5;
+	}
+
 	public void setOutTradeNo(String outTradeNo) {
 		this.outTradeNo = outTradeNo;
 	}
@@ -114,6 +208,20 @@ public class AlipayMarketingVerificationTradeAuditRequest implements AlipayUploa
 	}
 	public String getSceneCode() {
 		return this.sceneCode;
+	}
+
+	public void setSnBodyContent(FileItem snBodyContent) {
+		this.snBodyContent = snBodyContent;
+	}
+	public FileItem getSnBodyContent() {
+		return this.snBodyContent;
+	}
+
+	public void setSnContent(FileItem snContent) {
+		this.snContent = snContent;
+	}
+	public FileItem getSnContent() {
+		return this.snContent;
 	}
 	private String terminalType;
 	private String terminalInfo;
@@ -195,10 +303,19 @@ public class AlipayMarketingVerificationTradeAuditRequest implements AlipayUploa
 
 	public Map<String, FileItem> getFileParams() {
 		Map<String, FileItem> params = new HashMap<String, FileItem>();
+		params.put("activate_content", this.activateContent);
 		params.put("delivery_list_content", this.deliveryListContent);
 		params.put("evidentiary_content", this.evidentiaryContent);
 		params.put("invoice_content", this.invoiceContent);
+		params.put("on_site_content", this.onSiteContent);
+		params.put("other_content_1", this.otherContent1);
+		params.put("other_content_2", this.otherContent2);
+		params.put("other_content_3", this.otherContent3);
+		params.put("other_content_4", this.otherContent4);
+		params.put("other_content_5", this.otherContent5);
 		params.put("sales_list_content", this.salesListContent);
+		params.put("sn_body_content", this.snBodyContent);
+		params.put("sn_content", this.snContent);
 		return params;
 	}
 

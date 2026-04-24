@@ -10,11 +10,19 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 抵押状态通知来报
  *
  * @author auto create
- * @since 1.0, 2026-01-26 11:14:25
+ * @since 1.0, 2026-04-21 11:35:29
  */
 public class XingheLendassistCarfinMortgageapplystatusNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2524577411649349994L;
+	private static final long serialVersionUID = 6567532645783898387L;
+
+	/**
+	 * ENDORSE_ING：线下窗口受理成功
+MORTGAGE_SUC：抵押办理成功
+MORTGAGE_FAIL：抵押办理失败
+	 */
+	@ApiField("current_status")
+	private String currentStatus;
 
 	/**
 	 * 交科所的抵押订单序号
@@ -78,6 +86,13 @@ public class XingheLendassistCarfinMortgageapplystatusNotifyModel extends Alipay
 	@ApiListField("supple_file_list")
 	@ApiField("string")
 	private List<String> suppleFileList;
+
+	public String getCurrentStatus() {
+		return this.currentStatus;
+	}
+	public void setCurrentStatus(String currentStatus) {
+		this.currentStatus = currentStatus;
+	}
 
 	public String getJksxh() {
 		return this.jksxh;

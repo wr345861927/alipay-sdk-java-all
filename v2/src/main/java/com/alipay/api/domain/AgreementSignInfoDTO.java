@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AgreementSignInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3189256441467237835L;
+	private static final long serialVersionUID = 4633935131477436151L;
 
 	/**
 	 * 用户个人协议签约消息通知地址，接入租赁快捷下单商户可通过指定该地址监听支付宝侧用户个人协议签约成功消息

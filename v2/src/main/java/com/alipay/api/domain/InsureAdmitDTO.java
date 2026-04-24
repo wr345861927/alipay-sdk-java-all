@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class InsureAdmitDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 6819923523669748317L;
+	private static final long serialVersionUID = 1563512585237469442L;
 
 	/**
 	 * 买家

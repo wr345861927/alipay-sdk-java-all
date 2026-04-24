@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SourceOffer extends AlipayObject {
 
-	private static final long serialVersionUID = 1699865362155872267L;
+	private static final long serialVersionUID = 6527392299789693873L;
 
 	/**
 	 * offerId，根据offer类型对应不同ID。支持小程序的APPID/小程序服务的服务编码/优惠券的活动ID

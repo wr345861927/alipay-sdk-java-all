@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEbppIndustrySupervisionAuthorizationApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3341259127212696419L;
+	private static final long serialVersionUID = 5631424285148181441L;
 
 	/**
 	 * 需要在尾部添加时间戳，格式为yyyyMMdd

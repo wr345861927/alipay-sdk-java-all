@@ -7,26 +7,26 @@ import com.alipay.api.internal.mapping.ApiField;
  * 电子回单信息
  *
  * @author auto create
- * @since 1.0, 2026-03-26 16:21:38
+ * @since 1.0, 2026-04-16 15:31:21
  */
 public class OrderElectronicReceipt extends AlipayObject {
 
-	private static final long serialVersionUID = 7528951411952617356L;
+	private static final long serialVersionUID = 1231925287313334623L;
 
 	/**
-	 * 下载链接。status为SUCCESS时返回。用户可以使用此http链接下载文件内容。有效时间20s。 生成的文件是zip格式。需要解压后获取电子回单pdf内容
+	 * 下载链接。status为SUCCESS时返回。用户可以使用此http链接下载文件内容，电子回单文件为pdf格式。
 	 */
 	@ApiField("download_url")
 	private String downloadUrl;
 
 	/**
-	 * 如果生成失败，则会返回失败原因
+	 * 状态为FAILED，可联系业务人员处理
 	 */
 	@ApiField("error_message")
 	private String errorMessage;
 
 	/**
-	 * 处理状态 INIT - 初始化 PROCESS - 处理中 SUCCESS - 成功 FAIL - 失败
+	 * 处理状态 INIT - 初始化 PROCESSING - 处理中 SUCCESS - 成功 FAILED - 失败
 	 */
 	@ApiField("status")
 	private String status;

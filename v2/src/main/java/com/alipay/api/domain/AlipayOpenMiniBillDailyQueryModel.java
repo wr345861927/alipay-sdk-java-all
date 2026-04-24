@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 每日结算明细账单查询
  *
  * @author auto create
- * @since 1.0, 2026-04-03 16:46:27
+ * @since 1.0, 2026-04-16 15:25:19
  */
 public class AlipayOpenMiniBillDailyQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6896358527117631343L;
+	private static final long serialVersionUID = 2468553953768957256L;
 
 	/**
 	 * 分页页码，从1开始
@@ -26,7 +26,13 @@ public class AlipayOpenMiniBillDailyQueryModel extends AlipayObject {
 	private Long pageSize;
 
 	/**
-	 * 要查询的核销日期，格式：yyyyMMdd
+	 * 结算日期，格式：yyyyMMdd。核销日期、结算日期2选1必传。如同时传入2个日期，则按核销日期查询返回账单明细。
+	 */
+	@ApiField("settle_date")
+	private String settleDate;
+
+	/**
+	 * 核销日期，格式：yyyyMMdd。核销日期、结算日期2选1必传。如同时传入2个日期，则按核销日期查询返回账单明细。
 	 */
 	@ApiField("use_date")
 	private String useDate;
@@ -43,6 +49,13 @@ public class AlipayOpenMiniBillDailyQueryModel extends AlipayObject {
 	}
 	public void setPageSize(Long pageSize) {
 		this.pageSize = pageSize;
+	}
+
+	public String getSettleDate() {
+		return this.settleDate;
+	}
+	public void setSettleDate(String settleDate) {
+		this.settleDate = settleDate;
 	}
 
 	public String getUseDate() {

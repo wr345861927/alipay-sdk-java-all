@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlimamaPrincipalExtendInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7765444994116411367L;
+	private static final long serialVersionUID = 7331799243138492284L;
 
 	/**
 	 * 商家自定义账户名称

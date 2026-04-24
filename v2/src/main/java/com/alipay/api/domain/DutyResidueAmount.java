@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商保支付-查询用户保单信息-责任剩余保额
  *
  * @author auto create
- * @since 1.0, 2026-01-05 13:53:07
+ * @since 1.0, 2026-04-21 14:02:43
  */
 public class DutyResidueAmount extends AlipayObject {
 
-	private static final long serialVersionUID = 5595192794286515484L;
+	private static final long serialVersionUID = 4133554958317259274L;
 
 	/**
 	 * 保障详情
@@ -36,6 +36,12 @@ public class DutyResidueAmount extends AlipayObject {
 	 */
 	@ApiField("claim_duty_name")
 	private String claimDutyName;
+
+	/**
+	 * 100%赔付次数
+	 */
+	@ApiField("claim_times_100_percent")
+	private String claimTimes100Percent;
 
 	/**
 	 * 单位：元 保留俩位小数
@@ -64,6 +70,12 @@ public class DutyResidueAmount extends AlipayObject {
 	private String extInfo;
 
 	/**
+	 * 单项年度免赔额剩余
+	 */
+	@ApiField("item_self_annual_payment_remain")
+	private String itemSelfAnnualPaymentRemain;
+
+	/**
 	 * 父责任节点
 	 */
 	@ApiField("parent_claim_duty_code")
@@ -80,6 +92,36 @@ public class DutyResidueAmount extends AlipayObject {
 	 */
 	@ApiField("remark_en")
 	private String remarkEn;
+
+	/**
+	 * 自付比例
+	 */
+	@ApiField("self_ratio")
+	private String selfRatio;
+
+	/**
+	 * 单次自付额
+	 */
+	@ApiField("single_deductible")
+	private String singleDeductible;
+
+	/**
+	 * 次限额
+	 */
+	@ApiField("sub_quota")
+	private String subQuota;
+
+	/**
+	 * 单位
+	 */
+	@ApiField("unit")
+	private String unit;
+
+	/**
+	 * 已使用次数
+	 */
+	@ApiField("used_times")
+	private String usedTimes;
 
 	/**
 	 * 等待期,单位：天。
@@ -115,6 +157,13 @@ public class DutyResidueAmount extends AlipayObject {
 		this.claimDutyName = claimDutyName;
 	}
 
+	public String getClaimTimes100Percent() {
+		return this.claimTimes100Percent;
+	}
+	public void setClaimTimes100Percent(String claimTimes100Percent) {
+		this.claimTimes100Percent = claimTimes100Percent;
+	}
+
 	public String getDutyDeductibleExcess() {
 		return this.dutyDeductibleExcess;
 	}
@@ -143,6 +192,13 @@ public class DutyResidueAmount extends AlipayObject {
 		this.extInfo = extInfo;
 	}
 
+	public String getItemSelfAnnualPaymentRemain() {
+		return this.itemSelfAnnualPaymentRemain;
+	}
+	public void setItemSelfAnnualPaymentRemain(String itemSelfAnnualPaymentRemain) {
+		this.itemSelfAnnualPaymentRemain = itemSelfAnnualPaymentRemain;
+	}
+
 	public String getParentClaimDutyCode() {
 		return this.parentClaimDutyCode;
 	}
@@ -162,6 +218,41 @@ public class DutyResidueAmount extends AlipayObject {
 	}
 	public void setRemarkEn(String remarkEn) {
 		this.remarkEn = remarkEn;
+	}
+
+	public String getSelfRatio() {
+		return this.selfRatio;
+	}
+	public void setSelfRatio(String selfRatio) {
+		this.selfRatio = selfRatio;
+	}
+
+	public String getSingleDeductible() {
+		return this.singleDeductible;
+	}
+	public void setSingleDeductible(String singleDeductible) {
+		this.singleDeductible = singleDeductible;
+	}
+
+	public String getSubQuota() {
+		return this.subQuota;
+	}
+	public void setSubQuota(String subQuota) {
+		this.subQuota = subQuota;
+	}
+
+	public String getUnit() {
+		return this.unit;
+	}
+	public void setUnit(String unit) {
+		this.unit = unit;
+	}
+
+	public String getUsedTimes() {
+		return this.usedTimes;
+	}
+	public void setUsedTimes(String usedTimes) {
+		this.usedTimes = usedTimes;
 	}
 
 	public String getWaitingPeriod() {

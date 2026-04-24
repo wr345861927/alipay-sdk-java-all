@@ -20,7 +20,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppIndustryInvoiceVerifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6389335145359177552L;
+	private static final long serialVersionUID = 3824147491813979243L;
 
 	/** 
 	 * 飞机行程单信息

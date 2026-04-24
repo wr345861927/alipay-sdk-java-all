@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class EcoDisRenthousepayTypeList extends AlipayObject {
 
-	private static final long serialVersionUID = 6737393792213322477L;
+	private static final long serialVersionUID = 6182968567967759783L;
 
 	/**
 	 * 押金

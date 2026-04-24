@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 线圈设置
  *
  * @author auto create
- * @since 1.0, 2026-04-13 16:12:45
+ * @since 1.0, 2026-04-21 15:57:46
  */
 public class AlipayOfflineProviderExpoCoilSetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8175284819672849972L;
+	private static final long serialVersionUID = 8516619859367986586L;
 
 	/**
 	 * 线圈类型

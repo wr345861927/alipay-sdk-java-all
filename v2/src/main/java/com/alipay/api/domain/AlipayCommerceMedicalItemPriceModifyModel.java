@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 批量修改商品价格
  *
  * @author auto create
- * @since 1.0, 2025-04-14 15:47:11
+ * @since 1.0, 2026-04-20 16:57:59
  */
 public class AlipayCommerceMedicalItemPriceModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6545869644878916755L;
+	private static final long serialVersionUID = 7687134547834441238L;
 
 	/**
 	 * 商品sku价格的json数据

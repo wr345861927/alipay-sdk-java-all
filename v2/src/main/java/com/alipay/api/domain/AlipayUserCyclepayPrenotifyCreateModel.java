@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 周期扣预通知接口
  *
  * @author auto create
- * @since 1.0, 2026-03-30 17:32:44
+ * @since 1.0, 2026-04-20 20:52:45
  */
 public class AlipayUserCyclepayPrenotifyCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1213284458571689362L;
+	private static final long serialVersionUID = 2653755968843473161L;
 
 	/**
 	 * 支付宝系统中用以唯一标识用户签约记录的编号（用户签约成功后的协议号 ）

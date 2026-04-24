@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenMiniOrderbillExpenseBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7264736821351373832L;
+	private static final long serialVersionUID = 8712796557137543384L;
 
 	/** 
 	 * 费用查询结果

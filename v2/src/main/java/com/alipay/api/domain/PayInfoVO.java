@@ -10,11 +10,17 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 支付信息模型
  *
  * @author auto create
- * @since 1.0, 2023-08-04 13:53:35
+ * @since 1.0, 2026-04-21 14:50:51
  */
 public class PayInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 3239859846366519465L;
+	private static final long serialVersionUID = 1158697687222434692L;
+
+	/**
+	 * 苹果IAP支付API类型
+	 */
+	@ApiField("apple_iap_api")
+	private String appleIapApi;
 
 	/**
 	 * 支付渠道列表
@@ -42,6 +48,13 @@ public class PayInfoVO extends AlipayObject {
 	@ApiField("voucher_detail_info_d_t_o")
 	@Deprecated
 	private List<VoucherDetailInfoDTO> voucherDetailList;
+
+	public String getAppleIapApi() {
+		return this.appleIapApi;
+	}
+	public void setAppleIapApi(String appleIapApi) {
+		this.appleIapApi = appleIapApi;
+	}
 
 	public List<String> getPayChannels() {
 		return this.payChannels;

@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: ant.merchant.expand.shop.review.create request
  * 
  * @author auto create
- * @since 1.0, 2026-04-16 11:14:20
+ * @since 1.0, 2026-04-16 12:22:45
  */
 public class AntMerchantExpandShopReviewCreateRequest implements AlipayRequest<AntMerchantExpandShopReviewCreateResponse> {
 

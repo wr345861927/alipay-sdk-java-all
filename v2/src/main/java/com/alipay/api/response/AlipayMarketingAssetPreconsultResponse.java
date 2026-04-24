@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.marketing.asset.preconsult response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-19 15:27:36
+ * @since 1.0, 2026-04-20 10:11:53
  */
 public class AlipayMarketingAssetPreconsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6299198792737355954L;
+	private static final long serialVersionUID = 8163113746915313679L;
 
 	/** 
 	 * 最优券叠加总优惠金额，单位为元

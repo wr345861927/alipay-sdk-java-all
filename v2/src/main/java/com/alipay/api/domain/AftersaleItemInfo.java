@@ -1,17 +1,27 @@
 package com.alipay.api.domain;
 
+import java.util.List;
+
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
 
 /**
  * 商品列表
  *
  * @author auto create
- * @since 1.0, 2024-07-22 10:21:35
+ * @since 1.0, 2026-04-17 19:14:34
  */
 public class AftersaleItemInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 4348665427424647466L;
+	private static final long serialVersionUID = 1874611578976947374L;
+
+	/**
+	 * 售后凭证信息
+	 */
+	@ApiListField("certificate_vo_list")
+	@ApiField("aftersale_certificate_info")
+	private List<AftersaleCertificateInfo> certificateVoList;
 
 	/**
 	 * 商品数量,单位:"个"
@@ -30,6 +40,13 @@ public class AftersaleItemInfo extends AlipayObject {
 	 */
 	@ApiField("out_sku_id")
 	private String outSkuId;
+
+	public List<AftersaleCertificateInfo> getCertificateVoList() {
+		return this.certificateVoList;
+	}
+	public void setCertificateVoList(List<AftersaleCertificateInfo> certificateVoList) {
+		this.certificateVoList = certificateVoList;
+	}
 
 	public String getItemCnt() {
 		return this.itemCnt;

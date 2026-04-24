@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class LifeServiceBookingInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1745756431627398331L;
+	private static final long serialVersionUID = 7797166765634171357L;
 
 	/**
 	 * 商家已经发起了核销，此时在待用户确认状态。如果用户一直没确认，会在yyyy-MM-dd HH:mm:ss自动确认核销

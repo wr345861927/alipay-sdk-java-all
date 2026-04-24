@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class ZmCarOwnerDrivingLicenseInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3437498243586525761L;
+	private static final long serialVersionUID = 4659487557817619575L;
 
 	/**
 	 * 驾驶证失效日期

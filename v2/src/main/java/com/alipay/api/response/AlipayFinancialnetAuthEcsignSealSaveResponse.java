@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFinancialnetAuthEcsignSealSaveResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1677851928485852555L;
+	private static final long serialVersionUID = 8893418163265438865L;
 
 	/** 
 	 * 印章ID，如果有则为唯一值，用于印章更新场景，在创建完和更新完均会返回该值。

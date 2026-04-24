@@ -9,11 +9,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.credit.agreement.query response.
  * 
  * @author auto create
- * @since 1.0, 2025-08-28 14:47:37
+ * @since 1.0, 2026-04-18 00:07:38
  */
 public class AlipayTradeCreditAgreementQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6378236253631191295L;
+	private static final long serialVersionUID = 4373311557459443642L;
 
 	/** 
 	 * 先采协议号

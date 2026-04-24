@@ -10,11 +10,17 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 端外应用查询订单核销记录
  *
  * @author auto create
- * @since 1.0, 2025-12-15 16:29:57
+ * @since 1.0, 2026-04-17 10:19:13
  */
 public class AlipayOpenAppOrdermanagerCertificateuseQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6115461197468976969L;
+	private static final long serialVersionUID = 5635921911339182868L;
+
+	/**
+	 * 商家在支付宝平台内创建的一种营销业务的载体，可以支持发品、配券以及活动报名的id,它的来源是SAAS服务商来进件的时候,创建团购店铺的时候,生成的。
+	 */
+	@ApiField("a_store_id")
+	private String aStoreId;
 
 	/**
 	 * 分页页码
@@ -29,9 +35,10 @@ public class AlipayOpenAppOrdermanagerCertificateuseQueryModel extends AlipayObj
 	private Long pageSize;
 
 	/**
-	 * 需传入商家在支付宝侧生成的店铺id
+	 * 需传入商家在支付宝侧生成的店铺id 当前字段已废弃(店铺id字段请使用a_store_id，与商品、店铺保持一致)
 	 */
 	@ApiField("store_id")
+	@Deprecated
 	private String storeId;
 
 	/**
@@ -58,6 +65,13 @@ public class AlipayOpenAppOrdermanagerCertificateuseQueryModel extends AlipayObj
 	 */
 	@ApiField("write_off_status")
 	private String writeOffStatus;
+
+	public String getaStoreId() {
+		return this.aStoreId;
+	}
+	public void setaStoreId(String aStoreId) {
+		this.aStoreId = aStoreId;
+	}
 
 	public Long getPageNum() {
 		return this.pageNum;

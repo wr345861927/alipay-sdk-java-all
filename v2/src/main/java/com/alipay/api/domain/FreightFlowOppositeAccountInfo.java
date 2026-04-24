@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class FreightFlowOppositeAccountInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 6762398891514175524L;
+	private static final long serialVersionUID = 8137943295934932379L;
 
 	/**
 	 * 证件号

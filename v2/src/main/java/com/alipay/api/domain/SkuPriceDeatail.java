@@ -7,11 +7,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 商品价格
  *
  * @author auto create
- * @since 1.0, 2025-04-14 15:47:11
+ * @since 1.0, 2026-04-20 16:57:59
  */
 public class SkuPriceDeatail extends AlipayObject {
 
-	private static final long serialVersionUID = 4437436318765347451L;
+	private static final long serialVersionUID = 2713524352713169112L;
+
+	/**
+	 * 耗材费用，单位元。币种 ：人民币。
+	 */
+	@ApiField("consumables_price")
+	private String consumablesPrice;
+
+	/**
+	 * 药品费用，单位元。币种 ：人民币。
+	 */
+	@ApiField("drug_price")
+	private String drugPrice;
 
 	/**
 	 * 价格，单位元。币种 ：人民币。
@@ -24,6 +36,20 @@ public class SkuPriceDeatail extends AlipayObject {
 	 */
 	@ApiField("sku_code")
 	private String skuCode;
+
+	public String getConsumablesPrice() {
+		return this.consumablesPrice;
+	}
+	public void setConsumablesPrice(String consumablesPrice) {
+		this.consumablesPrice = consumablesPrice;
+	}
+
+	public String getDrugPrice() {
+		return this.drugPrice;
+	}
+	public void setDrugPrice(String drugPrice) {
+		this.drugPrice = drugPrice;
+	}
 
 	public String getPrice() {
 		return this.price;

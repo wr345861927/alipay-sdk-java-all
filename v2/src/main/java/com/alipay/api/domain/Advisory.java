@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 履约顾问数据
  *
  * @author auto create
- * @since 1.0, 2026-04-10 16:25:12
+ * @since 1.0, 2026-04-20 16:58:02
  */
 public class Advisory extends AlipayObject {
 
-	private static final long serialVersionUID = 8255643197376227752L;
+	private static final long serialVersionUID = 5251729951567836222L;
 
 	/**
 	 * 医生ID
@@ -30,6 +30,12 @@ public class Advisory extends AlipayObject {
 	 */
 	@ApiField("fulfillment_status")
 	private String fulfillmentStatus;
+
+	/**
+	 * 外部商品Id
+	 */
+	@ApiField("item_code")
+	private String itemCode;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识
@@ -104,6 +110,13 @@ public class Advisory extends AlipayObject {
 	}
 	public void setFulfillmentStatus(String fulfillmentStatus) {
 		this.fulfillmentStatus = fulfillmentStatus;
+	}
+
+	public String getItemCode() {
+		return this.itemCode;
+	}
+	public void setItemCode(String itemCode) {
+		this.itemCode = itemCode;
 	}
 
 	public String getOpenId() {

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * saleforce创建客户接口
  *
  * @author auto create
- * @since 1.0, 2026-04-14 14:27:46
+ * @since 1.0, 2026-04-16 19:17:44
  */
 public class AnttechOceanbaseObglobalSfcustomerCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3219711241842147366L;
+	private static final long serialVersionUID = 3691689768657848557L;
 
 	/**
 	 * 客户BD工号
@@ -66,6 +66,12 @@ public class AnttechOceanbaseObglobalSfcustomerCreateModel extends AlipayObject 
 	 */
 	@ApiField("region")
 	private String region;
+
+	/**
+	 * salesforce客户region
+	 */
+	@ApiField("salesforce_region")
+	private String salesforceRegion;
 
 	public String getBd() {
 		return this.bd;
@@ -128,6 +134,13 @@ public class AnttechOceanbaseObglobalSfcustomerCreateModel extends AlipayObject 
 	}
 	public void setRegion(String region) {
 		this.region = region;
+	}
+
+	public String getSalesforceRegion() {
+		return this.salesforceRegion;
+	}
+	public void setSalesforceRegion(String salesforceRegion) {
+		this.salesforceRegion = salesforceRegion;
 	}
 
 }

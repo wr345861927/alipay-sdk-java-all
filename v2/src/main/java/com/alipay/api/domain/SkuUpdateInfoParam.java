@@ -7,17 +7,47 @@ import com.alipay.api.internal.mapping.ApiField;
  * 批量更新商品, 商品信息
  *
  * @author auto create
- * @since 1.0, 2025-02-13 23:23:31
+ * @since 1.0, 2026-04-20 16:18:35
  */
 public class SkuUpdateInfoParam extends AlipayObject {
 
-	private static final long serialVersionUID = 5495751191534968247L;
+	private static final long serialVersionUID = 2577648361617672168L;
+
+	/**
+	 * 仅支持问诊商品, 唯一key用于打破spu商品唯一性, 创建后不可更新
+	 */
+	@ApiField("external_key")
+	private String externalKey;
+
+	/**
+	 * 问诊类商品信息
+	 */
+	@ApiField("inquiry_info")
+	private InquiryInfoParam inquiryInfo;
+
+	/**
+	 * 检查检验类商品信息
+	 */
+	@ApiField("inspect_info")
+	private InspectInfoParam inspectInfo;
+
+	/**
+	 * SKU名称
+	 */
+	@ApiField("name")
+	private String name;
 
 	/**
 	 * 店内货架码, 厂商自行维护
 	 */
 	@ApiField("shelf_code")
 	private String shelfCode;
+
+	/**
+	 * 是否对用户展示
+	 */
+	@ApiField("show_to_customer")
+	private String showToCustomer;
 
 	/**
 	 * OMS厂商商品sku编码, 厂商自行维护
@@ -61,11 +91,46 @@ public class SkuUpdateInfoParam extends AlipayObject {
 	@ApiField("weight_unit")
 	private String weightUnit;
 
+	public String getExternalKey() {
+		return this.externalKey;
+	}
+	public void setExternalKey(String externalKey) {
+		this.externalKey = externalKey;
+	}
+
+	public InquiryInfoParam getInquiryInfo() {
+		return this.inquiryInfo;
+	}
+	public void setInquiryInfo(InquiryInfoParam inquiryInfo) {
+		this.inquiryInfo = inquiryInfo;
+	}
+
+	public InspectInfoParam getInspectInfo() {
+		return this.inspectInfo;
+	}
+	public void setInspectInfo(InspectInfoParam inspectInfo) {
+		this.inspectInfo = inspectInfo;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public String getShelfCode() {
 		return this.shelfCode;
 	}
 	public void setShelfCode(String shelfCode) {
 		this.shelfCode = shelfCode;
+	}
+
+	public String getShowToCustomer() {
+		return this.showToCustomer;
+	}
+	public void setShowToCustomer(String showToCustomer) {
+		this.showToCustomer = showToCustomer;
 	}
 
 	public String getSkuCode() {

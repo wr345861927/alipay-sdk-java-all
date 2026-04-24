@@ -16,11 +16,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.search.result.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-25 14:42:44
+ * @since 1.0, 2026-04-16 17:47:45
  */
 public class AlipayCommerceMedicalSearchResultQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1212266656437594613L;
+	private static final long serialVersionUID = 3198538611237489399L;
 
 	/** 
 	 * 活动列表
@@ -53,10 +53,11 @@ public class AlipayCommerceMedicalSearchResultQueryResponse extends AlipayRespon
 	private SimpleHospitalInfo hospitalList;
 
 	/** 
-	 * 缓存key信息
+	 * null
 	 */
-	@ApiField("key_list")
-	private KeyInfo keyList;
+	@ApiListField("key_list")
+	@ApiField("key_info")
+	private List<KeyInfo> keyList;
 
 	/** 
 	 * 就诊记录信息
@@ -112,10 +113,10 @@ public class AlipayCommerceMedicalSearchResultQueryResponse extends AlipayRespon
 		return this.hospitalList;
 	}
 
-	public void setKeyList(KeyInfo keyList) {
+	public void setKeyList(List<KeyInfo> keyList) {
 		this.keyList = keyList;
 	}
-	public KeyInfo getKeyList( ) {
+	public List<KeyInfo> getKeyList( ) {
 		return this.keyList;
 	}
 

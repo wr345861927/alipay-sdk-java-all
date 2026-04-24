@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceGreenItemUploadResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2188686862556216172L;
+	private static final long serialVersionUID = 8841622569378331714L;
 
 	/** 
 	 * 失败的能量码操作日志

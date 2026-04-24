@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 健康健管平台文件流OSS上传
  *
  * @author auto create
- * @since 1.0, 2026-04-10 17:37:44
+ * @since 1.0, 2026-04-20 16:57:45
  */
 public class AlipayCommerceMedicalFileSteamUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6318635348672692361L;
+	private static final long serialVersionUID = 7341365518266763196L;
 
 	/**
 	 * 业务流水号，对应支付宝SAAS订单ID
@@ -20,7 +20,7 @@ public class AlipayCommerceMedicalFileSteamUploadModel extends AlipayObject {
 	private String bizNo;
 
 	/**
-	 * 上传文件的二进制流
+	 * 文件二进制流转换后的十六进制字符串
 	 */
 	@ApiField("file_content")
 	private String fileContent;

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 服务商上报用户id
  *
  * @author auto create
- * @since 1.0, 2025-08-12 14:45:47
+ * @since 1.0, 2026-04-16 14:23:30
  */
 public class AlipayCommerceEducateSchoolserviceUserSubmitModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4638528598172876387L;
+	private static final long serialVersionUID = 1761778886984257944L;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识

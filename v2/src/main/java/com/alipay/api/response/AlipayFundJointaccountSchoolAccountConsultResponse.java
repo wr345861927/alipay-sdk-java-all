@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayFundJointaccountSchoolAccountConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4739432873767761434L;
+	private static final long serialVersionUID = 8626696576215766388L;
 
 	/** 
 	 * 返回学生是否加小荷包，若学生的证件号、姓名等信息不匹配则返回false

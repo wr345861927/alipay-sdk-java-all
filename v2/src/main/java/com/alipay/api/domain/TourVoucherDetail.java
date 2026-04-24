@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 文旅凭证信息
  *
  * @author auto create
- * @since 1.0, 2026-02-10 14:43:58
+ * @since 1.0, 2026-04-23 14:04:38
  */
 public class TourVoucherDetail extends AlipayObject {
 
-	private static final long serialVersionUID = 8495461577752371759L;
+	private static final long serialVersionUID = 4557858529178394659L;
 
 	/**
 	 * 游客证件号码。一码通场景，凭证状态未使用时，证件号与手机号二选一必填。

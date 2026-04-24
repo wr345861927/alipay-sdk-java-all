@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEcActivityGrayModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7751435933756636212L;
+	private static final long serialVersionUID = 1855969151298595973L;
 
 	/** 
 	 * 用户扫码加入指定的营销活动测试企业，用于活动灰度测试。

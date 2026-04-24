@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 售后退货地址信息
  *
  * @author auto create
- * @since 1.0, 2025-02-28 16:03:21
+ * @since 1.0, 2026-04-17 19:14:34
  */
 public class AftersaleAddressInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7581933655492841257L;
+	private static final long serialVersionUID = 8368487398171496224L;
 
 	/**
 	 * 区县

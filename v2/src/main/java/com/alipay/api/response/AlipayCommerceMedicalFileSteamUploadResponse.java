@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.file.steam.upload response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-10 17:37:44
+ * @since 1.0, 2026-04-20 16:57:45
  */
 public class AlipayCommerceMedicalFileSteamUploadResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5857286397628722855L;
+	private static final long serialVersionUID = 6834394288796423563L;
 
 	/** 
 	 * 文件访问url

@@ -7,11 +7,29 @@ import com.alipay.api.internal.mapping.ApiField;
  * 会员开卡订单同步
  *
  * @author auto create
- * @since 1.0, 2026-04-10 10:12:44
+ * @since 1.0, 2026-04-20 16:57:45
  */
 public class AlipayCommerceMedicalCardOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7239336785327157991L;
+	private static final long serialVersionUID = 6474592719973771397L;
+
+	/**
+	 * 实际激活的时间
+	 */
+	@ApiField("activation_time")
+	private String activationTime;
+
+	/**
+	 * 开卡/退卡的时间
+	 */
+	@ApiField("biz_time")
+	private String bizTime;
+
+	/**
+	 * 业务类型开卡和激活时传open，退（卡）款时传refund
+	 */
+	@ApiField("biz_type")
+	private String bizType;
 
 	/**
 	 * 所开会员卡ID，取开卡时id
@@ -66,6 +84,27 @@ public class AlipayCommerceMedicalCardOrderSyncModel extends AlipayObject {
 	 */
 	@ApiField("user_open_id")
 	private String userOpenId;
+
+	public String getActivationTime() {
+		return this.activationTime;
+	}
+	public void setActivationTime(String activationTime) {
+		this.activationTime = activationTime;
+	}
+
+	public String getBizTime() {
+		return this.bizTime;
+	}
+	public void setBizTime(String bizTime) {
+		this.bizTime = bizTime;
+	}
+
+	public String getBizType() {
+		return this.bizType;
+	}
+	public void setBizType(String bizType) {
+		this.bizType = bizType;
+	}
 
 	public String getCardId() {
 		return this.cardId;

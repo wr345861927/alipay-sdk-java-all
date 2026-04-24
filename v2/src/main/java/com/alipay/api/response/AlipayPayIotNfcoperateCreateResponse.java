@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayPayIotNfcoperateCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8744365358157833556L;
+	private static final long serialVersionUID = 4767166813252516278L;
 
 	/** 
 	 * 生成活动主键

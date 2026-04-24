@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-04-10 17:42:45
+ * @since 1.0, 2026-04-20 16:57:45
  */
 public class SpecialtyDiseasePackage extends AlipayObject {
 
-	private static final long serialVersionUID = 6397344362145578113L;
+	private static final long serialVersionUID = 5662497384575397148L;
+
+	/**
+	 * 履约有效天数
+	 */
+	@ApiField("fulfillment_valid_days")
+	private Long fulfillmentValidDays;
 
 	/**
 	 * 服务包描述
@@ -30,6 +36,19 @@ public class SpecialtyDiseasePackage extends AlipayObject {
 	 */
 	@ApiField("service_package_name")
 	private String servicePackageName;
+
+	/**
+	 * 服务包价格(分)
+	 */
+	@ApiField("service_package_price")
+	private Long servicePackagePrice;
+
+	public Long getFulfillmentValidDays() {
+		return this.fulfillmentValidDays;
+	}
+	public void setFulfillmentValidDays(Long fulfillmentValidDays) {
+		this.fulfillmentValidDays = fulfillmentValidDays;
+	}
 
 	public String getServicePackageDesc() {
 		return this.servicePackageDesc;
@@ -50,6 +69,13 @@ public class SpecialtyDiseasePackage extends AlipayObject {
 	}
 	public void setServicePackageName(String servicePackageName) {
 		this.servicePackageName = servicePackageName;
+	}
+
+	public Long getServicePackagePrice() {
+		return this.servicePackagePrice;
+	}
+	public void setServicePackagePrice(Long servicePackagePrice) {
+		this.servicePackagePrice = servicePackagePrice;
 	}
 
 }

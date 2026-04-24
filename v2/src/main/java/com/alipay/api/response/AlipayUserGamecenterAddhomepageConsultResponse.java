@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserGamecenterAddhomepageConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3199363987743251357L;
+	private static final long serialVersionUID = 4233188578661151718L;
 
 	/** 
 	 * Y：已添加首页，N：未添加首页

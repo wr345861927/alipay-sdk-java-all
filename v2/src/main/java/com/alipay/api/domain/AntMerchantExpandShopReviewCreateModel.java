@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 门店评价同步
  *
  * @author auto create
- * @since 1.0, 2026-04-16 11:14:20
+ * @since 1.0, 2026-04-16 12:22:45
  */
 public class AntMerchantExpandShopReviewCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3241333341368179936L;
+	private static final long serialVersionUID = 3117135569127349838L;
 
 	/**
 	 * 评价内容id，最长128，需要保证传入的每个评价内容id具备唯一性，有幂等校验

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 单凭证结算明细查询
  *
  * @author auto create
- * @since 1.0, 2026-04-03 16:46:14
+ * @since 1.0, 2026-04-16 15:25:24
  */
 public class AlipayOpenMiniBillCertQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8597336281546633271L;
+	private static final long serialVersionUID = 4215866712278226425L;
 
 	/**
 	 * 凭证id（支付宝平台基于券码code生成的唯一id）

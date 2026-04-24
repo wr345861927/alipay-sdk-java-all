@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 酒店基础信息配置
  *
  * @author auto create
- * @since 1.0, 2026-03-10 14:28:51
+ * @since 1.0, 2026-04-21 15:29:31
  */
 public class AlipayCommerceHotelBasicinfoSetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4254873397589994583L;
+	private static final long serialVersionUID = 4449777746925953412L;
 
 	/**
 	 * 是否启用会员功能

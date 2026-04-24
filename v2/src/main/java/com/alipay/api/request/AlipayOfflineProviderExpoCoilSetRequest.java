@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.offline.provider.expo.coil.set request
  * 
  * @author auto create
- * @since 1.0, 2026-04-13 16:12:45
+ * @since 1.0, 2026-04-21 15:57:46
  */
 public class AlipayOfflineProviderExpoCoilSetRequest implements AlipayRequest<AlipayOfflineProviderExpoCoilSetResponse> {
 

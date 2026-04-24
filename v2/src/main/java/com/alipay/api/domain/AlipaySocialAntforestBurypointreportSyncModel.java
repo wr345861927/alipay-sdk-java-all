@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySocialAntforestBurypointreportSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3321688371411692156L;
+	private static final long serialVersionUID = 1241783135363388331L;
 
 	/**
 	 * 用于标记支付宝用户在应用下的唯一标识

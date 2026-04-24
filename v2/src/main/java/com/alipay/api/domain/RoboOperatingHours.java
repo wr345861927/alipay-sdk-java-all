@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RoboOperatingHours extends AlipayObject {
 
-	private static final long serialVersionUID = 8263383483566934161L;
+	private static final long serialVersionUID = 8622248252975383263L;
 
 	/**
 	 * 每周运营星期天数

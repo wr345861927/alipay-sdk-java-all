@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEbppIndustryGovWeatheralarmSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4135448174868186422L;
+	private static final long serialVersionUID = 6768796195882981236L;
 
 	/**
 	 * 天气预警详情信息

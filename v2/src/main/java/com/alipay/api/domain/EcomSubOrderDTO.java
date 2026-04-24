@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 场景开放平台电商子订单模型
  *
  * @author auto create
- * @since 1.0, 2025-03-19 16:08:56
+ * @since 1.0, 2026-04-22 16:20:35
  */
 public class EcomSubOrderDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3185984287685958785L;
+	private static final long serialVersionUID = 1454739797152918364L;
 
 	/**
 	 * 购买数量
@@ -50,6 +50,12 @@ public class EcomSubOrderDTO extends AlipayObject {
 	 */
 	@ApiField("trade_end_time")
 	private Date tradeEndTime;
+
+	/**
+	 * 观演人
+	 */
+	@ApiField("watch_man")
+	private InsOpenUserDTO watchMan;
 
 	public Long getBuyAmount() {
 		return this.buyAmount;
@@ -91,6 +97,13 @@ public class EcomSubOrderDTO extends AlipayObject {
 	}
 	public void setTradeEndTime(Date tradeEndTime) {
 		this.tradeEndTime = tradeEndTime;
+	}
+
+	public InsOpenUserDTO getWatchMan() {
+		return this.watchMan;
+	}
+	public void setWatchMan(InsOpenUserDTO watchMan) {
+		this.watchMan = watchMan;
 	}
 
 }

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SubAccountQueryRequest extends AlipayObject {
 
-	private static final long serialVersionUID = 3146826313215795831L;
+	private static final long serialVersionUID = 4167599523865794363L;
 
 	/**
 	 * 支付宝虚拟账号，也称2088账号，由每个sourceUid申请得到一个

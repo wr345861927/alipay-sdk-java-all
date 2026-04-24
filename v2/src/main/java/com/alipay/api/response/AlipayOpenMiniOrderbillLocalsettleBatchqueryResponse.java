@@ -11,11 +11,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.open.mini.orderbill.localsettle.batchquery response.
  * 
  * @author auto create
- * @since 1.0, 2024-07-31 09:47:04
+ * @since 1.0, 2026-04-17 10:50:28
  */
 public class AlipayOpenMiniOrderbillLocalsettleBatchqueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3665197852627432189L;
+	private static final long serialVersionUID = 3557289592317188329L;
 
 	/** 
 	 * 账单明细列表

@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayEcoCplifeRoominfoUploadModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5363699437329246149L;
+	private static final long serialVersionUID = 3662859232118537272L;
 
 	/**
 	 * 请求批次号，由商户自定义，在商户系统内唯一标示一次业务请求。

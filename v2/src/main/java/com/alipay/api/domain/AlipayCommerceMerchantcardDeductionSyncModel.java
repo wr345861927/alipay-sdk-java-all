@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipayCommerceMerchantcardDeductionSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4377238417648387854L;
+	private static final long serialVersionUID = 7453539167924975819L;
 
 	/**
 	 * 推送批次号，由外部传入，用于标识是哪一次推送任务

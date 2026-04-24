@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 预算配置信息
  *
  * @author auto create
- * @since 1.0, 2024-03-28 14:05:29
+ * @since 1.0, 2026-04-17 10:59:17
  */
 public class DtBankBudgetConfigInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7532465623939813659L;
+	private static final long serialVersionUID = 2779739136738646411L;
 
 	/**
 	 * 每日预算类型
@@ -24,6 +24,12 @@ public class DtBankBudgetConfigInfo extends AlipayObject {
 	 */
 	@ApiField("daily_budget_value")
 	private Long dailyBudgetValue;
+
+	/**
+	 * 天天减活动的实时剩余可报名人数
+	 */
+	@ApiField("daily_discount_remaining_register_count")
+	private Long dailyDiscountRemainingRegisterCount;
 
 	/**
 	 * 活动最小发放数量，立减活动此参数为空。
@@ -49,6 +55,13 @@ public class DtBankBudgetConfigInfo extends AlipayObject {
 	}
 	public void setDailyBudgetValue(Long dailyBudgetValue) {
 		this.dailyBudgetValue = dailyBudgetValue;
+	}
+
+	public Long getDailyDiscountRemainingRegisterCount() {
+		return this.dailyDiscountRemainingRegisterCount;
+	}
+	public void setDailyDiscountRemainingRegisterCount(Long dailyDiscountRemainingRegisterCount) {
+		this.dailyDiscountRemainingRegisterCount = dailyDiscountRemainingRegisterCount;
 	}
 
 	public Long getMinSendCount() {

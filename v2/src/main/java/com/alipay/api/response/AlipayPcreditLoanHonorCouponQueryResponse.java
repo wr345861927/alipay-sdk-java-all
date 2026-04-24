@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayPcreditLoanHonorCouponQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3373285629121229154L;
+	private static final long serialVersionUID = 3537977771594888256L;
 
 	/** 
 	 * 优惠券列表（未使用、已使用、已过期）

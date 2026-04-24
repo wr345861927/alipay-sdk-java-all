@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class OnlineGameInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5681777163726657781L;
+	private static final long serialVersionUID = 2785473247693837761L;
 
 	/**
 	 * 赛事类型

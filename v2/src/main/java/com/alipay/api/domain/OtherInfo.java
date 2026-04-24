@@ -1,17 +1,27 @@
 package com.alipay.api.domain;
 
+import java.util.List;
+
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
+import com.alipay.api.internal.mapping.ApiListField;
 
 /**
  * 扩展信息，附属的其他信息
  *
  * @author auto create
- * @since 1.0, 2026-02-26 16:37:42
+ * @since 1.0, 2026-04-21 14:52:46
  */
 public class OtherInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 5747822789136784587L;
+	private static final long serialVersionUID = 8673529594361112322L;
+
+	/**
+	 * null
+	 */
+	@ApiListField("ext_info_attrs")
+	@ApiField("ext_info_attrs")
+	private List<ExtInfoAttrs> extInfoAttrs;
 
 	/**
 	 * 药房业务必填；
@@ -21,6 +31,13 @@ false: 否
 	 */
 	@ApiField("medical_insurance")
 	private Boolean medicalInsurance;
+
+	public List<ExtInfoAttrs> getExtInfoAttrs() {
+		return this.extInfoAttrs;
+	}
+	public void setExtInfoAttrs(List<ExtInfoAttrs> extInfoAttrs) {
+		this.extInfoAttrs = extInfoAttrs;
+	}
 
 	public Boolean getMedicalInsurance() {
 		return this.medicalInsurance;

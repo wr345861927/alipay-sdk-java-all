@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: robby.open.task.create response.
  * 
  * @author auto create
- * @since 1.0, 2026-02-26 16:37:42
+ * @since 1.0, 2026-04-21 14:52:46
  */
 public class RobbyOpenTaskCreateResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 8682549349619449339L;
+	private static final long serialVersionUID = 6638184183712862124L;
 
 	/** 
 	 * 业务编号

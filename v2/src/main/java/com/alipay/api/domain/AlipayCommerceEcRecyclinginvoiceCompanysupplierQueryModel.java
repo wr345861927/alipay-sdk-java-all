@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 供应商查询
  *
  * @author auto create
- * @since 1.0, 2026-03-06 10:44:48
+ * @since 1.0, 2026-04-23 02:12:24
  */
 public class AlipayCommerceEcRecyclinginvoiceCompanysupplierQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5492791657252515438L;
+	private static final long serialVersionUID = 1835352844658219732L;
 
 	/**
 	 * 请求方传入的外部供应商ID
@@ -36,6 +36,12 @@ public class AlipayCommerceEcRecyclinginvoiceCompanysupplierQueryModel extends A
 	 */
 	@ApiField("supplier_id")
 	private String supplierId;
+
+	/**
+	 * 供应商联系电话
+	 */
+	@ApiField("supplier_phone")
+	private String supplierPhone;
 
 	/**
 	 * 企业（商户）税号
@@ -69,6 +75,13 @@ public class AlipayCommerceEcRecyclinginvoiceCompanysupplierQueryModel extends A
 	}
 	public void setSupplierId(String supplierId) {
 		this.supplierId = supplierId;
+	}
+
+	public String getSupplierPhone() {
+		return this.supplierPhone;
+	}
+	public void setSupplierPhone(String supplierPhone) {
+		this.supplierPhone = supplierPhone;
 	}
 
 	public String getTaxNo() {

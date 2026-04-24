@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.merchantcard.template.modify response.
  * 
  * @author auto create
- * @since 1.0, 2026-03-31 15:22:44
+ * @since 1.0, 2026-04-22 15:40:36
  */
 public class AlipayCommerceMerchantcardTemplateModifyResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4243257272775452611L;
+	private static final long serialVersionUID = 6546642397349279838L;
 
 	/** 
 	 * 卡ID

@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.ins.scene.common.premission.auth request
  * 
  * @author auto create
- * @since 1.0, 2024-10-30 14:41:35
+ * @since 1.0, 2026-04-22 18:17:46
  */
 public class AlipayInsSceneCommonPremissionAuthRequest implements AlipayRequest<AlipayInsSceneCommonPremissionAuthResponse> {
 

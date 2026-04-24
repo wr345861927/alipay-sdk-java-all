@@ -10,11 +10,23 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 营销信息
  *
  * @author auto create
- * @since 1.0, 2024-09-29 21:27:45
+ * @since 1.0, 2026-04-21 14:50:51
  */
 public class PromoInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7563685229199668338L;
+	private static final long serialVersionUID = 8688265116479713678L;
+
+	/**
+	 * 政府补贴详情
+	 */
+	@ApiField("government_promo_detail")
+	private GovernmentPromoDetailInfoVO governmentPromoDetail;
+
+	/**
+	 * 政府补贴汇总
+	 */
+	@ApiField("government_total_amount")
+	private String governmentTotalAmount;
 
 	/**
 	 * 商家优惠详情
@@ -64,6 +76,20 @@ public class PromoInfoVO extends AlipayObject {
 	 */
 	@ApiField("total_amount")
 	private String totalAmount;
+
+	public GovernmentPromoDetailInfoVO getGovernmentPromoDetail() {
+		return this.governmentPromoDetail;
+	}
+	public void setGovernmentPromoDetail(GovernmentPromoDetailInfoVO governmentPromoDetail) {
+		this.governmentPromoDetail = governmentPromoDetail;
+	}
+
+	public String getGovernmentTotalAmount() {
+		return this.governmentTotalAmount;
+	}
+	public void setGovernmentTotalAmount(String governmentTotalAmount) {
+		this.governmentTotalAmount = governmentTotalAmount;
+	}
 
 	public MerchantPromoDetailInfoVO getMerchantPromoDetail() {
 		return this.merchantPromoDetail;

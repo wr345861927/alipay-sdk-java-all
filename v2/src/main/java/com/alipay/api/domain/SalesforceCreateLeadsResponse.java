@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SalesforceCreateLeadsResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 5334919796638575961L;
+	private static final long serialVersionUID = 5119431861815356755L;
 
 	/**
 	 * 商机id

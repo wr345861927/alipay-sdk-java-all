@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 创建客户结果
  *
  * @author auto create
- * @since 1.0, 2026-04-14 14:27:46
+ * @since 1.0, 2026-04-16 19:17:44
  */
 public class SaleForceCreateCustomerResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 2449323543755744485L;
+	private static final long serialVersionUID = 6727727591954375733L;
 
 	/**
 	 * 客户bid

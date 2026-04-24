@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayFundTransIcrowdTagModifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6486231335288658362L;
+	private static final long serialVersionUID = 7352689418128416987L;
 
 	/**
 	 * 手机号码，与user_id不可同时为空

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 酒店主题样式配置
  *
  * @author auto create
- * @since 1.0, 2026-03-10 14:28:51
+ * @since 1.0, 2026-04-21 15:29:31
  */
 public class HotelThemeVO extends AlipayObject {
 
-	private static final long serialVersionUID = 3526389624594844181L;
+	private static final long serialVersionUID = 1872863918335139849L;
 
 	/**
 	 * 背景颜色

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ResourceAuditResult extends AlipayObject {
 
-	private static final long serialVersionUID = 5623379927626629485L;
+	private static final long serialVersionUID = 2323651313562775258L;
 
 	/**
 	 * 要审核的资源value值，文字为文案，图片为图片url，视频为视频url

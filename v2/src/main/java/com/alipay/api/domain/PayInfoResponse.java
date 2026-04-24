@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class PayInfoResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 6342712933272825576L;
+	private static final long serialVersionUID = 3185337658429661716L;
 
 	/**
 	 * 收单超时关单时间，单位：s

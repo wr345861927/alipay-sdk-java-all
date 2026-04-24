@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-04-10 16:42:45
+ * @since 1.0, 2026-04-20 16:57:45
  */
 public class OrderServicePackageVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8342155946163482283L;
+	private static final long serialVersionUID = 2561884949441662794L;
 
 	/**
 	 * 用户实付金额(分)
@@ -34,6 +34,12 @@ public class OrderServicePackageVO extends AlipayObject {
 	 */
 	@ApiField("doctor_team_id")
 	private String doctorTeamId;
+
+	/**
+	 * 履约有效天数
+	 */
+	@ApiField("fulfillment_valid_days")
+	private Long fulfillmentValidDays;
 
 	/**
 	 * 领衔医生ID
@@ -97,6 +103,12 @@ public class OrderServicePackageVO extends AlipayObject {
 	private String servicePackageName;
 
 	/**
+	 * 服务包价格（分）
+	 */
+	@ApiField("service_package_price")
+	private Long servicePackagePrice;
+
+	/**
 	 * 权益有效期截止时间
 	 */
 	@ApiField("service_package_time")
@@ -121,6 +133,13 @@ public class OrderServicePackageVO extends AlipayObject {
 	}
 	public void setDoctorTeamId(String doctorTeamId) {
 		this.doctorTeamId = doctorTeamId;
+	}
+
+	public Long getFulfillmentValidDays() {
+		return this.fulfillmentValidDays;
+	}
+	public void setFulfillmentValidDays(Long fulfillmentValidDays) {
+		this.fulfillmentValidDays = fulfillmentValidDays;
 	}
 
 	public String getLeadDoctorId() {
@@ -191,6 +210,13 @@ public class OrderServicePackageVO extends AlipayObject {
 	}
 	public void setServicePackageName(String servicePackageName) {
 		this.servicePackageName = servicePackageName;
+	}
+
+	public Long getServicePackagePrice() {
+		return this.servicePackagePrice;
+	}
+	public void setServicePackagePrice(Long servicePackagePrice) {
+		this.servicePackagePrice = servicePackagePrice;
 	}
 
 	public Date getServicePackageTime() {
