@@ -5,6 +5,7 @@ import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
 import com.alipay.api.domain.RentExtInfo;
 import com.alipay.api.domain.RentInfo;
+import com.alipay.api.domain.RentPromoInfoVO;
 import com.alipay.api.domain.RentRiskInfo;
 
 import com.alipay.api.AlipayResponse;
@@ -13,11 +14,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.rent.order.invest.query response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-17 11:16:24
+ * @since 1.0, 2026-04-23 16:27:46
  */
 public class AlipayCommerceRentOrderInvestQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6236127254611825924L;
+	private static final long serialVersionUID = 7522237992391777727L;
 
 	/** 
 	 * 租赁扩展信息
@@ -30,6 +31,12 @@ public class AlipayCommerceRentOrderInvestQueryResponse extends AlipayResponse {
 	 */
 	@ApiField("rent_info")
 	private RentInfo rentInfo;
+
+	/** 
+	 * 优惠信息，包含分期优惠
+	 */
+	@ApiField("rent_promo_info")
+	private RentPromoInfoVO rentPromoInfo;
 
 	/** 
 	 * 租赁风控信息
@@ -50,6 +57,13 @@ public class AlipayCommerceRentOrderInvestQueryResponse extends AlipayResponse {
 	}
 	public RentInfo getRentInfo( ) {
 		return this.rentInfo;
+	}
+
+	public void setRentPromoInfo(RentPromoInfoVO rentPromoInfo) {
+		this.rentPromoInfo = rentPromoInfo;
+	}
+	public RentPromoInfoVO getRentPromoInfo( ) {
+		return this.rentPromoInfo;
 	}
 
 	public void setRentRiskInfo(List<RentRiskInfo> rentRiskInfo) {

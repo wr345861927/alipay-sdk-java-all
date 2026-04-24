@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipaySecurityRiskVerifyidentityVoiceprintPrecreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5666827959653855562L;
+	private static final long serialVersionUID = 7692641927673144485L;
 
 	/**
 	 * 用户朗读后的语音数据base64加密后结果

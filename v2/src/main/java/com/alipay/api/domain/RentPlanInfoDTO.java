@@ -11,11 +11,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 租赁计划信息
  *
  * @author auto create
- * @since 1.0, 2025-06-10 11:42:10
+ * @since 1.0, 2026-04-24 10:11:45
  */
 public class RentPlanInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 3227536764219638839L;
+	private static final long serialVersionUID = 8243474825328427628L;
 
 	/**
 	 * 租金分期计划

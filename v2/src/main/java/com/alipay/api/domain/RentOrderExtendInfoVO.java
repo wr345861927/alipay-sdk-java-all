@@ -9,17 +9,23 @@ import com.alipay.api.internal.mapping.ApiField;
  * 租赁订单拓展信息
  *
  * @author auto create
- * @since 1.0, 2025-12-09 19:37:57
+ * @since 1.0, 2026-04-24 10:46:59
  */
 public class RentOrderExtendInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 6247184718644116111L;
+	private static final long serialVersionUID = 1863878828531919687L;
 
 	/**
 	 * 承诺发货时间
 	 */
 	@ApiField("promised_send_time")
 	private Date promisedSendTime;
+
+	/**
+	 * 租赁派单ID，唯一标识一次派单请求
+	 */
+	@ApiField("rent_dispatch_id")
+	private String rentDispatchId;
 
 	/**
 	 * 定义参考 <a href="https://opendocs.alipay.com/mini/0dfcde" target="_blank">公域场景标识</a>
@@ -38,6 +44,13 @@ public class RentOrderExtendInfoVO extends AlipayObject {
 	}
 	public void setPromisedSendTime(Date promisedSendTime) {
 		this.promisedSendTime = promisedSendTime;
+	}
+
+	public String getRentDispatchId() {
+		return this.rentDispatchId;
+	}
+	public void setRentDispatchId(String rentDispatchId) {
+		this.rentDispatchId = rentDispatchId;
 	}
 
 	public String getSceneId() {

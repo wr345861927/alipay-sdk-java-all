@@ -17,7 +17,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserAccountZavatarAvatarQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3538489359117147963L;
+	private static final long serialVersionUID = 3324678938751619939L;
 
 	/** 
 	 * 用户保存数字形象信息

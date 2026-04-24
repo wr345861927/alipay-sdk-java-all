@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 授信结果通知回调
  *
  * @author auto create
- * @since 1.0, 2024-02-20 14:28:39
+ * @since 1.0, 2026-04-23 18:45:39
  */
 public class ZhimaCreditEpCreditloanCreditresultNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1529432179241575432L;
+	private static final long serialVersionUID = 3759761767696739881L;
 
 	/**
 	 * 金融产品code码，接口提供方分配

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.eco.mycar.carinsurancerenewal.order.sync response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-14 15:55:18
+ * @since 1.0, 2026-04-23 20:22:46
  */
 public class AlipayEcoMycarCarinsurancerenewalOrderSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3721783511596871418L;
+	private static final long serialVersionUID = 7255947572419749581L;
 
 	/** 
 	 * 车生活订单号，在首次同步订单时生成并返回

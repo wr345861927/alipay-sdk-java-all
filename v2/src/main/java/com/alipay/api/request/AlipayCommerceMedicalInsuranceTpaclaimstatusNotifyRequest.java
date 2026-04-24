@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.insurance.tpaclaimstatus.notify request
  * 
  * @author auto create
- * @since 1.0, 2026-04-03 14:27:45
+ * @since 1.0, 2026-04-24 10:32:45
  */
 public class AlipayCommerceMedicalInsuranceTpaclaimstatusNotifyRequest implements AlipayRequest<AlipayCommerceMedicalInsuranceTpaclaimstatusNotifyResponse> {
 

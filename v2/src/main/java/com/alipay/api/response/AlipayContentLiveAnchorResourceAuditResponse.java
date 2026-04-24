@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayContentLiveAnchorResourceAuditResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 2466864363126372133L;
+	private static final long serialVersionUID = 3374917657934674944L;
 
 	/** 
 	 * 用于全链路排查问题的追踪标识

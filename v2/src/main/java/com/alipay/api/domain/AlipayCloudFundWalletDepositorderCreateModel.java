@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCloudFundWalletDepositorderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3788771291674259874L;
+	private static final long serialVersionUID = 6444345918966292118L;
 
 	/**
 	 * 充值金额，单位元

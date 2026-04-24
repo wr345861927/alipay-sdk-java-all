@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 企业基本信息
  *
  * @author auto create
- * @since 1.0, 2026-04-01 16:11:32
+ * @since 1.0, 2026-04-23 19:19:16
  */
 public class ReliableEnterpriseBaseInfoDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 5526235978722452351L;
+	private static final long serialVersionUID = 1154247272561422131L;
 
 	/**
 	 * 企业认证状态
@@ -30,6 +30,12 @@ public class ReliableEnterpriseBaseInfoDTO extends AlipayObject {
 	 */
 	@ApiField("enterprise_name")
 	private String enterpriseName;
+
+	/**
+	 * 企业所属行业
+	 */
+	@ApiField("industry")
+	private String industry;
 
 	public String getAuthStatus() {
 		return this.authStatus;
@@ -50,6 +56,13 @@ public class ReliableEnterpriseBaseInfoDTO extends AlipayObject {
 	}
 	public void setEnterpriseName(String enterpriseName) {
 		this.enterpriseName = enterpriseName;
+	}
+
+	public String getIndustry() {
+		return this.industry;
+	}
+	public void setIndustry(String industry) {
+		this.industry = industry;
 	}
 
 }

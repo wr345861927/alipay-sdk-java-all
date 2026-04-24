@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 企业个性化信息
  *
  * @author auto create
- * @since 1.0, 2026-04-01 16:11:32
+ * @since 1.0, 2026-04-23 19:19:16
  */
 public class ReliableEnterpriseProfilesDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1344289289739545758L;
+	private static final long serialVersionUID = 7697282165185744952L;
 
 	/**
 	 * 企业注册来源渠道
@@ -60,6 +60,12 @@ public class ReliableEnterpriseProfilesDTO extends AlipayObject {
 	 */
 	@ApiField("platform_gmt_create")
 	private String platformGmtCreate;
+
+	/**
+	 * 机构id
+	 */
+	@ApiField("sign_fund_inst_id")
+	private String signFundInstId;
 
 	/**
 	 * 企业纳税人识别号，适用于未三证合一的企业
@@ -139,6 +145,13 @@ public class ReliableEnterpriseProfilesDTO extends AlipayObject {
 	}
 	public void setPlatformGmtCreate(String platformGmtCreate) {
 		this.platformGmtCreate = platformGmtCreate;
+	}
+
+	public String getSignFundInstId() {
+		return this.signFundInstId;
+	}
+	public void setSignFundInstId(String signFundInstId) {
+		this.signFundInstId = signFundInstId;
 	}
 
 	public String getTaxNo() {

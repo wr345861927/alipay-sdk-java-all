@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AftersaleAddressInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8368487398171496224L;
+	private static final long serialVersionUID = 6411243148977283275L;
 
 	/**
 	 * 区县

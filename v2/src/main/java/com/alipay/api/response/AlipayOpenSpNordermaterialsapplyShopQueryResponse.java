@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenSpNordermaterialsapplyShopQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6173997477876222773L;
+	private static final long serialVersionUID = 5822447727517529895L;
 
 	/** 
 	 * 该门店（收货地）下物料数量

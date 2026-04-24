@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class WithholdTradeDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 1738855712678793362L;
+	private static final long serialVersionUID = 1896589298896657339L;
 
 	/**
 	 * 业务受理平台业务28位订单号

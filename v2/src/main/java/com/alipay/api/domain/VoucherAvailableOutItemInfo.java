@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class VoucherAvailableOutItemInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8179649974435787313L;
+	private static final long serialVersionUID = 7867252148729619339L;
 
 	/**
 	 * 小程序ID

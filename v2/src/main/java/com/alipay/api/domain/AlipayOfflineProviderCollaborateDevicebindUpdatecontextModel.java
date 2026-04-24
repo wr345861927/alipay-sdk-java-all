@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOfflineProviderCollaborateDevicebindUpdatecontextModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4678729474334433833L;
+	private static final long serialVersionUID = 7774499333739928939L;
 
 	/**
 	 * 发起操作的设备SN

@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 收货地址信息，邮寄方式需要输入
  *
  * @author auto create
- * @since 1.0, 2026-04-22 11:47:45
+ * @since 1.0, 2026-04-24 09:52:45
  */
 public class ResaleAddressVO extends AlipayObject {
 
-	private static final long serialVersionUID = 1831639949885648874L;
+	private static final long serialVersionUID = 5586829914197762279L;
 
 	/**
 	 * 详细地址

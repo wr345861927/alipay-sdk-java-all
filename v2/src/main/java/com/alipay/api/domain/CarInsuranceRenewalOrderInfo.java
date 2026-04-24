@@ -7,11 +7,35 @@ import com.alipay.api.internal.mapping.ApiField;
  * 续保订单信息
  *
  * @author auto create
- * @since 1.0, 2026-03-27 10:25:28
+ * @since 1.0, 2026-04-23 20:19:43
  */
 public class CarInsuranceRenewalOrderInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3185344338582313211L;
+	private static final long serialVersionUID = 2382448851139785678L;
+
+	/**
+	 * 地级市的城市码
+	 */
+	@ApiField("city_code")
+	private String cityCode;
+
+	/**
+	 * 商业险金额（单位：元，精确到分）
+	 */
+	@ApiField("commercial_insurance_amount")
+	private String commercialInsuranceAmount;
+
+	/**
+	 * 交强险金额（单位：元，精确到分）
+	 */
+	@ApiField("compulsory_insurance_amount")
+	private String compulsoryInsuranceAmount;
+
+	/**
+	 * 车辆能源类型，新能源包含纯电、插电混合、增程
+	 */
+	@ApiField("energy_type")
+	private String energyType;
 
 	/**
 	 * 发动机号
@@ -27,6 +51,7 @@ public class CarInsuranceRenewalOrderInfo extends AlipayObject {
 
 	/**
 	 * 订单金额（单位：元，精确到分）
+应为交强险金额+商业险金额
 	 */
 	@ApiField("order_amount")
 	private String orderAmount;
@@ -102,6 +127,34 @@ public class CarInsuranceRenewalOrderInfo extends AlipayObject {
 	 */
 	@ApiField("vin")
 	private String vin;
+
+	public String getCityCode() {
+		return this.cityCode;
+	}
+	public void setCityCode(String cityCode) {
+		this.cityCode = cityCode;
+	}
+
+	public String getCommercialInsuranceAmount() {
+		return this.commercialInsuranceAmount;
+	}
+	public void setCommercialInsuranceAmount(String commercialInsuranceAmount) {
+		this.commercialInsuranceAmount = commercialInsuranceAmount;
+	}
+
+	public String getCompulsoryInsuranceAmount() {
+		return this.compulsoryInsuranceAmount;
+	}
+	public void setCompulsoryInsuranceAmount(String compulsoryInsuranceAmount) {
+		this.compulsoryInsuranceAmount = compulsoryInsuranceAmount;
+	}
+
+	public String getEnergyType() {
+		return this.energyType;
+	}
+	public void setEnergyType(String energyType) {
+		this.energyType = energyType;
+	}
 
 	public String getEngineNo() {
 		return this.engineNo;

@@ -9,11 +9,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 车险续保订单同步
  *
  * @author auto create
- * @since 1.0, 2026-03-27 10:25:28
+ * @since 1.0, 2026-04-23 20:19:43
  */
 public class AlipayEcoMycarCarinsurancerenewalOrderSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1146876274174876367L;
+	private static final long serialVersionUID = 7581885755711615754L;
 
 	/**
 	 * 业务状态
@@ -56,6 +56,12 @@ public class AlipayEcoMycarCarinsurancerenewalOrderSyncModel extends AlipayObjec
 	 */
 	@ApiField("out_order_no")
 	private String outOrderNo;
+
+	/**
+	 * 备注信息
+	 */
+	@ApiField("remark")
+	private String remark;
 
 	/**
 	 * 来源渠道
@@ -116,6 +122,13 @@ public class AlipayEcoMycarCarinsurancerenewalOrderSyncModel extends AlipayObjec
 	}
 	public void setOutOrderNo(String outOrderNo) {
 		this.outOrderNo = outOrderNo;
+	}
+
+	public String getRemark() {
+		return this.remark;
+	}
+	public void setRemark(String remark) {
+		this.remark = remark;
 	}
 
 	public String getSourceChannel() {

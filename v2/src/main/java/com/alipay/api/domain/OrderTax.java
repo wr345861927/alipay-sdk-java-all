@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class OrderTax extends AlipayObject {
 
-	private static final long serialVersionUID = 7152833599519622374L;
+	private static final long serialVersionUID = 1712726518628384375L;
 
 	/**
 	 * 税额（元，两位小数）

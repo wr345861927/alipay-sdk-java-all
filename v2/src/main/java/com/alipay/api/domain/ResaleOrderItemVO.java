@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * null
+ * 二手售卖订单商品模型
  *
  * @author auto create
- * @since 1.0, 2026-04-22 11:52:45
+ * @since 1.0, 2026-04-24 09:48:17
  */
 public class ResaleOrderItemVO extends AlipayObject {
 
-	private static final long serialVersionUID = 6459464877874919313L;
+	private static final long serialVersionUID = 6155943452732358137L;
 
 	/**
 	 * 小程序商品库的itemId
@@ -42,6 +42,12 @@ public class ResaleOrderItemVO extends AlipayObject {
 	 */
 	@ApiField("out_item_name")
 	private String outItemName;
+
+	/**
+	 * 商品下唯一的skuId
+	 */
+	@ApiField("out_sku_id")
+	private String outSkuId;
 
 	public String getItemId() {
 		return this.itemId;
@@ -76,6 +82,13 @@ public class ResaleOrderItemVO extends AlipayObject {
 	}
 	public void setOutItemName(String outItemName) {
 		this.outItemName = outItemName;
+	}
+
+	public String getOutSkuId() {
+		return this.outSkuId;
+	}
+	public void setOutSkuId(String outSkuId) {
+		this.outSkuId = outSkuId;
 	}
 
 }

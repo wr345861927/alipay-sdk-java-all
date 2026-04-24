@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * null
  *
  * @author auto create
- * @since 1.0, 2026-04-03 14:27:45
+ * @since 1.0, 2026-04-24 10:32:45
  */
 public class InsurancePreAuthInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 7874879533189539346L;
+	private static final long serialVersionUID = 2252456234314273455L;
 
 	/**
 	 * 格式：yyyy-MM-dd HH:mm:ss

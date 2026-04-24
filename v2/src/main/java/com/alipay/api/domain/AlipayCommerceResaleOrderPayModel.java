@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 二手售卖支付接口
  *
  * @author auto create
- * @since 1.0, 2026-04-22 11:47:45
+ * @since 1.0, 2026-04-24 09:52:45
  */
 public class AlipayCommerceResaleOrderPayModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8649698662166657991L;
+	private static final long serialVersionUID = 7727311484435691256L;
 
 	/**
 	 * 用户id
@@ -27,6 +27,12 @@ public class AlipayCommerceResaleOrderPayModel extends AlipayObject {
 	 */
 	@ApiField("out_order_id")
 	private String outOrderId;
+
+	/**
+	 * 外部支付流水，需要保证订单下全局唯一。 若重复会幂等返回前序已经发起的一笔流水
+	 */
+	@ApiField("out_pay_id")
+	private String outPayId;
 
 	/**
 	 * 赔付类、订单部分支付类需要
@@ -84,6 +90,13 @@ PARTIAL_PAY,部分支付
 	}
 	public void setOutOrderId(String outOrderId) {
 		this.outOrderId = outOrderId;
+	}
+
+	public String getOutPayId() {
+		return this.outPayId;
+	}
+	public void setOutPayId(String outPayId) {
+		this.outPayId = outPayId;
 	}
 
 	public String getPayAmount() {

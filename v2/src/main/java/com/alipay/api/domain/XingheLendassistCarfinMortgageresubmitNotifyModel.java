@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class XingheLendassistCarfinMortgageresubmitNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1882299873987348127L;
+	private static final long serialVersionUID = 2865579153783623375L;
 
 	/**
 	 * 协议文件

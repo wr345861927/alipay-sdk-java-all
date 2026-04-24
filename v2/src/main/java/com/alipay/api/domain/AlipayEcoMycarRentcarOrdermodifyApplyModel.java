@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEcoMycarRentcarOrdermodifyApplyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6793141582799642179L;
+	private static final long serialVersionUID = 7131245158834955285L;
 
 	/**
 	 * 修改后租期的结束时间。目前仅支持续租。例如原始订单租期是1号~2号，续租1天，修改后租期就是1号~3号，结束时间修改为3号

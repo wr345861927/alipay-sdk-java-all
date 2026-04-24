@@ -16,7 +16,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayEbppIndustryJobResumeauthlogininfoGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4849234754132875715L;
+	private static final long serialVersionUID = 1417791613292194161L;
 
 	/** 
 	 * 城市编码

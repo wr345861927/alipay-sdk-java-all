@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MeasureInfoVO extends AlipayObject {
 
-	private static final long serialVersionUID = 7768829362292114442L;
+	private static final long serialVersionUID = 2631387676864523176L;
 
 	/**
 	 * 度量衡百分比单位信息，仅营养成分属性需要

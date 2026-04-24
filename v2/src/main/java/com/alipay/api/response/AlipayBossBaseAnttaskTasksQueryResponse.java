@@ -12,11 +12,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.boss.base.anttask.tasks.query response.
  * 
  * @author auto create
- * @since 1.0, 2023-09-18 22:06:43
+ * @since 1.0, 2026-04-24 10:31:52
  */
 public class AlipayBossBaseAnttaskTasksQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4419394427639829878L;
+	private static final long serialVersionUID = 3146854281253473962L;
 
 	/** 
 	 * 返回是否正确

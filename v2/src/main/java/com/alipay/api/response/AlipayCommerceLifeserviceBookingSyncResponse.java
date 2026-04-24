@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceLifeserviceBookingSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3376948942167318147L;
+	private static final long serialVersionUID = 2719947119383942668L;
 
 	/** 
 	 * 预约单id

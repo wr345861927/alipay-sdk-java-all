@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayCommerceEcBalanceThresholdSetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 4366156124496174653L;
+	private static final long serialVersionUID = 3312782447671489643L;
 
 	
 

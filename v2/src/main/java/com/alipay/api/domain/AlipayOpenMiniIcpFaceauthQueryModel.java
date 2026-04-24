@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayOpenMiniIcpFaceauthQueryModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5174131275644545773L;
+	private static final long serialVersionUID = 5126863988831262128L;
 
 	/**
 	 * 人脸核验凭证certify_id

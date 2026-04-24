@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 二手售卖订单退款
  *
  * @author auto create
- * @since 1.0, 2026-04-22 11:47:45
+ * @since 1.0, 2026-04-24 09:52:45
  */
 public class AlipayCommerceResaleOrderRefundModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7615224373422974174L;
+	private static final long serialVersionUID = 8769718654475325898L;
 
 	/**
 	 * 用户支付宝id
@@ -24,6 +24,12 @@ public class AlipayCommerceResaleOrderRefundModel extends AlipayObject {
 	 */
 	@ApiField("out_order_id")
 	private String outOrderId;
+
+	/**
+	 * 外部退款流水号， 确保在订单粒度下全局唯一，重复输入会幂等返回
+	 */
+	@ApiField("out_refund_id")
+	private String outRefundId;
 
 	/**
 	 * 部分退款场景才需要传入
@@ -67,6 +73,13 @@ public class AlipayCommerceResaleOrderRefundModel extends AlipayObject {
 	}
 	public void setOutOrderId(String outOrderId) {
 		this.outOrderId = outOrderId;
+	}
+
+	public String getOutRefundId() {
+		return this.outRefundId;
+	}
+	public void setOutRefundId(String outRefundId) {
+		this.outRefundId = outRefundId;
 	}
 
 	public String getRefundAmount() {

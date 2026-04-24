@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MedicalShopDeliveryPoint extends AlipayObject {
 
-	private static final long serialVersionUID = 2395726824574617435L;
+	private static final long serialVersionUID = 3658516743737251223L;
 
 	/**
 	 * 1. 配送围栏点位维度，精确到小数点后6位；

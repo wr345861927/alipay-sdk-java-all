@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class Leaseholds extends AlipayObject {
 
-	private static final long serialVersionUID = 5263181589933998631L;
+	private static final long serialVersionUID = 6412449187581458498L;
 
 	/**
 	 * 日租单价，按元/台/天填写

@@ -14,7 +14,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayDigitalmgmtCrowdappEntityMatchResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5688744515153613588L;
+	private static final long serialVersionUID = 8615641539728488393L;
 
 	/** 
 	 * null

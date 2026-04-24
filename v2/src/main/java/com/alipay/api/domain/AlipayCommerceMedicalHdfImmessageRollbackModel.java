@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceMedicalHdfImmessageRollbackModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1432742951193965461L;
+	private static final long serialVersionUID = 1137782745644338725L;
 
 	/**
 	 * 发送者账号ID（SDK撤回时必填）

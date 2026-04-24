@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class IndirectIsvTerminalInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 8678586181783914152L;
+	private static final long serialVersionUID = 3751785353516456727L;
 
 	/**
 	 * terminal_id+不唯一+间连服务商活动报名设备品牌+无枚举+外部传入+无特殊说明

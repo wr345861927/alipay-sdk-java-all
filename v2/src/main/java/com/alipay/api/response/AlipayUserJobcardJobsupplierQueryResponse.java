@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserJobcardJobsupplierQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1259339185974418784L;
+	private static final long serialVersionUID = 3634434935845362449L;
 
 	/** 
 	 * 企业基本信息。各参数含义
