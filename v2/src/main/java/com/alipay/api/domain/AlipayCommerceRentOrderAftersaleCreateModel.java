@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 租赁售后单创建
  *
  * @author auto create
- * @since 1.0, 2025-12-05 17:06:21
+ * @since 1.0, 2026-04-26 21:07:19
  */
 public class AlipayCommerceRentOrderAftersaleCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 1792532989531197566L;
+	private static final long serialVersionUID = 2689352944982326533L;
 
 	/**
 	 * 补充描述
@@ -79,6 +79,13 @@ public class AlipayCommerceRentOrderAftersaleCreateModel extends AlipayObject {
 	 */
 	@ApiField("reason_code")
 	private String reasonCode;
+
+	/**
+	 * 退款费用项明细列表
+	 */
+	@ApiListField("refund_items")
+	@ApiField("aftersale_refund_item_v_o")
+	private List<AftersaleRefundItemVO> refundItems;
 
 	public String getAdditionalDescription() {
 		return this.additionalDescription;
@@ -148,6 +155,13 @@ public class AlipayCommerceRentOrderAftersaleCreateModel extends AlipayObject {
 	}
 	public void setReasonCode(String reasonCode) {
 		this.reasonCode = reasonCode;
+	}
+
+	public List<AftersaleRefundItemVO> getRefundItems() {
+		return this.refundItems;
+	}
+	public void setRefundItems(List<AftersaleRefundItemVO> refundItems) {
+		this.refundItems = refundItems;
 	}
 
 }

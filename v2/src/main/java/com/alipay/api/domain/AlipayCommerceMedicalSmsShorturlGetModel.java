@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 生成短信的投放短链
  *
  * @author auto create
- * @since 1.0, 2025-07-10 14:39:24
+ * @since 1.0, 2026-04-27 10:36:22
  */
 public class AlipayCommerceMedicalSmsShorturlGetModel extends AlipayObject {
 
-	private static final long serialVersionUID = 8744961763431589784L;
+	private static final long serialVersionUID = 6557365185466627433L;
 
 	/**
 	 * 手机号
@@ -26,13 +26,19 @@ public class AlipayCommerceMedicalSmsShorturlGetModel extends AlipayObject {
 	private String identityType;
 
 	/**
+	 * 链接拼接参数，具体可以参考系分文档
+	 */
+	@ApiField("param_info")
+	private String paramInfo;
+
+	/**
 	 * 可联系技术获取分配值
 	 */
 	@ApiField("rule_id")
 	private String ruleId;
 
 	/**
-	 * 扁鹊
+	 * 通用场景
 	 */
 	@ApiField("scene")
 	private String scene;
@@ -55,6 +61,13 @@ public class AlipayCommerceMedicalSmsShorturlGetModel extends AlipayObject {
 	}
 	public void setIdentityType(String identityType) {
 		this.identityType = identityType;
+	}
+
+	public String getParamInfo() {
+		return this.paramInfo;
+	}
+	public void setParamInfo(String paramInfo) {
+		this.paramInfo = paramInfo;
 	}
 
 	public String getRuleId() {

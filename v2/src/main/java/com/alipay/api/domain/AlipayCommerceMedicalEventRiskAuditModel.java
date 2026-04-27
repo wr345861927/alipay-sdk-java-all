@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 医疗风控送审
  *
  * @author auto create
- * @since 1.0, 2026-04-16 10:17:45
+ * @since 1.0, 2026-04-24 11:27:45
  */
 public class AlipayCommerceMedicalEventRiskAuditModel extends AlipayObject {
 
-	private static final long serialVersionUID = 4574332438658181963L;
+	private static final long serialVersionUID = 3839889575196728878L;
 
 	/**
 	 * 上游工单号

@@ -4,14 +4,14 @@ import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
 
 /**
- * 履约信息
+ * 物流履约信息
  *
  * @author auto create
- * @since 1.0, 2026-04-20 17:39:58
+ * @since 1.0, 2026-04-20 17:42:46
  */
 public class ResaleDeliveryVO extends AlipayObject {
 
-	private static final long serialVersionUID = 5424795233162422215L;
+	private static final long serialVersionUID = 1633767617251263561L;
 
 	/**
 	 * 物流单号

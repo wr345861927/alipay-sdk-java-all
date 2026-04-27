@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AOIinfo extends AlipayObject {
 
-	private static final long serialVersionUID = 2658616519716528218L;
+	private static final long serialVersionUID = 4752561467952241177L;
 
 	/**
 	 * 所属AOI所在区域编码

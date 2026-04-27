@@ -10,11 +10,11 @@ import com.alipay.api.internal.mapping.ApiListField;
  * 二手售卖订单创建
  *
  * @author auto create
- * @since 1.0, 2026-04-24 09:52:45
+ * @since 1.0, 2026-04-27 14:27:30
  */
 public class AlipayCommerceResaleOrderCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3524552912746828591L;
+	private static final long serialVersionUID = 1765995235983321129L;
 
 	/**
 	 * 收货地址信息，邮寄方式需要输入

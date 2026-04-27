@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayDataDataserviceAdPlanCreateormodifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2327976233949454913L;
+	private static final long serialVersionUID = 5291546237568491659L;
 
 	/**
 	 * 灯火平台提供给外部系统的访问token

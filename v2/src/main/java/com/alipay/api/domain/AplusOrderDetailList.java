@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 订单列表
  *
  * @author auto create
- * @since 1.0, 2026-04-11 11:22:45
+ * @since 1.0, 2026-04-24 21:12:48
  */
 public class AplusOrderDetailList extends AlipayObject {
 
-	private static final long serialVersionUID = 2377724764143248418L;
+	private static final long serialVersionUID = 3824882466395591457L;
 
 	/**
 	 * 订单购买的总凭证数量
@@ -26,7 +26,7 @@ public class AplusOrderDetailList extends AlipayObject {
 	private String certificateIdList;
 
 	/**
-	 * 凭证id和凭证状态的映射关系
+	 * 每条数据依次为，凭证id、凭证状态、凭证原价、凭证售价
 	 */
 	@ApiField("certificate_status_mapping")
 	private String certificateStatusMapping;

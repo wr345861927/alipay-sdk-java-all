@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.promo.event.notify request
  * 
  * @author auto create
- * @since 1.0, 2026-04-16 20:12:56
+ * @since 1.0, 2026-04-24 15:52:44
  */
 public class AlipayCommerceMedicalPromoEventNotifyRequest implements AlipayRequest<AlipayCommerceMedicalPromoEventNotifyResponse> {
 

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class SelectedSealPosition extends AlipayObject {
 
-	private static final long serialVersionUID = 2836836688235529139L;
+	private static final long serialVersionUID = 1672622162738349614L;
 
 	/**
 	 * 用印对齐类型

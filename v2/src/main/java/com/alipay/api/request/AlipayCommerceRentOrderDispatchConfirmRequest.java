@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.rent.order.dispatch.confirm request
  * 
  * @author auto create
- * @since 1.0, 2026-04-24 11:10:36
+ * @since 1.0, 2026-04-24 13:27:46
  */
 public class AlipayCommerceRentOrderDispatchConfirmRequest implements AlipayRequest<AlipayCommerceRentOrderDispatchConfirmResponse> {
 

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.resale.zmxy.consult response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-24 09:52:45
+ * @since 1.0, 2026-04-27 14:28:03
  */
 public class AlipayCommerceResaleZmxyConsultResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5349186358267737926L;
+	private static final long serialVersionUID = 7665819328594887119L;
 
 	/** 
 	 * 是否准入

@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayEbppIndustryCareertrainingExamSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2691526261522686865L;
+	private static final long serialVersionUID = 4897361312132381364L;
 
 	/**
 	 * 评价ID, 以此作为主键更新

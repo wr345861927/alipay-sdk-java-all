@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.data.dataservice.adentitylibrary.serviceentity.batchquery request
  * 
  * @author auto create
- * @since 1.0, 2025-12-02 17:42:42
+ * @since 1.0, 2026-04-27 11:00:00
  */
 public class AlipayDataDataserviceAdentitylibraryServiceentityBatchqueryRequest implements AlipayRequest<AlipayDataDataserviceAdentitylibraryServiceentityBatchqueryResponse> {
 

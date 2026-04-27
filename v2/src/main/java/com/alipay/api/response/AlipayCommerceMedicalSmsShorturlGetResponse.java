@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.sms.shorturl.get response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-15 09:47:18
+ * @since 1.0, 2026-04-27 10:42:49
  */
 public class AlipayCommerceMedicalSmsShorturlGetResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1892934555478378191L;
+	private static final long serialVersionUID = 5713978724143396263L;
 
 	/** 
 	 * 短链

@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.commerce.medical.event.risk.audit response.
  * 
  * @author auto create
- * @since 1.0, 2026-04-16 10:17:45
+ * @since 1.0, 2026-04-24 11:27:45
  */
 public class AlipayCommerceMedicalEventRiskAuditResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 1415989753765999223L;
+	private static final long serialVersionUID = 4383381666472992229L;
 
 	/** 
 	 * 请求参数

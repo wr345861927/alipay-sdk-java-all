@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class MemberWalletBalanceDetailVO extends AlipayObject {
 
-	private static final long serialVersionUID = 8857762914275829849L;
+	private static final long serialVersionUID = 2671163468232495124L;
 
 	/**
 	 * 权益金变更金额（单位：元）

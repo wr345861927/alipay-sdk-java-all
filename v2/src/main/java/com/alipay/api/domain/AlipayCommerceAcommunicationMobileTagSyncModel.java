@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayCommerceAcommunicationMobileTagSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 7151676425729348222L;
+	private static final long serialVersionUID = 1174223512237454149L;
 
 	/**
 	 * 是否绑定了AI

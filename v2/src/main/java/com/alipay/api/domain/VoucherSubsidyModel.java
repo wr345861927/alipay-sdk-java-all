@@ -15,7 +15,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class VoucherSubsidyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3131586624146383895L;
+	private static final long serialVersionUID = 1125651143883815345L;
 
 	/**
 	 * 该张券适用的银行机构，供信用卡分期组装参数时使用

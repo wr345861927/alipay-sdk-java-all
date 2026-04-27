@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class AlipaySecurityProdAltechlegalDepositCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3828619964685296483L;
+	private static final long serialVersionUID = 6555139941786744662L;
 
 	/**
 	 * 文件类型标识

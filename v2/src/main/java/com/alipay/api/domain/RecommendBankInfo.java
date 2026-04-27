@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class RecommendBankInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 1414195431134336225L;
+	private static final long serialVersionUID = 8342442498281526182L;
 
 	/**
 	 * 银行跳转的安卓的包名

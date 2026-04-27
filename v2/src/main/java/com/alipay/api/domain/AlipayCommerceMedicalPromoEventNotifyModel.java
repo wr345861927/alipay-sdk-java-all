@@ -9,11 +9,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * 医疗营销活动事件完成通知接口
  *
  * @author auto create
- * @since 1.0, 2025-10-17 19:34:35
+ * @since 1.0, 2026-04-24 14:33:37
  */
 public class AlipayCommerceMedicalPromoEventNotifyModel extends AlipayObject {
 
-	private static final long serialVersionUID = 2243961999838282467L;
+	private static final long serialVersionUID = 3852762118845716614L;
+
+	/**
+	 * 客户端来源
+	 */
+	@ApiField("app_source")
+	private String appSource;
 
 	/**
 	 * 营销返佣服务的事件编码
@@ -62,6 +68,13 @@ public class AlipayCommerceMedicalPromoEventNotifyModel extends AlipayObject {
 	 */
 	@ApiField("user_id")
 	private String userId;
+
+	public String getAppSource() {
+		return this.appSource;
+	}
+	public void setAppSource(String appSource) {
+		this.appSource = appSource;
+	}
 
 	public String getEventCode() {
 		return this.eventCode;

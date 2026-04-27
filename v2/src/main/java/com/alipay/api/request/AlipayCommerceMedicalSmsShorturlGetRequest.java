@@ -12,7 +12,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.sms.shorturl.get request
  * 
  * @author auto create
- * @since 1.0, 2026-04-15 09:47:18
+ * @since 1.0, 2026-04-27 10:42:49
  */
 public class AlipayCommerceMedicalSmsShorturlGetRequest implements AlipayRequest<AlipayCommerceMedicalSmsShorturlGetResponse> {
 

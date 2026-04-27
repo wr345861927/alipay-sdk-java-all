@@ -14,7 +14,7 @@ import com.alipay.api.internal.mapping.ApiListField;
  */
 public class RecycleOptionConstraint extends AlipayObject {
 
-	private static final long serialVersionUID = 6331246416171221263L;
+	private static final long serialVersionUID = 8421271351875437641L;
 
 	/**
 	 * 受影响问题code

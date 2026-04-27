@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ZhimaCustomerFulfillmentSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 5418919588437498398L;
+	private static final long serialVersionUID = 8829331397671115176L;
 
 	/**
 	 * 扩展参数

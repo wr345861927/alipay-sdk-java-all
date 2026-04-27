@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 凭证实例的金额信息
  *
  * @author auto create
- * @since 1.0, 2024-04-03 15:47:15
+ * @since 1.0, 2026-04-24 13:49:11
  */
 public class CertificateInstanceAmountInfo extends AlipayObject {
 
-	private static final long serialVersionUID = 3859637434773423916L;
+	private static final long serialVersionUID = 7898998291813943198L;
 
 	/**
 	 * 核销后商家减收部分，单位为元
@@ -24,6 +24,12 @@ public class CertificateInstanceAmountInfo extends AlipayObject {
 	 */
 	@ApiField("original_price")
 	private String originalPrice;
+
+	/**
+	 * 第三方优惠金额
+	 */
+	@ApiField("other_discount_amount")
+	private String otherDiscountAmount;
 
 	/**
 	 * 用户实付金额，单位为元
@@ -61,6 +67,13 @@ public class CertificateInstanceAmountInfo extends AlipayObject {
 	}
 	public void setOriginalPrice(String originalPrice) {
 		this.originalPrice = originalPrice;
+	}
+
+	public String getOtherDiscountAmount() {
+		return this.otherDiscountAmount;
+	}
+	public void setOtherDiscountAmount(String otherDiscountAmount) {
+		this.otherDiscountAmount = otherDiscountAmount;
 	}
 
 	public String getPayAmount() {

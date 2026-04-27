@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AlipayTradePriceCreateModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3299371767719936797L;
+	private static final long serialVersionUID = 8898652498129539757L;
 
 	/**
 	 * 商户需要保存在价格模型中的元数据

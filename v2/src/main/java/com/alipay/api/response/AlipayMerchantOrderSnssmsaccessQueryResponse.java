@@ -15,7 +15,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayMerchantOrderSnssmsaccessQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 3874811961752482911L;
+	private static final long serialVersionUID = 3333443579375463255L;
 
 	/** 
 	 * 商户准入地址

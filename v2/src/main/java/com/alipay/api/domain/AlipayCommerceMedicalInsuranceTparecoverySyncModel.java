@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * TPA渠道差额追缴信息同步
  *
  * @author auto create
- * @since 1.0, 2025-12-26 19:17:36
+ * @since 1.0, 2026-04-27 16:37:44
  */
 public class AlipayCommerceMedicalInsuranceTparecoverySyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 6289563881159467569L;
+	private static final long serialVersionUID = 7493242751436694818L;
 
 	/**
 	 * 单位：元，保留2位小数。

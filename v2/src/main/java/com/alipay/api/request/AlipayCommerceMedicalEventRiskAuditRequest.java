@@ -11,7 +11,7 @@ import com.alipay.api.AlipayObject;
  * ALIPAY API: alipay.commerce.medical.event.risk.audit request
  * 
  * @author auto create
- * @since 1.0, 2026-04-16 10:17:45
+ * @since 1.0, 2026-04-24 11:27:45
  */
 public class AlipayCommerceMedicalEventRiskAuditRequest implements AlipayRequest<AlipayCommerceMedicalEventRiskAuditResponse> {
 

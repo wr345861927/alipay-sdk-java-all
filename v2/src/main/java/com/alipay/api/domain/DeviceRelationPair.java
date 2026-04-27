@@ -7,11 +7,17 @@ import com.alipay.api.internal.mapping.ApiField;
  * n设备绑定关系
  *
  * @author auto create
- * @since 1.0, 2025-09-08 10:22:26
+ * @since 1.0, 2026-04-24 17:06:06
  */
 public class DeviceRelationPair extends AlipayObject {
 
-	private static final long serialVersionUID = 4793322778943846275L;
+	private static final long serialVersionUID = 7746637491862664599L;
+
+	/**
+	 * 设备类型
+	 */
+	@ApiField("device_type")
+	private String deviceType;
 
 	/**
 	 * 设备绑定的SMID或PID
@@ -30,6 +36,13 @@ public class DeviceRelationPair extends AlipayObject {
 	 */
 	@ApiField("sn")
 	private String sn;
+
+	public String getDeviceType() {
+		return this.deviceType;
+	}
+	public void setDeviceType(String deviceType) {
+		this.deviceType = deviceType;
+	}
 
 	public String getMerchantId() {
 		return this.merchantId;

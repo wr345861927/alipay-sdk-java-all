@@ -8,11 +8,11 @@ import com.alipay.api.AlipayResponse;
  * ALIPAY API: alipay.trade.gift.status.sync response.
  * 
  * @author auto create
- * @since 1.0, 2025-04-10 11:47:28
+ * @since 1.0, 2026-04-24 16:02:35
  */
 public class AlipayTradeGiftStatusSyncResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 7153137226238177539L;
+	private static final long serialVersionUID = 7326563361975744785L;
 
 	/** 
 	 * 用于标记支付宝用户在应用下的唯一标识

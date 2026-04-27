@@ -7,11 +7,11 @@ import com.alipay.api.internal.mapping.ApiField;
  * 礼物状态同步
  *
  * @author auto create
- * @since 1.0, 2025-04-10 11:41:58
+ * @since 1.0, 2026-04-24 16:02:35
  */
 public class AlipayTradeGiftStatusSyncModel extends AlipayObject {
 
-	private static final long serialVersionUID = 3215182249623692511L;
+	private static final long serialVersionUID = 4378437215575454326L;
 
 	/**
 	 * 状态用于驱动礼物卡片展示的变化(accepted-已收下驱动高亮变灰、overdueNotReceived已过期驱动高亮变灰且提示过期未领取)

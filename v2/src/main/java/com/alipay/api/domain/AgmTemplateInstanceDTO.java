@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class AgmTemplateInstanceDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 8326635289878944628L;
+	private static final long serialVersionUID = 4218632378369544946L;
 
 	/**
 	 * 模板文件名称

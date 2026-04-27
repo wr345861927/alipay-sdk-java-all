@@ -11,7 +11,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class CircleRecommendItemDTO extends AlipayObject {
 
-	private static final long serialVersionUID = 6898441639614727249L;
+	private static final long serialVersionUID = 4778477759863429625L;
 
 	/**
 	 * 生活圈aoi信息

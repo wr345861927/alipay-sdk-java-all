@@ -12,7 +12,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayUserJobcardInfoQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 6312951531615639233L;
+	private static final long serialVersionUID = 2275872791353384838L;
 
 	/** 
 	 * 意向行政区域

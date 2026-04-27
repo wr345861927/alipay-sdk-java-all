@@ -11,7 +11,7 @@ import com.alipay.api.AlipayResponse;
  */
 public class AlipayOpenWanxintesttttQueryResponse extends AlipayResponse {
 
-	private static final long serialVersionUID = 5197868398943166141L;
+	private static final long serialVersionUID = 8817497623566632943L;
 
 	
 

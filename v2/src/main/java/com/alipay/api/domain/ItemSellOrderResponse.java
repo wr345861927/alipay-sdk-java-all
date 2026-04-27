@@ -13,7 +13,7 @@ import com.alipay.api.internal.mapping.ApiField;
  */
 public class ItemSellOrderResponse extends AlipayObject {
 
-	private static final long serialVersionUID = 4595549427954792634L;
+	private static final long serialVersionUID = 3568747725375336717L;
 
 	/**
 	 * cps技术服务费，单位：元，精确到小数点后两位
